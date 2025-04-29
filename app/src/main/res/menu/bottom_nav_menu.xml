@@ -1,14 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/tab_home"
+        android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home"
-        android:title="Tab 1"/>
+        android:title="Home"/>
     <item
-        android:id="@+id/tab_settings"
+        android:id="@+id/navigation_settings"
         android:icon="@drawable/ic_settings"
-        android:title="Tab 2"/>
+        android:title="Settings"/>
     <item
-        android:id="@+id/tab_profile"
+        android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_profile"
-        android:title="Tab 3"/>
+        android:title="Profile"/>
 </menu>
