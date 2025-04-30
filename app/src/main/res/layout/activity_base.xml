@@ -17,34 +17,44 @@
             android:background="@android:color/holo_purple"
             tools:ignore="MissingConstraints">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center_vertical"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp">
+        <!-- Custom Logo and Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
-                <ImageView
-                    android:id="@+id/logoImage"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:src="@drawable/museum_logo"
-                    android:contentDescription="Museum Logo"
-                    android:scaleType="fitCenter" />
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/museum_logo"
+                android:contentDescription="Museum Logo"
+                android:scaleType="fitCenter" />
 
-                <TextView
-                    android:id="@+id/headerTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Chester Military Museum"
-                    android:textColor="@android:color/white"
-                    android:textSize="20sp"
-                    android:layout_marginStart="20dp" />
+            <TextView
+                android:id="@+id/headerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chester Military Museum"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp" />
+        </LinearLayout>
 
-            </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
 
-        </androidx.appcompat.widget.Toolbar>
+    <!-- PAGE CONTENT -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
         <!-- CONTENT CONTAINER with uniform padding below header -->
         <FrameLayout
