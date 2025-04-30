@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chestermilitarymuseum">
 
     <application
         android:allowBackup="true"
@@ -12,23 +13,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChesterMilitaryMuseum"
         tools:targetApi="31">
-        <activity android:name=".SplashActivity"
+
+        <!-- Splash is the launcher activity -->
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainActivity (layout shell) -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.ChesterMilitaryMuseum">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.ChesterMilitaryMuseum" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <!-- Map page -->
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+
+        <!-- Contact Us page -->
+        <activity
+            android:name=".ContactFormActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

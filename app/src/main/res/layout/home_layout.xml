@@ -6,11 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FDF6FE">
 
-    <!-- Top wide image -->
-
     <!-- Start Tour Box -->
-
-    <!-- Grid Layout for 4 buttons -->
     <LinearLayout
         android:id="@+id/startTourBox"
         android:layout_width="0dp"
@@ -43,6 +39,7 @@
             android:src="@drawable/ic_image" />
     </LinearLayout>
 
+    <!-- Grid Layout for 4 buttons -->
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="0dp"
@@ -57,8 +54,9 @@
         android:alignmentMode="alignMargins"
         android:rowOrderPreserved="false">
 
-        <!-- Each Box -->
+        <!-- Map -->
         <LinearLayout
+            android:id="@+id/btnMap"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -82,7 +80,9 @@
                 android:src="@drawable/ic_image"/>
         </LinearLayout>
 
+        <!-- Tickets -->
         <LinearLayout
+            android:id="@+id/btnTickets"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -106,7 +106,9 @@
                 android:src="@drawable/ic_image"/>
         </LinearLayout>
 
+        <!-- Gift Shop -->
         <LinearLayout
+            android:id="@+id/btnGiftShop"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -130,7 +132,9 @@
                 android:src="@drawable/ic_image"/>
         </LinearLayout>
 
+        <!-- Contact Us -->
         <LinearLayout
+            android:id="@+id/btnContact"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -155,7 +159,5 @@
         </LinearLayout>
 
     </GridLayout>
-
-    <!-- Bottom Navigation -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
