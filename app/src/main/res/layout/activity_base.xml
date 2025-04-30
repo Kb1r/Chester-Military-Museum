@@ -48,7 +48,7 @@
 
         <!-- CONTENT CONTAINER with uniform padding below header -->
         <FrameLayout
-            android:id="@+id/container"
+            android:id="@+id/container1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:paddingTop="16dp"

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,11 +17,9 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
             android:id="@+id/startTourText"
@@ -39,7 +38,7 @@
             android:src="@drawable/ic_image" />
     </LinearLayout>
 
-    <!-- Grid Layout for 4 buttons -->
+    <!-- Grid Layout -->
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="0dp"
@@ -54,7 +53,7 @@
         android:alignmentMode="alignMargins"
         android:rowOrderPreserved="false">
 
-        <!-- Map -->
+        <!-- MAP -->
         <LinearLayout
             android:id="@+id/btnMap"
             android:layout_width="0dp"
@@ -80,7 +79,7 @@
                 android:src="@drawable/ic_image"/>
         </LinearLayout>
 
-        <!-- Tickets -->
+        <!-- TICKETS -->
         <LinearLayout
             android:id="@+id/btnTickets"
             android:layout_width="0dp"
@@ -106,7 +105,7 @@
                 android:src="@drawable/ic_image"/>
         </LinearLayout>
 
-        <!-- Gift Shop -->
+        <!-- GIFT SHOP -->
         <LinearLayout
             android:id="@+id/btnGiftShop"
             android:layout_width="0dp"
@@ -132,7 +131,7 @@
                 android:src="@drawable/ic_image"/>
         </LinearLayout>
 
-        <!-- Contact Us -->
+        <!-- CONTACT US -->
         <LinearLayout
             android:id="@+id/btnContact"
             android:layout_width="0dp"
@@ -159,5 +158,37 @@
         </LinearLayout>
 
     </GridLayout>
+
+    <!-- QR POPUP -->
+    <LinearLayout
+        android:id="@+id/qrPopup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/box_background"
+        android:padding="16dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/gridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp">
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCAN THE QR CODE TO BEGIN"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/qrImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_placeholder" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
