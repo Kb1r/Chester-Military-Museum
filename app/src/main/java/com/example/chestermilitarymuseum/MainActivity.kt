@@ -5,12 +5,12 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.LinearLayout
 import android.widget.FrameLayout
+import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,27 +23,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_base)
 
-        // Set up toolbar
+        // Setup toolbar without back button
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(false)
+        supportActionBar?.setDisplayHomeAsUpEnabled(false) // No back arrow
 
-        // Set up base layout
-        container = findViewById(R.id.container1)
+        container = findViewById(R.id.container)
         inflater = LayoutInflater.from(this)
 
-        // Inflate layouts
+        // Inflate both views
         homeView = inflater.inflate(R.layout.home_layout, container, false)
         settingsView = inflater.inflate(R.layout.settings_layout, container, false)
 
-        // Load home screen by default
-        showHome()
+        showView(homeView)
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
-                    showHome()
+                    showView(homeView)
                     true
                 }
                 R.id.navigation_settings -> {
@@ -53,23 +51,12 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
-    }
 
-    private fun showHome() {
-        showView(homeView)
-
-        // Re-bind views every time home is loaded
+        // Hook up home page buttons
         val btnMap = homeView.findViewById<LinearLayout>(R.id.btnMap)
         val btnTickets = homeView.findViewById<LinearLayout>(R.id.btnTickets)
         val btnGiftShop = homeView.findViewById<LinearLayout>(R.id.btnGiftShop)
         val btnContact = homeView.findViewById<LinearLayout>(R.id.btnContact)
-        val startTourBox = homeView.findViewById<LinearLayout>(R.id.startTourBox)
-        val qrPopup = homeView.findViewById<LinearLayout>(R.id.qrPopup)
-
-        startTourBox.setOnClickListener {
-            Log.d("StartTour", "Tapped")
-            qrPopup.visibility = if (qrPopup.visibility == View.GONE) View.VISIBLE else View.GONE
-        }
 
         btnMap.setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))
