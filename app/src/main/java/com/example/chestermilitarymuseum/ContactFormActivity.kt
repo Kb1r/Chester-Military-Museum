@@ -13,7 +13,7 @@ class ContactFormActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_base)
 
-        val container = findViewById<FrameLayout>(R.id.container)
+        val container = findViewById<FrameLayout>(R.id.formContainer)
         val contactView = layoutInflater.inflate(R.layout.contact_form, container, false)
         container.addView(contactView)
 

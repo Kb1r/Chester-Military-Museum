@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         // Set up base layout
-        container = findViewById(R.id.container)
+        container = findViewById(R.id.container1)
         inflater = LayoutInflater.from(this)
 
         // Inflate layouts
