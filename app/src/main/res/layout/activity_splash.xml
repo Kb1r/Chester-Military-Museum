@@ -10,15 +10,16 @@
 
     <ImageView
         android:id="@+id/splashLogo"
-        android:layout_width="303dp"
-        android:layout_height="591dp"
+        android:layout_width="300dp"
+        android:layout_height="590dp"
         android:contentDescription="Museum Logo"
         android:scaleType="fitCenter"
         android:src="@drawable/cheshire_military_museum_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.496" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
