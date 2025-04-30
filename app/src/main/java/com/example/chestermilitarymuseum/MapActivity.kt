@@ -13,7 +13,7 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_base)
 
-        val container = findViewById<FrameLayout>(R.id.container1)
+        val container = findViewById<FrameLayout>(R.id.container)
         val mapView = layoutInflater.inflate(R.layout.map_layout, container, false)
         container.addView(mapView)
 
