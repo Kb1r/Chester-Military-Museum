@@ -57,27 +57,27 @@
         <!-- Map -->
         <LinearLayout
             android:id="@+id/btnMap"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="8dp"
+            android:layout_height="175dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:background="@drawable/box_background"
-            android:orientation="vertical"
-            android:gravity="center"
             android:layout_margin="8dp"
+            android:background="@drawable/box_background"
+            android:gravity="center"
+            android:orientation="vertical"
             android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="Map"
-                android:textSize="14sp"
-                android:layout_marginBottom="8dp"/>
+                android:textSize="14sp" />
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
+                android:layout_width="160dp"
+                android:layout_height="116dp"
+                android:src="@drawable/ic_map" />
         </LinearLayout>
 
         <!-- Tickets -->
@@ -101,9 +101,9 @@
                 android:layout_marginBottom="8dp"/>
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
+                android:layout_width="156dp"
+                android:layout_height="143dp"
+                android:src="@drawable/ic_tickets" />
         </LinearLayout>
 
         <!-- Gift Shop -->
@@ -127,9 +127,9 @@
                 android:layout_marginBottom="8dp"/>
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
+                android:layout_width="136dp"
+                android:layout_height="82dp"
+                android:src="@drawable/ic_shop" />
         </LinearLayout>
 
         <!-- Contact Us -->
@@ -153,9 +153,9 @@
                 android:layout_marginBottom="8dp"/>
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
+                android:layout_width="118dp"
+                android:layout_height="86dp"
+                android:src="@drawable/ic_contact" />
         </LinearLayout>
 
     </GridLayout>
