@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
+import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -26,6 +27,14 @@ class MainActivity : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
+
+        // Clickable logo to go home
+        val logoImage = findViewById<ImageView>(R.id.logoImage)
+        logoImage.setOnClickListener {
+            showHome()
+            val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+            bottomNav.selectedItemId = R.id.navigation_home
+        }
 
         container = findViewById(R.id.container)
         inflater = LayoutInflater.from(this)
@@ -68,16 +77,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnTickets.setOnClickListener {
-            val url =
-                "https://cheshiremilitarymuseum.org.uk/shop/?ixwpst[product_cat][]=40&title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
+            val url = "https://cheshiremilitarymuseum.org.uk/shop/?ixwpst[product_cat][]=40&title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
             val intent = Intent(this, WebViewActivity::class.java)
             intent.putExtra("url", url)
             startActivity(intent)
         }
 
         btnGiftShop.setOnClickListener {
-            val url =
-                "https://cheshiremilitarymuseum.org.uk/shop/?title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
+            val url = "https://cheshiremilitarymuseum.org.uk/shop/?title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
             val intent = Intent(this, WebViewActivity::class.java)
             intent.putExtra("url", url)
             startActivity(intent)
