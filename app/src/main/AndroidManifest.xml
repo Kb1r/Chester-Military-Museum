@@ -39,6 +39,8 @@
         <activity
             android:name=".ContactFormActivity"
             android:exported="false" />
+        <activity android:name=".WebViewActivity" />
+
 
     </application>
 
