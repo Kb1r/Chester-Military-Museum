@@ -177,7 +177,8 @@
         android:visibility="gone"
         android:elevation="8dp"
         android:translationZ="8dp"
-        android:layout_margin="16dp">
+        android:layout_gravity="top"
+        android:layout_marginHorizontal="16dp">
 
         <Button
             android:id="@+id/btnScan"
