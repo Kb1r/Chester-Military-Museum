@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -23,25 +22,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_base)
 
-        // Setup toolbar without back button
+        // Setup toolbar
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(false) // No back arrow
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         container = findViewById(R.id.container)
         inflater = LayoutInflater.from(this)
 
-        // Inflate both views
+        // Inflate views
         homeView = inflater.inflate(R.layout.home_layout, container, false)
         settingsView = inflater.inflate(R.layout.settings_layout, container, false)
 
-        showView(homeView)
+        showHome() // load home screen initially
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
-                    showView(homeView)
+                    showHome()
                     true
                 }
                 R.id.navigation_settings -> {
@@ -51,29 +50,45 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+    }
 
-        // Hook up home page buttons
+    private fun showHome() {
+        container.removeAllViews()
+        container.addView(homeView)
+
         val btnMap = homeView.findViewById<LinearLayout>(R.id.btnMap)
         val btnTickets = homeView.findViewById<LinearLayout>(R.id.btnTickets)
         val btnGiftShop = homeView.findViewById<LinearLayout>(R.id.btnGiftShop)
         val btnContact = homeView.findViewById<LinearLayout>(R.id.btnContact)
+        val startTourBox = homeView.findViewById<LinearLayout>(R.id.startTourBox)
+        val qrPopup = homeView.findViewById<LinearLayout>(R.id.qrPopup)
 
         btnMap.setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))
         }
 
         btnTickets.setOnClickListener {
-            val url = "https://cheshiremilitarymuseum.org.uk/shop/?ixwpst[product_cat][]=40&title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+            val url =
+                "https://cheshiremilitarymuseum.org.uk/shop/?ixwpst[product_cat][]=40&title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
+            val intent = Intent(this, WebViewActivity::class.java)
+            intent.putExtra("url", url)
+            startActivity(intent)
         }
 
         btnGiftShop.setOnClickListener {
-            val url = "https://cheshiremilitarymuseum.org.uk/shop/?title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+            val url =
+                "https://cheshiremilitarymuseum.org.uk/shop/?title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
+            val intent = Intent(this, WebViewActivity::class.java)
+            intent.putExtra("url", url)
+            startActivity(intent)
         }
 
         btnContact.setOnClickListener {
             startActivity(Intent(this, ContactFormActivity::class.java))
+        }
+
+        startTourBox.setOnClickListener {
+            qrPopup.visibility = if (qrPopup.visibility == View.GONE) View.VISIBLE else View.GONE
         }
     }
 
