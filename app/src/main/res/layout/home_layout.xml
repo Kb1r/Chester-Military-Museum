@@ -1,163 +1,200 @@
-<androidx.constraintlayout.widget.ConstraintLayout
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FDF6FE">
 
-    <!-- Start Tour Box -->
-    <LinearLayout
-        android:id="@+id/startTourBox"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:background="@drawable/box_background"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28">
+    <!-- Main content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/startTourText"
+        <!-- Start Tour Box -->
+        <LinearLayout
+            android:id="@+id/startTourBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/box_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/startTourText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="START TOUR"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/startTourImage"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image" />
+        </LinearLayout>
+
+        <!-- Grid Layout -->
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@id/startTourBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:alignmentMode="alignMargins"
+            android:rowOrderPreserved="false">
+
+            <!-- MAP -->
+            <LinearLayout
+                android:id="@+id/btnMap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/box_background"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Map"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_image"/>
+            </LinearLayout>
+
+            <!-- TICKETS -->
+            <LinearLayout
+                android:id="@+id/btnTickets"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/box_background"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tickets"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_image"/>
+            </LinearLayout>
+
+            <!-- GIFT SHOP -->
+            <LinearLayout
+                android:id="@+id/btnGiftShop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/box_background"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gift Shop"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_image"/>
+            </LinearLayout>
+
+            <!-- CONTACT US -->
+            <LinearLayout
+                android:id="@+id/btnContact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/box_background"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_image"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- QR POPUP OVERLAY -->
+    <LinearLayout
+        android:id="@+id/qrPopup"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/box_background"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:elevation="8dp"
+        android:translationZ="8dp"
+        android:layout_gravity="top"
+        android:layout_marginHorizontal="16dp">
+
+        <Button
+            android:id="@+id/btnScan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="START TOUR"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:text="SCAN THE QR CODE TO BEGIN"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp" />
 
         <ImageView
-            android:id="@+id/startTourImage"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_image" />
+            android:id="@+id/qrImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_placeholder" />
     </LinearLayout>
 
-    <!-- Grid Layout for 4 buttons -->
-    <GridLayout
-        android:id="@+id/gridLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:columnCount="2"
-        android:rowCount="2"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/startTourBox"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginHorizontal="16dp"
-        android:alignmentMode="alignMargins"
-        android:rowOrderPreserved="false">
-
-        <!-- Map -->
-        <LinearLayout
-            android:id="@+id/btnMap"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:background="@drawable/box_background"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_margin="8dp"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Map"
-                android:textSize="14sp"
-                android:layout_marginBottom="8dp"/>
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
-        </LinearLayout>
-
-        <!-- Tickets -->
-        <LinearLayout
-            android:id="@+id/btnTickets"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:background="@drawable/box_background"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_margin="8dp"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tickets"
-                android:textSize="14sp"
-                android:layout_marginBottom="8dp"/>
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
-        </LinearLayout>
-
-        <!-- Gift Shop -->
-        <LinearLayout
-            android:id="@+id/btnGiftShop"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:background="@drawable/box_background"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_margin="8dp"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Gift Shop"
-                android:textSize="14sp"
-                android:layout_marginBottom="8dp"/>
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
-        </LinearLayout>
-
-        <!-- Contact Us -->
-        <LinearLayout
-            android:id="@+id/btnContact"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:background="@drawable/box_background"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_margin="8dp"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact Us"
-                android:textSize="14sp"
-                android:layout_marginBottom="8dp"/>
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_image"/>
-        </LinearLayout>
-
-    </GridLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

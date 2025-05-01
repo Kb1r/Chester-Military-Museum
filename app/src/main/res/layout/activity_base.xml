@@ -31,7 +31,9 @@
                     android:layout_height="60dp"
                     android:src="@drawable/museum_logo"
                     android:contentDescription="Museum Logo"
-                    android:scaleType="fitCenter" />
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="true"/>
 
                 <TextView
                     android:id="@+id/headerTitle"
