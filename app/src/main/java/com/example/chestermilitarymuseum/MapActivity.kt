@@ -1,7 +1,9 @@
 package com.example.chestermilitarymuseum
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.FrameLayout
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -19,10 +21,20 @@ class MapActivity : AppCompatActivity() {
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(false) // remove back button
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
+        // Set toolbar title
         val titleView = toolbar.findViewById<TextView>(R.id.headerTitle)
         titleView.text = "Map"
+
+        // Clickable logo to go home
+        val logoImage = toolbar.findViewById<ImageView>(R.id.logoImage)
+        logoImage.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+            startActivity(intent)
+            finish()
+        }
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNav.setOnItemSelectedListener { item ->
