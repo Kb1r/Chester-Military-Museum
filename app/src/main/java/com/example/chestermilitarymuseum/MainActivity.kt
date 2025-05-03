@@ -5,55 +5,46 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.FrameLayout
-import android.widget.ImageView
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
+import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
+import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var container: FrameLayout
-    private lateinit var inflater: LayoutInflater
-    private lateinit var homeView: View
-    private lateinit var settingsView: View
+    private lateinit var binding: ActivityBaseBinding
+    private lateinit var homeBinding: HomeLayoutBinding
+    private lateinit var settingsBinding: SettingsLayoutBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_base)
+        binding = ActivityBaseBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        // Setup toolbar
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
+        setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
-        // Clickable logo to go home
-        val logoImage = findViewById<ImageView>(R.id.logoImage)
-        logoImage.setOnClickListener {
+        // Clicking the logo goes home
+        binding.logoImage.setOnClickListener {
             showHome()
-            val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-            bottomNav.selectedItemId = R.id.navigation_home
+            binding.bottomNavigation.selectedItemId = R.id.navigation_home
         }
 
-        container = findViewById(R.id.container)
-        inflater = LayoutInflater.from(this)
+        // Inflate home and settings layouts
+        val inflater = LayoutInflater.from(this)
+        homeBinding = HomeLayoutBinding.inflate(inflater)
+        settingsBinding = SettingsLayoutBinding.inflate(inflater)
 
-        // Inflate views
-        homeView = inflater.inflate(R.layout.home_layout, container, false)
-        settingsView = inflater.inflate(R.layout.settings_layout, container, false)
+        showHome()
 
-        showHome() // load home screen initially
-
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-        bottomNav.setOnItemSelectedListener { item ->
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
                     showHome()
                     true
                 }
                 R.id.navigation_settings -> {
-                    showView(settingsView)
+                    showView(settingsBinding.root)
                     true
                 }
                 else -> false
@@ -62,45 +53,42 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showHome() {
-        container.removeAllViews()
-        container.addView(homeView)
+        binding.container.removeAllViews()
+        binding.container.addView(homeBinding.root)
 
-        val btnMap = homeView.findViewById<LinearLayout>(R.id.btnMap)
-        val btnTickets = homeView.findViewById<LinearLayout>(R.id.btnTickets)
-        val btnGiftShop = homeView.findViewById<LinearLayout>(R.id.btnGiftShop)
-        val btnContact = homeView.findViewById<LinearLayout>(R.id.btnContact)
-        val startTourBox = homeView.findViewById<LinearLayout>(R.id.startTourBox)
-        val qrPopup = homeView.findViewById<LinearLayout>(R.id.qrPopup)
-
-        btnMap.setOnClickListener {
+        // Setup all buttons on the home layout
+        homeBinding.btnMap.setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))
         }
 
-        btnTickets.setOnClickListener {
-            val url = "https://cheshiremilitarymuseum.org.uk/shop/?ixwpst[product_cat][]=40&title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
-            val intent = Intent(this, WebViewActivity::class.java)
-            intent.putExtra("url", url)
-            startActivity(intent)
+        homeBinding.btnTickets.setOnClickListener {
+            val url = "https://cheshiremilitarymuseum.org.uk/shop/?ixwpst[product_cat][]=40..."
+            openWeb(url)
         }
 
-        btnGiftShop.setOnClickListener {
-            val url = "https://cheshiremilitarymuseum.org.uk/shop/?title=1&excerpt=1&content=1&categories=1&attributes=1&tags=1&sku=1&ixwpsf[taxonomy][product_cat][show]=set&ixwpsf[taxonomy][product_cat][multiple]=0&ixwpsf[taxonomy][product_cat][filter]=1"
-            val intent = Intent(this, WebViewActivity::class.java)
-            intent.putExtra("url", url)
-            startActivity(intent)
+        homeBinding.btnGiftShop.setOnClickListener {
+            val url = "https://cheshiremilitarymuseum.org.uk/shop/?title=1..."
+            openWeb(url)
         }
 
-        btnContact.setOnClickListener {
+        homeBinding.btnContact.setOnClickListener {
             startActivity(Intent(this, ContactFormActivity::class.java))
         }
 
-        startTourBox.setOnClickListener {
-            qrPopup.visibility = if (qrPopup.visibility == View.GONE) View.VISIBLE else View.GONE
+        homeBinding.startTourBox.setOnClickListener {
+            val isVisible = homeBinding.qrPopup.visibility == View.VISIBLE
+            homeBinding.qrPopup.visibility = if (isVisible) View.GONE else View.VISIBLE
         }
     }
 
     private fun showView(view: View) {
-        container.removeAllViews()
-        container.addView(view)
+        binding.container.removeAllViews()
+        binding.container.addView(view)
+    }
+
+    private fun openWeb(url: String) {
+        val intent = Intent(this, WebViewActivity::class.java)
+        intent.putExtra("url", url)
+        startActivity(intent)
     }
 }

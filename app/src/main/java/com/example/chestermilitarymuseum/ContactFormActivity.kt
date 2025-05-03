@@ -2,43 +2,73 @@ package com.example.chestermilitarymuseum
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.FrameLayout
-import android.widget.ImageView
-import android.widget.TextView
+import android.util.Patterns
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
+import com.example.chestermilitarymuseum.databinding.ContactFormBinding
 
 class ContactFormActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityBaseBinding
+    private lateinit var formBinding: ContactFormBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_base)
 
-        val container = findViewById<FrameLayout>(R.id.container)
-        val contactView = layoutInflater.inflate(R.layout.contact_form, container, false)
-        container.addView(contactView)
+        // Inflate main layout
+        binding = ActivityBaseBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
+        // Toolbar setup
+        setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
+        binding.headerTitle.text = "Contact Us"
 
-        // Update header title
-        val titleView = toolbar.findViewById<TextView>(R.id.headerTitle)
-        titleView.text = "Contact Us"
+        // Inflate contact form
+        formBinding = ContactFormBinding.inflate(layoutInflater)
+        binding.container.addView(formBinding.root)
 
-        // Clickable logo to go home
-        val logoImage = toolbar.findViewById<ImageView>(R.id.logoImage)
-        logoImage.setOnClickListener {
+        // Handle submit
+        formBinding.submitButton.setOnClickListener {
+            val name = formBinding.nameEditText.text.toString().trim()
+            val email = formBinding.emailEditText.text.toString().trim()
+            val phone = formBinding.phoneEditText.text.toString().trim()
+            val message = formBinding.messageEditText.text.toString().trim()
+
+            // Validation checks
+            if (name.isEmpty()) {
+                Toast.makeText(this, "Please enter your name", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+            if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                Toast.makeText(this, "Please enter a valid email", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+            if (message.isEmpty()) {
+                Toast.makeText(this, "Please enter your message", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            // Clear fields after successful validation
+            formBinding.nameEditText.text?.clear()
+            formBinding.emailEditText.text?.clear()
+            formBinding.phoneEditText.text?.clear()
+            formBinding.messageEditText.text?.clear()
+
+            Toast.makeText(this, "Submitted!", Toast.LENGTH_SHORT).show()
+        }
+
+        // Logo click → Home
+        binding.logoImage.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
             startActivity(intent)
             finish()
         }
 
-        // Bottom nav handling
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-        bottomNav.setOnItemSelectedListener { item ->
+        // Bottom nav back to home
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
                     finish()

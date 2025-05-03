@@ -3,58 +3,53 @@ package com.example.chestermilitarymuseum
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.webkit.WebView
 import android.webkit.WebViewClient
-import android.widget.FrameLayout
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
+import com.example.chestermilitarymuseum.databinding.WebviewLayoutBinding
 
 class WebViewActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityBaseBinding
+    private lateinit var webBinding: WebviewLayoutBinding
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_base)
+        binding = ActivityBaseBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
+        setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
-        // Toolbar logo to go home
-        val logoImage = toolbar.findViewById<ImageView>(R.id.logoImage)
-        logoImage.setOnClickListener {
+        val url = intent.getStringExtra("url") ?: "https://cheshiremilitarymuseum.org.uk"
+
+        webBinding = WebviewLayoutBinding.inflate(layoutInflater)
+        binding.container.addView(webBinding.root)
+
+        // Load the link into WebView
+        webBinding.webView.apply {
+            settings.javaScriptEnabled = true
+            webViewClient = WebViewClient()
+            loadUrl(url)
+        }
+
+        binding.logoImage.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
             startActivity(intent)
             finish()
         }
 
-        // Load WebView layout into container
-        val container = findViewById<FrameLayout>(R.id.container)
-        val webViewLayout = layoutInflater.inflate(R.layout.webview_layout, container, false)
-        container.addView(webViewLayout)
-
-        val url = intent.getStringExtra("url") ?: "https://cheshiremilitarymuseum.org.uk"
-        val webView = webViewLayout.findViewById<WebView>(R.id.webView)
-        webView.settings.javaScriptEnabled = true
-        webView.webViewClient = WebViewClient()
-        webView.loadUrl(url)
-
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-        bottomNav.selectedItemId = R.id.navigation_home
-        bottomNav.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.navigation_home -> {
-                    val intent = Intent(this, MainActivity::class.java)
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
-                    startActivity(intent)
-                    finish()
-                    true
-                }
-                else -> true
-            }
+        binding.bottomNavigation.selectedItemId = R.id.navigation_home
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
+            if (item.itemId == R.id.navigation_home) {
+                val intent = Intent(this, MainActivity::class.java)
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                startActivity(intent)
+                finish()
+                true
+            } else true
         }
     }
 }
