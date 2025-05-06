@@ -113,6 +113,30 @@
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/facebook"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <Button
+            android:id="@+id/btnTwitter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/twitter"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <Button
+            android:id="@+id/btnInstagram"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/instagram"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
