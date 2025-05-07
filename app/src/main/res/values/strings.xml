@@ -50,4 +50,5 @@
     <string name="clickable_facebook_logo">Clickable Facebook Logo</string>
     <string name="clickable_twitter_logo">Clickable Twitter logo</string>
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
+    <string name="clickable_map_button">Clickable Map Button</string>
 </resources>

@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_image" />
+                android:src="@drawable/tour_code_icon" />
         </LinearLayout>
 
         <!-- Grid Layout -->
@@ -62,36 +62,41 @@
             <LinearLayout
                 android:id="@+id/btnMap"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/box_background"
+                android:background="@drawable/map_icon"
+                android:backgroundTint="@color/white"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
                 android:padding="8dp">
+
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Map"
                     android:textSize="14sp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginBottom="8dp"/>
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/map_icon"/>
+
             </LinearLayout>
 
             <!-- TICKETS -->
             <LinearLayout
                 android:id="@+id/btnTickets"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="110dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/box_background"
+                android:background="@drawable/ticket_icon"
+                android:backgroundTint="@color/white"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
@@ -102,22 +107,24 @@
                     android:layout_height="wrap_content"
                     android:text="Tickets"
                     android:textSize="14sp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginBottom="8dp"/>
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/ticket_icon"/>
             </LinearLayout>
 
             <!-- GIFT SHOP -->
             <LinearLayout
                 android:id="@+id/btnGiftShop"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/box_background"
+                android:background="@drawable/gift_shop_icon"
+                android:backgroundTint="@color/white"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
@@ -128,38 +135,41 @@
                     android:layout_height="wrap_content"
                     android:text="Gift Shop"
                     android:textSize="14sp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginBottom="8dp"/>
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/gift_shop_icon"/>
             </LinearLayout>
 
             <!-- CONTACT US -->
             <LinearLayout
                 android:id="@+id/btnContact"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="110dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/box_background"
+                android:background="@drawable/contact_us"
+                android:backgroundTint="@color/white"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
-                android:padding="8dp">
+                android:padding="0dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Contact Us"
                     android:textSize="14sp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginBottom="8dp"/>
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/contact_us"/>
             </LinearLayout>
 
         </GridLayout>
