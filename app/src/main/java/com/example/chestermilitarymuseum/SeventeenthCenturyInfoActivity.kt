@@ -6,16 +6,17 @@ import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
+import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
 import java.util.*
 
-class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private lateinit var binding: IntroductionInformationLayoutBinding
+    private lateinit var binding: SeventeenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = IntroductionInformationLayoutBinding.inflate(layoutInflater)
+        binding = SeventeenthCenturyInformationLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Set up TTS engine
@@ -23,12 +24,15 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
 
         // Sample text
         val introText = "PLACEHOLDER"
-        binding.introductionTitle1.text = "Introduction"
+        binding.introductionTitle1.text = "17th Century"
         binding.introductionText.text = introText
 
         // Arrows
+        binding.leftArrow.setOnClickListener {
+            startActivity(Intent(this, IntroductionInfoActivity::class.java))
+        }
         binding.rightArrow.setOnClickListener {
-            startActivity(Intent(this, SeventeenthCenturyInfoActivity::class.java))
+            startActivity(Intent(this, MapActivity::class.java))
         }
 
         // Collapse content
