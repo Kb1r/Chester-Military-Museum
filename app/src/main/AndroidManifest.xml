@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.chestermilitarymuseum">
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -41,6 +43,21 @@
             android:exported="false" />
         <activity android:name=".WebViewActivity" />
 
+        <!-- Information pages -->
+        <activity android:name=".IntroductionInfoActivity" />
+<<<<<<< app/src/main/AndroidManifest.xml
+        <activity android:name=".SeventeenthCenturyInfoActivity" />
+        <activity android:name=".EighteenthCenturyInfoActivity" />
+        <activity android:name=".NineteenthCenturyInfoActivity" />
+        <activity android:name=".TurnOfTheCenturyInfoActivity" />
+        <activity android:name=".WW2AndPostWarInfoActivity" />
+        <activity android:name=".WW1RemembranceInfoActivity" />
+        <activity android:name=".NewsActivity" />
+
+
+
+
+>>>>>>> app/src/main/AndroidManifest.xml
 
     </application>
 
