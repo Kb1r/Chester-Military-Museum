@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
@@ -92,6 +93,24 @@ class MainActivity : AppCompatActivity() {
         homeBinding.btnClosePopup.setOnClickListener {
             homeBinding.qrPopup.visibility = View.GONE
             homeBinding.qrOverlay.visibility = View.GONE
+        }
+
+        // SUBMIT CODE BUTTON HANDLER
+        homeBinding.btnSubmitCode.setOnClickListener {
+            val code = homeBinding.codeInput.text.toString().trim()
+            val correctCode = "123"
+
+            if (code == correctCode) {
+                val intent = Intent(this, IntroductionInfoActivity::class.java)
+                startActivity(intent)
+
+                // Optionally hide the popup
+                homeBinding.qrPopup.visibility = View.GONE
+                homeBinding.qrOverlay.visibility = View.GONE
+                homeBinding.codeInput.setText("")
+            } else {
+                Toast.makeText(this, "Invalid code. Please try again.", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
