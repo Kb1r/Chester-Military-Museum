@@ -5,40 +5,35 @@
     android:layout_height="match_parent"
     android:background="#FDF6FE">
 
-    <!-- Main screen content -->
-
-    <!-- Full-screen dimmed overlay behind QR popup -->
+    <!-- MAIN CONTENT -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="16dp">
 
-        <!-- Start Tour Box -->
-
-        <!-- Grid Layout -->
-
+        <!-- START TOUR -->
         <LinearLayout
             android:id="@+id/startTourBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="16dp"
             android:background="@drawable/box_background"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="12dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintEnd_toEndOf="parent">
 
             <TextView
                 android:id="@+id/startTourText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:text="START TOUR"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
 
             <ImageView
                 android:id="@+id/startTourImage"
@@ -48,39 +43,40 @@
                 android:src="@drawable/ic_image" />
         </LinearLayout>
 
+        <!-- GRID MENU -->
         <GridLayout
             android:id="@+id/gridLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="16dp"
-            android:alignmentMode="alignMargins"
             android:columnCount="2"
             android:rowCount="2"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:alignmentMode="alignMargins"
             android:rowOrderPreserved="false"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/startTourBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/startTourBox">
+            app:layout_constraintEnd_toEndOf="parent">
 
-            <!-- Map Button -->
+            <!-- Map -->
             <LinearLayout
                 android:id="@+id/btnMap"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="8dp"
                 android:background="@drawable/box_background"
-                android:gravity="center"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
                 android:padding="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:text="Map"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -88,25 +84,25 @@
                     android:src="@drawable/ic_image" />
             </LinearLayout>
 
-            <!-- Tickets Button -->
+            <!-- Tickets -->
             <LinearLayout
                 android:id="@+id/btnTickets"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="8dp"
                 android:background="@drawable/box_background"
-                android:gravity="center"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
                 android:padding="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:text="Tickets"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -114,25 +110,25 @@
                     android:src="@drawable/ic_image" />
             </LinearLayout>
 
-            <!-- Gift Shop Button -->
+            <!-- Gift Shop -->
             <LinearLayout
                 android:id="@+id/btnGiftShop"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="8dp"
                 android:background="@drawable/box_background"
-                android:gravity="center"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
                 android:padding="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:text="Gift Shop"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -140,25 +136,25 @@
                     android:src="@drawable/ic_image" />
             </LinearLayout>
 
-            <!-- Contact Us Button -->
+            <!-- Contact Us -->
             <LinearLayout
                 android:id="@+id/btnContact"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_margin="8dp"
                 android:background="@drawable/box_background"
-                android:gravity="center"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="8dp"
                 android:padding="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:text="Contact Us"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -168,6 +164,7 @@
         </GridLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- DIM BACKGROUND OVERLAY -->
     <View
         android:id="@+id/qrOverlay"
         android:layout_width="match_parent"
@@ -175,8 +172,7 @@
         android:background="#80000000"
         android:visibility="gone" />
 
-    <!-- QR POPUP on top -->
-    <!-- QR POPUP on top -->
+    <!-- QR POPUP -->
     <LinearLayout
         android:id="@+id/qrPopup"
         android:layout_width="match_parent"
@@ -198,7 +194,7 @@
             android:contentDescription="Close"
             android:padding="4dp" />
 
-        <!-- Code input -->
+        <!-- Manual Code Input -->
         <EditText
             android:id="@+id/codeInput"
             android:layout_width="match_parent"
@@ -208,7 +204,7 @@
             android:background="@drawable/edit_text_border"
             android:padding="12dp"
             android:layout_marginTop="12dp"
-            android:layout_marginBottom="12dp"/>
+            android:layout_marginBottom="12dp" />
 
         <!-- Submit button -->
         <Button
@@ -217,8 +213,15 @@
             android:layout_height="wrap_content"
             android:text="Submit"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="12dp"/>
+            android:layout_marginBottom="8dp" />
+
+        <!-- QR Code Scanner Button -->
+        <Button
+            android:id="@+id/btnLaunchQrScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan QR Code"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp" />
     </LinearLayout>
-
-
 </FrameLayout>
