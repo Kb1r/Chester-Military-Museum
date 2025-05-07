@@ -23,8 +23,8 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
 
         // Sample text
         val introText = "PLACEHOLDER"
-        binding.introductionTitle1.text = "WW1 Remembrance"
-        binding.introductionText.text = introText
+        binding.title1.text = "WW1 Remembrance"
+        binding.mainTextBody1.text = introText
 
         // Arrows
         binding.leftArrow.setOnClickListener {
@@ -36,13 +36,13 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
 
         // Collapse content
         binding.collapseButton.setOnClickListener {
-            val visible = binding.introductionText.visibility == View.VISIBLE
-            binding.introductionText.visibility = if (visible) View.GONE else View.VISIBLE
+            val visible = binding.mainTextBody1.visibility == View.VISIBLE
+            binding.mainTextBody1.visibility = if (visible) View.GONE else View.VISIBLE
         }
 
         // TTS playback
         binding.textToSpeechPlayButton.setOnClickListener {
-            speakText(binding.introductionText.text.toString())
+            speakText(binding.mainTextBody1.text.toString())
         }
     }
 
