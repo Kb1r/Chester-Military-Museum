@@ -9,10 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
 import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
+import com.google.zxing.integration.android.IntentIntegrator
 
 class MainActivity : AppCompatActivity() {
 
-    // ViewBindings
     private lateinit var binding: ActivityBaseBinding
     private lateinit var homeBinding: HomeLayoutBinding
     private lateinit var settingsBinding: SettingsLayoutBinding
@@ -22,25 +22,20 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityBaseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Setup toolbar without back button
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
-        // Logo returns to Home
         binding.logoImage.setOnClickListener {
             showHome()
             binding.bottomNavigation.selectedItemId = R.id.navigation_home
         }
 
-        // Inflate child layouts
         val inflater = LayoutInflater.from(this)
         homeBinding = HomeLayoutBinding.inflate(inflater)
         settingsBinding = SettingsLayoutBinding.inflate(inflater)
 
-        // Default screen
         showHome()
 
-        // Bottom Navigation
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
@@ -60,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         binding.container.removeAllViews()
         binding.container.addView(homeBinding.root)
 
-        // HOME PAGE BUTTONS
+        // Home buttons
         homeBinding.btnMap.setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))
         }
@@ -77,40 +72,41 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ContactFormActivity::class.java))
         }
 
-        // SHOW QR POPUP
+        // Show QR popup
         homeBinding.startTourBox.setOnClickListener {
-            homeBinding.qrPopup.visibility = View.VISIBLE
             homeBinding.qrOverlay.visibility = View.VISIBLE
+            homeBinding.qrPopup.visibility = View.VISIBLE
         }
 
-        // TAP OUTSIDE TO HIDE POPUP
-        homeBinding.qrOverlay.setOnClickListener {
-            homeBinding.qrPopup.visibility = View.GONE
-            homeBinding.qrOverlay.visibility = View.GONE
-        }
-
-        // CLOSE BUTTON TO HIDE POPUP
+        // Close popup via ✕
         homeBinding.btnClosePopup.setOnClickListener {
-            homeBinding.qrPopup.visibility = View.GONE
             homeBinding.qrOverlay.visibility = View.GONE
+            homeBinding.qrPopup.visibility = View.GONE
         }
 
-        // SUBMIT CODE BUTTON HANDLER
+        // Tap outside to close
+        homeBinding.qrOverlay.setOnClickListener {
+            homeBinding.qrOverlay.visibility = View.GONE
+            homeBinding.qrPopup.visibility = View.GONE
+        }
+
+        // Submit code manually
         homeBinding.btnSubmitCode.setOnClickListener {
             val code = homeBinding.codeInput.text.toString().trim()
-            val correctCode = "123"
-
-            if (code == correctCode) {
-                val intent = Intent(this, IntroductionInfoActivity::class.java)
-                startActivity(intent)
-
-                // Optionally hide the popup
-                homeBinding.qrPopup.visibility = View.GONE
-                homeBinding.qrOverlay.visibility = View.GONE
-                homeBinding.codeInput.setText("")
+            if (code == "123") {
+                startActivity(Intent(this, IntroductionInfoActivity::class.java))
             } else {
-                Toast.makeText(this, "Invalid code. Please try again.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Incorrect code", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        // Launch QR Scanner
+        homeBinding.btnLaunchQrScanner.setOnClickListener {
+            val integrator = IntentIntegrator(this)
+            integrator.setOrientationLocked(false)
+            integrator.setPrompt("Scan QR Code")
+            integrator.setBeepEnabled(true)
+            integrator.initiateScan()
         }
     }
 
@@ -123,5 +119,19 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, WebViewActivity::class.java)
         intent.putExtra("url", url)
         startActivity(intent)
+    }
+
+    // QR Scan result
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
+        if (result != null && result.contents != null) {
+            if (result.contents.trim() == "MUSEUM123") {
+                startActivity(Intent(this, IntroductionInfoActivity::class.java))
+            } else {
+                Toast.makeText(this, "Invalid QR code", Toast.LENGTH_SHORT).show()
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data)
+        }
     }
 }
