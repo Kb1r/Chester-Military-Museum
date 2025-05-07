@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FDF6FE">
 
-    <!-- Main content -->
+    <!-- Main screen content -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
@@ -52,13 +51,13 @@
             android:rowCount="2"
             android:layout_marginTop="16dp"
             android:layout_marginHorizontal="16dp"
+            android:alignmentMode="alignMargins"
+            android:rowOrderPreserved="false"
             app:layout_constraintTop_toBottomOf="@id/startTourBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:alignmentMode="alignMargins"
-            android:rowOrderPreserved="false">
+            app:layout_constraintEnd_toEndOf="parent">
 
-            <!-- MAP -->
+            <!-- Map Button -->
             <LinearLayout
                 android:id="@+id/btnMap"
                 android:layout_width="0dp"
@@ -76,15 +75,15 @@
                     android:layout_height="wrap_content"
                     android:text="Map"
                     android:textSize="14sp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/ic_image" />
             </LinearLayout>
 
-            <!-- TICKETS -->
+            <!-- Tickets Button -->
             <LinearLayout
                 android:id="@+id/btnTickets"
                 android:layout_width="0dp"
@@ -102,15 +101,15 @@
                     android:layout_height="wrap_content"
                     android:text="Tickets"
                     android:textSize="14sp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/ic_image" />
             </LinearLayout>
 
-            <!-- GIFT SHOP -->
+            <!-- Gift Shop Button -->
             <LinearLayout
                 android:id="@+id/btnGiftShop"
                 android:layout_width="0dp"
@@ -128,15 +127,15 @@
                     android:layout_height="wrap_content"
                     android:text="Gift Shop"
                     android:textSize="14sp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/ic_image" />
             </LinearLayout>
 
-            <!-- CONTACT US -->
+            <!-- Contact Us Button -->
             <LinearLayout
                 android:id="@+id/btnContact"
                 android:layout_width="0dp"
@@ -154,47 +153,68 @@
                     android:layout_height="wrap_content"
                     android:text="Contact Us"
                     android:textSize="14sp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_image"/>
+                    android:src="@drawable/ic_image" />
             </LinearLayout>
-
         </GridLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- QR POPUP OVERLAY -->
+    <!-- Full-screen dimmed overlay behind QR popup -->
+    <View
+        android:id="@+id/qrOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone" />
+
+    <!-- QR POPUP on top -->
+    <!-- QR POPUP on top -->
     <LinearLayout
         android:id="@+id/qrPopup"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:orientation="vertical"
         android:background="@drawable/box_background"
+        android:elevation="12dp"
         android:padding="16dp"
-        android:visibility="gone"
-        android:elevation="8dp"
-        android:translationZ="8dp"
-        android:layout_gravity="top"
-        android:layout_marginHorizontal="16dp">
+        android:visibility="gone">
 
+        <!-- Close icon -->
+        <ImageView
+            android:id="@+id/btnClosePopup"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Close"
+            android:padding="4dp" />
+
+        <!-- Code input -->
+        <EditText
+            android:id="@+id/codeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Code"
+            android:inputType="text"
+            android:background="@drawable/edit_text_border"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Submit button -->
         <Button
-            android:id="@+id/btnScan"
+            android:id="@+id/btnSubmitCode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SCAN THE QR CODE TO BEGIN"
+            android:text="Submit"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="12dp" />
-
-        <ImageView
-            android:id="@+id/qrImage"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center_horizontal"
-            android:scaleType="centerInside"
-            android:src="@drawable/ic_placeholder" />
+            android:layout_marginBottom="12dp"/>
     </LinearLayout>
+
 
 </FrameLayout>
