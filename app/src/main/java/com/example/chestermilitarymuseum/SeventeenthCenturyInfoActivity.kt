@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
 import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
 import java.util.*
 
