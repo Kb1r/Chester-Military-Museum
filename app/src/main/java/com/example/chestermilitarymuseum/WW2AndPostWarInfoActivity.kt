@@ -5,19 +5,17 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
-import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
-import com.example.chestermilitarymuseum.databinding.TurnOfTheCenturyInformationLayoutBinding
+import com.example.chestermilitarymuseum.databinding.Ww2AndPostWarInformatonLayoutBinding
 import java.util.*
 
-class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private lateinit var binding: TurnOfTheCenturyInformationLayoutBinding
+    private lateinit var binding: Ww2AndPostWarInformatonLayoutBinding
     private lateinit var tts: TextToSpeech
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = TurnOfTheCenturyInformationLayoutBinding.inflate(layoutInflater)
+        binding = Ww2AndPostWarInformatonLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Set up TTS engine
@@ -25,15 +23,15 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
 
         // Sample text
         val introText = "PLACEHOLDER"
-        binding.introductionTitle1.text = "Turn Of The Century"
+        binding.introductionTitle1.text = "WW2 & Post War Conflicts"
         binding.introductionText.text = introText
 
         // Arrows
         binding.leftArrow.setOnClickListener {
-            startActivity(Intent(this, EighteenthCenturyInfoActivity::class.java))
+            startActivity(Intent(this, TurnOfTheCenturyInfoActivity::class.java))
         }
         binding.rightArrow.setOnClickListener {
-            startActivity(Intent(this, WW2AndPostWarInfoActivity::class.java))
+            startActivity(Intent(this, MapActivity::class.java))
         }
 
         // Collapse content
