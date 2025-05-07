@@ -91,8 +91,8 @@
 
         <ImageButton
             android:id="@+id/btnFacebook"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:background="@drawable/facebook_logo"
             android:contentDescription="@string/clickable_facebook_logo"
             android:layout_marginLeft="15dp"
@@ -100,8 +100,8 @@
 
         <ImageButton
             android:id="@+id/btnTwitter"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:background="@drawable/twitterx_logo"
             android:contentDescription="@string/clickable_twitter_logo"
             android:layout_marginLeft="15dp"
@@ -109,8 +109,8 @@
 
         <ImageButton
             android:id="@+id/btnInstagram"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:background="@drawable/instagram_logo"
             android:contentDescription="@string/clickable_instagram_logo"
             android:layout_marginLeft="15dp"
