@@ -40,6 +40,8 @@
             android:name=".ContactFormActivity"
             android:exported="false" />
         <activity android:name=".WebViewActivity" />
+        <activity android:name=".IntroductionInfoActivity" />
+
 
 
     </application>
