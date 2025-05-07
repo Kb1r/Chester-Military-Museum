@@ -5,18 +5,19 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.chestermilitarymuseum.databinding.EighteenthCenturyInformationLayoutBinding
 import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
 import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
 import java.util.*
 
-class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class EighteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private lateinit var binding: SeventeenthCenturyInformationLayoutBinding
+    private lateinit var binding: EighteenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = SeventeenthCenturyInformationLayoutBinding.inflate(layoutInflater)
+        binding = EighteenthCenturyInformationLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Set up TTS engine
@@ -24,15 +25,15 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
 
         // Sample text
         val introText = "PLACEHOLDER"
-        binding.introductionTitle1.text = "17th Century"
+        binding.introductionTitle1.text = "18th Century"
         binding.introductionText.text = introText
 
         // Arrows
         binding.leftArrow.setOnClickListener {
-            startActivity(Intent(this, IntroductionInfoActivity::class.java))
+            startActivity(Intent(this, SeventeenthCenturyInfoActivity::class.java))
         }
         binding.rightArrow.setOnClickListener {
-            startActivity(Intent(this, EighteenthCenturyInfoActivity::class.java))
+            startActivity(Intent(this, MapActivity::class.java))
         }
 
         // Collapse content
