@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.chestermilitarymuseum">
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -41,6 +43,9 @@
             android:exported="false" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".IntroductionInfoActivity" />
+        <activity android:name=".NewsActivity" />
+
+
 
 
 

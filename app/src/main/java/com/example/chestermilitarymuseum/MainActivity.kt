@@ -46,6 +46,10 @@ class MainActivity : AppCompatActivity() {
                     showView(settingsBinding.root)
                     true
                 }
+                R.id.navigation_news -> {
+                    startActivity(Intent(this, NewsActivity::class.java))
+                    true
+                }
                 else -> false
             }
         }
@@ -78,35 +82,35 @@ class MainActivity : AppCompatActivity() {
             homeBinding.qrPopup.visibility = View.VISIBLE
         }
 
-        // Close popup via ✕
+        // Close popup (✕)
         homeBinding.btnClosePopup.setOnClickListener {
-            homeBinding.qrOverlay.visibility = View.GONE
-            homeBinding.qrPopup.visibility = View.GONE
+            closeQrPopup()
         }
 
         // Tap outside to close
         homeBinding.qrOverlay.setOnClickListener {
-            homeBinding.qrOverlay.visibility = View.GONE
-            homeBinding.qrPopup.visibility = View.GONE
+            closeQrPopup()
         }
 
-        // Submit code manually
+        // Submit manually entered code
         homeBinding.btnSubmitCode.setOnClickListener {
-            val code = homeBinding.codeInput.text.toString().trim()
-            if (code == "123") {
+            val enteredCode = homeBinding.codeInput.text.toString().trim()
+            if (enteredCode == "123") {
                 startActivity(Intent(this, IntroductionInfoActivity::class.java))
+                closeQrPopup()
             } else {
                 Toast.makeText(this, "Incorrect code", Toast.LENGTH_SHORT).show()
             }
         }
 
-        // Launch QR Scanner
+        // Launch QR scanner
         homeBinding.btnLaunchQrScanner.setOnClickListener {
-            val integrator = IntentIntegrator(this)
-            integrator.setOrientationLocked(false)
-            integrator.setPrompt("Scan QR Code")
-            integrator.setBeepEnabled(true)
-            integrator.initiateScan()
+            IntentIntegrator(this).apply {
+                setOrientationLocked(false)
+                setPrompt("Scan a QR Code")
+                setBeepEnabled(true)
+                initiateScan()
+            }
         }
     }
 
@@ -121,12 +125,18 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    // QR Scan result
+    private fun closeQrPopup() {
+        homeBinding.qrOverlay.visibility = View.GONE
+        homeBinding.qrPopup.visibility = View.GONE
+    }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
         if (result != null && result.contents != null) {
-            if (result.contents.trim() == "MUSEUM123") {
+            val scannedCode = result.contents.trim()
+            if (scannedCode == "123") {
                 startActivity(Intent(this, IntroductionInfoActivity::class.java))
+                closeQrPopup()
             } else {
                 Toast.makeText(this, "Invalid QR code", Toast.LENGTH_SHORT).show()
             }
