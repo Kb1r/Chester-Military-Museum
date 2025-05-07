@@ -89,32 +89,32 @@
         app:layout_constraintEnd_toEndOf="parent">
 
 
-        <Button
+        <ImageButton
             android:id="@+id/btnFacebook"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/facebook_logo"
-            android:text="@string/facebook"
-            tools:layout_editor_absoluteX="70dp"
-            tools:layout_editor_absoluteY="443dp" />
+            android:background="@drawable/facebook_logo"
+            android:contentDescription="@string/clickable_facebook_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnTwitter"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:text="@string/twitter"
-            android:src="@drawable/twitterx_logo"
-            tools:layout_editor_absoluteX="159dp"
-            tools:layout_editor_absoluteY="443dp" />
+            android:background="@drawable/twitterx_logo"
+            android:contentDescription="@string/clickable_twitter_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnInstagram"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:text="@string/instagram"
-            android:src="@drawable/instagram_logo"
-            tools:layout_editor_absoluteX="252dp"
-            tools:layout_editor_absoluteY="443dp" />
+            android:background="@drawable/instagram_logo"
+            android:contentDescription="@string/clickable_instagram_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
 
     </LinearLayout>
 
