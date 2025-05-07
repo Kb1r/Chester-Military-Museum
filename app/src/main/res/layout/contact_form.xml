@@ -88,35 +88,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:contentDescription="Facebook"
-            android:src="@drawable/ic_image" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:contentDescription="Instagram"
-            android:src="@drawable/ic_image"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:contentDescription="Twitter"
-            android:src="@drawable/ic_image" />
-
-    </LinearLayout>
 
         <Button
             android:id="@+id/btnFacebook"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:src="@drawable/facebook_logo"
             android:text="@string/facebook"
             tools:layout_editor_absoluteX="70dp"
             tools:layout_editor_absoluteY="443dp" />
@@ -126,6 +103,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:text="@string/twitter"
+            android:src="@drawable/twitterx_logo"
             tools:layout_editor_absoluteX="159dp"
             tools:layout_editor_absoluteY="443dp" />
 
@@ -134,8 +112,13 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:text="@string/instagram"
+            android:src="@drawable/instagram_logo"
             tools:layout_editor_absoluteX="252dp"
             tools:layout_editor_absoluteY="443dp" />
+
+    </LinearLayout>
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
