@@ -28,7 +28,7 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
 
         // Arrows
         binding.leftArrow.setOnClickListener {
-            startActivity(Intent(this, TurnOfTheCenturyInfoActivity::class.java))
+            startActivity(Intent(this, WW1RemembranceInfoActivity::class.java))
         }
         binding.rightArrow.setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))

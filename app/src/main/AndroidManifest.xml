@@ -45,9 +45,10 @@
         <activity android:name=".IntroductionInfoActivity" />
         <activity android:name=".SeventeenthCenturyInfoActivity" />
         <activity android:name=".EighteenthCenturyInfoActivity" />
+        <activity android:name=".NineteenthCenturyInfoActivity" />
         <activity android:name=".TurnOfTheCenturyInfoActivity" />
         <activity android:name=".WW2AndPostWarInfoActivity" />
-
+        <activity android:name=".WW1RemembranceInfoActivity" />
 
     </application>
 

@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
-import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
 import com.example.chestermilitarymuseum.databinding.TurnOfTheCenturyInformationLayoutBinding
 import java.util.*
 
@@ -30,10 +28,10 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
 
         // Arrows
         binding.leftArrow.setOnClickListener {
-            startActivity(Intent(this, EighteenthCenturyInfoActivity::class.java))
+            startActivity(Intent(this, NineteenthCenturyInfoActivity::class.java))
         }
         binding.rightArrow.setOnClickListener {
-            startActivity(Intent(this, WW2AndPostWarInfoActivity::class.java))
+            startActivity(Intent(this, WW1RemembranceInfoActivity::class.java))
         }
 
         // Collapse content
