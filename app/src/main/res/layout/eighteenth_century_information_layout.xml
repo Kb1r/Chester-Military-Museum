@@ -46,17 +46,15 @@
                 android:id="@+id/sectionName"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="16dp"
                 android:gravity="bottom|center"
+                android:layout_marginBottom="16dp"
                 android:text="SectionName"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toTopOf="@+id/mainTextBody1"
-                app:layout_constraintEnd_toStartOf="@+id/textToSpeechPlayButton"
-                app:layout_constraintHorizontal_bias="0.493"
-                app:layout_constraintStart_toEndOf="@+id/collapseButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/title1"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="1.0" />
 
             <TextView
                 android:id="@+id/mainTextBody1"
@@ -66,22 +64,21 @@
                 android:text="TextView"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/title1"
                 app:layout_constraintVertical_bias="1.0" />
 
             <TextView
                 android:id="@+id/title1"
-                android:layout_width="206dp"
-                android:layout_height="36dp"
-                android:layout_marginBottom="16dp"
+                android:layout_width="200dp"
+                android:layout_height="39dp"
                 android:gravity="center|top"
+                android:layout_marginBottom="16dp"
                 android:text="Title"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
@@ -92,10 +89,10 @@
                 android:layout_height="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.703"
-                app:layout_constraintStart_toEndOf="@+id/title1"
-                app:layout_constraintTop_toTopOf="@+id/sectionName"
-                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.955"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1"
                 app:srcCompat="@android:drawable/ic_media_play" />
 
             <ImageButton
@@ -106,8 +103,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.044"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/sectionName"
-                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1"
                 app:srcCompat="@drawable/ic_image" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

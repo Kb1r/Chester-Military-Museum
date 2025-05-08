@@ -5,17 +5,17 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
+import com.example.chestermilitarymuseum.databinding.Ww2AndPostWarInformatonLayoutBinding
 import java.util.*
 
-class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private lateinit var binding: IntroductionInformationLayoutBinding
+    private lateinit var binding: Ww2AndPostWarInformatonLayoutBinding
     private lateinit var tts: TextToSpeech
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = IntroductionInformationLayoutBinding.inflate(layoutInflater)
+        binding = Ww2AndPostWarInformatonLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Set up TTS engine
@@ -23,12 +23,15 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
 
         // Sample text
         val introText = "PLACEHOLDER"
-        binding.title1.text = "Introduction"
+        binding.title1.text = "WW2 & Post War Conflicts"
         binding.mainTextBody1.text = introText
 
         // Arrows
+        binding.leftArrow.setOnClickListener {
+            startActivity(Intent(this, WW1RemembranceInfoActivity::class.java))
+        }
         binding.rightArrow.setOnClickListener {
-            startActivity(Intent(this, SeventeenthCenturyInfoActivity::class.java))
+            startActivity(Intent(this, MapActivity::class.java))
         }
 
         // Collapse content

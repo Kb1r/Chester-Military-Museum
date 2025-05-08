@@ -1,6 +1,7 @@
 package com.example.chestermilitarymuseum
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
@@ -12,6 +13,7 @@ class ContactFormActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var formBinding: ContactFormBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -76,6 +78,21 @@ class ContactFormActivity : AppCompatActivity() {
                 }
                 else -> false
             }
+        }
+
+        formBinding.btnTwitter.setOnClickListener{
+            val twitter = Intent(Intent.ACTION_VIEW, Uri.parse("https://x.com/ChesMilMuseum/"))
+            startActivity(twitter)
+        }
+
+        formBinding.btnFacebook.setOnClickListener{
+            val facebook = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/cheshiremilitarymuseum"))
+            startActivity(facebook)
+        }
+
+        formBinding.btnInstagram.setOnClickListener{
+            val instagram = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/cheshiremilitary_museum/"))
+            startActivity(instagram)
         }
     }
 }

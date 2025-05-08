@@ -1,0 +1,71 @@
+Index: app/src/main/res/layout/contact_form.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout\r\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#FAF6F0\">\r\n\r\n    <androidx.constraintlayout.widget.ConstraintLayout\r\n        android:id=\"@+id/formContainer\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"48dp\"\r\n        android:padding=\"24dp\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\">\r\n\r\n    <EditText\r\n        android:id=\"@+id/nameEditText\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:background=\"@drawable/edit_text_border\"\r\n        android:hint=\"Name\"\r\n        android:padding=\"12dp\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/emailEditText\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:background=\"@drawable/edit_text_border\"\r\n        android:hint=\"Email\"\r\n        android:inputType=\"textEmailAddress\"\r\n        android:padding=\"12dp\"\r\n        app:layout_constraintTop_toBottomOf=\"@id/nameEditText\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        android:layout_marginTop=\"16dp\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/phoneEditText\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:background=\"@drawable/edit_text_border\"\r\n        android:hint=\"Phone Number\"\r\n        android:inputType=\"phone\"\r\n        android:padding=\"12dp\"\r\n        app:layout_constraintTop_toBottomOf=\"@id/emailEditText\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        android:layout_marginTop=\"16dp\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/messageEditText\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"86dp\"\r\n        android:background=\"@drawable/edit_text_border\"\r\n        android:gravity=\"top\"\r\n        android:hint=\"Message\"\r\n        android:padding=\"12dp\"\r\n        app:layout_constraintTop_toBottomOf=\"@id/phoneEditText\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        android:layout_marginTop=\"16dp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/submitButton\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"28dp\"\r\n        android:backgroundTint=\"#470df5\"\r\n        android:text=\"Submit\"\r\n        app:layout_constraintTop_toBottomOf=\"@id/messageEditText\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\" />\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/socialIconsLayout\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"horizontal\"\r\n        android:layout_marginTop=\"24dp\"\r\n        app:layout_constraintTop_toBottomOf=\"@id/submitButton\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\">\r\n\r\n        <ImageView\r\n            android:id=\"@+id/imageView3\"\r\n            android:layout_width=\"40dp\"\r\n            android:layout_height=\"40dp\"\r\n            android:contentDescription=\"Facebook\"\r\n            android:src=\"@drawable/ic_image\" />\r\n\r\n        <ImageView\r\n            android:id=\"@+id/imageView2\"\r\n            android:layout_width=\"40dp\"\r\n            android:layout_height=\"40dp\"\r\n            android:contentDescription=\"Instagram\"\r\n            android:src=\"@drawable/ic_image\"\r\n            android:layout_marginStart=\"16dp\"\r\n            android:layout_marginEnd=\"16dp\" />\r\n\r\n        <ImageView\r\n            android:id=\"@+id/imageView\"\r\n            android:layout_width=\"40dp\"\r\n            android:layout_height=\"40dp\"\r\n            android:contentDescription=\"Twitter\"\r\n            android:src=\"@drawable/ic_image\" />\r\n\r\n    </LinearLayout>\r\n\r\n        <Button\r\n            android:id=\"@+id/btnFacebook\"\r\n            android:layout_width=\"60dp\"\r\n            android:layout_height=\"60dp\"\r\n            android:text=\"@string/facebook\"\r\n            tools:layout_editor_absoluteX=\"70dp\"\r\n            tools:layout_editor_absoluteY=\"443dp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnTwitter\"\r\n            android:layout_width=\"60dp\"\r\n            android:layout_height=\"60dp\"\r\n            android:text=\"@string/twitter\"\r\n            tools:layout_editor_absoluteX=\"159dp\"\r\n            tools:layout_editor_absoluteY=\"443dp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnInstagram\"\r\n            android:layout_width=\"60dp\"\r\n            android:layout_height=\"60dp\"\r\n            android:text=\"@string/instagram\"\r\n            tools:layout_editor_absoluteX=\"252dp\"\r\n            tools:layout_editor_absoluteY=\"443dp\" />\r\n\r\n    </androidx.constraintlayout.widget.ConstraintLayout>\r\n\r\n    </androidx.constraintlayout.widget.ConstraintLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/contact_form.xml b/app/src/main/res/layout/contact_form.xml
+--- a/app/src/main/res/layout/contact_form.xml	
++++ b/app/src/main/res/layout/contact_form.xml	
+@@ -117,25 +117,35 @@
+             android:id="@+id/btnFacebook"
+             android:layout_width="60dp"
+             android:layout_height="60dp"
++            android:layout_marginStart="72dp"
++            android:layout_marginBottom="12dp"
++            android:src="@drawable/facebook_logo"
+             android:text="@string/facebook"
+-            tools:layout_editor_absoluteX="70dp"
+-            tools:layout_editor_absoluteY="443dp" />
++            app:layout_constraintBottom_toBottomOf="parent"
++            app:layout_constraintStart_toStartOf="parent" />
+ 
+         <Button
+             android:id="@+id/btnTwitter"
+             android:layout_width="60dp"
+             android:layout_height="60dp"
++            android:layout_marginStart="24dp"
++            android:layout_marginEnd="15dp"
++            android:src="@drawable/twitterx_logo"
+             android:text="@string/twitter"
+-            tools:layout_editor_absoluteX="159dp"
+-            tools:layout_editor_absoluteY="443dp" />
++            app:layout_constraintEnd_toStartOf="@+id/btnInstagram"
++            app:layout_constraintStart_toEndOf="@+id/btnFacebook"
++            tools:layout_editor_absoluteY="475dp" />
+ 
+         <Button
+             android:id="@+id/btnInstagram"
+             android:layout_width="60dp"
+             android:layout_height="60dp"
++            android:layout_marginEnd="72dp"
++            android:layout_marginBottom="12dp"
++            android:src="@drawable/instagram_logo"
+             android:text="@string/instagram"
+-            tools:layout_editor_absoluteX="252dp"
+-            tools:layout_editor_absoluteY="443dp" />
++            app:layout_constraintBottom_toBottomOf="parent"
++            app:layout_constraintEnd_toEndOf="parent" />
+ 
+     </androidx.constraintlayout.widget.ConstraintLayout>
+ 
+Index: .idea/deploymentTargetSelector.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"deploymentTargetSelector\">\r\n    <selectionStates>\r\n      <SelectionState runConfigName=\"app\">\r\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\r\n      </SelectionState>\r\n    </selectionStates>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetSelector.xml b/.idea/deploymentTargetSelector.xml
+--- a/.idea/deploymentTargetSelector.xml	
++++ b/.idea/deploymentTargetSelector.xml	
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="deploymentTargetSelector">
+     <selectionStates>
+-      <SelectionState runConfigName="app">
++      <SelectionState runConfigName="RunAPp">
+         <option name="selectionMode" value="DROPDOWN" />
+       </SelectionState>
+     </selectionStates>
