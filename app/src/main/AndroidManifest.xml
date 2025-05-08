@@ -45,7 +45,6 @@
 
         <!-- Information pages -->
         <activity android:name=".IntroductionInfoActivity" />
-<<<<<<< app/src/main/AndroidManifest.xml
         <activity android:name=".SeventeenthCenturyInfoActivity" />
         <activity android:name=".EighteenthCenturyInfoActivity" />
         <activity android:name=".NineteenthCenturyInfoActivity" />
@@ -53,11 +52,6 @@
         <activity android:name=".WW2AndPostWarInfoActivity" />
         <activity android:name=".WW1RemembranceInfoActivity" />
         <activity android:name=".NewsActivity" />
-
-
-
-
->>>>>>> app/src/main/AndroidManifest.xml
 
     </application>
 
