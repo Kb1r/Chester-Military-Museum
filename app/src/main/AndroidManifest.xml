@@ -14,7 +14,7 @@
         android:theme="@style/Theme.ChesterMilitaryMuseum"
         tools:targetApi="31">
 
-        <!-- Splash is the launcher activity -->
+        <!-- Launcher -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -24,27 +24,22 @@
             </intent-filter>
         </activity>
 
-        <!-- MainActivity (layout shell) -->
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.ChesterMilitaryMuseum" />
-
-        <!-- Map page -->
-        <activity
-            android:name=".MapActivity"
-            android:exported="false" />
-
-        <!-- Contact Us page -->
-        <activity
-            android:name=".ContactFormActivity"
-            android:exported="false" />
+        <!-- Core Activities -->
+        <activity android:name=".MainActivity" android:exported="true" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ContactFormActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".IntroductionInfoActivity" />
         <activity android:name=".SettingsActivity" />
+        <activity android:name=".NewsActivity" />
 
-
-
+        <!-- Info Pages -->
+        <activity android:name=".SeventeenthCenturyInfoActivity" />
+        <activity android:name=".EighteenthCenturyInfoActivity" />
+        <activity android:name=".NineteenthCenturyInfoActivity" />
+        <activity android:name=".TurnOfTheCenturyInfoActivity" />
+        <activity android:name=".WW1RemembranceInfoActivity" />
+        <activity android:name=".WW2AndPostWarInfoActivity" />
 
     </application>
 

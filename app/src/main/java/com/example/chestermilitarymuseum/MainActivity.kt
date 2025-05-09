@@ -49,9 +49,14 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, SettingsActivity::class.java))
                     true
                 }
+                R.id.navigation_news -> {
+                    startActivity(Intent(this, NewsActivity::class.java))
+                    true
+                }
                 else -> false
             }
         }
+
     }
 
     private fun showHome() {
