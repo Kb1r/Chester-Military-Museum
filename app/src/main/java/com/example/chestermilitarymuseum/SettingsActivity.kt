@@ -1,6 +1,8 @@
 package com.example.chestermilitarymuseum
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.*
@@ -33,10 +35,21 @@ class SettingsActivity : AppCompatActivity() {
         // Handle navigation
         baseBinding.bottomNavigation.selectedItemId = R.id.navigation_settings
         baseBinding.bottomNavigation.setOnItemSelectedListener { item ->
-            if (item.itemId == R.id.navigation_home) {
-                finish()
-                true
-            } else false
+            when (item.itemId) {
+                R.id.navigation_home -> {
+                    startActivity((Intent(this, MainActivity::class.java)))
+                    true
+                }
+                R.id.navigation_settings -> {
+                    startActivity(Intent(this, SettingsActivity::class.java))
+                    true
+                }
+                R.id.navigation_news -> {
+                    startActivity(Intent(this, NewsActivity::class.java))
+                    true
+                }
+                else -> false
+            }
         }
     }
 

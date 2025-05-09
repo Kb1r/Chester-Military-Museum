@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_settings -> {
+                    binding.container
                     startActivity(Intent(this, SettingsActivity::class.java))
                     true
                 }
