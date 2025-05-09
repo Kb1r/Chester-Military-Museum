@@ -43,13 +43,21 @@ class WebViewActivity : AppCompatActivity() {
 
         binding.bottomNavigation.selectedItemId = R.id.navigation_home
         binding.bottomNavigation.setOnItemSelectedListener { item ->
-            if (item.itemId == R.id.navigation_home) {
-                val intent = Intent(this, MainActivity::class.java)
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
-                startActivity(intent)
-                finish()
-                true
-            } else true
+            when (item.itemId) {
+                R.id.navigation_home -> {
+                    startActivity(Intent(this, MainActivity::class.java))
+                    true
+                }
+                R.id.navigation_settings -> {
+                    startActivity(Intent(this, SettingsActivity::class.java))
+                    true
+                }
+                R.id.navigation_news -> {
+                    startActivity(Intent(this, NewsActivity::class.java))
+                    true
+                }
+                else -> false
+            }
         }
     }
 }
