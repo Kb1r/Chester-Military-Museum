@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
 import java.util.*
 
+
 class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: IntroductionInformationLayoutBinding
@@ -21,10 +22,10 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
         // Set up TTS engine
         tts = TextToSpeech(this, this)
 
-        // Sample text
-        val introText = "PLACEHOLDER"
-        binding.title1.text = "Introduction"
-        binding.mainTextBody1.text = introText
+        //text
+        binding.title1.text = getString((R.string.introduction))
+        binding.mainTextBody1.text = getString(R.string.introduction_main_text1)
+        binding.sectionName.text = getString(R.string.introduction_section_name1)
 
         // Arrows
         binding.rightArrow.setOnClickListener {
