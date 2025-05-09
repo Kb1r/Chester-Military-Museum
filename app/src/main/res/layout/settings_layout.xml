@@ -1,154 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDF6FE">
+    android:padding="16dp">
 
-    <!-- Top banner image -->
-
-    <!-- Center example text box -->
-
-    <!-- Grid of accessibility buttons -->
-
-    <!-- Reset button -->
-
-    <TextView
-        android:id="@+id/exampleText"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginHorizontal="16dp"
-        android:background="@drawable/box_background"
-        android:gravity="center"
-        android:text="Example text"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="205dp" />
-
-    <GridLayout
-        android:id="@+id/accessibilityGrid"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:id="@+id/settingsContainer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="20dp"
-        android:alignmentMode="alignMargins"
-        android:columnCount="2"
-        android:rowCount="2"
-        android:rowOrderPreserved="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/exampleText">
+        android:orientation="vertical">
 
-        <!-- Each button box -->
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_margin="8dp"
-            android:background="@drawable/box_background"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Button (High-Contrast)"
-                android:textSize="14sp" />
-
-            <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:src="@drawable/ic_placeholder" />
-        </LinearLayout>
+        <!-- Accessibility -->
+        <TextView
+            android:id="@+id/toggleAccessibility"
+            style="@style/SettingTitleStyle"
+            android:text="📶 Accessibility Mode" />
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/sectionAccessibility"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_margin="8dp"
-            android:background="@drawable/box_background"
-            android:gravity="center"
             android:orientation="vertical"
-            android:padding="8dp">
+            android:paddingStart="12dp"
+            android:visibility="gone">
 
-            <TextView
+            <RadioGroup
+                android:id="@+id/accessibilityGroup"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Button (Protanopia)"
-                android:textSize="14sp" />
+                android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:src="@drawable/ic_placeholder" />
+                <RadioButton
+                    android:id="@+id/rbDefault"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Default" />
+
+                <RadioButton
+                    android:id="@+id/rbHighContrast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High Contrast" />
+
+                <RadioButton
+                    android:id="@+id/rbProtanopia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protanopia" />
+
+                <RadioButton
+                    android:id="@+id/rbDeuteranopia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deuteranopia" />
+
+                <RadioButton
+                    android:id="@+id/rbTritanopia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tritanopia" />
+            </RadioGroup>
         </LinearLayout>
+
+        <!-- Font Size -->
+        <TextView
+            android:id="@+id/toggleFont"
+            style="@style/SettingTitleStyle"
+            android:text="🔤 Font Size" />
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/sectionFont"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_margin="8dp"
-            android:background="@drawable/box_background"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="8dp">
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:padding="12dp">
 
-            <TextView
+            <Button
+                android:id="@+id/btnSmallFont"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Button (Tritanopia)"
-                android:textSize="14sp" />
+                android:text="Small" />
 
-            <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:src="@drawable/ic_placeholder" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_margin="8dp"
-            android:background="@drawable/box_background"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <TextView
+            <Button
+                android:id="@+id/btnMediumFont"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Button (Deuteranopia)"
-                android:textSize="14sp" />
+                android:text="Medium"
+                android:layout_marginStart="8dp" />
 
-            <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:src="@drawable/ic_placeholder" />
+            <Button
+                android:id="@+id/btnLargeFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:layout_marginStart="8dp" />
         </LinearLayout>
-    </GridLayout>
 
-    <Button
-        android:id="@+id/resetButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="12dp"
-        android:drawableStart="@drawable/ic_placeholder"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="Reset to Default"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/accessibilityGrid" />
+        <!-- Language -->
+        <TextView
+            android:id="@+id/toggleLanguage"
+            style="@style/SettingTitleStyle"
+            android:text="🌐 App Language" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Spinner
+            android:id="@+id/spinnerLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" />
+
+        <!-- Audio Guide -->
+        <TextView
+            style="@style/SettingTitleStyle"
+            android:text="🎧 Audio Guide" />
+
+        <Switch
+            android:id="@+id/switchAudioGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Audio Narration" />
+
+        <!-- Notifications -->
+        <TextView
+            style="@style/SettingTitleStyle"
+            android:text="🔔 Notifications" />
+
+        <Switch
+            android:id="@+id/switchNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Notifications" />
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/btnResetSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔁 Reset to Default"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

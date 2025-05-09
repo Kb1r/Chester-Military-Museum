@@ -41,6 +41,8 @@
             android:exported="false" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".IntroductionInfoActivity" />
+        <activity android:name=".SettingsActivity" />
+
 
 
 

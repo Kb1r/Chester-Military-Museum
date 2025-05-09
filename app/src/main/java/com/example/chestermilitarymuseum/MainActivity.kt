@@ -8,14 +8,18 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
-import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
 import com.google.zxing.integration.android.IntentIntegrator
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var homeBinding: HomeLayoutBinding
-    private lateinit var settingsBinding: SettingsLayoutBinding
+
+    override fun onResume() {
+        super.onResume()
+        binding.bottomNavigation.selectedItemId = R.id.navigation_home
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +36,6 @@ class MainActivity : AppCompatActivity() {
 
         val inflater = LayoutInflater.from(this)
         homeBinding = HomeLayoutBinding.inflate(inflater)
-        settingsBinding = SettingsLayoutBinding.inflate(inflater)
 
         showHome()
 
@@ -43,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_settings -> {
-                    showView(settingsBinding.root)
+                    startActivity(Intent(this, SettingsActivity::class.java))
                     true
                 }
                 else -> false
@@ -88,6 +91,11 @@ class MainActivity : AppCompatActivity() {
         homeBinding.qrOverlay.setOnClickListener {
             homeBinding.qrOverlay.visibility = View.GONE
             homeBinding.qrPopup.visibility = View.GONE
+        }
+
+        // Prevent click-through inside the popup
+        homeBinding.qrPopup.setOnClickListener {
+            // Consume click to prevent closing
         }
 
         // Submit code manually
