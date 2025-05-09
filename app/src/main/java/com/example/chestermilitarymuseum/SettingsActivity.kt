@@ -40,10 +40,6 @@ class SettingsActivity : AppCompatActivity() {
                     startActivity((Intent(this, MainActivity::class.java)))
                     true
                 }
-                R.id.navigation_settings -> {
-                    startActivity(Intent(this, SettingsActivity::class.java))
-                    true
-                }
                 R.id.navigation_news -> {
                     startActivity(Intent(this, NewsActivity::class.java))
                     true
@@ -51,6 +47,8 @@ class SettingsActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
+
     }
 
     private fun setupExpandableSections() {
