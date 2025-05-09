@@ -51,4 +51,9 @@
     <string name="clickable_twitter_logo">Clickable Twitter logo</string>
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
     <string name="clickable_map_button">Clickable Map Button</string>
+    <string name="introduction">Introduction</string>
+    <string name="introduction_section_name1">Eaton Hall: </string>
+    <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.
+    At the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
+    In 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
 </resources>
