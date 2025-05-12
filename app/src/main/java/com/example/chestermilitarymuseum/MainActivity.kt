@@ -8,14 +8,18 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
-import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
 import com.google.zxing.integration.android.IntentIntegrator
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var homeBinding: HomeLayoutBinding
-    private lateinit var settingsBinding: SettingsLayoutBinding
+
+    override fun onResume() {
+        super.onResume()
+        binding.bottomNavigation.selectedItemId = R.id.navigation_home
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +36,6 @@ class MainActivity : AppCompatActivity() {
 
         val inflater = LayoutInflater.from(this)
         homeBinding = HomeLayoutBinding.inflate(inflater)
-        settingsBinding = SettingsLayoutBinding.inflate(inflater)
 
         showHome()
 
@@ -43,7 +46,8 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_settings -> {
-                    showView(settingsBinding.root)
+                    binding.container
+                    startActivity(Intent(this, SettingsActivity::class.java))
                     true
                 }
                 R.id.navigation_news -> {
@@ -53,6 +57,7 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
     }
 
     private fun showHome() {
@@ -82,35 +87,40 @@ class MainActivity : AppCompatActivity() {
             homeBinding.qrPopup.visibility = View.VISIBLE
         }
 
-        // Close popup (✕)
+        // Close popup via ✕
         homeBinding.btnClosePopup.setOnClickListener {
-            closeQrPopup()
+            homeBinding.qrOverlay.visibility = View.GONE
+            homeBinding.qrPopup.visibility = View.GONE
         }
 
         // Tap outside to close
         homeBinding.qrOverlay.setOnClickListener {
-            closeQrPopup()
+            homeBinding.qrOverlay.visibility = View.GONE
+            homeBinding.qrPopup.visibility = View.GONE
         }
 
-        // Submit manually entered code
+        // Prevent click-through inside the popup
+        homeBinding.qrPopup.setOnClickListener {
+            // Consume click to prevent closing
+        }
+
+        // Submit code manually
         homeBinding.btnSubmitCode.setOnClickListener {
-            val enteredCode = homeBinding.codeInput.text.toString().trim()
-            if (enteredCode == "123") {
+            val code = homeBinding.codeInput.text.toString().trim()
+            if (code == "123") {
                 startActivity(Intent(this, IntroductionInfoActivity::class.java))
-                closeQrPopup()
             } else {
                 Toast.makeText(this, "Incorrect code", Toast.LENGTH_SHORT).show()
             }
         }
 
-        // Launch QR scanner
+        // Launch QR Scanner
         homeBinding.btnLaunchQrScanner.setOnClickListener {
-            IntentIntegrator(this).apply {
-                setOrientationLocked(false)
-                setPrompt("Scan a QR Code")
-                setBeepEnabled(true)
-                initiateScan()
-            }
+            val integrator = IntentIntegrator(this)
+            integrator.setOrientationLocked(false)
+            integrator.setPrompt("Scan QR Code")
+            integrator.setBeepEnabled(true)
+            integrator.initiateScan()
         }
     }
 
@@ -125,18 +135,12 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    private fun closeQrPopup() {
-        homeBinding.qrOverlay.visibility = View.GONE
-        homeBinding.qrPopup.visibility = View.GONE
-    }
-
+    // QR Scan result
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
         if (result != null && result.contents != null) {
-            val scannedCode = result.contents.trim()
-            if (scannedCode == "123") {
+            if (result.contents.trim() == "MUSEUM123") {
                 startActivity(Intent(this, IntroductionInfoActivity::class.java))
-                closeQrPopup()
             } else {
                 Toast.makeText(this, "Invalid QR code", Toast.LENGTH_SHORT).show()
             }
