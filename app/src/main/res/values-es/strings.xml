@@ -8,29 +8,29 @@
 
 
     <!--Map Page Strings-->
-    <string name="tvWelcome">Welcome &amp; Shop</string>
-    <string name="tvStairs">Stairs</string>
-    <string name="tvOutdoor">Exit to Outdoor Exhibits</string>
-    <string name="tvToilets">WC - Toilets</string>
-    <string name="tvLift">Lift - Elevator Access</string>
-    <string name="tvAccessibleToilets">♿ - Accessible Toilet</string>
-    <string name="tvMapLegends">Map Legends</string>
+    <string name="tvWelcome">Bienvenido &amp; Compra</string>
+    <string name="tvStairs">Escaleras</string>
+    <string name="tvOutdoor">Salida a Exposiciones al Aire Libre</string>
+    <string name="tvToilets">WC - Baños</string>
+    <string name="tvLift">Elevar - Acceso al Ascensor</string>
+    <string name="tvAccessibleToilets">♿ - Baño Accesible</string>
+    <string name="tvMapLegends">Leyendas del Mapa</string>
 
     <!--Contact Us Page Strings-->
-    <string name="nameEditText">Name</string>
-    <string name="emailEditText">Email</string>
-    <string name="phoneEditText">Phone Number</string>
-    <string name="messageEditText">Message</string>
-    <string name="submitButton">Submit</string>
+    <string name="nameEditText">Nombre</string>
+    <string name="emailEditText">Correo electrónico</string>
+    <string name="phoneEditText">Número de Teléfono</string>
+    <string name="messageEditText">Mensaje</string>
+    <string name="submitButton">Entregar</string>
 
 
     <!--Settings Page Strings-->
-    <string name="toggleAccessibility">📶 Accessibility Mode</string>
-    <string name="toggleFont">🔤 Font Size</string>
-    <string name="toggleLanguage">🌐 App Language</string>
-    <string name="btnResetSettings">Reset to Default</string>
-    <string name="tvToggleAudio">🎧 Audio Guide</string>
-    <string name="tvToggleNotifications">🔔 Notifications</string>
+    <string name="toggleAccessibility">📶 Modo de Accesibilidad</string>
+    <string name="toggleFont">🔤 Tamaño de Fuente</string>
+    <string name="toggleLanguage">🌐 Idioma de la aplicación</string>
+    <string name="btnResetSettings">Restablecer los Valores Predeterminados</string>
+    <string name="tvToggleAudio">🎧 Audioguía</string>
+    <string name="tvToggleNotifications">🔔 Notificaciones</string>
 
     <!--Navigation Bar Strings-->
 
