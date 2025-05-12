@@ -43,6 +43,8 @@ class SettingsActivity : AppCompatActivity() {
         setupExpandableSections()
         setupLanguageDropdown()
         setupListeners()
+        //String text method call:
+        setSettingsText()
 
         sharedPreferences = getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
 
@@ -162,4 +164,14 @@ class SettingsActivity : AppCompatActivity() {
         finish()
 
     }
+
+    private fun setSettingsText(){
+        settingsBinding.toggleAccessibility.text = getString(R.string.toggleAccessibility)
+        settingsBinding.toggleFont.text = getString(R.string.toggleFont)
+        settingsBinding.toggleLanguage.text = getString(R.string.toggleLanguage)
+        settingsBinding.btnResetSettings.text = getString(R.string.btnResetSettings)
+        settingsBinding.tvToggleAudio.text = getString(R.string.tvToggleAudio)
+        settingsBinding.tvToggleNotifications.text = getString(R.string.tvToggleNotifications)
+    }
+
 }
