@@ -28,13 +28,14 @@
 
         <!-- Map Legends Title -->
         <TextView
+            android:id="@+id/tvMapLegends"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
             android:text="Map Legends"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="24dp"
-            android:layout_marginBottom="8dp" />
+            android:textStyle="bold" />
 
         <!-- Legend List -->
         <LinearLayout
@@ -42,41 +43,53 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="1 - Welcome &amp; Shop"
-                android:textSize="14sp"
-                android:layout_marginBottom="4dp" />
+                android:textSize="14sp" />
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvStairs"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="2 - Stairs"
-                android:textSize="14sp"
-                android:layout_marginBottom="4dp" />
+                android:textSize="14sp" />
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvOutdoor"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="3 - Exit to Outdoor Exhibits"
-                android:textSize="14sp"
-                android:layout_marginBottom="4dp" />
+                android:textSize="14sp" />
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvToilets"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="WC - Toilets"
-                android:textSize="14sp"
-                android:layout_marginBottom="4dp" />
+                android:textSize="14sp" />
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvLift"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Lift - Elevator Access"
-                android:textSize="14sp"
-                android:layout_marginBottom="4dp" />
+                android:textSize="14sp" />
 
-            <TextView android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvAccessibleToilets"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="♿ - Accessible Toilet"
-                android:textSize="14sp"
-                android:layout_marginBottom="4dp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
     </LinearLayout>

@@ -1,42 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Home Page Strings-->
-    <string name="startTourText">Start Tour</string>
-    <string name="tvMap">Map</string>
+    <string name="startTourText">Tour Starten</string>
+    <string name="tvMap">Karte</string>
     <string name="tvTickets">Tickets</string>
-    <string name="tvGiftShop">Gift Shop</string>
-    <string name="tvContactUs">Contact Us</string>
+    <string name="tvGiftShop">Geschenkeladen</string>
+    <string name="tvContactUs">Kontaktieren Sie Uns</string>
+
 
     <!--Map Page Strings-->
-    <string name="tvWelcome">Welcome &amp; Shop</string>
-    <string name="tvStairs">Stairs</string>
-    <string name="tvOutdoor">Exit to Outdoor Exhibits</string>
-    <string name="tvToilets">WC - Toilets</string>
-    <string name="tvLift">Lift - Elevator Access</string>
-    <string name="tvAccessibleToilets">♿ - Accessible Toilet</string>
-    <string name="tvMapLegends">Map Legends</string>
+    <string name="tvWelcome">Willkommen &amp; Shoppen</string>
+    <string name="tvStairs">Treppe</string>
+    <string name="tvOutdoor">Ausgang zu den Außenausstellungen</string>
+    <string name="tvToilets">WC - Toiletten</string>
+    <string name="tvLift">Aufzug - Zugang zum Aufzug</string>
+    <string name="tvAccessibleToilets">♿ - Barrierefreie Toilette</string>
+    <string name="tvMapLegends">Kartenlegenden</string>
 
     <!--Contact Us Page Strings-->
     <string name="nameEditText">Name</string>
-    <string name="emailEditText">Email</string>
-    <string name="phoneEditText">Phone Number</string>
-    <string name="messageEditText">Message</string>
-    <string name="submitButton">Submit</string>
+    <string name="emailEditText">E-mail</string>
+    <string name="phoneEditText">Telefonnummer</string>
+    <string name="messageEditText">Nachricht</string>
+    <string name="submitButton">Einreichen</string>
 
 
     <!--Settings Page Strings-->
-    <string name="toggleAccessibility">📶 Accessibility Mode</string>
-    <string name="toggleFont">🔤 Font Size</string>
-    <string name="toggleLanguage">🌐 App Language</string>
-    <string name="btnResetSettings">Reset to Default</string>
-    <string name="tvToggleAudio">🎧 Audio Guide</string>
-    <string name="tvToggleNotifications">🔔 Notifications</string>
+    <string name="toggleAccessibility">📶 Barrierefreiheitsmodus</string>
+    <string name="toggleFont">🔤 Schriftgröße</string>
+    <string name="toggleLanguage">🌐 App-Sprache</string>
+    <string name="btnResetSettings">Auf Standard Zurücksetzen</string>
+    <string name="tvToggleAudio">🎧 Audioguide</string>
+    <string name="tvToggleNotifications">🔔 Benachrichtigungen</string>
 
     <!--Navigation Bar Strings-->
 
 
 
-    <string name="app_name">Chester Military Museum</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">German Test Text</string>
+    <string name="action_settings">Einstellungen</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

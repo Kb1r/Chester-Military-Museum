@@ -74,12 +74,13 @@
 
 
                 <TextView
+                    android:id="@+id/tvMap"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Map"
-                    android:textSize="14sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:text="Map"
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -103,12 +104,13 @@
                 android:padding="8dp">
 
                 <TextView
+                    android:id="@+id/tvTickets"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tickets"
-                    android:textSize="14sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:text="Tickets"
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -131,12 +133,13 @@
                 android:padding="8dp">
 
                 <TextView
+                    android:id="@+id/tvGiftShop"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Gift Shop"
-                    android:textSize="14sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:text="Gift Shop"
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -159,12 +162,13 @@
                 android:padding="0dp">
 
                 <TextView
+                    android:id="@+id/tvContactUs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Contact Us"
-                    android:textSize="14sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:text="Contact Us"
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="80dp"
