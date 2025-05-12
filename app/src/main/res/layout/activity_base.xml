@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:background="@android:color/holo_purple"
+            android:background="@color/militaryGreen"
             tools:ignore="MissingConstraints">
 
             <LinearLayout
@@ -63,7 +63,7 @@
             android:id="@+id/bottom_navigation"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_purple"
+            android:background="@color/militaryGreen"
             app:menu="@menu/bottom_nav_menu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
