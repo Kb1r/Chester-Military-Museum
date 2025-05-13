@@ -3,6 +3,7 @@ package com.example.chestermilitarymuseum
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.text.Editable
 import android.util.Patterns
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +31,7 @@ class ContactFormActivity : AppCompatActivity() {
         // Inflate contact form
         formBinding = ContactFormBinding.inflate(layoutInflater)
         binding.container.addView(formBinding.root)
+        setContactFormText()
 
         // Handle submit
         formBinding.submitButton.setOnClickListener {
@@ -102,5 +104,16 @@ class ContactFormActivity : AppCompatActivity() {
             val instagram = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/cheshiremilitary_museum/"))
             startActivity(instagram)
         }
+    }
+
+    private fun setContactFormText(){
+        //Code adapted from A--C (January 2013).
+        formBinding.nameEditText.setHint(R.string.nameEditText)
+        formBinding.emailEditText.setHint(R.string.emailEditText)
+        formBinding.phoneEditText.setHint(R.string.phoneEditText)
+        formBinding.messageEditText.setHint(R.string.messageEditText)
+        formBinding.submitButton.text = getText(R.string.submitButton)
+
+        //End of adapted code.
     }
 }

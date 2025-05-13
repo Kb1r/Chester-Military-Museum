@@ -1,6 +1,8 @@
 package com.example.chestermilitarymuseum
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.provider.Settings
 import android.view.LayoutInflater
@@ -9,11 +11,21 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
+import java.util.Locale
 
 class SettingsActivity : AppCompatActivity() {
 
     private lateinit var baseBinding: ActivityBaseBinding
     private lateinit var settingsBinding: SettingsLayoutBinding
+    private lateinit var sharedPreferences: SharedPreferences
+
+    //Creating the map that represents the language selected using ISO 639-1 code.
+    private val languages = mapOf(
+        "English" to "en",
+        "French" to "fr",
+        "Spanish" to "es",
+        "German" to "de"
+    )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +43,33 @@ class SettingsActivity : AppCompatActivity() {
         setupExpandableSections()
         setupLanguageDropdown()
         setupListeners()
+        //String text method call:
+        setSettingsText()
+
+        sharedPreferences = getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
+
+        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en")
+        settingsBinding.spinnerLanguage.setSelection(languages.values.indexOf(currentLanguage))
+
+        //Test approach
+        settingsBinding.spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                val selectedLanguage = languages.values.toList()[position]
+                if (selectedLanguage != currentLanguage) {
+                    setLocale(selectedLanguage)
+                }
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+            }
+            //End of test approach
+        }
+
 
         // Handle navigation
         baseBinding.bottomNavigation.selectedItemId = R.id.navigation_settings
@@ -70,9 +109,10 @@ class SettingsActivity : AppCompatActivity() {
         view.visibility = if (view.visibility == View.GONE) View.VISIBLE else View.GONE
     }
 
+    //Now uses the keys from the map.
     private fun setupLanguageDropdown() {
-        val languages = arrayOf("English", "French", "German", "Spanish")
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, languages)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, languages.keys.toList())
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         settingsBinding.spinnerLanguage.adapter = adapter
     }
 
@@ -105,4 +145,33 @@ class SettingsActivity : AppCompatActivity() {
             Toast.makeText(this, "Settings reset", Toast.LENGTH_SHORT).show()
         }
     }
+
+    //Setting the locale
+    fun setLocale(languageCode: String) {
+        val languageEditor = sharedPreferences.edit()
+        languageEditor.putString("LANGUAGE", languageCode)
+        languageEditor.apply()
+
+        val locale = Locale(languageCode)
+        Locale.setDefault(locale)
+        val config = resources.configuration
+        config.setLocale(locale)
+        resources.updateConfiguration(config, resources.displayMetrics)
+
+        val intent = Intent(this, SettingsActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
+        startActivity(intent)
+        finish()
+
+    }
+
+    private fun setSettingsText(){
+        settingsBinding.toggleAccessibility.text = getString(R.string.toggleAccessibility)
+        settingsBinding.toggleFont.text = getString(R.string.toggleFont)
+        settingsBinding.toggleLanguage.text = getString(R.string.toggleLanguage)
+        settingsBinding.btnResetSettings.text = getString(R.string.btnResetSettings)
+        settingsBinding.tvToggleAudio.text = getString(R.string.tvToggleAudio)
+        settingsBinding.tvToggleNotifications.text = getString(R.string.tvToggleNotifications)
+    }
+
 }

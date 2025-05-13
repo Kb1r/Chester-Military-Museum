@@ -1,4 +1,40 @@
 <resources>
+    <!--Home Page Strings-->
+    <string name="startTourText">Start Tour</string>
+    <string name="tvMap">Map</string>
+    <string name="tvTickets">Tickets</string>
+    <string name="tvGiftShop">Gift Shop</string>
+    <string name="tvContactUs">Contact Us</string>
+
+    <!--Map Page Strings-->
+    <string name="tvWelcome">Welcome &amp; Shop</string>
+    <string name="tvStairs">Stairs</string>
+    <string name="tvOutdoor">Exit to Outdoor Exhibits</string>
+    <string name="tvToilets">WC - Toilets</string>
+    <string name="tvLift">Lift - Elevator Access</string>
+    <string name="tvAccessibleToilets">♿ - Accessible Toilet</string>
+    <string name="tvMapLegends">Map Legends</string>
+
+    <!--Contact Us Page Strings-->
+    <string name="nameEditText">Name</string>
+    <string name="emailEditText">Email</string>
+    <string name="phoneEditText">Phone Number</string>
+    <string name="messageEditText">Message</string>
+    <string name="submitButton">Submit</string>
+
+
+    <!--Settings Page Strings-->
+    <string name="toggleAccessibility">📶 Accessibility Mode</string>
+    <string name="toggleFont">🔤 Font Size</string>
+    <string name="toggleLanguage">🌐 App Language</string>
+    <string name="btnResetSettings">Reset to Default</string>
+    <string name="tvToggleAudio">🎧 Audio Guide</string>
+    <string name="tvToggleNotifications">🔔 Notifications</string>
+
+    <!--Navigation Bar Strings-->
+
+
+
     <string name="app_name">Chester Military Museum</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->

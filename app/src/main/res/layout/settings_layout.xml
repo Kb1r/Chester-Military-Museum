@@ -111,6 +111,7 @@
 
         <!-- Audio Guide -->
         <TextView
+            android:id="@+id/tvToggleAudio"
             style="@style/SettingTitleStyle"
             android:text="🎧 Audio Guide" />
 
@@ -122,6 +123,7 @@
 
         <!-- Notifications -->
         <TextView
+            android:id="@+id/tvToggleNotifications"
             style="@style/SettingTitleStyle"
             android:text="🔔 Notifications" />
 

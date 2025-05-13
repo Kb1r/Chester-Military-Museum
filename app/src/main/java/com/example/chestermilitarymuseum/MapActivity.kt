@@ -24,6 +24,8 @@ class MapActivity : AppCompatActivity() {
         mapBinding = MapLayoutBinding.inflate(layoutInflater)
         binding.container.addView(mapBinding.root)
 
+        setMapText()
+
         binding.logoImage.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
@@ -49,4 +51,15 @@ class MapActivity : AppCompatActivity() {
             }
         }
     }
+
+    private fun setMapText(){
+        mapBinding.tvWelcome.text = getString(R.string.tvWelcome)
+        mapBinding.tvStairs.text = getString(R.string.tvStairs)
+        mapBinding.tvOutdoor.text = getString(R.string.tvOutdoor)
+        mapBinding.tvToilets.text = getString(R.string.tvToilets)
+        mapBinding.tvLift.text = getString(R.string.tvLift)
+        mapBinding.tvAccessibleToilets.text = getString(R.string.tvAccessibleToilets)
+        mapBinding.tvMapLegends.text = getString(R.string.tvMapLegends)
+    }
+
 }

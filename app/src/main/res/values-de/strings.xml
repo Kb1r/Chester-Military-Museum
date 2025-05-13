@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="startTourText">Tour Starten</string>
+    <string name="tvMap">Karte</string>
+    <string name="tvTickets">Tickets</string>
+    <string name="tvGiftShop">Geschenkeladen</string>
+    <string name="tvContactUs">Kontaktieren Sie Uns</string>
+
+
+    <!--Map Page Strings-->
+    <string name="tvWelcome">Willkommen &amp; Shoppen</string>
+    <string name="tvStairs">Treppe</string>
+    <string name="tvOutdoor">Ausgang zu den Außenausstellungen</string>
+    <string name="tvToilets">WC - Toiletten</string>
+    <string name="tvLift">Aufzug - Zugang zum Aufzug</string>
+    <string name="tvAccessibleToilets">♿ - Barrierefreie Toilette</string>
+    <string name="tvMapLegends">Kartenlegenden</string>
+
+    <!--Contact Us Page Strings-->
+    <string name="nameEditText">Name</string>
+    <string name="emailEditText">E-mail</string>
+    <string name="phoneEditText">Telefonnummer</string>
+    <string name="messageEditText">Nachricht</string>
+    <string name="submitButton">Einreichen</string>
+
+
+    <!--Settings Page Strings-->
+    <string name="toggleAccessibility">📶 Barrierefreiheitsmodus</string>
+    <string name="toggleFont">🔤 Schriftgröße</string>
+    <string name="toggleLanguage">🌐 App-Sprache</string>
+    <string name="btnResetSettings">Auf Standard Zurücksetzen</string>
+    <string name="tvToggleAudio">🎧 Audioguide</string>
+    <string name="tvToggleNotifications">🔔 Benachrichtigungen</string>
+
+    <!--Navigation Bar Strings-->
+
+
+
+    <string name="app_name">German Test Text</string>
+    <string name="action_settings">Einstellungen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="facebook">Facebook</string>
+    <string name="trip_advisor">Trip Advisor</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="clickable_facebook_logo">Clickable Facebook Logo</string>
+    <string name="clickable_twitter_logo">Clickable Twitter logo</string>
+    <string name="clickable_instagram_logo">Clickable Instagram logo</string>
+    <string name="clickable_map_button">Clickable Map Button</string>
+    <string name="introduction">Introduction</string>
+    <string name="introduction_section_name1">Eaton Hall: </string>
+    <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.
+    At the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
+    In 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
+</resources>
