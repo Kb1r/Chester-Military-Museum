@@ -1,4 +1,40 @@
 <resources>
+    <!--Home Page Strings-->
+    <string name="startTourText">Start Tour</string>
+    <string name="tvMap">Map</string>
+    <string name="tvTickets">Tickets</string>
+    <string name="tvGiftShop">Gift Shop</string>
+    <string name="tvContactUs">Contact Us</string>
+
+    <!--Map Page Strings-->
+    <string name="tvWelcome">Welcome &amp; Shop</string>
+    <string name="tvStairs">Stairs</string>
+    <string name="tvOutdoor">Exit to Outdoor Exhibits</string>
+    <string name="tvToilets">WC - Toilets</string>
+    <string name="tvLift">Lift - Elevator Access</string>
+    <string name="tvAccessibleToilets">♿ - Accessible Toilet</string>
+    <string name="tvMapLegends">Map Legends</string>
+
+    <!--Contact Us Page Strings-->
+    <string name="nameEditText">Name</string>
+    <string name="emailEditText">Email</string>
+    <string name="phoneEditText">Phone Number</string>
+    <string name="messageEditText">Message</string>
+    <string name="submitButton">Submit</string>
+
+
+    <!--Settings Page Strings-->
+    <string name="toggleAccessibility">📶 Accessibility Mode</string>
+    <string name="toggleFont">🔤 Font Size</string>
+    <string name="toggleLanguage">🌐 App Language</string>
+    <string name="btnResetSettings">Reset to Default</string>
+    <string name="tvToggleAudio">🎧 Audio Guide</string>
+    <string name="tvToggleNotifications">🔔 Notifications</string>
+
+    <!--Navigation Bar Strings-->
+
+
+
     <string name="app_name">Chester Military Museum</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
@@ -52,8 +88,47 @@
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
     <string name="clickable_map_button">Clickable Map Button</string>
     <string name="introduction">Introduction</string>
-    <string name="introduction_section_name1">Eaton Hall: </string>
+    <string name="introduction_section_name1">Eaton Hall:</string>
     <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.
+
     At the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
     In 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
+    <string name="introduction_section_name2">The Cheshire Regiment:</string>
+    <string name="introduction_main_text2">The Cheshire Regiment was raised on the Roodee in 1689. In 1743, it won the distinction of wearing the oak leaf from George II at Dettingen – still part of its badge today.
+
+    In the 18th Century, its most famous achievement was the taking of Louisburg in Nova Scotia, after which the Grenadier Company went on with General Wolfe to Quebec. After the Seven Years War, the Regiment spent time in the West Indies and then took part in the American War of Independence In the 1840s, the 22nd was part of Sir Charles Napier’s force, when he conquered the Scinde. The battle of Meeanee on the 17th February 1843 is celebrated as the Regimental Day.
+
+    In the First World War, 38 Battalions were raised by the Cheshires. The 1st Battalion\'s heroic stand near Mons in 1914 saved the British Expeditionary Force from disaster. They went on to be involved in every major action in France and won 35 battle honours. The Territorial and New Army Battalions fought in 6 arenas of war, The 12th Battalion won the French Croix de Guerre, and in total over 8,000 officers and men gave their lives.
+
+    Throughout the Second World War, the Cheshire’s were armed with the Vickers machine gun and acted as a Support Regiment. The 2nd Battalion were at Dunkirk, and in North Africa and Italy, before returning to be part of the initial landings and Normandy. The 1st fought in North Africa and were in Malta during the siege. The 6th and 7th Battalions after Dunkirk fought in North Africa and Italy with distinction.
+
+    Since the war, the 1st Battalion has served in numerous operational areas including Malaya, Cyprus and Northern Ireland and recently in Bosnia under the United Nations. </string>
+    <string name="introduction_section_name3">The Cheshire Yeomanry</string>
+    <string name="introduction_main_text3">The Cheshire Yeomanry was raised by Sir John Fleming Leicester of Tabley in 1797 when Britain was under threat from Napoleon. Initially there were 6 troops of cavalry made up from local gentry farmers who brought their own horses.
+
+    In 1803 the Regiment was granted the title of The Earl of Chester’s Regiment of Yeomanry and with it the right to wear the Price of Wales’s feathers. The first call out was in August 1819 when there were riots in St Peter’s Field, Manchester (Peterloo). They were congratulated for their “soldier like conduct” which was “gentle and right”.
+
+    During the 19th Century, they were often called out “in aid of the civil power” and first went on active service abroad in 1900 in the Boer War. In 1914 the Regiment was mobilised and fought the Turks in Palestine in 1916 as infantry. Later they were posted to France in 1918 and fought in the final stages of the First World War in their infantry role.
+
+    Between the wars, it re-formed as mounted cavalry and took its horses on an epic journey by train and boat to Palestine, taking part in Syria in the last cavalry action of the British Army. In 1942 it became a Royal Signals Regiment and then in 1947 an armoured regiment. In 1968 it underwent considerable change during reorganisation of the Territorial Army. It became part of The Queen’s own Yeomanry in 1971 and today it is based in Chester as C Squadron of the Royal Mercian and Lancastrian Yeomanry (RMLY). </string>
+    <string name="introduction_section_name4">The 3rd Dragoon Guards: </string>
+    <string name="introduction_main_text4">Raised by the Earl of Plymouth in response to Monmouth’s Rebellion in 1685, the 4th Horse were involved in Marlborough’s campaign during the War of the Spanish Succession and later took part in the battles of Blenheim, Oudenaarde and Malplaquet. In 1745 they were part of the force sent to Scotland to quell the rebellion led by the ‘Young Pretender’. In 1747, they were renamed the 3rd Dragoon Guards and in 1765 received the Prince of Wales title and the right to wear his badge.
+
+    They were involved in the French Revolutionary Wars and the Napoleonic Wars before serving at home, after which they were sent in 1858 to reinforce the Army in India. In 1883, they sent men to the Heavy Camel Corps in the Sudan. During the closing stages of the Boer War, they were used to round up Boe Commandos and by 1911 were back in Egypt – where they suffered in a terrible Cholera outbreak.
+
+    They fought in the trenches in the First World War – suffering the highest casualties of any cavalry regiment and were remounted in 1918 in the breakthrough of the Hindenburg line.
+
+    In 1922 they were amalgamated with the 6th Dragoon Guards (Carabiniers) to become the 3rd Carabaniers. Under this title they fought in the Second World War in Burma and took part in a renowned battle in their tanks at Numshigum.
+
+    In 1971, they were again amalgamated with the Royal Scots Greys to become the Royal Scots Dragoon Guards. </string>#
+    <string name="introduction_section_name5">The 5th Dragoon Guards:</string>
+    <string name="introduction_main_text5">Raised as Shrewsbury’s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough’s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet . For most of the 18th century they were in the United Kingdom police and excise duties. In 1746 they were given the right to wear green facings – the forerunner of today’s green trousers worn in No. 2 Dress (parade dress).
+
+    In 1791, they were renamed the 5th Dragoon Guards. In the Napoleonic Wars, they fought at Beaumont and later spent 8 years in Liverpool, where they received the title of Princess Charlotte of Wale’s Own. They reinforced Wellington in the Peninsular Wars and in 1811 were involved at Salamanca.
+
+    In 1854, in the Crimea, the Regiment was part of the successful charge at Balaklava, which saved the army supply depot. They spent the rest of the 19th century at home. As a result of service in the Boer War with the Regiment, Colonel Baden Powell formed the Scout Movement.
+
+    They fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany. In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the ‘Skins’ as they were known fought from Normandy to the Elbe in tanks.
+
+    After the War, they saw action in Korea and spent much of their post war service in British Amry of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards. </string>
 </resources>
