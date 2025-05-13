@@ -135,15 +135,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-//    private fun setHomeText(){
-//        //Using string resources from xml files instead:
-//        homeBinding.tvMap.text = getString(R.string.tvMap)
-//        homeBinding.tvTickets.text = getString(R.string.tvTickets)
-//        homeBinding.tvGiftShop.text = getString(R.string.tvGiftShop)
-//        homeBinding.tvContactUs.text = getString(R.string.tvContactUs)
-//        homeBinding.startTourText.text = getString(R.string.startTourText)
-//        //binding.headerTitle
-//    }
 
     private fun showView(view: View) {
         binding.container.removeAllViews()

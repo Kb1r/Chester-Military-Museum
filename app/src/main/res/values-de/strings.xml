@@ -34,6 +34,7 @@
     <string name="switchAudioGuide">Aktivieren Sie die Audioübersetzung</string>
     <string name="switchNotifications">Benachrichtigungen Aktivieren</string>
 
+
     <!--Navigation Bar Strings-->
     <string name="headerTitle">Militärmuseum Chester</string>
     <string name="navigation_home">Heim</string>

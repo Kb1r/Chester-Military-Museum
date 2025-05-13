@@ -33,6 +33,7 @@
     <string name="switchAudioGuide">Enable Audio Narration</string>
     <string name="switchNotifications">Enable Notifications</string>
 
+
     <!--Navigation Bar Strings-->
     <string name="headerTitle">Chester Military Museum</string>
     <string name="navigation_home">Home</string>
@@ -137,4 +138,7 @@
     They fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany. In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the ‘Skins’ as they were known fought from Normandy to the Elbe in tanks.
 
     After the War, they saw action in Korea and spent much of their post war service in British Amry of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards. </string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="news">News</string>
 </resources>
