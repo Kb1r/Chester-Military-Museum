@@ -30,6 +30,8 @@
     <string name="btnResetSettings">Reset to Default</string>
     <string name="tvToggleAudio">🎧 Audio Guide</string>
     <string name="tvToggleNotifications">🔔 Notifications</string>
+    <string name="switchAudioGuide">Enable Audio Narration</string>
+    <string name="switchNotifications">Enable Notifications</string>
 
     <!--Navigation Bar Strings-->
 

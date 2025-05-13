@@ -31,6 +31,8 @@
     <string name="btnResetSettings">Auf Standard Zurücksetzen</string>
     <string name="tvToggleAudio">🎧 Audioguide</string>
     <string name="tvToggleNotifications">🔔 Benachrichtigungen</string>
+    <string name="switchAudioGuide">Aktivieren Sie die Audioübersetzung</string>
+    <string name="switchNotifications">Benachrichtigungen Aktivieren</string>
 
     <!--Navigation Bar Strings-->
 

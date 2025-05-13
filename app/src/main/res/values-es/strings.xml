@@ -31,6 +31,8 @@
     <string name="btnResetSettings">Restablecer los Valores Predeterminados</string>
     <string name="tvToggleAudio">🎧 Audioguía</string>
     <string name="tvToggleNotifications">🔔 Notificaciones</string>
+    <string name="switchAudioGuide">Habilitar Narración de Audio</string>
+    <string name="switchNotifications">Habilitar Notificaciones</string>
 
     <!--Navigation Bar Strings-->
 

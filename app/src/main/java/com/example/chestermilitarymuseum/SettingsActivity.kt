@@ -172,6 +172,8 @@ class SettingsActivity : AppCompatActivity() {
         settingsBinding.btnResetSettings.text = getString(R.string.btnResetSettings)
         settingsBinding.tvToggleAudio.text = getString(R.string.tvToggleAudio)
         settingsBinding.tvToggleNotifications.text = getString(R.string.tvToggleNotifications)
+        settingsBinding.switchAudioGuide.text = getString(R.string.switchAudioGuide)
+        settingsBinding.switchNotifications.text = getString(R.string.switchNotifications)
     }
 
 }
