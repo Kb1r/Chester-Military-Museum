@@ -14,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.ActivityNewsBinding
 import com.example.chestermilitarymuseum.network.RetrofitClient
 import kotlinx.coroutines.launch
 
-class NewsActivity : AppCompatActivity() {
+class NewsActivity : BaseActivity() {
 
     private lateinit var baseBinding: ActivityBaseBinding
     private lateinit var newsBinding: ActivityNewsBinding

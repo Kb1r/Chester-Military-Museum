@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.ContactFormBinding
 
-class ContactFormActivity : AppCompatActivity() {
+class ContactFormActivity : BaseActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var formBinding: ContactFormBinding

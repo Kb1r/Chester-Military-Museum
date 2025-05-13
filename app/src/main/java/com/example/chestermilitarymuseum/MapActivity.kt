@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.MapLayoutBinding
 
-class MapActivity : AppCompatActivity() {
+class MapActivity : BaseActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var mapBinding: MapLayoutBinding

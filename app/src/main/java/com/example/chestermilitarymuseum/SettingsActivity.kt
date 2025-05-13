@@ -3,6 +3,7 @@ package com.example.chestermilitarymuseum
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.content.res.Configuration
 import android.os.Bundle
 import android.provider.Settings
 import android.view.LayoutInflater
@@ -13,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
 import java.util.Locale
 
-class SettingsActivity : AppCompatActivity() {
+class SettingsActivity : BaseActivity() {
 
     private lateinit var baseBinding: ActivityBaseBinding
     private lateinit var settingsBinding: SettingsLayoutBinding
@@ -46,12 +47,14 @@ class SettingsActivity : AppCompatActivity() {
         //String text method call:
         setSettingsText()
 
-        sharedPreferences = getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
 
-        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en")
-        settingsBinding.spinnerLanguage.setSelection(languages.values.indexOf(currentLanguage))
+        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
+        val index = languages.values.indexOf(currentLanguage).takeIf { it >= 0 } ?: 0
+        settingsBinding.spinnerLanguage.setSelection(index)
 
         //Test approach
+        var isSpinnerInitialised = false
         settingsBinding.spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 parent: AdapterView<*>?,
@@ -59,6 +62,10 @@ class SettingsActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ) {
+                if (!isSpinnerInitialised) {
+                    isSpinnerInitialised = true
+                    return
+                }
                 val selectedLanguage = languages.values.toList()[position]
                 if (selectedLanguage != currentLanguage) {
                     setLocale(selectedLanguage)
@@ -154,7 +161,7 @@ class SettingsActivity : AppCompatActivity() {
 
         val locale = Locale(languageCode)
         Locale.setDefault(locale)
-        val config = resources.configuration
+        val config = Configuration()
         config.setLocale(locale)
         resources.updateConfiguration(config, resources.displayMetrics)
 

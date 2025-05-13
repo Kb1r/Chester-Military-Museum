@@ -10,7 +10,7 @@ import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
 import com.google.zxing.integration.android.IntentIntegrator
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var homeBinding: HomeLayoutBinding
