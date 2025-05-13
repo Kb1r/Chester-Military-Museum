@@ -21,10 +21,10 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
         binding = IntroductionInformationLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Set up TTS engine
+        // Initialize TTS
         tts = TextToSpeech(this, this)
 
-        //text
+        // Text
         binding.title1.text = getString(R.string.introduction)
         // Section 1
         binding.mainTextBody1.text  = getString(R.string.introduction_main_text1)
@@ -56,13 +56,17 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
         //Collapse content
         //Create lists of all buttons and main texts
         val collapseButtons = listOf(
-            binding.collapseButton1, binding.collapseButton2,
-            binding.collapseButton3, binding.collapseButton4,
+            binding.collapseButton1,
+            binding.collapseButton2,
+            binding.collapseButton3,
+            binding.collapseButton4,
             binding.collapseButton5
         )
         val mainTextBodies = listOf(
-            binding.mainTextBody1, binding.mainTextBody2,
-            binding.mainTextBody3, binding.mainTextBody4,
+            binding.mainTextBody1,
+            binding.mainTextBody2,
+            binding.mainTextBody3,
+            binding.mainTextBody4,
             binding.mainTextBody5
         )
 
@@ -89,13 +93,18 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
             }
         }
 
-        // TTS playback
-        binding.textToSpeechPlayButton1.setOnClickListener {
-            speakText(binding.mainTextBody1.text.toString())
-        }
-
-        binding.textToSpeechPlayButton2.setOnClickListener {
-            speakText(binding.mainTextBody2.text.toString())
+        // Text-to-speech listeners for each section
+        val ttsButtons = listOf(
+            binding.textToSpeechPlayButton1,
+            binding.textToSpeechPlayButton2,
+            binding.textToSpeechPlayButton3,
+            binding.textToSpeechPlayButton4,
+            binding.textToSpeechPlayButton5
+        )
+        ttsButtons.forEachIndexed { idx, btn ->
+            btn.setOnClickListener {
+                speakText(mainTextBodies[idx].text.toString())
+            }
         }
     }
 

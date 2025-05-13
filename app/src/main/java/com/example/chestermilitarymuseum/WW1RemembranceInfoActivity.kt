@@ -5,6 +5,10 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.transition.AutoTransition
+import androidx.transition.TransitionManager
+import com.example.chestermilitarymuseum.databinding.EighteenthCenturyInformationLayoutBinding
+import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformationLayoutBinding
 import com.example.chestermilitarymuseum.databinding.Ww1RemembranceLayoutBinding
 import java.util.*
 
@@ -18,31 +22,87 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
         binding = Ww1RemembranceLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Set up TTS engine
+        // Initialize TTS
         tts = TextToSpeech(this, this)
 
-        // Sample text
-        val introText = "PLACEHOLDER"
-        binding.title1.text = "WW1 Remembrance"
-        binding.mainTextBody1.text = introText
+        // Text
+        binding.title1.text = getString(R.string.remembrance_ww1)
 
-        // Arrows
-        binding.leftArrow.setOnClickListener {
-            startActivity(Intent(this, TurnOfTheCenturyInfoActivity::class.java))
-        }
+        binding.sectionName1.text = getString(R.string.eighteenth_section_name1)
+        binding.mainTextBody1.text = getString(R.string.eighteenth_main_text1)
+
+        binding.sectionName2.text = getString(R.string.eighteenth_section_name2)
+        binding.mainTextBody2.text = getString(R.string.eighteenth_main_text2)
+
+        binding.sectionName3.text = getString(R.string.eighteenth_section_name3)
+        binding.mainTextBody3.text = getString(R.string.eighteenth_main_text3)
+
+        binding.sectionName4.text = getString(R.string.eighteenth_section_name4)
+        binding.mainTextBody4.text = getString(R.string.eighteenth_main_text4)
+
+        binding.sectionName5.text = getString(R.string.eighteenth_section_name5)
+        binding.mainTextBody5.text = getString(R.string.eighteenth_main_text5)
+
+        binding.sectionName6.text = getString(R.string.eighteenth_section_name6)
+        binding.mainTextBody6.text = getString(R.string.eighteenth_main_text6)
+
+        // Navigation arrows
         binding.rightArrow.setOnClickListener {
             startActivity(Intent(this, WW2AndPostWarInfoActivity::class.java))
         }
-
-        // Collapse content
-        binding.collapseButton.setOnClickListener {
-            val visible = binding.mainTextBody1.visibility == View.VISIBLE
-            binding.mainTextBody1.visibility = if (visible) View.GONE else View.VISIBLE
+        binding.leftArrow.setOnClickListener {
+            startActivity(Intent(this, TurnOfTheCenturyInfoActivity::class.java))
         }
 
-        // TTS playback
-        binding.textToSpeechPlayButton.setOnClickListener {
-            speakText(binding.mainTextBody1.text.toString())
+        // Prepare collapse/expand animation
+        val collapseButtons = listOf(
+            binding.collapseButton1,
+            binding.collapseButton2,
+            binding.collapseButton3,
+            binding.collapseButton4,
+            binding.collapseButton5,
+            binding.collapseButton6
+        )
+        val mainTextBodies = listOf(
+            binding.mainTextBody1,
+            binding.mainTextBody2,
+            binding.mainTextBody3,
+            binding.mainTextBody4,
+            binding.mainTextBody5,
+            binding.mainTextBody6
+        )
+        val fastTransition = AutoTransition().apply { duration = 100L }
+        val container = binding.sectionsContainer
+
+        collapseButtons.forEachIndexed { index, button ->
+            button.setOnClickListener {
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+                val targetBody = mainTextBodies[index]
+                val wasVisible = targetBody.visibility == View.VISIBLE
+
+                // Hide all bodies
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Toggle clicked section
+                if (!wasVisible) {
+                    targetBody.visibility = View.VISIBLE
+                }
+            }
+        }
+
+        // Text-to-speech listeners for each section
+        val ttsButtons = listOf(
+            binding.textToSpeechPlayButton1,
+            binding.textToSpeechPlayButton2,
+            binding.textToSpeechPlayButton3,
+            binding.textToSpeechPlayButton4,
+            binding.textToSpeechPlayButton5,
+            binding.textToSpeechPlayButton6
+        )
+        ttsButtons.forEachIndexed { idx, btn ->
+            btn.setOnClickListener {
+                speakText(mainTextBodies[idx].text.toString())
+            }
         }
     }
 
