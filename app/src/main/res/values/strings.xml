@@ -88,6 +88,8 @@
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
     <string name="clickable_map_button">Clickable Map Button</string>
     <string name="introduction">Introduction</string>
+    <string name="are_you_sure1">Are you sure you want to go back to the home page?</string>
+    <string name="confirm">Confirm</string>
     <string name="seventeenth_century">The 17th Century</string>
     <string name="eighteenth_century">The 18th Century</string>
     <string name="nineteenth_century">The 19th Century</string>

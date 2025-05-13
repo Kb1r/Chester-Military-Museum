@@ -46,11 +46,34 @@ class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListene
         binding.mainTextBody5.text  = getString(R.string.introduction_main_text5)
         binding.sectionName5.text   = getString(R.string.introduction_section_name5)
 
+        binding.displayWarningText.text = getString(R.string.are_you_sure1)
+        binding.btnSubmitCode2.text = getString(R.string.confirm)
+        binding.displayWarningText.textSize = 24F
 
-
-        // Arrows
+        // Navigation arrows
         binding.rightArrow.setOnClickListener {
             startActivity(Intent(this, SeventeenthCenturyInfoActivity::class.java))
+        }
+        binding.leftArrow.setOnClickListener {
+            binding.warningUI.visibility = View.VISIBLE
+            binding.dimOverlay.visibility = View.VISIBLE
+        }
+
+        // Close warning box via x
+        binding.btnClosePopup2.setOnClickListener {
+            binding.warningUI.visibility = View.GONE
+            binding.dimOverlay.visibility = View.GONE
+        }
+
+        //close warning box via clicking off
+        binding.dimOverlay.setOnClickListener {
+            binding.warningUI.visibility = View.GONE
+            binding.dimOverlay.visibility = View.GONE
+        }
+
+        // Return to home page via submit button
+        binding.btnSubmitCode2.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
 
         //Collapse content

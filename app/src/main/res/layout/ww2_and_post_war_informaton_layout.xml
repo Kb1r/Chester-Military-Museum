@@ -7,6 +7,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <View
+        android:id="@+id/dimOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone"
+        android:elevation="16dp" />
+
+    <LinearLayout
+        android:id="@+id/warningUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/box_background"
+        android:elevation="17dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btnClosePopup2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:padding="4dp"
+            android:src="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/displayWarningText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnSubmitCode2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/topImage"
         android:layout_width="match_parent"
@@ -48,6 +97,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
         android:fillViewport="true"
+        android:scrollbars="none"
         app:layout_constraintTop_toBottomOf="@id/topImage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -374,5 +424,64 @@
 
         </LinearLayout>
     </ScrollView>
+    <!-- DIM BACKGROUND OVERLAY -->
+    <View
+        android:id="@+id/qrOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone" />
 
+    <!-- QR POPUP -->
+    <LinearLayout
+        android:id="@+id/qrPopup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/box_background"
+        android:elevation="12dp"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <!-- Close icon -->
+        <ImageView
+            android:id="@+id/btnClosePopup"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Close"
+            android:padding="4dp" />
+
+        <!-- Manual Code Input -->
+        <EditText
+            android:id="@+id/codeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Code"
+            android:inputType="text"
+            android:background="@drawable/edit_text_border"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Submit button -->
+        <Button
+            android:id="@+id/btnSubmitCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <!-- QR Code Scanner Button -->
+        <Button
+            android:id="@+id/btnLaunchQrScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan QR Code"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
