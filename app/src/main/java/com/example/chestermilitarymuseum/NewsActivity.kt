@@ -31,6 +31,7 @@ class NewsActivity : AppCompatActivity() {
         newsBinding = ActivityNewsBinding.inflate(inflater)
         baseBinding.container.removeAllViews()
         baseBinding.container.addView(newsBinding.root)
+        baseBinding.headerTitle.text = getText(R.string.headerTitle)
 
         // Setup RecyclerView
         newsBinding.newsRecyclerView.layoutManager = LinearLayoutManager(this)

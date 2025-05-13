@@ -60,6 +60,7 @@ class MapActivity : AppCompatActivity() {
         mapBinding.tvLift.text = getString(R.string.tvLift)
         mapBinding.tvAccessibleToilets.text = getString(R.string.tvAccessibleToilets)
         mapBinding.tvMapLegends.text = getString(R.string.tvMapLegends)
+        binding.headerTitle.text = getText(R.string.headerTitle)
     }
 
 }

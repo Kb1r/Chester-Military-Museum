@@ -113,6 +113,7 @@ class ContactFormActivity : AppCompatActivity() {
         formBinding.phoneEditText.setHint(R.string.phoneEditText)
         formBinding.messageEditText.setHint(R.string.messageEditText)
         formBinding.submitButton.text = getText(R.string.submitButton)
+        binding.headerTitle.text = getText(R.string.headerTitle)
 
         //End of adapted code.
     }
