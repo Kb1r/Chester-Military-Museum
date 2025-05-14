@@ -373,6 +373,105 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
+            <!-- Section 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/full_border1dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/collapseButton7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_image" />
+
+                    <TextView
+                        android:id="@+id/sectionName7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="SectionName7"
+                        android:textSize="24sp" />
+
+                    <ImageButton
+                        android:id="@+id/textToSpeechPlayButton7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@android:drawable/ic_media_play" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mainTextBody7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <!-- Section 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/full_border1dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/collapseButton8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_image" />
+
+                    <TextView
+                        android:id="@+id/sectionName8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="SectionName8"
+                        android:textSize="24sp" />
+
+                    <ImageButton
+                        android:id="@+id/textToSpeechPlayButton8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@android:drawable/ic_media_play" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mainTextBody8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
         </LinearLayout>
     </ScrollView>
 
