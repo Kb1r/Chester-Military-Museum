@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Home Page Strings-->
     <string name="startTourText">Iniciar Recorrido</string>
     <string name="tvMap">Mapa</string>
     <string name="tvTickets">Entredas</string>
     <string name="tvGiftShop">Tienda de Regalos</string>
     <string name="tvContactUs">Contacta Con Nosotros</string>
+
+    <!--Start Tour Pop-up Strings-->
+    <string name="codeInput">Introducir Código</string>
+    <string name="btnSubmitCode">Entregar</string>
+    <string name="btnLaunchQrScanner">Escanear Código QR</string>
 
 
     <!--Map Page Strings-->
@@ -31,8 +37,15 @@
     <string name="btnResetSettings">Restablecer los Valores Predeterminados</string>
     <string name="tvToggleAudio">🎧 Audioguía</string>
     <string name="tvToggleNotifications">🔔 Notificaciones</string>
+    <string name="switchAudioGuide">Habilitar Narración de Audio</string>
+    <string name="switchNotifications">Habilitar Notificaciones</string>
+
 
     <!--Navigation Bar Strings-->
+    <string name="headerTitle">Museo Militar de Chester</string>
+    <string name="navigation_home">Hogar</string>
+    <string name="navigation_settings">Ajustes</string>
+    <string name="navigation_news">Noticias</string>
 
 
 
