@@ -28,23 +28,30 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
         // Text
         binding.title1.text = getString(R.string.remembrance_ww1)
 
-        binding.sectionName1.text = getString(R.string.eighteenth_section_name1)
-        binding.mainTextBody1.text = getString(R.string.eighteenth_main_text1)
+        binding.sectionName1.text   = getString(R.string.ww1_remembrance_section_name1)
+        binding.mainTextBody1.text  = getString(R.string.ww1_remembrance_main_text1)
 
-        binding.sectionName2.text = getString(R.string.eighteenth_section_name2)
-        binding.mainTextBody2.text = getString(R.string.eighteenth_main_text2)
+        binding.sectionName2.text   = getString(R.string.ww1_remembrance_section_name2)
+        binding.mainTextBody2.text  = getString(R.string.ww1_remembrance_main_text2)
 
-        binding.sectionName3.text = getString(R.string.eighteenth_section_name3)
-        binding.mainTextBody3.text = getString(R.string.eighteenth_main_text3)
+        binding.sectionName3.text   = getString(R.string.ww1_remembrance_section_name3)
+        binding.mainTextBody3.text  = getString(R.string.ww1_remembrance_main_text3)
 
-        binding.sectionName4.text = getString(R.string.eighteenth_section_name4)
-        binding.mainTextBody4.text = getString(R.string.eighteenth_main_text4)
+        binding.sectionName4.text   = getString(R.string.ww1_remembrance_section_name4)
+        binding.mainTextBody4.text  = getString(R.string.ww1_remembrance_main_text4)
 
-        binding.sectionName5.text = getString(R.string.eighteenth_section_name5)
-        binding.mainTextBody5.text = getString(R.string.eighteenth_main_text5)
+        binding.sectionName5.text   = getString(R.string.ww1_remembrance_section_name5)
+        binding.mainTextBody5.text  = getString(R.string.ww1_remembrance_main_text5)
 
-        binding.sectionName6.text = getString(R.string.eighteenth_section_name6)
-        binding.mainTextBody6.text = getString(R.string.eighteenth_main_text6)
+        binding.sectionName6.text   = getString(R.string.ww1_remembrance_section_name6)
+        binding.mainTextBody6.text  = getString(R.string.ww1_remembrance_main_text6)
+
+        binding.sectionName7.text   = getString(R.string.ww1_remembrance_section_name7)
+        binding.mainTextBody7.text  = getString(R.string.ww1_remembrance_main_text7)
+
+        binding.sectionName8.text   = getString(R.string.ww1_remembrance_section_name8)
+        binding.mainTextBody8.text  = getString(R.string.ww1_remembrance_main_text8)
+
 
         // Navigation arrows
         binding.rightArrow.setOnClickListener {
@@ -61,7 +68,9 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
             binding.collapseButton3,
             binding.collapseButton4,
             binding.collapseButton5,
-            binding.collapseButton6
+            binding.collapseButton6,
+            binding.collapseButton7,
+            binding.collapseButton8
         )
         val mainTextBodies = listOf(
             binding.mainTextBody1,
@@ -69,7 +78,9 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
             binding.mainTextBody3,
             binding.mainTextBody4,
             binding.mainTextBody5,
-            binding.mainTextBody6
+            binding.mainTextBody6,
+            binding.mainTextBody7,
+            binding.mainTextBody8
         )
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
@@ -97,7 +108,9 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
             binding.textToSpeechPlayButton5,
-            binding.textToSpeechPlayButton6
+            binding.textToSpeechPlayButton6,
+            binding.textToSpeechPlayButton7,
+            binding.textToSpeechPlayButton8
         )
         ttsButtons.forEachIndexed { idx, btn ->
             btn.setOnClickListener {

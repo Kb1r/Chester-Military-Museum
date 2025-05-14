@@ -28,23 +28,47 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         // Text
         binding.title1.text = getString(R.string.WW2_post_war_conflicts)
 
-        binding.sectionName1.text = getString(R.string.eighteenth_section_name1)
-        binding.mainTextBody1.text = getString(R.string.eighteenth_main_text1)
+        binding.sectionName1.text   = getString(R.string.ww2_and_post_war_section_name1)
+        binding.mainTextBody1.text  = getString(R.string.ww2_and_post_war_main_text1)
 
-        binding.sectionName2.text = getString(R.string.eighteenth_section_name2)
-        binding.mainTextBody2.text = getString(R.string.eighteenth_main_text2)
+        binding.sectionName2.text   = getString(R.string.ww2_and_post_war_section_name2)
+        binding.mainTextBody2.text  = getString(R.string.ww2_and_post_war_main_text2)
 
-        binding.sectionName3.text = getString(R.string.eighteenth_section_name3)
-        binding.mainTextBody3.text = getString(R.string.eighteenth_main_text3)
+        binding.sectionName3.text   = getString(R.string.ww2_and_post_war_section_name3)
+        binding.mainTextBody3.text  = getString(R.string.ww2_and_post_war_main_text3)
 
-        binding.sectionName4.text = getString(R.string.eighteenth_section_name4)
-        binding.mainTextBody4.text = getString(R.string.eighteenth_main_text4)
+        binding.sectionName4.text   = getString(R.string.ww2_and_post_war_section_name4)
+        binding.mainTextBody4.text  = getString(R.string.ww2_and_post_war_main_text4)
 
-        binding.sectionName5.text = getString(R.string.eighteenth_section_name5)
-        binding.mainTextBody5.text = getString(R.string.eighteenth_main_text5)
+        binding.sectionName5.text   = getString(R.string.ww2_and_post_war_section_name5)
+        binding.mainTextBody5.text  = getString(R.string.ww2_and_post_war_main_text5)
 
-        binding.sectionName6.text = getString(R.string.eighteenth_section_name6)
-        binding.mainTextBody6.text = getString(R.string.eighteenth_main_text6)
+        binding.sectionName6.text   = getString(R.string.ww2_and_post_war_section_name6)
+        binding.mainTextBody6.text  = getString(R.string.ww2_and_post_war_main_text6)
+
+        binding.sectionName7.text   = getString(R.string.ww2_and_post_war_section_name7)
+        binding.mainTextBody7.text  = getString(R.string.ww2_and_post_war_main_text7)
+
+        binding.sectionName8.text   = getString(R.string.ww2_and_post_war_section_name8)
+        binding.mainTextBody8.text  = getString(R.string.ww2_and_post_war_main_text8)
+
+        binding.sectionName9.text   = getString(R.string.ww2_and_post_war_section_name9)
+        binding.mainTextBody9.text  = getString(R.string.ww2_and_post_war_main_text9)
+
+        binding.sectionName10.text  = getString(R.string.ww2_and_post_war_section_name10)
+        binding.mainTextBody10.text = getString(R.string.ww2_and_post_war_main_text10)
+
+        binding.sectionName11.text  = getString(R.string.ww2_and_post_war_section_name11)
+        binding.mainTextBody11.text = getString(R.string.ww2_and_post_war_main_text11)
+
+        binding.sectionName12.text  = getString(R.string.ww2_and_post_war_section_name12)
+        binding.mainTextBody12.text = getString(R.string.ww2_and_post_war_main_text12)
+
+        binding.sectionName13.text  = getString(R.string.ww2_and_post_war_section_name13)
+        binding.mainTextBody13.text = getString(R.string.ww2_and_post_war_main_text13)
+
+        binding.sectionName14.text  = getString(R.string.ww2_and_post_war_section_name14)
+        binding.mainTextBody14.text = getString(R.string.ww2_and_post_war_main_text14)
 
         binding.displayWarningText.text = getString(R.string.are_you_sure1)
         binding.btnSubmitCode2.text = getString(R.string.confirm)
@@ -83,16 +107,34 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
             binding.collapseButton3,
             binding.collapseButton4,
             binding.collapseButton5,
-            binding.collapseButton6
+            binding.collapseButton6,
+            binding.collapseButton7,
+            binding.collapseButton8,
+            binding.collapseButton9,
+            binding.collapseButton10,
+            binding.collapseButton11,
+            binding.collapseButton12,
+            binding.collapseButton13,
+            binding.collapseButton14
         )
+
         val mainTextBodies = listOf(
             binding.mainTextBody1,
             binding.mainTextBody2,
             binding.mainTextBody3,
             binding.mainTextBody4,
             binding.mainTextBody5,
-            binding.mainTextBody6
+            binding.mainTextBody6,
+            binding.mainTextBody7,
+            binding.mainTextBody8,
+            binding.mainTextBody9,
+            binding.mainTextBody10,
+            binding.mainTextBody11,
+            binding.mainTextBody12,
+            binding.mainTextBody13,
+            binding.mainTextBody14
         )
+
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
 
@@ -119,8 +161,17 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
             binding.textToSpeechPlayButton5,
-            binding.textToSpeechPlayButton6
+            binding.textToSpeechPlayButton6,
+            binding.textToSpeechPlayButton7,
+            binding.textToSpeechPlayButton8,
+            binding.textToSpeechPlayButton9,
+            binding.textToSpeechPlayButton10,
+            binding.textToSpeechPlayButton11,
+            binding.textToSpeechPlayButton12,
+            binding.textToSpeechPlayButton13,
+            binding.textToSpeechPlayButton14
         )
+
         ttsButtons.forEachIndexed { idx, btn ->
             btn.setOnClickListener {
                 speakText(mainTextBodies[idx].text.toString())
