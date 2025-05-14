@@ -132,6 +132,9 @@ class MainActivity : BaseActivity() {
         homeBinding.tvContactUs.text = getString(R.string.tvContactUs)
         homeBinding.startTourText.text = getString(R.string.startTourText)
         binding.headerTitle.text = getText(R.string.headerTitle)
+        homeBinding.codeInput.setHint(R.string.codeInput)
+        homeBinding.btnSubmitCode.text = getString(R.string.btnSubmitCode)
+        homeBinding.btnLaunchQrScanner.text = getString(R.string.btnLaunchQrScanner)
 
     }
 
