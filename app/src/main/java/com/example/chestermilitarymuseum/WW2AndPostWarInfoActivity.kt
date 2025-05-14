@@ -70,6 +70,8 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         binding.sectionName14.text  = getString(R.string.ww2_and_post_war_section_name14)
         binding.mainTextBody14.text = getString(R.string.ww2_and_post_war_main_text14)
 
+        binding.displayWarningText.text = getString(R.string.are_you_sure1)
+        binding.btnSubmitCode2.text = getString(R.string.confirm)
         binding.displayWarningText.textSize = 24F
 
         // Navigation arrows
