@@ -88,12 +88,20 @@
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
     <string name="clickable_map_button">Clickable Map Button</string>
     <string name="introduction">Introduction</string>
+    <string name="are_you_sure1">Are you sure you want to go back to the home page?</string>
+    <string name="confirm">Confirm</string>
+    <string name="seventeenth_century">The 17th Century</string>
+    <string name="eighteenth_century">The 18th Century</string>
+    <string name="nineteenth_century">The 19th Century</string>
+    <string name="turn_of_the_century">Turn of the Century</string>
+    <string name="remembrance_ww1">Remembrance &amp; WW1</string>
+    <string name="WW2_post_war_conflicts">WW2 &amp; Post War Conflicts</string>
     <string name="introduction_section_name1">Eaton Hall:</string>
     <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.
 
     At the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
     In 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
-    <string name="introduction_section_name2">The Cheshire Regiment:</string>
+    <string name="introduction_section_name2">The Cheshire Regiment</string>
     <string name="introduction_main_text2">The Cheshire Regiment was raised on the Roodee in 1689. In 1743, it won the distinction of wearing the oak leaf from George II at Dettingen – still part of its badge today.
 
     In the 18th Century, its most famous achievement was the taking of Louisburg in Nova Scotia, after which the Grenadier Company went on with General Wolfe to Quebec. After the Seven Years War, the Regiment spent time in the West Indies and then took part in the American War of Independence In the 1840s, the 22nd was part of Sir Charles Napier’s force, when he conquered the Scinde. The battle of Meeanee on the 17th February 1843 is celebrated as the Regimental Day.
@@ -111,7 +119,7 @@
     During the 19th Century, they were often called out “in aid of the civil power” and first went on active service abroad in 1900 in the Boer War. In 1914 the Regiment was mobilised and fought the Turks in Palestine in 1916 as infantry. Later they were posted to France in 1918 and fought in the final stages of the First World War in their infantry role.
 
     Between the wars, it re-formed as mounted cavalry and took its horses on an epic journey by train and boat to Palestine, taking part in Syria in the last cavalry action of the British Army. In 1942 it became a Royal Signals Regiment and then in 1947 an armoured regiment. In 1968 it underwent considerable change during reorganisation of the Territorial Army. It became part of The Queen’s own Yeomanry in 1971 and today it is based in Chester as C Squadron of the Royal Mercian and Lancastrian Yeomanry (RMLY). </string>
-    <string name="introduction_section_name4">The 3rd Dragoon Guards: </string>
+    <string name="introduction_section_name4">The 3rd Dragoon Guards</string>
     <string name="introduction_main_text4">Raised by the Earl of Plymouth in response to Monmouth’s Rebellion in 1685, the 4th Horse were involved in Marlborough’s campaign during the War of the Spanish Succession and later took part in the battles of Blenheim, Oudenaarde and Malplaquet. In 1745 they were part of the force sent to Scotland to quell the rebellion led by the ‘Young Pretender’. In 1747, they were renamed the 3rd Dragoon Guards and in 1765 received the Prince of Wales title and the right to wear his badge.
 
     They were involved in the French Revolutionary Wars and the Napoleonic Wars before serving at home, after which they were sent in 1858 to reinforce the Army in India. In 1883, they sent men to the Heavy Camel Corps in the Sudan. During the closing stages of the Boer War, they were used to round up Boe Commandos and by 1911 were back in Egypt – where they suffered in a terrible Cholera outbreak.
@@ -121,8 +129,8 @@
     In 1922 they were amalgamated with the 6th Dragoon Guards (Carabiniers) to become the 3rd Carabaniers. Under this title they fought in the Second World War in Burma and took part in a renowned battle in their tanks at Numshigum.
 
     In 1971, they were again amalgamated with the Royal Scots Greys to become the Royal Scots Dragoon Guards. </string>#
-    <string name="introduction_section_name5">The 5th Dragoon Guards:</string>
-    <string name="introduction_main_text5">Raised as Shrewsbury’s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough’s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet . For most of the 18th century they were in the United Kingdom police and excise duties. In 1746 they were given the right to wear green facings – the forerunner of today’s green trousers worn in No. 2 Dress (parade dress).
+    <string name="introduction_section_name5">The 5th Dragoon Guards</string>
+    <string name="introduction_main_text5">Raised as Shrewsbury\’s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough’s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet . For most of the 18th century they were in the United Kingdom police and excise duties. In 1746 they were given the right to wear green facings – the forerunner of today’s green trousers worn in No. 2 Dress (parade dress).
 
     In 1791, they were renamed the 5th Dragoon Guards. In the Napoleonic Wars, they fought at Beaumont and later spent 8 years in Liverpool, where they received the title of Princess Charlotte of Wale’s Own. They reinforced Wellington in the Peninsular Wars and in 1811 were involved at Salamanca.
 
@@ -130,5 +138,184 @@
 
     They fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany. In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the ‘Skins’ as they were known fought from Normandy to the Elbe in tanks.
 
-    After the War, they saw action in Korea and spent much of their post war service in British Amry of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards. </string>
+    After the War, they saw action in Korea and spent much of their post war service in British Amry of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards.</string>
+    <string name="seventeenth_section_name1">The Royal Dragoon Guards</string>
+    <string name="seventeenth_main_text1">Raised as Shrewsbury\'s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough\'s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet, For most of the 18th century they were in the United Kingdom on police and excise duties. In 1746 they were given the right to wear green facings - the forerunner of today\'s green trousers worn in No.2 Dress (parade dress).
+
+    In 1791, they were renamed the 5th Dragoon Guards. In the Napoleonic Wars, they fought at Beaumont and later spent 8 years in Liverpool, where they received the title of Princess Charlotte of Wales\'s Own. They reinforced Wellington in the Peninsular Wars and in 1811 were involved at Salamanca.
+
+    In 1854, in the Crimea, the Regiment was part of the successful charge at Balaklava, which saved the army supply depot. They spent the rest of the 19th century at home. As a result of service in the Boer War with the Regiment, Colonel Baden Powell formed the Scout Movement.
+
+    They fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany: In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the \'Skins\' as they were known fought from Normandy to the Elbe in tanks.
+
+    After the War, they saw action in Korea and spent much of their post war service in British Army of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards. </string>
+    <string name="seventeenth_section_name2">Raising the Cheshires in 1689</string>
+    <string name="seventeenth_main_text2">The Cheshires were raised as an infantry regiment by Henry Duke of Norfolk, in March 1689. Extra troops were needed at the time to support William and Mary, when they accepted the crown from Parliament. The soldiers were recruited only a few hundred yards from here on the famous Roodee. Later, they became known as the 22nd (Cheshire) Regiment and they are still in active service today.
+
+    Charles II’s orders of 1663, for the equipment of infantry still stood – “…each pikeman a sword and pike of 16 foot long and not under; and each musketeer a musket, with a collar of bandoliers, the barrels of which musket to be about four foot long and to contain bullet, fourteen of which shall weigh a pound weight”
+
+    Leaving Dawpool on the Wirral they sailed to Ireland and took part in the siege of Carrickfergus under Marshal Schomberg. In 1690 on 1st July, they fought in the Battle of the Boyne where the Marshal (aged 80) was killed in a ‘friendly fire’ incident.
+
+    Regiments were 10 companies, each of 14 Pikemen, 46 Musketeers and 1 Company of Grenadiers.
+
+    Regiments were 10 companies, each of 14 Pikemen, 46 Musketeers and 1 Company of Grenadiers. </string>
+    <string name="seventeenth_section_name3">Raising the Cavalry Regiments – 1685:</string>
+    <string name="seventeenth_main_text3">On 5th May 1663, Charles II issued orders stating how his Army should be equipped. These orders stood for many years afterwards and were current when the cavalry regiments of this museum were formed in 1685.
+
+    \“Each horseman to have for his defence armes, back, breast and pot – for his offensive armes, a sword and a case of pistols, the barrels whereof are no to be under fourteen inches in length\”.
+
+    At the time regiments were known by their colonel’s name – only in the 1740s did they become numbered according to their type.
+
+    In 1685…
+
+    The 3rd Dragoon Guards were raised at the Earl of Plymouth\’s 4th Horse.
+
+    The 5th Dragoon Guards were raised as the Early of Shrewsbury\’s 7th Horse.
+
+    (The Earl of Shrewsbury was also Captain of the Bridgegate in Chester and his regiment was supplemented by a troop raised in Chester by Sur Thomas Grosvenor.)
+
+    The 6th Dragoon Guards (who later became the Carabiniers as an honour) were raised as the 9th Horse.
+
+    The 6th Inniskilling Dragoons were raised as Conyngham\’s Horse.
+
+    1685 – Monmouth’s Rebellion followed by Judge Jefferies \“Bloody Assizes\” in the West Country. Raising of cavalry in Chester.
+
+    1688 – James II heard Mass in the Agricola Tower Chapel. \‘Glorious Revolution\’ brings Protestant William and Mary to the throne.
+
+    1689 – Cheshire Regiment raised.
+
+    1690 – Ban of England incorporated.
+
+    1692 – Glencoe massacre in the Highlands.</string>
+    <string name="eighteenth_section_name1">Regiments Of the 18th Century:</string>
+    <string name="eighteenth_main_text1">The Cheshires spent the early part of the century in the expanding Empire Where they suffered many more Deaths from disease than through Battle. The cavalry fought with the Duke of Marlborough in the Wars of The Spanish Succession.
+
+    The War of the Austrian Succession in 1743 saw the Regiments back in Europe. But in the middle of the Century troops were also an important force for law and Order in Britain - this was before the police were formed. The cavalry spent many years on garrison duty at home.
+
+    The cheshires fought the French in the battle for Canada where their grenadiers became famous. Afterwards they fought for many years more in North America notably in the Cherokee wars.
+
+    The Napoleonic Wars at the end of the century says regiments active in Europe again. The nearby war and revolution prompted formation of Provisional Cavalry Troops in 1797 from ‘the Gentlemen of Yeoman of the County’ – these became the Cheshire Yeomanry, who now join our story.
+
+    1707
+
+    1st Parliament of Great Britain Act of Union Passed by Scots Parliament.
+
+    1720
+
+    Purchase of Commissions began.
+
+    1726
+
+    Sir John Vanbrugh- Architect and dramatist and Chester resident died.
+
+    1740-48
+
+    War of Austrian Succession.
+
+    1742
+
+    Numbering of Regiments In the British Army’s Infantry began.
+
+    1745
+
+    “The Forty-Five” Jacobite rebellion in Scotland under Bonnie Prince Charlie.
+
+    1758
+
+    Lord Amherst’s Expedition to Canada.
+
+    1761
+
+    Cherokee Wars.
+
+    1761
+
+    First Canals built-The Trent and Mersey across Cheshire.
+
+    1775-83
+
+    American Revolution.
+
+    1776
+
+    (July) American Declaration of Independence.
+
+    1780
+
+    Gordon Riots in England.
+
+    1785
+
+    Capt. G French ascended In Lunardi’s balloon from Chester Castle yard.
+
+    1788
+
+    Times’ first published.
+
+    1789
+
+    Mutiny on The Bounty.
+
+    1793
+
+    Louis XVI of France and Maric Antoinette executed.</string>
+
+    <string name="eighteenth_section_name2">North America:</string>
+    <string name="eighteenth_main_text2">Louisbourg – Louisbourg was a French stronghold in 1756, when the Seven Years War began. It was essential to the British in their quest for Canada. The 22nd Regiment sailed to America disembarking at Chester, Pennsylvania on 1st January 1757. In 1758 it formed part of the expedition led by Lord Amherst, which took Louisbourg fortress. The following year Louisbourg was used as a base in the conquest for Quebec.
+
+    The 22nd took part in the Cherokee Wars of the 1760s from their American garrison and were part of the force which took Havanna in the 1761.
+
+    American War of Independence – 1775 to 1783.
+
+    The 22nd was sent to Boston in 1775. It arrived too Late for the Batte of Bunker Hill Colonel Abercrombie (and his soldier servant) arrived ahead of the others and Fought in the battle. The Colonel was killed. A soldier’s Button found on the battlefield is on display. The Regiment had its main garrison in New York and Was engaged in many skirmishes in the Area.
+
+    At the end of the war, when America became a republic, the 22nd returned home leaving all of their early records behind, and many of the men who deserted!</string>
+
+    <string name="eighteenth_section_name3">The Death of Wolfe:</string>
+    <string name="eighteenth_main_text3">The Grenadier Company of the Cheshire Regiment took part in the battle for Quebec, which was fought on the Heights of Abraham. Grenadiers were the largest men in a regiment and wore tall mitre caps and caried grenades with which they often led the attack.
+
+    A grenade was a 2\"sphere of hollow iron containing gun powder. A fuse was lit just before it was thrown- using a slow burning match
+
+    Ensign Henry Browne was close to General Wolfe, when he fell mortally wounded. It is said that the Ensign wrapped the General in the Regimental Colour and helped him from the battlefield. The bloodstained colour hung in Chester Cathedral until recently, a fragment is preserved on display here.
+
+    Ensign Browne of the 22nd\'s Grenadier Company: wrote to his father.
+
+    “…our action of 13th September and the taking of the town of Quebec. I must add a little to it by informing you that I was the person who carried Gen Wolfe off the field and that he was wounded as he stood within a foot of me…”
+
+    What was a Volunteer’ in the Regular Army of the 18th Century?
+
+    A Volunteer was a *gentleman’ who did not have the money to Purchase a commission (or there were no suitable vacancies) so They served with the Rank and File awaiting their chance. He However, messed with the officers as a gentleman. James Henderson was a volunteer with the 22nd in Quebec. He Was in the Louisburg Grenadiers’, of which the 22nds’s Grenadier Company as part. Henderson was alongside General Wolfe when he sustained his third and fatal wound. In letter to His uncle, he claimed to have carried the stricken Wolfe to the Rear where he died in his arms.</string>
+
+    <string name="eighteenth_section_name4">Dettingen And the oak leaves:</string>
+    <string name="eighteenth_main_text4">The Battle of Dettingen was fought on 27th June 1743, in the War of the Austrian Succession, and it was the last time the army was Commanded by a British monarch. It was said That the mix of British steadfastness and the Hanoverian stubbornness in George II won the Day. He was a man who refused to be beaten.
+
+    A detachment of the 22nd is believed to have taken part in the battle and to Have defended the King under an oak tree. He gave them the acorn and oak leaf Badge to wear. The regiment still has the acorn in its badge today and wears oak Leaves on certain regimental days, and always in the presence of royalty. The 3rd Dragoon Guards also took part.</string>
+
+    <string name="eighteenth_section_name5">In Europe:</string>
+    <string name="eighteenth_main_text5">The War of the Spanish Succession - 1702 to 1713
+
+    England, the Holy Roman Empire and the United Provinces of the Netherlands were engaged against France and Spain in the Wars of the Spanish Succession. This was a dispute over the Spanish throne after the death of Charles II of Spain, but worldwide interests in trade and the colonies were also at stake and the war raged for eleven years. The cavalry regiments won battle honours at Blenheim in 1704; Ramillies in 1706; Oudenarde in 1708 and at Tournai and Malplaquet in 1709. The war was finally resolved by the Treaty of Utrecht when the French Bourbon family secured the throne.
+
+    The War of the Austrian Succession – 1740 to 1748.
+
+    The Cheshires and the 3rd Dragoon Guards fought in this conflict over the succession of the Habsburgs to their hereditary lands after the death of the Emperor Charles VI. War was waged in Bohemia, Upper Austria and Silesia. At the time the Cheshires were stationed in Minorca, from where detachments were sent to reinforce the British Army. Russia’s intervention fully let to peace negotiations and the Habsburgs retained all of their land except Silesia.</string>
+
+    <string name="eighteenth_section_name6">Women of the Regiments:</string>
+    <string name="eighteenth_main_text6">The wives of soldiers have usually followed their husbands. In the early days, women who travelled with the regiment were known as camp followers. Some even masqueraded as men to follow their loved ones and ‘went for a soldier’.
+
+    The Famous Phoebe Hassel.
+
+    Phoebe Hassel served as a soldier in the 5th Foot (the Royal Northumberland Fusiliers), throughout Marlborough’s campaigns. At the beginning of the 18th century. She was taken for a man throughout her service – even when she was wounded and was only found to be a woman on her discharge. The King gave her a pension.
+
+    On the strength
+
+    It was usual for a limited number of wives to be allowed to travel with the regiment – or ‘on its strength’. This was usually 6, but in the case of the Cheshires was 8. The women acted as medical orderlies, served food and cleaned, for others as well as for their Husbands. Life was hard and they suffered all the privations of army Ife. When a husband was killed, the wife could marry another man within the regiment – or return home.
+
+    Finding wives abroad
+
+    Many soldiers made marriages abroad. In the 1740s, while serving in Minorca, three young officers of the 22nd (George Kelly, Roger Schaak and Christopher French) persuaded three young nuns to marry them. All three travelled with the Regiment and the last of them Margarita French (née Alberti) died in Dublin in 1797.
+
+    Travelling with the family
+
+    The habit of accompanying the regiments grew during the Victorian era. By 1860, when the 2nd Battalion 22nd was in Malta, there was a large contingent of family present and a Strong spirit of community, When the Birkby family died of Cholera, the regimental doctor and his wife adopted the surviving son. The boy was entrusted to the band aged 10 and finished his service as the bandmaster.</string>
 </resources>
