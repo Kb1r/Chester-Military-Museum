@@ -26,7 +26,8 @@ class SettingsActivity : BaseActivity() {
         "French" to "fr",
         "Spanish" to "es",
         "German" to "de",
-        "Polish" to "pl"
+        "Polish" to "pl",
+        "Welsh" to "cy"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
