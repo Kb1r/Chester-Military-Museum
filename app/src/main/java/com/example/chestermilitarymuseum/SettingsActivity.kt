@@ -3,6 +3,7 @@ package com.example.chestermilitarymuseum
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,7 +14,6 @@ import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
 import java.util.Locale
 
-// 1️⃣ Extend BaseActivity instead of AppCompatActivity
 class SettingsActivity : BaseActivity() {
 
     private lateinit var baseBinding: ActivityBaseBinding
@@ -24,7 +24,9 @@ class SettingsActivity : BaseActivity() {
         "English" to "en",
         "French" to "fr",
         "Spanish" to "es",
-        "German" to "de"
+        "German" to "de",
+        "Polish" to "pl",
+        "Welsh" to "cy"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,7 +43,7 @@ class SettingsActivity : BaseActivity() {
         baseBinding.container.addView(settingsBinding.root)
 
         // init prefs
-        sharedPreferences = getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
 
         // language spinner restore
         val currentLanguage = sharedPreferences.getString("LANGUAGE", "en")
@@ -53,6 +55,35 @@ class SettingsActivity : BaseActivity() {
         settingsBinding.spinnerLanguage.setSelection(
             languages.values.indexOf(currentLanguage)
         )
+
+        setupExpandableSections()
+        setupLanguageDropdown()
+        setupListeners()
+        //String text method call:
+        setSettingsText()
+
+        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
+        val index = languages.values.indexOf(currentLanguage).takeIf { it >= 0 } ?: 0
+        settingsBinding.spinnerLanguage.setSelection(index)
+
+        //Test approach
+        var isSpinnerInitialised = false
+        settingsBinding.spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                if (!isSpinnerInitialised) {
+                    isSpinnerInitialised = true
+                    return
+                }
+                val selectedLanguage = languages.values.toList()[position]
+                if (selectedLanguage != currentLanguage) {
+                    setLocale(selectedLanguage)
+                }
+            }
 
         // bottom nav
         baseBinding.bottomNavigation.selectedItemId = R.id.navigation_settings
@@ -166,7 +197,7 @@ class SettingsActivity : BaseActivity() {
 
         val locale = Locale(languageCode)
         Locale.setDefault(locale)
-        val config = resources.configuration
+        val config = Configuration()
         config.setLocale(locale)
         resources.updateConfiguration(config, resources.displayMetrics)
 
@@ -183,7 +214,9 @@ class SettingsActivity : BaseActivity() {
         settingsBinding.toggleLanguage.text = getString(R.string.toggleLanguage)
         settingsBinding.btnResetSettings.text = getString(R.string.btnResetSettings)
         settingsBinding.tvToggleAudio.text = getString(R.string.tvToggleAudio)
-        settingsBinding.tvToggleNotifications.text =
-            getString(R.string.tvToggleNotifications)
+        settingsBinding.tvToggleNotifications.text = getString(R.string.tvToggleNotifications)
+        settingsBinding.switchAudioGuide.text = getString(R.string.switchAudioGuide)
+        settingsBinding.switchNotifications.text = getString(R.string.switchNotifications)
+        baseBinding.headerTitle.text = getString(R.string.headerTitle)
     }
 }

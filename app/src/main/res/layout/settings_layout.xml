@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:visibility="visible"
+    tools:visibility="visible"
+    android:background="#FAF6F0">
 
     <LinearLayout
         android:id="@+id/settingsContainer"
@@ -72,8 +76,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:padding="12dp">
+            android:padding="12dp"
+            android:visibility="gone">
 
             <Button
                 android:id="@+id/btnSmallFont"
@@ -85,15 +89,15 @@
                 android:id="@+id/btnMediumFont"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Medium"
-                android:layout_marginStart="8dp" />
+                android:layout_marginStart="8dp"
+                android:text="Medium" />
 
             <Button
                 android:id="@+id/btnLargeFont"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Large"
-                android:layout_marginStart="8dp" />
+                android:layout_marginStart="8dp"
+                android:text="Large" />
         </LinearLayout>
 
         <!-- Language -->
@@ -138,7 +142,7 @@
             android:id="@+id/btnResetSettings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🔁 Reset to Default"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="24dp"
+            android:text="🔁 Reset to Default" />
     </LinearLayout>
 </ScrollView>

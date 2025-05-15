@@ -2,36 +2,32 @@ package com.example.chestermilitarymuseum
 
 import android.content.Context
 import android.content.res.Configuration
-import android.os.Bundle
+import android.graphics.Bitmap.Config
 import androidx.appcompat.app.AppCompatActivity
+import java.util.Locale
 
-abstract class BaseActivity : AppCompatActivity() {
-
+//Code adapted from Panchal (January 2025) [Medium].
+open class BaseActivity : AppCompatActivity() {
     override fun attachBaseContext(newBase: Context) {
-        // 1) Read saved font-size choice
-        val prefs = newBase.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
-        val choice = prefs.getString("font_size", "medium") ?: "medium"
+        val sharedPreferences = newBase.getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
+        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
+        val choice = sharedPreferences.getString("font_size", "medium") ?: "medium"
 
-        // 2) Map choice to a float scale
-        val scale = when (choice) {
-            "small"  -> 0.85f
-            "large"  -> 1.4f
-            else     -> 1.0f    // “medium” or default
+        val scale = when (choice)
+        {
+            "small" -> 0.85f
+            "large" -> 1.4f
+            else -> 1.0f
         }
 
-        // 3) Create a configuration with that fontScale
-        val config = Configuration(newBase.resources.configuration).apply {
-            fontScale = scale
-        }
+        val locale = Locale(currentLanguage)
 
-        // 4) Wrap the base context with the new config
-        val ctx = newBase.createConfigurationContext(config)
-        super.attachBaseContext(ctx)
-    }
+        val config = Configuration(newBase.resources.configuration)
+            .apply {fontScale = scale}
+        config.setLocale(locale)
 
-    override fun onCreate(savedInstanceState: Bundle?) {
 
-        super.onCreate(savedInstanceState)
-        // Subclasses still call setContentView(...) as usual
+        val context = newBase.createConfigurationContext(config)
+        super.attachBaseContext(context)
     }
 }
