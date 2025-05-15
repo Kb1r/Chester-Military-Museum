@@ -1,9 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.ChesterMilitaryMuseum" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- 1) Base DayNight theme -->
+    <style name="Base.Theme.ChesterMilitaryMuseum"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="android:forceDarkAllowed">true</item>
     </style>
 
-    <style name="Theme.ChesterMilitaryMuseum" parent="Base.Theme.ChesterMilitaryMuseum" />
+    <!-- 2) Default app theme -->
+    <style name="Theme.ChesterMilitaryMuseum"
+        parent="Base.Theme.ChesterMilitaryMuseum" />
+
+    <!-- 3) High-Contrast mode -->
+    <style name="Theme.ChesterMilitaryMuseum.HighContrast"
+        parent="Theme.ChesterMilitaryMuseum">
+        <item name="colorPrimary">@color/highcontrast_primary</item>
+        <item name="colorOnPrimary">@color/highcontrast_onPrimary</item>
+        <item name="colorSecondary">@color/highcontrast_secondary</item>
+        <item name="colorOnSecondary">@color/highcontrast_onSecondary</item>
+        <item name="android:colorBackground">@color/highcontrast_background</item>
+        <item name="colorOnBackground">@color/highcontrast_onBackground</item>
+        <item name="colorSurface">@color/highcontrast_surface</item>
+        <item name="colorOnSurface">@color/highcontrast_onSurface</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <!-- 4) Protanopia (blue vs yellow) -->
+    <style name="Theme.ChesterMilitaryMuseum.Protanopia"
+        parent="Theme.ChesterMilitaryMuseum">
+        <item name="colorPrimary">@color/protanopia_primary</item>
+        <item name="colorOnPrimary">@color/protanopia_onPrimary</item>
+        <item name="colorSecondary">@color/protanopia_secondary</item>
+        <item name="colorOnSecondary">@color/protanopia_onSecondary</item>
+        <item name="android:colorBackground">@color/protanopia_background</item>
+        <item name="colorOnBackground">@color/protanopia_onBackground</item>
+        <item name="colorSurface">@color/protanopia_surface</item>
+        <item name="colorOnSurface">@color/protanopia_onSurface</item>
+    </style>
+
+    <!-- 5) Deuteranopia (blue vs orange) -->
+    <style name="Theme.ChesterMilitaryMuseum.Deuteranopia"
+        parent="Theme.ChesterMilitaryMuseum">
+        <item name="colorPrimary">@color/deuteranopia_primary</item>
+        <item name="colorOnPrimary">@color/deuteranopia_onPrimary</item>
+        <item name="colorSecondary">@color/deuteranopia_secondary</item>
+        <item name="colorOnSecondary">@color/deuteranopia_onSecondary</item>
+        <item name="android:colorBackground">@color/deuteranopia_background</item>
+        <item name="colorOnBackground">@color/deuteranopia_onBackground</item>
+        <item name="colorSurface">@color/deuteranopia_surface</item>
+        <item name="colorOnSurface">@color/deuteranopia_onSurface</item>
+    </style>
+
+    <!-- 6) Tritanopia (red vs green) -->
+    <style name="Theme.ChesterMilitaryMuseum.Tritanopia"
+        parent="Theme.ChesterMilitaryMuseum">
+        <item name="colorPrimary">@color/tritanopia_primary</item>
+        <item name="colorOnPrimary">@color/tritanopia_onPrimary</item>
+        <item name="colorSecondary">@color/tritanopia_secondary</item>
+        <item name="colorOnSecondary">@color/tritanopia_onSecondary</item>
+        <item name="android:colorBackground">@color/tritanopia_background</item>
+        <item name="colorOnBackground">@color/tritanopia_onBackground</item>
+        <item name="colorSurface">@color/tritanopia_surface</item>
+        <item name="colorOnSurface">@color/tritanopia_onSurface</item>
+    </style>
+
 </resources>

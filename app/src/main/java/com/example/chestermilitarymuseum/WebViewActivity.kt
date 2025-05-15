@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.WebviewLayoutBinding
 
-class WebViewActivity : AppCompatActivity() {
+class WebViewActivity : BaseActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var webBinding: WebviewLayoutBinding
