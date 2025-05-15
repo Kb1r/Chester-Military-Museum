@@ -42,29 +42,25 @@ class SettingsActivity : BaseActivity() {
         baseBinding.container.removeAllViews()
         baseBinding.container.addView(settingsBinding.root)
 
+        setupExpandableSections()
+        setupLanguageDropdown()
+        setupListeners()
+        setSettingsText()
+
+
+
+
         // init prefs
         sharedPreferences = getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
 
-        // language spinner restore
-        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en")
-        setupExpandableSections()
-        setupLanguageDropdown(currentLanguage)
-        setupListeners()
-        setSettingsText()
+        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
+        val index = languages.values.indexOf(currentLanguage).takeIf { it >= 0 } ?: 0
+        settingsBinding.spinnerLanguage.setSelection(index)
 
         settingsBinding.spinnerLanguage.setSelection(
             languages.values.indexOf(currentLanguage)
         )
 
-        setupExpandableSections()
-        setupLanguageDropdown()
-        setupListeners()
-        //String text method call:
-        setSettingsText()
-
-        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
-        val index = languages.values.indexOf(currentLanguage).takeIf { it >= 0 } ?: 0
-        settingsBinding.spinnerLanguage.setSelection(index)
 
         //Test approach
         var isSpinnerInitialised = false
@@ -85,6 +81,10 @@ class SettingsActivity : BaseActivity() {
                 }
             }
 
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+            }
+        }
+
         // bottom nav
         baseBinding.bottomNavigation.selectedItemId = R.id.navigation_settings
         baseBinding.bottomNavigation.setOnItemSelectedListener { item ->
@@ -102,7 +102,7 @@ class SettingsActivity : BaseActivity() {
         }
     }
 
-    private fun setupExpandableSections() {
+     fun setupExpandableSections() {
         settingsBinding.toggleAccessibility.setOnClickListener {
             toggleVisibility(settingsBinding.sectionAccessibility)
         }
@@ -114,11 +114,11 @@ class SettingsActivity : BaseActivity() {
         }
     }
 
-    private fun toggleVisibility(view: View) {
+    fun toggleVisibility(view: View) {
         view.visibility = if (view.visibility == View.GONE) View.VISIBLE else View.GONE
     }
 
-    private fun setupLanguageDropdown(currentLang: String?) {
+    fun setupLanguageDropdown() {
         val adapter = ArrayAdapter(
             this,
             android.R.layout.simple_spinner_dropdown_item,
@@ -126,26 +126,9 @@ class SettingsActivity : BaseActivity() {
         )
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         settingsBinding.spinnerLanguage.adapter = adapter
-
-        settingsBinding.spinnerLanguage.onItemSelectedListener =
-            object : AdapterView.OnItemSelectedListener {
-                override fun onItemSelected(
-                    parent: AdapterView<*>?,
-                    view: View?,
-                    position: Int,
-                    id: Long
-                ) {
-                    val selectedCode = languages.values.toList()[position]
-                    if (selectedCode != currentLang) {
-                        setLocale(selectedCode)
-                    }
-                }
-
-                override fun onNothingSelected(parent: AdapterView<*>?) {}
-            }
     }
 
-    private fun setupListeners() {
+    fun setupListeners() {
         // Audio & Notifications unchanged
         settingsBinding.switchAudioGuide.setOnCheckedChangeListener { _, isChecked ->
             Toast.makeText(
@@ -192,7 +175,7 @@ class SettingsActivity : BaseActivity() {
         }
     }
 
-    private fun setLocale(languageCode: String) {
+    fun setLocale(languageCode: String) {
         sharedPreferences.edit().putString("LANGUAGE", languageCode).apply()
 
         val locale = Locale(languageCode)
@@ -208,7 +191,7 @@ class SettingsActivity : BaseActivity() {
         finish()
     }
 
-    private fun setSettingsText() {
+    fun setSettingsText() {
         settingsBinding.toggleAccessibility.text = getString(R.string.toggleAccessibility)
         settingsBinding.toggleFont.text = getString(R.string.toggleFont)
         settingsBinding.toggleLanguage.text = getString(R.string.toggleLanguage)
