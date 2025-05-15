@@ -246,10 +246,28 @@
     <string name="nineteenth_section_name3">At Home:</string>
     <string name="nineteenth_main_text3">Civil unrest about parliamentary reform led to a spate of riots in 1819. A huge gathering at St. Peter’s Fields in Manchester was forcibly broken up largely by the Manchester and Salford Yeomanry and 11 people died. These tragic events became known as the ‘Peterloo Massacre’ in a sardonic reference to Waterloo.
     Although not directly involved, the Cheshire Yeomanry were present – and were congratulated by the head of security forces for their “good bearing, steadiness and forbearance under provocation” … “What you did was right and gentle” </string>
-    <string name="nineteenth_section_name4">Medicine in the Army - PLACEHOLDER</string>
-    <string name="nineteenth_main_text4">PLACEHOLDER:</string>
-    <string name="nineteenth_section_name5">Standards - PLACEHOLDER:</string>
-    <string name="nineteenth_main_text5">PLACEHOLDER:</string>
+    <string name="nineteenth_section_name4">Medicine in the Army</string>
+    <string name="nineteenth_main_text4">
+    ‘Biting the bullet’:
+    \nOriginally surgeons were commissioned unto each regiment – there was no Army Medical Service as there is today. The surgery methods were primitive and had changed little since Roman times. Essential tools were a sharp knife, a bone-saw and a bullet to bite on. The bullet was to avoid the patient shouting out with pain – although a lucky man might receive a good shot of liquor as anaesthetic.\n
+    \nThe Influence of Florence Nightingale:
+    \nFlorence Nightingale and other medical pioneers in the Crimean War made great strides forward in the quality of care for wounded soldiers – particularly in the area of hygiene. By the outbreak of the First World War, there was a Royal Army Medical Corps and each unit had trained stretcher-bearers. These men were sometimes \‘conscientious objectors\’ who served in \‘Friends\’ Field Ambulances – and many lost their lives trying to save others.\n
+    \nTriage was invented in the First World War so that the seriously wounded, could be separated quickly from the walking wounded and the dead – and those in the most need of effective treatment would receive it first. This system is still used in civilian Accident and Emergency Wards today.\n
+    \nPreventative Medicine:
+    \nAs treatment improved, the importance of preventative medicine became widely recognised. Cleanliness was a must – Field Bath Units came into use and officers were issues with a canvas bath. Regular and dreaded foot inspections, by platoon officers took place. By the outbreak of the Second World War, inoculation was used to prevent soldiers contracting disease in foreign countries.\n
+    \nEvacuation:
+    \nMost recently not only has medicine improved (Plasma bottles are now carried in the field) but the ability to remove the wounded soldier quickly from the battlefield. Helicopters have been the real \‘life-saver\’ here. Soldiers wounded in Northern Ireland have usually been treated within ten minutes of the incident.</string>
+    <string name="nineteenth_section_name5">Standards, Guidons, Colours and Drum Banners - PLACEHOLDER:</string>
+    <string name="nineteenth_main_text5">Armies have always used flags to identify themselves and to form rallying points for troops in battle.
+    Standards:
+    Horse Regiments and Dragoon Guards carry standards. They are small and square flags with regimental devices and battle honours embroidered onto them.
+    Guidons:
+    Dragoons, Light Dragoons, Hussars, Lancers and Yeomanry carry guidons. They are flags with tails.
+    Colours:
+    The infantry carry colours. These are larger banners – usually two, a Queen\’s (or King\’s) Colour, and the Regiment\’s, which is based on its facing colour- in the case of the 22nd buff.
+    All these types of flag were consecrated before they were presented to the Regiments. They are looked after carefully and treated with great reverence in honour of the men who served under them over the centuries.
+    Cavalry Drum Banners:
+    Traditionally the cavalry have used drum banners on their kettledrums with the battle honours and regimental badges on them. Plain issue copper drums were covered by the banner but if the regiment owned a silver drum, the banner was hung below it. The horse was originally a strong troop horse, but today is usually a shire. :</string>
     <string name="nineteenth_section_name6">Crimea:</string>
     <string name="nineteenth_main_text6">The war was fought in the Crimean Peninsula by Britain and France against Russia. (the first time that France had not been the enemy). The Russian successes in the Black Sea made the British and the French fearful that their further expansion into the Ottoman Empire would threaten overland routes to India and the Far East.
     Major battles were fought at the River Alma, Balaklava and Inkerman in 1854. In 1855, the fall of the Russian fortress at Sevastopol sealed their defeat and peace.
@@ -292,10 +310,17 @@
     <string name="turn_of_the_century_main_text9">PLACEHOLDER</string>
     <string name="turn_of_the_century_section_name10">Volunteers - PLACEHOLDER:</string>
     <string name="turn_of_the_century_main_text10">PLACEHOLDER</string>
-    <string name="turn_of_the_century_section_name11">With Love… - PLACEHOLDER:</string>
-    <string name="turn_of_the_century_main_text11">PLACEHOLDER</string>
-    <string name="turn_of_the_century_section_name12">Captain Oats - PLACEHOLDER:</string>
-    <string name="turn_of_the_century_main_text12">PLACEHOLDER</string>
+    <string name="turn_of_the_century_section_name11">With Love…:</string>
+    <string name="turn_of_the_century_main_text11">Our \‘with love\’ display highlights the very human side to soldiering. They may appear to have been men apart of deeds they did and their hardships they endured – but they were, after all, someone’s friend or relative too.\n
+    \nAs the Parliamentary General John Lambert said in 1642:
+    \n“The best of men are but men at their best”\n
+    \nOn display there are letters, keepsakes, trench art, paintings and embroideries. The latter is a longstanding pastime for the soldier, which was often used as a form of therapy when recovering from injury… but was always done with love for those at home.\n
+    \n“I could not love thee (deare) so much, Lov\’d I not honour more” - Richard Lovelace, 1618-58. </string>
+    <string name="turn_of_the_century_section_name12">Captain Oats:</string>
+    <string name="turn_of_the_century_main_text12">
+    Captain Lawrence Edward Grace Oates was an officer in the 6th Inniskilling Dragoons. He became famous after he lost his life during Captain Scott’s Antarctic expedition of 1911. But he was also known for his gallantry in saving a trooper who had been wounded during the Boer War.\n
+    \nOates was a member of the small party which Scott led to the South Pole on foot – only to find that Amundsen\'s Norwegian party had beaten them there. On the return journey the weather closed in as they began to run out of supplies. Oates who had severe frostbite knew he was holding the others up and left the tent saying, “I may be a little while”. He went out of the tent to his certain death.\n
+    \nWriting in his diary, before he and the rest of the party also perished, Scott said of Oates: “He was a very gallant gentleman”. </string>
     <string name="ww1_remembrance_section_name1">20th Century and the World Wars:</string>
     <string name="ww1_remembrance_main_text1">he 20th Century saw the upheaval of two World Wars in its first half – the withdrawal from Empire and growth of terrorism in its second.
     Warfare changed considerably during this century compared with those before. The American Civil War (1861 to 1865) was the turning point of the new order, High explosives and the dreaded machine-gun (‘the devil’s paintbrush’) – together with gas weapons took over. The days of chivalry were gone.
