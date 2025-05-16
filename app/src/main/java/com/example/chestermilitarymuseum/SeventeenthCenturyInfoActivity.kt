@@ -27,9 +27,6 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
 
         // Text
         binding.title1.text = getString(R.string.seventeenth_century)
-        // Section 1
-        binding.mainTextBody1.text  = getString(R.string.seventeenth_main_text1)
-        binding.sectionName1.text   = getString(R.string.seventeenth_section_name1)
 
         // Section 2
         binding.mainTextBody2.text  = getString(R.string.seventeenth_main_text2)
