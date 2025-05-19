@@ -29,17 +29,14 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
 
         // Text
         binding.title1.text = getString(R.string.seventeenth_century)
-        // Section 1
+
+        // Section 2
         binding.mainTextBody1.text  = getString(R.string.seventeenth_main_text1)
         binding.sectionName1.text   = getString(R.string.seventeenth_section_name1)
 
-        // Section 2
+        // Section 3
         binding.mainTextBody2.text  = getString(R.string.seventeenth_main_text2)
         binding.sectionName2.text   = getString(R.string.seventeenth_section_name2)
-
-        // Section 3
-        binding.mainTextBody3.text  = getString(R.string.seventeenth_main_text3)
-        binding.sectionName3.text   = getString(R.string.seventeenth_section_name3)
 
         // Arrows
         binding.rightArrow.setOnClickListener {
@@ -54,7 +51,6 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
         val collapseButtons = listOf(
             binding.collapseButton1,
             binding.collapseButton2,
-            binding.collapseButton3,
         )
         val mainTextBodies = listOf(
             binding.mainTextBody1,
@@ -137,7 +133,6 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
         val ttsButtons = listOf(
             binding.textToSpeechPlayButton1,
             binding.textToSpeechPlayButton2,
-            binding.textToSpeechPlayButton3
         )
         ttsButtons.forEachIndexed { idx, btn ->
             btn.setOnClickListener {
