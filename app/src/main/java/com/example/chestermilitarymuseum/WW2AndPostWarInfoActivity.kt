@@ -1,9 +1,11 @@
 package com.example.chestermilitarymuseum
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
@@ -138,18 +140,66 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
 
+        //set an on-click listener to each button
         collapseButtons.forEachIndexed { index, button ->
             button.setOnClickListener {
+                // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
-                val targetBody = mainTextBodies[index]
-                val wasVisible = targetBody.visibility == View.VISIBLE
 
-                // Hide all bodies
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
                 mainTextBodies.forEach { it.visibility = View.GONE }
 
-                // Toggle clicked section
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
                 if (!wasVisible) {
-                    targetBody.visibility = View.VISIBLE
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
+                }
+            }
+
+
+            //set on-click listeners for the linear layouts
+            val buttonParent = button.parent as LinearLayout
+            buttonParent.setOnClickListener {
+                // Animate text
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
+                if (!wasVisible) {
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
                 }
             }
         }
