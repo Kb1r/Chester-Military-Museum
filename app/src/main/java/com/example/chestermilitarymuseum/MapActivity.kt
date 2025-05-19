@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.MapLayoutBinding
 
-class MapActivity : AppCompatActivity() {
+class MapActivity : BaseActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var mapBinding: MapLayoutBinding
@@ -60,6 +60,7 @@ class MapActivity : AppCompatActivity() {
         mapBinding.tvLift.text = getString(R.string.tvLift)
         mapBinding.tvAccessibleToilets.text = getString(R.string.tvAccessibleToilets)
         mapBinding.tvMapLegends.text = getString(R.string.tvMapLegends)
+        binding.headerTitle.text = getText(R.string.headerTitle)
     }
 
 }

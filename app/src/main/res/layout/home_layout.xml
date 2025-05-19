@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FAF6F0">
@@ -13,37 +14,41 @@
         android:paddingTop="16dp">
 
         <!-- START TOUR -->
+
+        <!-- GRID MENU -->
+
         <LinearLayout
             android:id="@+id/startTourBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
+            android:layout_width="344dp"
+            android:layout_height="185dp"
             android:background="@drawable/box_background"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="12dp"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.075">
 
             <TextView
                 android:id="@+id/startTourText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="321dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
                 android:text="START TOUR"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp" />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/startTourImage"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="279dp"
+                android:layout_height="40dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/tour_code_icon" />
         </LinearLayout>
 
-        <!-- GRID MENU -->
         <GridLayout
             android:id="@+id/gridLayout"
             android:layout_width="0dp"
@@ -65,8 +70,7 @@
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/map_icon"
-                android:backgroundTint="@color/box_color"
+                android:background="@drawable/box_background"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
@@ -96,8 +100,7 @@
                 android:layout_height="110dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/ticket_icon"
-                android:backgroundTint="@color/box_color"
+                android:background="@drawable/box_background"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
@@ -125,8 +128,7 @@
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/gift_shop_icon"
-                android:backgroundTint="@color/box_color"
+                android:background="@drawable/box_background"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
@@ -154,8 +156,7 @@
                 android:layout_height="110dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:background="@drawable/contact_us"
-                android:backgroundTint="@color/box_color"
+                android:background="@drawable/box_background"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_margin="8dp"
@@ -171,9 +172,9 @@
                     android:textSize="14sp" />
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/contact_us"/>
+                    android:layout_width="78dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/contact_us" />
             </LinearLayout>
         </GridLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,55 +3,67 @@ package com.example.chestermilitarymuseum
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.content.res.Configuration
 import android.os.Bundle
-import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.*
-import androidx.appcompat.app.AppCompatActivity
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Toast
 import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.SettingsLayoutBinding
 import java.util.Locale
 
-class SettingsActivity : AppCompatActivity() {
+class SettingsActivity : BaseActivity() {
 
     private lateinit var baseBinding: ActivityBaseBinding
     private lateinit var settingsBinding: SettingsLayoutBinding
     private lateinit var sharedPreferences: SharedPreferences
 
-    //Creating the map that represents the language selected using ISO 639-1 code.
     private val languages = mapOf(
         "English" to "en",
         "French" to "fr",
         "Spanish" to "es",
-        "German" to "de"
+        "German" to "de",
+        "Polish" to "pl",
+        "Welsh" to "cy"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // inflate
         baseBinding = ActivityBaseBinding.inflate(layoutInflater)
         settingsBinding = SettingsLayoutBinding.inflate(LayoutInflater.from(this))
-
         setContentView(baseBinding.root)
         setSupportActionBar(baseBinding.toolbar)
 
-        // Show SettingsLayout inside the base layout's container
+        // container
         baseBinding.container.removeAllViews()
         baseBinding.container.addView(settingsBinding.root)
 
         setupExpandableSections()
         setupLanguageDropdown()
         setupListeners()
-        //String text method call:
         setSettingsText()
 
-        sharedPreferences = getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
 
-        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en")
-        settingsBinding.spinnerLanguage.setSelection(languages.values.indexOf(currentLanguage))
+
+
+        // init prefs
+        sharedPreferences = getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
+
+        val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
+        val index = languages.values.indexOf(currentLanguage).takeIf { it >= 0 } ?: 0
+        settingsBinding.spinnerLanguage.setSelection(index)
+
+        settingsBinding.spinnerLanguage.setSelection(
+            languages.values.indexOf(currentLanguage)
+        )
+
 
         //Test approach
+        var isSpinnerInitialised = false
         settingsBinding.spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 parent: AdapterView<*>?,
@@ -59,24 +71,26 @@ class SettingsActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ) {
+                if (!isSpinnerInitialised) {
+                    isSpinnerInitialised = true
+                    return
+                }
                 val selectedLanguage = languages.values.toList()[position]
                 if (selectedLanguage != currentLanguage) {
                     setLocale(selectedLanguage)
                 }
             }
 
-            override fun onNothingSelected(parent: AdapterView<*>?) {
+            override fun onNothingSelected(p0: AdapterView<*>?) {
             }
-            //End of test approach
         }
 
-
-        // Handle navigation
+        // bottom nav
         baseBinding.bottomNavigation.selectedItemId = R.id.navigation_settings
         baseBinding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
-                    startActivity((Intent(this, MainActivity::class.java)))
+                    startActivity(Intent(this, MainActivity::class.java))
                     true
                 }
                 R.id.navigation_news -> {
@@ -86,92 +100,106 @@ class SettingsActivity : AppCompatActivity() {
                 else -> false
             }
         }
-
-
     }
 
-    private fun setupExpandableSections() {
+     fun setupExpandableSections() {
         settingsBinding.toggleAccessibility.setOnClickListener {
             toggleVisibility(settingsBinding.sectionAccessibility)
         }
-
         settingsBinding.toggleFont.setOnClickListener {
             toggleVisibility(settingsBinding.sectionFont)
         }
-
         settingsBinding.toggleLanguage.setOnClickListener {
-            settingsBinding.spinnerLanguage.visibility =
-                if (settingsBinding.spinnerLanguage.visibility == View.GONE) View.VISIBLE else View.GONE
+            toggleVisibility(settingsBinding.spinnerLanguage)
         }
     }
 
-    private fun toggleVisibility(view: View) {
+    fun toggleVisibility(view: View) {
         view.visibility = if (view.visibility == View.GONE) View.VISIBLE else View.GONE
     }
 
-    //Now uses the keys from the map.
-    private fun setupLanguageDropdown() {
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, languages.keys.toList())
+    fun setupLanguageDropdown() {
+        val adapter = ArrayAdapter(
+            this,
+            android.R.layout.simple_spinner_dropdown_item,
+            languages.keys.toList()
+        )
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         settingsBinding.spinnerLanguage.adapter = adapter
     }
 
-    private fun setupListeners() {
+    fun setupListeners() {
+        // Audio & Notifications unchanged
         settingsBinding.switchAudioGuide.setOnCheckedChangeListener { _, isChecked ->
-            Toast.makeText(this, "Audio Guide: ${if (isChecked) "On" else "Off"}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this,
+                "Audio Guide: ${if (isChecked) "On" else "Off"}",
+                Toast.LENGTH_SHORT
+            ).show()
         }
-
         settingsBinding.switchNotifications.setOnCheckedChangeListener { _, isChecked ->
-            Toast.makeText(this, "Notifications: ${if (isChecked) "Enabled" else "Disabled"}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this,
+                "Notifications: ${if (isChecked) "Enabled" else "Disabled"}",
+                Toast.LENGTH_SHORT
+            ).show()
         }
 
+        // 2️⃣ Font‐size buttons now persist + recreate
         settingsBinding.btnSmallFont.setOnClickListener {
-            Toast.makeText(this, "Small font selected", Toast.LENGTH_SHORT).show()
+            sharedPreferences.edit().putString("font_size", "small").apply()
+            recreate()
         }
-
         settingsBinding.btnMediumFont.setOnClickListener {
-            Toast.makeText(this, "Medium font selected", Toast.LENGTH_SHORT).show()
+            sharedPreferences.edit().putString("font_size", "medium").apply()
+            recreate()
         }
-
         settingsBinding.btnLargeFont.setOnClickListener {
-            Toast.makeText(this, "Large font selected", Toast.LENGTH_SHORT).show()
+            sharedPreferences.edit().putString("font_size", "large").apply()
+            recreate()
         }
 
+        // Reset everything, including font back to medium
         settingsBinding.btnResetSettings.setOnClickListener {
+            // restore defaults
             settingsBinding.accessibilityGroup.check(R.id.rbDefault)
             settingsBinding.switchAudioGuide.isChecked = false
             settingsBinding.switchNotifications.isChecked = false
             settingsBinding.spinnerLanguage.setSelection(0)
+
+            // reset font size
+            sharedPreferences.edit().putString("font_size", "medium").apply()
+            recreate()
+
             Toast.makeText(this, "Settings reset", Toast.LENGTH_SHORT).show()
         }
     }
 
-    //Setting the locale
     fun setLocale(languageCode: String) {
-        val languageEditor = sharedPreferences.edit()
-        languageEditor.putString("LANGUAGE", languageCode)
-        languageEditor.apply()
+        sharedPreferences.edit().putString("LANGUAGE", languageCode).apply()
 
         val locale = Locale(languageCode)
         Locale.setDefault(locale)
-        val config = resources.configuration
+        val config = Configuration()
         config.setLocale(locale)
         resources.updateConfiguration(config, resources.displayMetrics)
 
+        // restart for locale change
         val intent = Intent(this, SettingsActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
         startActivity(intent)
         finish()
-
     }
 
-    private fun setSettingsText(){
+    fun setSettingsText() {
         settingsBinding.toggleAccessibility.text = getString(R.string.toggleAccessibility)
         settingsBinding.toggleFont.text = getString(R.string.toggleFont)
         settingsBinding.toggleLanguage.text = getString(R.string.toggleLanguage)
         settingsBinding.btnResetSettings.text = getString(R.string.btnResetSettings)
         settingsBinding.tvToggleAudio.text = getString(R.string.tvToggleAudio)
         settingsBinding.tvToggleNotifications.text = getString(R.string.tvToggleNotifications)
+        settingsBinding.switchAudioGuide.text = getString(R.string.switchAudioGuide)
+        settingsBinding.switchNotifications.text = getString(R.string.switchNotifications)
+        baseBinding.headerTitle.text = getString(R.string.headerTitle)
     }
-
 }

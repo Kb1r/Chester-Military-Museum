@@ -1,0 +1,61 @@
+Index: app/src/main/java/com/example/chestermilitarymuseum/BaseActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.chestermilitarymuseum\r\n\r\nimport android.content.Context\r\nimport android.content.res.Configuration\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport java.util.Locale\r\n\r\n//Code adapted from Panchal (January 2025) [Medium].\r\nopen class BaseActivity : AppCompatActivity() {\r\n    override fun attachBaseContext(newBase: Context) {\r\n        val sharedPreferences = newBase.getSharedPreferences(\"language_prefs\", Context.MODE_PRIVATE)\r\n        val currentLanguage = sharedPreferences.getString(\"LANGUAGE\", \"en\") ?: \"en\"\r\n\r\n        val locale = Locale(currentLanguage)\r\n        Locale.setDefault(locale)\r\n\r\n        val config = Configuration()\r\n        config.setLocale(locale)\r\n\r\n        val context = newBase.createConfigurationContext(config)\r\n        super.attachBaseContext(context)\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/chestermilitarymuseum/BaseActivity.kt b/app/src/main/java/com/example/chestermilitarymuseum/BaseActivity.kt
+--- a/app/src/main/java/com/example/chestermilitarymuseum/BaseActivity.kt	(revision 9aa2958ec0a84f833b8e75c04383a902b3858b38)
++++ b/app/src/main/java/com/example/chestermilitarymuseum/BaseActivity.kt	(date 1747314294734)
+@@ -2,6 +2,7 @@
+ 
+ import android.content.Context
+ import android.content.res.Configuration
++import android.graphics.Bitmap.Config
+ import androidx.appcompat.app.AppCompatActivity
+ import java.util.Locale
+ 
+@@ -10,13 +11,22 @@
+     override fun attachBaseContext(newBase: Context) {
+         val sharedPreferences = newBase.getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
+         val currentLanguage = sharedPreferences.getString("LANGUAGE", "en") ?: "en"
++        val choice = sharedPreferences.getString("font_size", "medium") ?: "medium"
++
++        val scale = when (choice)
++        {
++            "small" -> 0.85f
++            "large" -> 1.4f
++            else -> 1.0f
++        }
+ 
+         val locale = Locale(currentLanguage)
+-        Locale.setDefault(locale)
+ 
+-        val config = Configuration()
++        val config = Configuration(newBase.resources.configuration)
++            .apply {fontScale = scale}
+         config.setLocale(locale)
+ 
++
+         val context = newBase.createConfigurationContext(config)
+         super.attachBaseContext(context)
+     }
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"jbr-17\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 9aa2958ec0a84f833b8e75c04383a902b3858b38)
++++ b/.idea/misc.xml	(date 1747309693205)
+@@ -1,4 +1,5 @@
++<?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file

@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="militaryGreen">#D1B6A4</color>
-    <color name="box_color" >#F4C48D</color>
+<color name="militaryGreen">#D1B6A4</color>
+<color name="box_color" >#FFFFFF</color>
+<!-- ==================== DEFAULT MODE ==================== -->
+<color name="primary">#BCAAA4</color>
+<color name="onPrimary">#FFFFFF</color>
+<color name="secondary">#7E57C2</color>
+<color name="onSecondary">#FFFFFF</color>
+<color name="background">#F5F1EE</color>
+<color name="onBackground">#000000</color>
+<color name="surface">#FFFFFF</color>
+<color name="onSurface">#000000</color>
+
+<!-- ================== HIGH-CONTRAST MODE ================== -->
+<!-- Black text on white, max contrast -->
+<color name="highcontrast_primary">#000000</color>
+<color name="highcontrast_onPrimary">#FFFFFF</color>
+<color name="highcontrast_secondary">#FFFFFF</color>
+<color name="highcontrast_onSecondary">#000000</color>
+<color name="highcontrast_background">#FFFFFF</color>
+<color name="highcontrast_onBackground">#000000</color>
+<color name="highcontrast_surface">#FFFFFF</color>
+<color name="highcontrast_onSurface">#000000</color>
+
+<!-- ================ PROTANOPIA-SAFE MODE ================ -->
+<!-- Protanopes (red-blind) can distinguish blue vs yellow -->
+<color name="protanopia_primary">#00529B</color>      <!-- strong blue -->
+<color name="protanopia_onPrimary">#FFFFFF</color>
+<color name="protanopia_secondary">#FFD700</color>    <!-- vivid yellow -->
+<color name="protanopia_onSecondary">#000000</color>
+<color name="protanopia_background">#FFFFFF</color>
+<color name="protanopia_onBackground">#000000</color>
+<color name="protanopia_surface">#F0F0F0</color>
+<color name="protanopia_onSurface">#000000</color>
+
+<!-- ============== DEUTERANOPIA-SAFE MODE ============== -->
+<!-- Deuteranopes (green-blind) can distinguish blue vs orange -->
+<color name="deuteranopia_primary">#0000FF</color>    <!-- pure blue -->
+<color name="deuteranopia_onPrimary">#FFFFFF</color>
+<color name="deuteranopia_secondary">#FF5500</color>  <!-- bright orange -->
+<color name="deuteranopia_onSecondary">#000000</color>
+<color name="deuteranopia_background">#FFFFFF</color>
+<color name="deuteranopia_onBackground">#000000</color>
+<color name="deuteranopia_surface">#F0F0F0</color>
+<color name="deuteranopia_onSurface">#000000</color>
+
+<!-- =============== TRITANOPIA-SAFE MODE =============== -->
+<!-- Tritanopes (blue-blind) can distinguish red vs green -->
+<color name="tritanopia_primary">#D90000</color>      <!-- deep red -->
+<color name="tritanopia_onPrimary">#FFFFFF</color>
+<color name="tritanopia_secondary">#00A600</color>    <!-- vibrant green -->
+<color name="tritanopia_onSecondary">#FFFFFF</color>
+<color name="tritanopia_background">#FFFFFF</color>
+<color name="tritanopia_onBackground">#000000</color>
+<color name="tritanopia_surface">#F0F0F0</color>
+<color name="tritanopia_onSurface">#000000</color>
 </resources>

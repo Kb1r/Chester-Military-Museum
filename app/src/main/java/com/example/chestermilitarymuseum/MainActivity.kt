@@ -10,7 +10,7 @@ import com.example.chestermilitarymuseum.databinding.ActivityBaseBinding
 import com.example.chestermilitarymuseum.databinding.HomeLayoutBinding
 import com.google.zxing.integration.android.IntentIntegrator
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private lateinit var binding: ActivityBaseBinding
     private lateinit var homeBinding: HomeLayoutBinding
@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityBaseBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //setHomeText() - maybe remove
 
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
@@ -123,14 +125,19 @@ class MainActivity : AppCompatActivity() {
             integrator.initiateScan()
         }
 
-        //Using string resources from xml files instead:
+        //Home Text Resource Binding:
         homeBinding.tvMap.text = getString(R.string.tvMap)
         homeBinding.tvTickets.text = getString(R.string.tvTickets)
         homeBinding.tvGiftShop.text = getString(R.string.tvGiftShop)
         homeBinding.tvContactUs.text = getString(R.string.tvContactUs)
         homeBinding.startTourText.text = getString(R.string.startTourText)
+        binding.headerTitle.text = getText(R.string.headerTitle)
+        homeBinding.codeInput.setHint(R.string.codeInput)
+        homeBinding.btnSubmitCode.text = getString(R.string.btnSubmitCode)
+        homeBinding.btnLaunchQrScanner.text = getString(R.string.btnLaunchQrScanner)
 
     }
+
 
     private fun showView(view: View) {
         binding.container.removeAllViews()

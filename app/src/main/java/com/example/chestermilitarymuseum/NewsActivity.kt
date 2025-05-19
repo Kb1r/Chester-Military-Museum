@@ -14,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.ActivityNewsBinding
 import com.example.chestermilitarymuseum.network.RetrofitClient
 import kotlinx.coroutines.launch
 
-class NewsActivity : AppCompatActivity() {
+class NewsActivity : BaseActivity() {
 
     private lateinit var baseBinding: ActivityBaseBinding
     private lateinit var newsBinding: ActivityNewsBinding
@@ -31,6 +31,7 @@ class NewsActivity : AppCompatActivity() {
         newsBinding = ActivityNewsBinding.inflate(inflater)
         baseBinding.container.removeAllViews()
         baseBinding.container.addView(newsBinding.root)
+        baseBinding.headerTitle.text = getText(R.string.headerTitle)
 
         // Setup RecyclerView
         newsBinding.newsRecyclerView.layoutManager = LinearLayoutManager(this)
