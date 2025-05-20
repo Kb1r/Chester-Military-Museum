@@ -86,6 +86,17 @@ class NineteenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListene
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.regiments_of_the_19th_century)
+                    1 -> binding.topImage.setImageResource(R.drawable.napoleonic_wars)
+                    2 -> binding.topImage.setImageResource(R.drawable.at_home)
+                    3 -> binding.topImage.setImageResource(R.drawable.medicine_in_the_army)
+                    4 -> binding.topImage.setImageResource(R.drawable.standards_drums_etc)
+                    5 -> binding.topImage.setImageResource(R.drawable.crimea)
+                    6 -> binding.topImage.setImageResource(R.drawable.india_scinde)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -117,6 +128,17 @@ class NineteenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListene
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.regiments_of_the_19th_century)
+                    1 -> binding.topImage.setImageResource(R.drawable.napoleonic_wars)
+                    2 -> binding.topImage.setImageResource(R.drawable.at_home)
+                    3 -> binding.topImage.setImageResource(R.drawable.medicine_in_the_army)
+                    4 -> binding.topImage.setImageResource(R.drawable.standards_drums_etc)
+                    5 -> binding.topImage.setImageResource(R.drawable.crimea)
+                    6 -> binding.topImage.setImageResource(R.drawable.india_scinde)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]

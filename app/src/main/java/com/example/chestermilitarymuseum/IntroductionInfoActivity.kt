@@ -110,6 +110,15 @@ class IntroductionInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.eaton_hall_intro)
+                    1 -> binding.topImage.setImageResource(R.drawable.the_cheshire_regiment)
+                    2 -> binding.topImage.setImageResource(R.drawable.cheshire_yeomanry)
+                    3 -> binding.topImage.setImageResource(R.drawable.the_3rd_dragoon_guards)
+                    4 -> binding.topImage.setImageResource(R.drawable.the_5th_dragoon_guards)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -141,6 +150,15 @@ class IntroductionInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.eaton_hall_intro)
+                    1 -> binding.topImage.setImageResource(R.drawable.the_cheshire_regiment)
+                    2 -> binding.topImage.setImageResource(R.drawable.cheshire_yeomanry)
+                    3 -> binding.topImage.setImageResource(R.drawable.the_3rd_dragoon_guards)
+                    4 -> binding.topImage.setImageResource(R.drawable.the_5th_dragoon_guards)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]

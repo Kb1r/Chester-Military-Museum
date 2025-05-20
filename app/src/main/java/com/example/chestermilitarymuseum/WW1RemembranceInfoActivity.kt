@@ -93,6 +93,18 @@ class WW1RemembranceInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.twentieth_century_and_the_world_wars)
+                    1 -> binding.topImage.setImageResource(R.drawable.world_war1)
+                    2 -> binding.topImage.setImageResource(R.drawable.trench_warfare)
+                    3 -> binding.topImage.setImageResource(R.drawable.the_victoria_cross)
+                    4 -> binding.topImage.setImageResource(R.drawable.recruiting)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_band_and_drums)
+                    6 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww1)
+                    7 -> binding.topImage.setImageResource(R.drawable.other_theatres_of_war)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -124,6 +136,18 @@ class WW1RemembranceInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.twentieth_century_and_the_world_wars)
+                    1 -> binding.topImage.setImageResource(R.drawable.world_war1)
+                    2 -> binding.topImage.setImageResource(R.drawable.trench_warfare)
+                    3 -> binding.topImage.setImageResource(R.drawable.the_victoria_cross)
+                    4 -> binding.topImage.setImageResource(R.drawable.recruiting)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_band_and_drums)
+                    6 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww1)
+                    7 -> binding.topImage.setImageResource(R.drawable.other_theatres_of_war)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]

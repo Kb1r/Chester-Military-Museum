@@ -33,9 +33,6 @@ class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
         binding.sectionName1.text   = getString(R.string.ww2_and_post_war_section_name1)
         binding.mainTextBody1.text  = getString(R.string.ww2_and_post_war_main_text1)
 
-        binding.sectionName2.text   = getString(R.string.ww2_and_post_war_section_name2)
-        binding.mainTextBody2.text  = getString(R.string.ww2_and_post_war_main_text2)
-
         binding.sectionName3.text   = getString(R.string.ww2_and_post_war_section_name3)
         binding.mainTextBody3.text  = getString(R.string.ww2_and_post_war_main_text3)
 
@@ -105,7 +102,6 @@ class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
         // Prepare collapse/expand animation
         val collapseButtons = listOf(
             binding.collapseButton1,
-            binding.collapseButton2,
             binding.collapseButton3,
             binding.collapseButton4,
             binding.collapseButton5,
@@ -122,7 +118,6 @@ class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
         val mainTextBodies = listOf(
             binding.mainTextBody1,
-            binding.mainTextBody2,
             binding.mainTextBody3,
             binding.mainTextBody4,
             binding.mainTextBody5,
@@ -145,6 +140,24 @@ class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
             button.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.world_war2)
+                    1 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    2 -> binding.topImage.setImageResource(R.drawable.syria)
+                    3 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww2)
+                    4 -> binding.topImage.setImageResource(R.drawable.siege_of_malta)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_home_front)
+                    6 -> binding.topImage.setImageResource(R.drawable.the_home_guard)
+                    7 -> binding.topImage.setImageResource(R.drawable.sicily_and_italy)
+                    8 -> binding.topImage.setImageResource(R.drawable.normandy_france_germany)
+                    9 -> binding.topImage.setImageResource(R.drawable.eaton_hall_ww2)
+                    10 -> binding.topImage.setImageResource(R.drawable.korean_war)
+                    11 -> binding.topImage.setImageResource(R.drawable.egypt_to_germany)
+                    12 -> binding.topImage.setImageResource(R.drawable.exercising_and_modern_life)
+                    13 -> binding.topImage.setImageResource(R.drawable.bosnia)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]
@@ -178,6 +191,24 @@ class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.world_war2)
+                    1 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    2 -> binding.topImage.setImageResource(R.drawable.syria)
+                    3 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww2)
+                    4 -> binding.topImage.setImageResource(R.drawable.siege_of_malta)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_home_front)
+                    6 -> binding.topImage.setImageResource(R.drawable.the_home_guard)
+                    7 -> binding.topImage.setImageResource(R.drawable.sicily_and_italy)
+                    8 -> binding.topImage.setImageResource(R.drawable.normandy_france_germany)
+                    9 -> binding.topImage.setImageResource(R.drawable.eaton_hall_ww2)
+                    10 -> binding.topImage.setImageResource(R.drawable.korean_war)
+                    11 -> binding.topImage.setImageResource(R.drawable.egypt_to_germany)
+                    12 -> binding.topImage.setImageResource(R.drawable.exercising_and_modern_life)
+                    13 -> binding.topImage.setImageResource(R.drawable.bosnia)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -207,7 +238,6 @@ class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
         // Text-to-speech listeners for each section
         val ttsButtons = listOf(
             binding.textToSpeechPlayButton1,
-            binding.textToSpeechPlayButton2,
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
             binding.textToSpeechPlayButton5,
