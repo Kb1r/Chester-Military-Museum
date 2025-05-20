@@ -176,56 +176,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 2 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:background="@drawable/full_border1dp">
-
-                    <ImageButton
-                        android:id="@+id/collapseButton2"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image1" />
-
-                    <TextView
-                        android:id="@+id/sectionName2"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="SectionName2"
-                        android:textSize="24sp" />
-
-                    <ImageButton
-                        android:id="@+id/textToSpeechPlayButton2"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@android:drawable/ic_media_play" />
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/mainTextBody2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:textSize="16sp"
-                    android:visibility="gone" />
-
-            </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
             <!-- Section 3 -->
             <LinearLayout
                 android:layout_width="match_parent"

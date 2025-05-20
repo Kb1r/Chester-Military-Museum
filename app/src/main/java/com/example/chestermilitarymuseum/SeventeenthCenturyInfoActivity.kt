@@ -113,7 +113,7 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
                 // Assigns images based on which section is open
                 when(index) {
                     0 -> binding.topImage.setImageResource(R.drawable.raising_the_cheshires)
-                    1 -> binding.topImage.setImageResource(R.drawable.the_cheshire_regiment)
+                    1 -> binding.topImage.setImageResource(R.drawable.raising_the_cavalry)
                 }
 
                 // Hides all text

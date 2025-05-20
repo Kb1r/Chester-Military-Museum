@@ -42,9 +42,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
         binding.sectionName4.text    = getString(R.string.turn_of_the_century_section_name4)
         binding.mainTextBody4.text   = getString(R.string.turn_of_the_century_main_text4)
 
-        binding.sectionName5.text    = getString(R.string.turn_of_the_century_section_name5)
-        binding.mainTextBody5.text   = getString(R.string.turn_of_the_century_main_text5)
-
         binding.sectionName6.text    = getString(R.string.turn_of_the_century_section_name6)
         binding.mainTextBody6.text   = getString(R.string.turn_of_the_century_main_text6)
 
@@ -81,7 +78,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             binding.collapseButton2,
             binding.collapseButton3,
             binding.collapseButton4,
-            binding.collapseButton5,
             binding.collapseButton6,
             binding.collapseButton7,
             binding.collapseButton8,
@@ -96,7 +92,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             binding.mainTextBody2,
             binding.mainTextBody3,
             binding.mainTextBody4,
-            binding.mainTextBody5,
             binding.mainTextBody6,
             binding.mainTextBody7,
             binding.mainTextBody8,
@@ -168,7 +163,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
                     1 -> binding.topImage.setImageResource(R.drawable.burma_war)
                     2 -> binding.topImage.setImageResource(R.drawable.sudan_war)
                     3 -> binding.topImage.setImageResource(R.drawable.america_and_africa)
-                    4 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
                     5 -> binding.topImage.setImageResource(R.drawable.bayonets_swords_guns)
                     6 -> binding.topImage.setImageResource(R.drawable.sport_in_the_army)
                     7 -> binding.topImage.setImageResource(R.drawable.affiliations_friendships)
@@ -210,7 +204,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             binding.textToSpeechPlayButton2,
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
-            binding.textToSpeechPlayButton5,
             binding.textToSpeechPlayButton6,
             binding.textToSpeechPlayButton7,
             binding.textToSpeechPlayButton8,
