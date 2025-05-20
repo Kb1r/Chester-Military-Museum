@@ -114,6 +114,22 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.boer_war)
+                    1 -> binding.topImage.setImageResource(R.drawable.burma_war)
+                    2 -> binding.topImage.setImageResource(R.drawable.sudan_war)
+                    3 -> binding.topImage.setImageResource(R.drawable.america_and_africa)
+                    4 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    5 -> binding.topImage.setImageResource(R.drawable.bayonets_swords_guns)
+                    6 -> binding.topImage.setImageResource(R.drawable.sport_in_the_army)
+                    7 -> binding.topImage.setImageResource(R.drawable.affiliations_friendships)
+                    8 -> binding.topImage.setImageResource(R.drawable.fashions)
+                    9 -> binding.topImage.setImageResource(R.drawable.volunteers)
+                    10 -> binding.topImage.setImageResource(R.drawable.with_love)
+                    11 -> binding.topImage.setImageResource(R.drawable.captain_oates)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -145,6 +161,22 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.boer_war)
+                    1 -> binding.topImage.setImageResource(R.drawable.burma_war)
+                    2 -> binding.topImage.setImageResource(R.drawable.sudan_war)
+                    3 -> binding.topImage.setImageResource(R.drawable.america_and_africa)
+                    4 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    5 -> binding.topImage.setImageResource(R.drawable.bayonets_swords_guns)
+                    6 -> binding.topImage.setImageResource(R.drawable.sport_in_the_army)
+                    7 -> binding.topImage.setImageResource(R.drawable.affiliations_friendships)
+                    8 -> binding.topImage.setImageResource(R.drawable.fashions)
+                    9 -> binding.topImage.setImageResource(R.drawable.volunteers)
+                    10 -> binding.topImage.setImageResource(R.drawable.with_love)
+                    11 -> binding.topImage.setImageResource(R.drawable.captain_oates)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]

@@ -71,6 +71,13 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.raising_the_cheshires)
+                    1 -> binding.topImage.setImageResource(R.drawable.the_cheshire_regiment)
+                }
+
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -102,6 +109,12 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.raising_the_cheshires)
+                    1 -> binding.topImage.setImageResource(R.drawable.the_cheshire_regiment)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]
