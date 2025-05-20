@@ -80,6 +80,16 @@ class EighteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLi
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.regiments_of_the_18th_century)
+                    1 -> binding.topImage.setImageResource(R.drawable.north_america)
+                    2 -> binding.topImage.setImageResource(R.drawable.death_of_wolfe)
+                    3 -> binding.topImage.setImageResource(R.drawable.dettingen)
+                    4 -> binding.topImage.setImageResource(R.drawable.in_europe)
+                    5 -> binding.topImage.setImageResource(R.drawable.women_of_the_regiments)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -111,6 +121,16 @@ class EighteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLi
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.regiments_of_the_18th_century)
+                    1 -> binding.topImage.setImageResource(R.drawable.north_america)
+                    2 -> binding.topImage.setImageResource(R.drawable.death_of_wolfe)
+                    3 -> binding.topImage.setImageResource(R.drawable.dettingen)
+                    4 -> binding.topImage.setImageResource(R.drawable.in_europe)
+                    5 -> binding.topImage.setImageResource(R.drawable.women_of_the_regiments)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]

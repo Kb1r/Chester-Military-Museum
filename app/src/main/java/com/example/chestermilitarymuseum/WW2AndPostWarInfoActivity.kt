@@ -146,6 +146,24 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.world_war2)
+                    1 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    2 -> binding.topImage.setImageResource(R.drawable.syria)
+                    3 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww2)
+                    4 -> binding.topImage.setImageResource(R.drawable.siege_of_malta)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_home_front)
+                    6 -> binding.topImage.setImageResource(R.drawable.the_home_guard)
+                    7 -> binding.topImage.setImageResource(R.drawable.sicily_and_italy)
+                    8 -> binding.topImage.setImageResource(R.drawable.normandy_france_germany)
+                    9 -> binding.topImage.setImageResource(R.drawable.eaton_hall_ww2)
+                    10 -> binding.topImage.setImageResource(R.drawable.korean_war)
+                    11 -> binding.topImage.setImageResource(R.drawable.egypt_to_germany)
+                    12 -> binding.topImage.setImageResource(R.drawable.exercising_and_modern_life)
+                    13 -> binding.topImage.setImageResource(R.drawable.bosnia)
+                }
+
                 // Hides all text
                 val target = mainTextBodies[index]
                 val wasVisible = target.visibility == View.VISIBLE
@@ -177,6 +195,24 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
             buttonParent.setOnClickListener {
                 // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.world_war2)
+                    1 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    2 -> binding.topImage.setImageResource(R.drawable.syria)
+                    3 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww2)
+                    4 -> binding.topImage.setImageResource(R.drawable.siege_of_malta)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_home_front)
+                    6 -> binding.topImage.setImageResource(R.drawable.the_home_guard)
+                    7 -> binding.topImage.setImageResource(R.drawable.sicily_and_italy)
+                    8 -> binding.topImage.setImageResource(R.drawable.normandy_france_germany)
+                    9 -> binding.topImage.setImageResource(R.drawable.eaton_hall_ww2)
+                    10 -> binding.topImage.setImageResource(R.drawable.korean_war)
+                    11 -> binding.topImage.setImageResource(R.drawable.egypt_to_germany)
+                    12 -> binding.topImage.setImageResource(R.drawable.exercising_and_modern_life)
+                    13 -> binding.topImage.setImageResource(R.drawable.bosnia)
+                }
 
                 // Hides all text
                 val target = mainTextBodies[index]

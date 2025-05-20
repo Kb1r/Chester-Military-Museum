@@ -22,13 +22,13 @@
 
     <ImageView
         android:id="@+id/topImage"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="170dp"
-        android:background="@drawable/bottom_border2dp"
-        app:srcCompat="@drawable/ic_image1"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/twentieth_century_and_the_world_wars"
+        android:scaleType="centerCrop" />
 
     <ImageView
         android:id="@+id/leftArrow"
