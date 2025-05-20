@@ -14,7 +14,7 @@ import androidx.transition.AutoTransition
 import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
 
 
-class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class SeventeenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: SeventeenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech

@@ -14,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformatio
 import com.example.chestermilitarymuseum.databinding.TurnOfTheCenturyInformationLayoutBinding
 import java.util.*
 
-class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class TurnOfTheCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: TurnOfTheCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech

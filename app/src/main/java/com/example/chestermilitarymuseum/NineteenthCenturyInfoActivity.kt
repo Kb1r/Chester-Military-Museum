@@ -13,7 +13,7 @@ import com.example.chestermilitarymuseum.databinding.EighteenthCenturyInformatio
 import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformationLayoutBinding
 import java.util.*
 
-class NineteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class NineteenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: NineteenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech

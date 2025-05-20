@@ -15,7 +15,7 @@ import java.util.*
 import androidx.transition.TransitionManager
 import androidx.transition.AutoTransition
 
-class IntroductionInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class IntroductionInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: IntroductionInformationLayoutBinding
     private lateinit var tts: TextToSpeech
