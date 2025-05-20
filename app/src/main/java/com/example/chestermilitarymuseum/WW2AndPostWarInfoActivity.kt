@@ -33,9 +33,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         binding.sectionName1.text   = getString(R.string.ww2_and_post_war_section_name1)
         binding.mainTextBody1.text  = getString(R.string.ww2_and_post_war_main_text1)
 
-        binding.sectionName2.text   = getString(R.string.ww2_and_post_war_section_name2)
-        binding.mainTextBody2.text  = getString(R.string.ww2_and_post_war_main_text2)
-
         binding.sectionName3.text   = getString(R.string.ww2_and_post_war_section_name3)
         binding.mainTextBody3.text  = getString(R.string.ww2_and_post_war_main_text3)
 
@@ -105,7 +102,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         // Prepare collapse/expand animation
         val collapseButtons = listOf(
             binding.collapseButton1,
-            binding.collapseButton2,
             binding.collapseButton3,
             binding.collapseButton4,
             binding.collapseButton5,
@@ -122,7 +118,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
 
         val mainTextBodies = listOf(
             binding.mainTextBody1,
-            binding.mainTextBody2,
             binding.mainTextBody3,
             binding.mainTextBody4,
             binding.mainTextBody5,
@@ -243,7 +238,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         // Text-to-speech listeners for each section
         val ttsButtons = listOf(
             binding.textToSpeechPlayButton1,
-            binding.textToSpeechPlayButton2,
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
             binding.textToSpeechPlayButton5,
