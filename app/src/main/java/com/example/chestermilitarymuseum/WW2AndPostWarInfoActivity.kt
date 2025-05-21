@@ -14,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformatio
 import com.example.chestermilitarymuseum.databinding.Ww2AndPostWarInformatonLayoutBinding
 import java.util.*
 
-class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: Ww2AndPostWarInformatonLayoutBinding
     private lateinit var tts: TextToSpeech

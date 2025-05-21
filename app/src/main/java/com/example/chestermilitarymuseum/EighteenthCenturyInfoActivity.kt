@@ -12,7 +12,7 @@ import androidx.transition.TransitionManager
 import com.example.chestermilitarymuseum.databinding.EighteenthCenturyInformationLayoutBinding
 import java.util.*
 
-class EighteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class EighteenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: EighteenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech

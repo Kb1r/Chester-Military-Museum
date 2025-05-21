@@ -102,8 +102,418 @@
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
     <string name="clickable_map_button">Clickable Map Button</string>
     <string name="introduction">Introduction</string>
-    <string name="introduction_section_name1">Eaton Hall: </string>
-    <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.
-    At the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
-    In 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
+    <string name="are_you_sure1">Are you sure you want to go back to the home page?</string>
+    <string name="confirm">Confirm</string>
+    <string name="seventeenth_century">The 17th Century</string>
+    <string name="eighteenth_century">The 18th Century</string>
+    <string name="nineteenth_century">The 19th Century</string>
+    <string name="turn_of_the_century">Turn of the Century</string>
+    <string name="remembrance_ww1">Remembrance &amp; WW1</string>
+    <string name="WW2_post_war_conflicts">WW2 &amp; Post War Conflicts</string>
+    <string name="introduction_section_name1">Eaton Hall:</string>
+    <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.\n
+    \nAt the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
+    \nIn 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
+    <string name="introduction_section_name2">The Cheshire Regiment:</string>
+    <string name="introduction_main_text2">The Cheshire Regiment was raised on the Roodee in 1689. In 1743, it won the distinction of wearing the oak leaf from George II at Dettingen – still part of its badge today.\n
+    \nIn the 18th Century, its most famous achievement was the taking of Louisburg in Nova Scotia, after which the Grenadier Company went on with General Wolfe to Quebec. After the Seven Years War, the Regiment spent time in the West Indies and then took part in the American War of Independence In the 1840s, the 22nd was part of Sir Charles Napier’s force, when he conquered the Scinde. The battle of Meeanee on the 17th February 1843 is celebrated as the Regimental Day.\n
+    \nIn the First World War, 38 Battalions were raised by the Cheshires. The 1st Battalion\'s heroic stand near Mons in 1914 saved the British Expeditionary Force from disaster. They went on to be involved in every major action in France and won 35 battle honours. The Territorial and New Army Battalions fought in 6 arenas of war, The 12th Battalion won the French Croix de Guerre, and in total over 8,000 officers and men gave their lives.\n
+    \nThroughout the Second World War, the Cheshire’s were armed with the Vickers machine gun and acted as a Support Regiment. The 2nd Battalion were at Dunkirk, and in North Africa and Italy, before returning to be part of the initial landings and Normandy. The 1st fought in North Africa and were in Malta during the siege. The 6th and 7th Battalions after Dunkirk fought in North Africa and Italy with distinction.\n
+    \nSince the war, the 1st Battalion has served in numerous operational areas including Malaya, Cyprus and Northern Ireland and recently in Bosnia under the United Nations. </string>
+    <string name="introduction_section_name3">The Cheshire Yeomanry:</string>
+    <string name="introduction_main_text3">The Cheshire Yeomanry was raised by Sir John Fleming Leicester of Tabley in 1797 when Britain was under threat from Napoleon. Initially there were 6 troops of cavalry made up from local gentry farmers who brought their own horses.\n
+    \nIn 1803 the Regiment was granted the title of The Earl of Chester’s Regiment of Yeomanry and with it the right to wear the Price of Wales’s feathers. The first call out was in August 1819 when there were riots in St Peter’s Field, Manchester (Peterloo). They were congratulated for their “soldier like conduct” which was “gentle and right”.\n
+    \nDuring the 19th Century, they were often called out “in aid of the civil power” and first went on active service abroad in 1900 in the Boer War. In 1914 the Regiment was mobilised and fought the Turks in Palestine in 1916 as infantry. Later they were posted to France in 1918 and fought in the final stages of the First World War in their infantry role.\n
+    \nBetween the wars, it re-formed as mounted cavalry and took its horses on an epic journey by train and boat to Palestine, taking part in Syria in the last cavalry action of the British Army. In 1942 it became a Royal Signals Regiment and then in 1947 an armoured regiment. In 1968 it underwent considerable change during reorganisation of the Territorial Army. It became part of The Queen’s own Yeomanry in 1971 and today it is based in Chester as C Squadron of the Royal Mercian and Lancastrian Yeomanry (RMLY). </string>
+    <string name="introduction_section_name4">The 3rd Dragoon Guards:</string>
+    <string name="introduction_main_text4">Raised by the Earl of Plymouth in response to Monmouth’s Rebellion in 1685, the 4th Horse were involved in Marlborough’s campaign during the War of the Spanish Succession and later took part in the battles of Blenheim, Oudenaarde and Malplaquet. In 1745 they were part of the force sent to Scotland to quell the rebellion led by the ‘Young Pretender’. In 1747, they were renamed the 3rd Dragoon Guards and in 1765 received the Prince of Wales title and the right to wear his badge.\n
+    \nThey were involved in the French Revolutionary Wars and the Napoleonic Wars before serving at home, after which they were sent in 1858 to reinforce the Army in India. In 1883, they sent men to the Heavy Camel Corps in the Sudan. During the closing stages of the Boer War, they were used to round up Boe Commandos and by 1911 were back in Egypt – where they suffered in a terrible Cholera outbreak.\n
+    \nThey fought in the trenches in the First World War – suffering the highest casualties of any cavalry regiment and were remounted in 1918 in the breakthrough of the Hindenburg line.\n
+    \nIn 1922 they were amalgamated with the 6th Dragoon Guards (Carabiniers) to become the 3rd Carabaniers. Under this title they fought in the Second World War in Burma and took part in a renowned battle in their tanks at Numshigum.\n
+    \nIn 1971, they were again amalgamated with the Royal Scots Greys to become the Royal Scots Dragoon Guards. </string>
+    <string name="introduction_section_name5">The 5th Dragoon Guards:</string>
+    <string name="introduction_main_text5">Raised as Shrewsbury\’s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough’s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet . For most of the 18th century they were in the United Kingdom police and excise duties. In 1746 they were given the right to wear green facings – the forerunner of today’s green trousers worn in No. 2 Dress (parade dress).\n
+    \nIn 1791, they were renamed the 5th Dragoon Guards. In the Napoleonic Wars, they fought at Beaumont and later spent 8 years in Liverpool, where they received the title of Princess Charlotte of Wale’s Own. They reinforced Wellington in the Peninsular Wars and in 1811 were involved at Salamanca.\n
+    \nIn 1854, in the Crimea, the Regiment was part of the successful charge at Balaklava, which saved the army supply depot. They spent the rest of the 19th century at home. As a result of service in the Boer War with the Regiment, Colonel Baden Powell formed the Scout Movement.\n
+    \nThey fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany. In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the ‘Skins’ as they were known fought from Normandy to the Elbe in tanks.\n
+    \nAfter the War, they saw action in Korea and spent much of their post war service in British Army of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards.</string>
+    <string name="seventeenth_section_name1">Raising the Cheshires in 1689:</string>
+    <string name="seventeenth_main_text1">The Cheshires were raised as an infantry regiment by Henry Duke of Norfolk, in March 1689. Extra troops were needed at the time to support William and Mary, when they accepted the crown from Parliament. The soldiers were recruited only a few hundred yards from here on the famous Roodee. Later, they became known as the 22nd (Cheshire) Regiment and they are still in active service today.\n
+    \nCharles II’s orders of 1663, for the equipment of infantry still stood – “…each pikeman a sword and pike of 16 foot long and not under; and each musketeer a musket, with a collar of bandoliers, the barrels of which musket to be about four foot long and to contain bullet, fourteen of which shall weigh a pound weight”\n
+    \nLeaving Dawpool on the Wirral they sailed to Ireland and took part in the siege of Carrickfergus under Marshal Schomberg. In 1690 on 1st July, they fought in the Battle of the Boyne where the Marshal (aged 80) was killed in a ‘friendly fire’ incident.\n
+    \nRegiments were 10 companies, each of 14 Pikemen, 46 Musketeers and 1 Company of Grenadiers.</string>
+    <string name="seventeenth_section_name2">Raising the Cavalry Regiments – 1685:</string>
+    <string name="seventeenth_main_text2">On 5th May 1663, Charles II issued orders stating how his Army should be equipped. These orders stood for many years afterwards and were current when the cavalry regiments of this museum were formed in 1685.\n
+    \n\“Each horseman to have for his defence armes, back, breast and pot – for his offensive armes, a sword and a case of pistols, the barrels whereof are no to be under fourteen inches in length\”.\n
+    \nAt the time regiments were known by their colonel’s name – only in the 1740s did they become numbered according to their type.\n
+    \nIn 1685…
+    \nThe 3rd Dragoon Guards were raised at the Earl of Plymouth\’s 4th Horse.
+    \nThe 5th Dragoon Guards were raised as the Early of Shrewsbury\’s 7th Horse.
+    \n(The Earl of Shrewsbury was also Captain of the Bridgegate in Chester and his regiment was supplemented by a troop raised in Chester by Sur Thomas Grosvenor.)
+    \nThe 6th Dragoon Guards (who later became the Carabiniers as an honour) were raised as the 9th Horse.
+    \nThe 6th Inniskilling Dragoons were raised as Conyngham\’s Horse.
+    \n1685 – Monmouth’s Rebellion followed by Judge Jefferies \“Bloody Assizes\” in the West Country. Raising of cavalry in Chester.
+    \n1688 – James II heard Mass in the Agricola Tower Chapel. \‘Glorious Revolution\’ brings Protestant William and Mary to the throne.
+    \n1689 – Cheshire Regiment raised.
+    \n1690 – Ban of England incorporated.
+    \n1692 – Glencoe massacre in the Highlands.</string>
+    <string name="eighteenth_section_name1">Regiments Of the 18th Century:</string>
+    <string name="eighteenth_main_text1">The Cheshires spent the early part of the century in the expanding Empire Where they suffered many more Deaths from disease than through Battle. The cavalry fought with the Duke of Marlborough in the Wars of The Spanish Succession.\n
+    \nThe War of the Austrian Succession in 1743 saw the Regiments back in Europe. But in the middle of the Century troops were also an important force for law and Order in Britain - this was before the police were formed. The cavalry spent many years on garrison duty at home.\n
+    \nThe Cheshires fought the French in the battle for Canada where their grenadiers became famous. Afterwards they fought for many years more in North America notably in the Cherokee wars.\n
+    \nThe Napoleonic Wars at the end of the century says regiments active in Europe again. The nearby war and revolution prompted formation of Provisional Cavalry Troops in 1797 from ‘the Gentlemen of Yeoman of the County’ – these became the Cheshire Yeomanry, who now join our story.\n
+    \n1707 - 1st Parliament of Great Britain Act of Union Passed by Scots Parliament.
+    \n1720 - Purchase of Commissions began.
+    \n1726 - Sir John Vanbrugh- Architect and dramatist and Chester resident died.
+    \n1740 - 48War of Austrian Succession.
+    \n1742 - Numbering of Regiments In the British Army’s Infantry began.
+    \n1745 - “The Forty-Five” Jacobite rebellion in Scotland under Bonnie Prince Charlie.
+    \n1758 - Lord Amherst’s Expedition to Canada.
+    \n1761 - Cherokee Wars.
+    \n1761 - First Canals built-The Trent and Mersey across Cheshire.
+    \n1775 - 83American Revolution.
+    \n1776 - (July) American Declaration of Independence.
+    \n1780 - Gordon Riots in England.
+    \n1785 - Capt. G French ascended In Lunardi’s balloon from Chester Castle yard.
+    \n1788 - Times’ first published.
+    \n1789 - Mutiny on The Bounty.
+    \n1793 - Louis XVI of France and Maric Antoinette executed.</string>
+    <string name="eighteenth_section_name2">North America:</string>
+    <string name="eighteenth_main_text2">Louisbourg – Louisbourg was a French stronghold in 1756, when the Seven Years War began. It was essential to the British in their quest for Canada. The 22nd Regiment sailed to America disembarking at Chester, Pennsylvania on 1st January 1757. In 1758 it formed part of the expedition led by Lord Amherst, which took Louisbourg fortress. The following year Louisbourg was used as a base in the conquest for Quebec.\n
+    \nThe 22nd took part in the Cherokee Wars of the 1760s from their American garrison and were part of the force which took Havanna in the 1761.\n
+    \nAmerican War of Independence – 1775 to 1783.\n
+    \nThe 22nd was sent to Boston in 1775. It arrived too Late for the Battle of Bunker Hill Colonel Abercrombie (and his soldier servant) arrived ahead of the others and Fought in the battle. The Colonel was killed. A soldier’s Button found on the battlefield is on display. The Regiment had its main garrison in New York and Was engaged in many skirmishes in the Area.\n
+    \nAt the end of the war, when America became a republic, the 22nd returned home leaving all of their early records behind, and many of the men who deserted!</string>
+    <string name="eighteenth_section_name3">The Death of Wolfe:</string>
+    <string name="eighteenth_main_text3">The Grenadier Company of the Cheshire Regiment took part in the battle for Quebec, which was fought on the Heights of Abraham. Grenadiers were the largest men in a regiment and wore tall mitre caps and carried grenades with which they often led the attack.\n
+    \nA grenade was a 2\"sphere of hollow iron containing gun powder. A fuse was lit just before it was thrown- using a slow burning match
+    \nEnsign Henry Browne was close to General Wolfe, when he fell mortally wounded. It is said that the Ensign wrapped the General in the Regimental Colour and helped him from the battlefield. The bloodstained colour hung in Chester Cathedral until recently, a fragment is preserved on display here.\n
+    \nEnsign Browne of the 22nd\'s Grenadier Company: wrote to his father.
+    \n“…our action of 13th September and the taking of the town of Quebec. I must add a little to it by informing you that I was the person who carried Gen Wolfe off the field and that he was wounded as he stood within a foot of me…”\n
+    \nWhat was a Volunteer’ in the Regular Army of the 18th Century?
+    \nA Volunteer was a "gentleman" who did not have the money to Purchase a commission (or there were no suitable vacancies) so They served with the Rank and File awaiting their chance. He However, messed with the officers as a gentleman. James Henderson was a volunteer with the 22nd in Quebec. He Was in the Louisburg Grenadiers’, of which the 22nds’s Grenadier Company as part. Henderson was alongside General Wolfe when he sustained his third and fatal wound. In letter to His uncle, he claimed to have carried the stricken Wolfe to the Rear where he died in his arms.</string>
+    <string name="eighteenth_section_name4">Dettingen And the oak leaves:</string>
+    <string name="eighteenth_main_text4">The Battle of Dettingen was fought on 27th June 1743, in the War of the Austrian Succession, and it was the last time the army was Commanded by a British monarch. It was said That the mix of British steadfastness and the Hanoverian stubbornness in George II won the Day. He was a man who refused to be beaten.\n
+    \nA detachment of the 22nd is believed to have taken part in the battle and to Have defended the King under an oak tree. He gave them the acorn and oak leaf Badge to wear. The regiment still has the acorn in its badge today and wears oak Leaves on certain regimental days, and always in the presence of royalty. The 3rd Dragoon Guards also took part.</string>
+    <string name="eighteenth_section_name5">In Europe:</string>
+    <string name="eighteenth_main_text5">The War of the Spanish Succession - 1702 to 1713\n
+    England, the Holy Roman Empire and the United Provinces of the Netherlands were engaged against France and Spain in the Wars of the Spanish Succession. This was a dispute over the Spanish throne after the death of Charles II of Spain, but worldwide interests in trade and the colonies were also at stake and the war raged for eleven years. The cavalry regiments won battle honours at Blenheim in 1704; Ramillies in 1706; Oudenarde in 1708 and at Tournai and Malplaquet in 1709. The war was finally resolved by the Treaty of Utrecht when the French Bourbon family secured the throne.\n
+    \nThe War of the Austrian Succession – 1740 to 1748.
+    \nThe Cheshires and the 3rd Dragoon Guards fought in this conflict over the succession of the Habsburgs to their hereditary lands after the death of the Emperor Charles VI. War was waged in Bohemia, Upper Austria and Silesia. At the time the Cheshires were stationed in Minorca, from where detachments were sent to reinforce the British Army. Russia’s intervention fully let to peace negotiations and the Habsburgs retained all of their land except Silesia.</string>
+    <string name="eighteenth_section_name6">Women of the Regiments:</string>
+    <string name="eighteenth_main_text6">The wives of soldiers have usually followed their husbands. In the early days, women who travelled with the regiment were known as camp followers. Some even masqueraded as men to follow their loved ones and ‘went for a soldier’.\n
+    \nThe Famous Phoebe Hassel.
+    \nPhoebe Hassel served as a soldier in the 5th Foot (the Royal Northumberland Fusiliers), throughout Marlborough’s campaigns. At the beginning of the 18th century. She was taken for a man throughout her service – even when she was wounded and was only found to be a woman on her discharge. The King gave her a pension.\n
+    \nOn the strength
+    \nIt was usual for a limited number of wives to be allowed to travel with the regiment – or ‘on its strength’. This was usually 6, but in the case of the Cheshires was 8. The women acted as medical orderlies, served food and cleaned, for others as well as for their Husbands. Life was hard and they suffered all the privations of army Ife. When a husband was killed, the wife could marry another man within the regiment – or return home.\n
+    \nFinding wives abroad
+    \nMany soldiers made marriages abroad. In the 1740s, while serving in Minorca, three young officers of the 22nd (George Kelly, Roger Schaak and Christopher French) persuaded three young nuns to marry them. All three travelled with the Regiment and the last of them Margarita French (née Alberti) died in Dublin in 1797.\n
+    \nTravelling with the family
+    \nThe habit of accompanying the regiments grew during the Victorian era. By 1860, when the 2nd Battalion 22nd was in Malta, there was a large contingent of family present and a Strong spirit of community, When the Birkby family died of Cholera, the regimental doctor and his wife adopted the surviving son. The boy was entrusted to the band aged 10 and finished his service as the bandmaster.</string>
+    <string name="nineteenth_section_name1">Regiments of the 19th Century:</string>
+    <string name="nineteenth_main_text1">The early part of the 19th century saw the regiments involved in campaigns against the French, and active in India. After the French wars ceased, they became increasingly involved in Zuri wars in the colonies – most notably for The 22nd in India at the battles of Meeanee and Hyderabad in the Scinde.\n
+    \nIn 1854, the cavalry were involved in the Crimean War. The Second Burma War saw both battalions of the Cheshires involved.\n
+    \nAt home, the Cavalry and Yeomanry continued to be involved in upholding law and order, particularly in the earlier part of the century. In the muddle and later years there was an increase in the volunteer movement – which swelled the ranks of the military.</string>
+    <string name="nineteenth_section_name2">Napoleonic Wars – 1800 to 1815:</string>
+    <string name="nineteenth_main_text2">The Napoleonic Wars followed on from the French Revolutionary Wars. They were fought against France, who wished to maintain influence over the rest of Europe and her neighbours opposed to the Revolution. The wars were also fuelled by Napoleon’s personal ambition. After the first war in 1801, an uneasy peace prevailed for two years before hostilities broke out again and continued until 1815.\n
+    \nThe wars with France resulted in the newly formed Cheshire Yeomanry taking up garrison duties in Liverpool in 1805 so that regular regiments could go overseas.\n
+    \nIn 1810, Mauritius was taken from the French by the Cheshires, who were presented with a silver snuff box when leaving for being ‘such good-natured conquerors.’ This is now the oldest piece of regimental silver in the 1st Battalion’s collection.\n
+    \nOn the 18th February 1814, a second battalion of the 22nd (Cheshire) Regiment was formed to provide more men. It was disbanded after the Battle of Waterloo in 1815 when the French were finally defeated.\n
+    \nThe 6th Inniskilling Dragoons were part of the Union Brigade, which undertook a successful and victorious charge at Waterloo.</string>
+    <string name="nineteenth_section_name3">At Home:</string>
+    <string name="nineteenth_main_text3">Civil unrest about parliamentary reform led to a spate of riots in 1819. A huge gathering at St. Peter’s Fields in Manchester was forcibly broken up largely by the Manchester and Salford Yeomanry and 11 people died. These tragic events became known as the ‘Peterloo Massacre’ in a sardonic reference to Waterloo.\n
+    \nAlthough not directly involved, the Cheshire Yeomanry were present – and were congratulated by the head of security forces for their “good bearing, steadiness and forbearance under provocation” … “What you did was right and gentle” </string>
+    <string name="nineteenth_section_name4">Medicine in the Army:</string>
+    <string name="nineteenth_main_text4">
+    \‘Biting the bullet\’:
+    \nOriginally surgeons were commissioned unto each regiment – there was no Army Medical Service as there is today. The surgery methods were primitive and had changed little since Roman times. Essential tools were a sharp knife, a bone-saw and a bullet to bite on. The bullet was to avoid the patient shouting out with pain – although a lucky man might receive a good shot of liquor as anaesthetic.\n
+    \nThe Influence of Florence Nightingale:
+    \nFlorence Nightingale and other medical pioneers in the Crimean War made great strides forward in the quality of care for wounded soldiers – particularly in the area of hygiene. By the outbreak of the First World War, there was a Royal Army Medical Corps and each unit had trained stretcher-bearers. These men were sometimes \‘conscientious objectors\’ who served in \‘Friends\’ Field Ambulances – and many lost their lives trying to save others.\n
+    \nTriage was invented in the First World War so that the seriously wounded, could be separated quickly from the walking wounded and the dead – and those in the most need of effective treatment would receive it first. This system is still used in civilian Accident and Emergency Wards today.\n
+    \nPreventative Medicine:
+    \nAs treatment improved, the importance of preventative medicine became widely recognised. Cleanliness was a must – Field Bath Units came into use and officers were issues with a canvas bath. Regular and dreaded foot inspections, by platoon officers took place. By the outbreak of the Second World War, inoculation was used to prevent soldiers contracting disease in foreign countries.\n
+    \nEvacuation:
+    \nMost recently not only has medicine improved (Plasma bottles are now carried in the field) but the ability to remove the wounded soldier quickly from the battlefield. Helicopters have been the real \‘life-saver\’ here. Soldiers wounded in Northern Ireland have usually been treated within ten minutes of the incident.</string>
+    <string name="nineteenth_section_name5">Standards, Guidons, Colours and Drum Banners:</string>
+    <string name="nineteenth_main_text5">Armies have always used flags to identify themselves and to form rallying points for troops in battle.\n
+    \nStandards:
+    \nHorse Regiments and Dragoon Guards carry standards. They are small and square flags with regimental devices and battle honours embroidered onto them.\n
+    \nGuidons:
+    \nDragoons, Light Dragoons, Hussars, Lancers and Yeomanry carry guidons. They are flags with tails.\n
+    \nColours:
+    \nThe infantry carry colours. These are larger banners – usually two, a Queen\’s (or King\’s) Colour, and the Regiment\’s, which is based on its facing colour- in the case of the 22nd buff.\n
+    \nAll these types of flag were consecrated before they were presented to the Regiments. They are looked after carefully and treated with great reverence in honour of the men who served under them over the centuries.
+    \nCavalry Drum Banners:
+    \nTraditionally the cavalry have used drum banners on their kettledrums with the battle honours and regimental badges on them. Plain issue copper drums were covered by the banner but if the regiment owned a silver drum, the banner was hung below it. The horse was originally a strong troop horse, but today is usually a shire. :</string>
+    <string name="nineteenth_section_name6">The Crimean War - 1854 to 1856:</string>
+    <string name="nineteenth_main_text6">The war was fought in the Crimean Peninsula by Britain and France against Russia. (the first time that France had not been the enemy). The Russian successes in the Black Sea made the British and the French fearful that their further expansion into the Ottoman Empire would threaten overland routes to India and the Far East.\n
+    \nMajor battles were fought at the River Alma, Balaklava and Inkerman in 1854. In 1855, the fall of the Russian fortress at Sevastopol sealed their defeat and peace.\n
+    \nAlthough the unsuccessful but heroic charge of the Light Brigade on the 25th October at Balaclava is very well known, it was the tremendous success of General Scarlett’s Heavy Brigade earlier on the same day, which saved the battle. The 5th Dragoon Guards and the 6th Inniskilling’s were part of the Heavy Brigade. A small Force of about 300 men caught several thousand Russian cavalry as they wheeled in a classic cavalry action. The impact put the Russians to flight. </string>
+    <string name="nineteenth_section_name7">India and the Scinde campaign:</string>
+    <string name="nineteenth_main_text7">The honourable East India Company controlled two thirds of the Indian sub-continent from their bases in Bombay, Madres and Calcutta. Between 1819 and 1849, several campaigns were taught to secure these territories in an attempt to expand them into Nepal, Burma and Afghanistan. These were largely successful except for the attempt on Afghanistan in 1842, which was fiercely resisted and resulted in defeat for the mixed British Indian force. The 44th Foot was virtually wiped out – with the exception of one man who survived.\n
+    \nThe same year, the Cheshires moved to India and joined General Sir Charles Napier’s force to attack the Scinde. The rest of the small force was provided by the honourable East India Company (known as John Company’s troops).\n
+    \nThe two main battles were Meeanee and Hyderabad, it was a hard but successful Campaign and the Scinde was taken in 1843.\n
+    \nA young female Latin student in Manchester reading of the victory, suggested that a witty message home from Sir Charles Napier would have been the Latin word ‘Peccavi’ meaning ‘I have sinned’. Sir Charles was later attributed to having said it himself. </string>
+    <string name="turn_of_the_century_section_name1">Boer War – 1899 to 1902:</string>
+    <string name="turn_of_the_century_main_text1">Two wars were fought between the British and the Boers over territories in South Africa. In the first War, the British were defeated at Majuba Hill in 1881. The second also saw a series of Boer successes – they were excellent guerrilla fighters and keen marksmen. Counter offensives were led by Lord Roberts and by General Kitchener and regular Troops were ably supported by ‘Volunteers’.\n
+    \nThe 3rd Volunteer Battalion of the Cheshire Regiment was formed from men drawn from volunteer battalions from the Wirral, Chester, Crewe, Macclesfield and Stockport. The Cheshire Yeomanry provided the 21st and 22nd Companies of the Imperial Yeomanry (IY) – which was created for the direction of the war. Lord Arthur Grosvenor, a younger son of the 1st Duke of Westminster commanded 22nd Company.\n
+    \nThe war ended in 1902, but the Boers effectively won the peace, as they retained their control of ‘native affairs’. British interests, however, remained protected and the Union of South Africa entered the First World War on the side of British.\n
+    \nWho served in South Africa?
+    \n2nd Battalion the Cheshire Regiment
+    \n3rd (Volunteer) Battalion the Cheshire Regiment
+    \nOne Company of Cheshires were in the 8th Mounted Infantry and the further section in 1st MI.
+    \nThe Cheshire Yeomanry at 21st and 22nd Coy IY.
+    \n5th Dragoon Guards. </string>
+    <string name="turn_of_the_century_section_name2">Burma War – 1886:</string>
+    <string name="turn_of_the_century_main_text2">After Several years of warfare, Burma became annexed to British India 1886. Both regular battalions of the Cheshires took part in the war. One officer was a very keen photographer and took pictures of the Regiment during the war and afterwards. </string>
+    <string name="turn_of_the_century_section_name3">Sudan War – 1896 to 1898:</string>
+    <string name="turn_of_the_century_main_text3">When Mohamed Ahmed, a religious leader in the Sudan, announced himself the Mahdi or the ‘expected one’ – a revolutionary movement broke out which led to the fall of Khartoum. The British and the Egyptians combined forces against the Dervishes under the leadership of General Kitchener and finally defeated them at the Battle of Omdurman. In the years that followed the Sudan was a jointly administered ‘Condominium’ under a British Governor. The Sudan gained its independence in 1959.</string>
+    <string name="turn_of_the_century_section_name4">America &amp; Africa: </string>
+    <string name="turn_of_the_century_main_text4">American Civil War - 1861 to 1865.
+    \nIn 1861 conflict broke out between the American Union (the Northern States) and the Confederacy (the Southern States) over a number of issues – not least slavery – which was still legal in the south.\n
+    \nCaptain Stephen Winthrop of the 2nd Battalion of the Cheshires took leave of absence from his duties and was commissioned into the Confederate Army where he served with General Longstreet as a staff officer. He is known to have fought with the Corps at Gettysburg in 1864 and soon afterwards returned home to England. His previous actions at Knoxville ad made him a Confederate hero whose praise is still sung today. </string>
+    <string name="turn_of_the_century_section_name5">The Zulu War – 1879:</string>
+    <string name="turn_of_the_century_main_text5">Boer farmers settled in Northern Natal in 1836. This created tensions over the border with Zululand and in spite of the appointment of a boundary commission in 1878, Boer farmers continued to cross the border in search of land. A kidnapping incident provoked the outbreak of war in 1879. After initial reverses the British forces under Lord Chelmsford defeated the Zulus at Ulundi. The removal of the Zulu military threat made the Boers more willing to dispute British power in the Transvaal, and in turn led to the first Boer War of 1881.\n
+    \nCaptain William Molyncaux of the Cheshire Regiment was a staff officer to Lord Chelmsford in South Africa. Injured on Lord Chelmsford’s Staff in the Kafir Wars, he was recuperating at home and heard of the disastrous battle of Isandlwana. He returned to Africa immediately - in time for the battle of Ulundi, where he fought with great bravery.\n
+    \nDuring the battle, a premature push was made by the cavalry against the Zulus. The Zulus responded with their traditional ‘horns of the buffalo’ tactic. Chelmsford sent Captain Molyneaux to recall the horsemen – now surrounded, who then had to fight their way back into the safety of the lager (defensive circle). Lampas, Molyneaux’s horse, was shot as he crossed the shelter trench, The horse somersaulted and pitched the Captain into the mud. Recovering himself at once, Captain Molyneaux put his injured horse down removed the tack and saddled up his second horse Poll Evil, returning immediately to the battle.</string>
+    <string name="turn_of_the_century_section_name6">Bayonets, Swords and Guns:</string>
+    <string name="turn_of_the_century_main_text6">Bayonets:\n
+    First used in the 17th century as knives that could be jammed into the barrel of the musket – to make it into a pike. This happened when it was too wet or there was no time to reload – but made the gun impossible to fire! This problem was soon overcome by putting a lug on the barrel of the musket and fitting a ring to the bayonet.\n
+    \nBy the First World War, bayonets had become long and sword-like to give them extra reach and to make them more fatal when they penetrated the body. During the Second World War it was realised that disabling injury could be inflicted with a shorter blade, and the design changed. Since such large numbers were required, money became a factor too and the ‘pigsticker’ was invented.\n
+    \nBayonets have always had many other uses – not thought of by their designers like opening cans and searching for mines.\n
+    \nSwords:
+    \nSharp pointed swords were traditionally used by the Infantry, in a thrusting action. Cavalry swords had sharp edges and were used to cut, - but could also be ‘pointed’ or thrust. Their shape and weight changed with fashion and as theory demanded. Early swords were heavy to give weight to the trooper’s ‘cuts’.\n
+    \nSword drill involved ‘cuts’, ‘guards’ and ‘points’. The trooper was taught to use his sword with the aid of a diagram – the Sergeant called the number and the action, and the trooper learnt instinctively to obey. Swords were carried and used in World War 1 in the trenches and by a few ‘eccentrics’ in World War 2 but today they are used only for ceremonial purposes.\n
+    \nGuns:
+    \n‘Small arms’ were beginning to be developed in the late 15th century when the British Infantry were still primarily longbowmen.\n
+    \nBy the formation of the Regular Army in 1660, the matchlock musket was no longer the main firearm of the infantry. It required a slow burning match – applied to gunpowder to ignite the charge rammed into the barrel. In wet weather this was an impossible task. The flintlock, which followed was much more effective and did not need a match but still needed to be primed with gunpowder. All muskets were notoriously inaccurate and were usually fired in volleys by each platoon for maximum effect. British platoon fire was renowned for its deadly effect.\n
+    \nIn the mid 19th century, a percussion firing system was developed where the trigger let the striker hit a cap to ignite the charge and weather no longer mattered. Later developments put the percussion cap in the base of the bullet about the same time black powder was replaced by a near smokeless propellant and the modern rifle came into being. </string>
+    <string name="turn_of_the_century_section_name7">Sport in the Army:</string>
+    <string name="turn_of_the_century_main_text7">Since late Victorian times, sport has been encouraged in the Army. It builds up team spirit and fitness, which are both essential in a soldier. The Yeomanry and Cavalry encouraged sports on horseback to develop sportsmanship – riding to bounds, polo, wild boar hunts in India and particular sporting events like lemon slicing and tent pegging. These involved specialist skills with sabre and lance.\n
+    \nLemon Slicing:
+    \nA lemon hung on a string had to be sliced in half by a trooper galloping past.\n
+    \nTent Pegging:
+    \nA tent peg was wedged in the ground and a trooper lifted it out of the ground with the point of his lance at the gallop and flung it over his shoulder.\n
+    \nThe infantry took part in “pokey drill” with the rifle to encourage strong arms and wirsts to produce more accurate fire. But the main sporting interests have long been football and boxing. The 22nd won the All-India Football Tournaments (amongst other trophies) in the 1920s and are the Infantry Football Cup winners for 8 out of the 9 seasons to 2001.\n
+    \nSgt (later Captain) Harold Walden of the 22nd was successful in the 1912 Olympics and was an Arsenal and England footballer – but was probably better known as a comic star of stage and radio. Since the 1930s the Cheshires have also been known as athletics. The Cheshires have had a string of Olympic standard athletes. Sgt Jack Hart who equalled the British record of 10.6 seconds in the All-India Olympic meeting for the 100 metres in India. (This equalled the Harold Abrahams/ Jack London records in UK). Hart had run his heat in 9.8 seconds.\n
+    \nLt (later Gen Sir) Charles Harington was a contender for the 1936 Olympic hurdles, but due to the location in Berlin did not participate.\n
+    \nLt James Mayo missed by a fraction of a second to qualify for 2000 Olympics in Sydney at 800 metres.\n
+    \nThe Army takes sport seriously – but it’s also fun! </string>
+    <string name="turn_of_the_century_section_name8">Affiliation and Friendships:</string>
+    <string name="turn_of_the_century_main_text8">It has been the habit of the British Army to keep contact with other armies and units.\n
+    \nIn the Cheshire Regiment since the Battle of Meannee on the 17th February 1843, ties have been developed with four other units, which were present at the battle and greetings are exchanged annually.\n
+    \nWith the British Army
+    \nThe Eagle Troop Royal Horse Artillery\n
+    \nWith the Indian Army
+    \nNapier’s Rifles of the Honourable East India Company now the 5th Rajputana Rifles (Napier’s)
+    \nThe Scinde Horse
+    \nQueen Victoria’s Own Madras Sappers and Miners now a unit of the Indian Engineer Corps\n
+    \nAfter the Second World War, an affiliation developed with the 2nd Battalion Nova Scotia Highlanders (Cape Breton) being the Canadian Territorial Unit closest to Louisbourg – the Cheshire’s 1758 battle honour.\n
+    \nUntil recently, the Cheshire Regiment was affiliated to the Frigate HMS Ambuscade, which has now sadly been ‘paid off’. However it has a new affiliation to the Landing Platform Dock (LPD) HMS Albion, which joins the fleet in 2003.\n </string>
+    <string name="turn_of_the_century_section_name9">Fashions:</string>
+    <string name="turn_of_the_century_main_text9">Military fashion, specially in the later Volunteer movement changed as did civilian fashions. This was particularly the case in the 19th century, when uniform fashion followed closely on the heels of a military victory.\n
+    \nIn the mid 19th century, the days of relative peace in Europe – the French army was considered to be of a “superior nature" and ‘kepi’ styles came in. Similarly, Lancer uniforms from Napoleon’s successful Polish Lancers had become trendy, as did Hussars with their tight trousers necessitating the ‘Sabretache’ and their gorgeous Hussar Busby headdress.\n
+    \nThe 1870 Prussian defeat of France brought in the \‘pickelhaube\’ style of helmet and ‘field grey' uniforms. This was reflected in the uniforms if the Volunteer Cheshire Greys.\n
+    \nLadies fashion often took a lead from the military man. Victorian ladies emulated Hussars as did the late Countess of Chester more recently when ‘taking a passing-out parade at the Royal Military Academy Sandhurst.</string>
+    <string name="turn_of_the_century_section_name10">Volunteers:</string>
+    <string name="turn_of_the_century_main_text10">The Volunteer movement came into being in the mid-Victorian period. Around 1859 the British army became very active with the expanding Empire raking many regular soldiers off the foreign parts. There was a need for a trained home force.\n
+        \nThe first companies were raised in Stockport and were called the Loyal Stockport Rifle Corps.\n
+        \nThe Stockport Advisor said:\n
+        “It is a novelty for an Englishman to handle a rifle… he has led himself to believe that every man is as well disposed toward him as he is toward his neighbour… the quiet Englishman has come to perceive that to be strong is to be safe”.\n
+        \nThe Volunteers often picked out their own uniforms and the infantry usually styled themselves as Rifle Volunteers. The Yeomanry had existed since 1797 so already established their identity and uniform style. The Militia too retained their own identity but on a reduced scale.\n
+        \nCheshire had always been a strong supporter of the military – since the 13th century – and today despite many cuts still has two Cheshire Regiment Volunteer infantry companies in the newly formed Kings and Cheshire Regiment based at Warrington and a Yeomanry Squadron based in Chester.\n
+        \nIn Cheshire, there were many small Rifle Volunteer units made Administrative Battalions of Cheshire Rifle Volunteers (CRV) in the 1880s, and which were pulled together in 1908 to make the new Territorial Force of four Battalions of the Cheshire Regiment.\n
+        \n4th 	Birkenhead and the Wirral
+        \n5th 	(Earl of Chester’s) Chester area
+        \n6th 	Stockport and the Cheshire parts of Manchester
+        \n7th 	Macclesfield and South Cheshire\n
+        \nThere were Engineer Companies which were Railway Companies (see the framed article and the uniform on display).\n
+        \nThe Cheshire and Caernarvon Artillery Volunteer Unit was formed in the castle at Chester – some surviving badges and items of equipment are also on show.\n </string>
+    <string name="turn_of_the_century_section_name11">With Love…:</string>
+    <string name="turn_of_the_century_main_text11">Our \‘with love\’ display highlights the very human side to soldiering. They may appear to have been men apart of deeds they did and their hardships they endured – but they were, after all, someone’s friend or relative too.\n
+    \nAs the Parliamentary General John Lambert said in 1642:
+    \n“The best of men are but men at their best”\n
+    \nOn display there are letters, keepsakes, trench art, paintings and embroideries. The latter is a longstanding pastime for the soldier, which was often used as a form of therapy when recovering from injury… but was always done with love for those at home.\n
+    \n“I could not love thee (deare) so much, Lov\’d I not honour more” - Richard Lovelace, 1618-58. </string>
+    <string name="turn_of_the_century_section_name12">Captain Oats:</string>
+    <string name="turn_of_the_century_main_text12">
+    Captain Lawrence Edward Grace Oates was an officer in the 6th Inniskilling Dragoons. He became famous after he lost his life during Captain Scott’s Antarctic expedition of 1911. But he was also known for his gallantry in saving a trooper who had been wounded during the Boer War.\n
+    \nOates was a member of the small party which Scott led to the South Pole on foot – only to find that Amundsen\'s Norwegian party had beaten them there. On the return journey the weather closed in as they began to run out of supplies. Oates who had severe frostbite knew he was holding the others up and left the tent saying, “I may be a little while”. He went out of the tent to his certain death.\n
+    \nWriting in his diary, before he and the rest of the party also perished, Scott said of Oates: “He was a very gallant gentleman”. </string>
+    <string name="ww1_remembrance_section_name1">20th Century and the World Wars:</string>
+    <string name="ww1_remembrance_main_text1">The 20th Century saw the upheaval of two World Wars in its first half – the withdrawal from Empire and growth of terrorism in its second.\n
+    Warfare changed considerably during this century compared with those before. The American Civil War (1861 to 1865) was the turning point of the new order, High explosives and the dreaded machine-gun (‘the devil’s paintbrush’) – together with gas weapons took over. The days of chivalry were gone.\n
+    \nCritical events over time:
+    \n1903 – Wright Brothers first controlled flight of a heavier than air machine
+    \n1912 – Titanic sinks.
+    \n1916 – Conscription declared.
+    \n1917 – Russian Revolution; Bolsheviks to power.
+    \n1920 – Prohibition in USA.
+    \n1922 – Dublin Castle handed over to provisional Government for Southern Ireland.
+    \n1926 – The General Strike.
+    \n1928 – Women get the vote in Britain.
+    \n1934 – Hitler becomes dictator.
+    \n1936 – Spanish Civil War starts.
+    \n1945 – Atomic bomb first used against Japan.
+    \n1947 – Indian Independence, the Army withdraw.
+    \n1950-1953 – Korean war.
+    \n1953 – Coronation of Elizabeth II.
+    \n1956 – Suez Crisis.
+    \n1963 – President Kennedy assassinated.
+    \n1969 – First men walk on the moon.
+    \n1979 – Margaret Thatcher declared as Prime Minister</string>
+    <string name="ww1_remembrance_section_name2">World War 1 – 1914 to 1918:</string>
+    <string name="ww1_remembrance_main_text2">World War 1 (The Great War) was mainly fought between Germany and he Austrian and Turkish allies against the British, French, Russians and Belgians – and their colonies and empires. The United States joined in 1917. Much of the action was on the Western Front in France and Belgium. But major operations in which the Cheshire Regiment and Yeomanry participated also took place in Gallipoli, Macedonia, Palestine and Mesopotamia (now known as Iraq).</string>
+    <string name="ww1_remembrance_section_name3">Trench Warfare:</string>
+    <string name="ww1_remembrance_main_text3">Trenches had been used in sieges since the first use of gunpowder in western warfare. The Great War saw the greatest development if military field earthworks. The trench system effectively stretched from the Swiss border to the sea in Belgium. Hundreds of miles of trenches, tunnels, bunkers and ‘dugouts’ were constructed.\n
+    \nThe basic trench was for fighting from and for protection under fire. It was usually eight feet deep and only wide enough for a pan to pass along behind others fighting from it. The trenches were often lined with any handy material such as wood or corrugated iron (CGI) - this was called revetting. English revetting also used sandbags laid as ‘English bond’ bricking – a line of headers with a line of stretchers repeated alternatively.\n
+    \nTrenches stretched across the front to face the enemy and were given names and numbers for identification. Communication trenches were dug between them. Off these and especially off fighting trenches were dug command posts, medical post and ‘dugouts’ for off duty accommodation. Units usually spent relatively short periods in the line and rotated to reserve lines or even to rest areas fairly regularly.\n
+    \nDugouts were often dug towards the enemy to avoid shell splinters, which are thrown forward on explosion. Mortar bombs send splinters in a circle. ‘Firesteps’ were placed on the enemy side of a trench to permit men to see over the top to fight. (Reserve battalions needed to make the firesteps higher). Ladders were often needed to go over the top in attack. Specialist emplacements were added for machine guns and trench mortars and grenade throwing bays.\n </string>
+    <string name="ww1_remembrance_section_name4">The Victoria Cross:</string>
+    <string name="ww1_remembrance_main_text4">Second Lieutenant Hugh Colvin VC\n
+    \n9th Battalion Ypres 20th September 1917
+    \nSurvived the war and is buried in Belfast
+    \nCitation:
+    \n“For the most conspicuous bravery in attack. When all other officers of his company and all but one of the leading companies had become casualties, he assumed command of both companies and led them with great dash and success. During the same attack he attacked several dugouts, one of which contained a machine gun. This he captured and in all took about fifty prisoners single handed.”\n
+    \nNo 11000 Private Thomas Alfred Jones VC DCM (known as ‘Todger’)\n
+    \n1st Battalion Somme near Morval 25th September 1916
+    \nSurvived the war and is buried in Runcorn.
+    \nCitation:
+    \n“For most conspicuous bravery. With his company he was defending a village. Noticing an enemy sniper, he went out and killed him, and going on entered an enemy trench where he single-handedly captured and marched back to our lines 102 of the enemy.”\n
+    \nHis bullet-holed helmet is on display. </string>
+    <string name="ww1_remembrance_section_name5">Recruiting:</string>
+    <string name="ww1_remembrance_main_text5">When war broke out, the standing army was augmented by men in the Territorial Army who volunteered to go overseas with their battalions. In Cheshire this meant two regular and four TA units going to war. There was an immediate call for more volunteers and the ‘Service’, or ‘New Army’ battalions were raised. There were 31 of these in Cheshire. The two Cavalry Regiments remained the same throughout the war, as did the Yeomanry, which however later became infantry until the end of the war.\n
+    \nVolunteers were won by moral persuasion – you can see this from the posters on the wall – and almost by moral blackmail as the war progressed.\n
+    \nTo avoid receiving white feathers from the girls, men who did not or could not volunteer joined the ‘Cheshire Volunteer Regiment’. This was not a recognised unit, and the men trained only for home defence staying in their civilian jobs. Men returning wounded were given a badge for ‘Imperial Service’ to avoid the shame of apparently not being at the front.\n
+    \nAs more men were needed and volunteering was faltering, general conscription was introduced in 1916. </string>
+    <string name="ww1_remembrance_section_name6">The Band and Drums:</string>
+    <string name="ww1_remembrance_main_text6">“In the Bataille blowen blody sounes” - Geoffrey Chaucer’s description of the 14th century band.\n
+        \nThe Cheshire Regiment had its own band from the 18th century until 1994, when regimental bands were abolished. WE still have a Corps of Fifes and Drums. Popular fife tunes have included one written by Frederick the Great of Prussia and ‘The Slow March 1772’, a light lilting air used only on ceremonial occasions written by the Bandmaster of the time in the 22nd.\n
+        \nIn the late 18th century in particular, many bands had Black musicians. Musicians were often enlisted young, and the Cheshire Regiment has records of 10 year olds in the band in the 19th century. One of them William Birkby rose to be Bandmaster during 45 years of service. In the late 20th century, bandsmen were active in this role during the Gulf War. The Yeomanry and Cavalry had smaller mounted bands, which featured kettledrum percussion in the Dragoon Guards.\n
+        \nDrummers have an even longer pedigree. The earliest infantry companies had a drummer to keep time on the march and to send messages in the noise of battle. They were also the main recruiters, at a time when regiments were raised ‘by beat of drum’. Today the drummers are battalion machine gunners in times of war.\n
+        \nSome of the Bandmasters of the 1st Battalion since World War 2 have been:
+        \nWOI (later Major) Wally Adams
+        \nWOI (now Major) Eddie Pickering
+        \nWOI (now Captain) John Huggins </string>
+    <string name="ww1_remembrance_section_name7">Cheshire Men:</string>
+    <string name="ww1_remembrance_main_text7">Captain Gamon\n
+    \nA 5th Battalion territorial from Neston, he joined the Flying Corps and was killed over in London in March 1918 flying against the Zeppelin.\n
+    \nCaptain Brockbank
+    \nAfter initial service in the 6th Battalion, including the Christmas truce, he went on to the new Machine Gun Corps.\n
+    \nPioneers
+    \nWhen the need arose for Pioneer or Labour Battalions to help with trench digging and other heavy work – six battalions of the Regiment converted to join them. One was the 5th Battalion TA, who were expected, not only to dig and wire but also as trained infantry, to plug holes in the line too. (The others were the 22nd battalions). </string>
+    <string name="ww1_remembrance_section_name8">Other theatres of war:</string>
+    <string name="ww1_remembrance_main_text8">The Great War was not limited to trench warfare in France and Flanders – there were many other campaigns which were vital in their own way. Some were successful like the Italian Front (December 1917 – April 1918) which were the 1st Battalion of the Cheshires served. Gallipoli (February 1915 to January 1916) where the 4th, 7th and 8th served was a failure. The list of campaigns was long, these are only some of them:\n
+    \nPalestine
+    \nThe Cheshire Yeomanry (10 KSLI) and the 4th and 7th Battalions of The Cheshire Regiment took part in the warfare against the Ottoman Turks, Jerusalem was taken in 1917 and was entered by British troops for the first time since the Crusades.\n
+    \nMesopotamia (now Iraq)
+    \nA long hot period of the war was fought against the Turks in dreadful conditions and amid terrible disease. The 8th Battalion served in this campaign which lasted from November 1914 to October 1918. The well-known siege of the army in Kut El Amara ending in surrender was the low point of the eventually successful campaign.\n
+    \nMacedonia/ Salonika
+    \nThe 2nd and 12th Battalions of The Cheshire Regiment fought alongside the Greeks and the Serbs against the Bulgarians of the Austro-Hungarian Empire from October 1915 until September 1918.\n
+    \nItaly
+    \nThere was action in the north, where British including the 1st Battalion assisted the Italians ain their efforts against the Austro-Hungarians – who in turn were backed by the Germans. Erwin Rommel of World War 2 fame, served as a young officer on this front.\n
+    \nEast Africa
+    \nA small campaign which was essentially a colonial war. </string>
+    <string name="ww2_and_post_war_section_name1">World War II – 1939 to 1945:</string>
+    <string name="ww2_and_post_war_main_text1">In September 1939 war clouds again gathered over Europe. The British Expeditionary Force (BEF) left for Belgium and France to face the German Army. The six Battalions of the Cheshire Regiment (two regular and four TA) had converted to machine gun regiments in 1938. After a phoney war, the German onslaught drove the BEF back to the beaches of Dunkirk, where they were rescued by the Royal Navy by many civilians in small boats. </string>
+    <string name="ww2_and_post_war_section_name2">Retreat and Evacuation at Dunkirk – May 1940:</string>
+    <string name="ww2_and_post_war_main_text2">The 2nd, 4th and 7th Battalions were involved in Dunkirk, their carrier-borne transport, medium machine guns and radio communications were used in the attempt to control the retreat to the coast at Dunkirk. Some of the 4th Battalion who were taken prisoner suffered dreadfully in a massacre, at the hands of the SS.
+    The main theatre of land operations became the Middle East where the British needed to protect their oil supplies. The war in Europe was at first fought largely in the air and the Battle of Britain was fought and won in 1940 to 1941 in the skies over England. Perhaps the real success though lay in securing the Atlantic Sea routes. The battle of the Atlantic was fought from a command centre in Liverpool against the German U-boats.
+    The Second World War was more mobile than the first. The Yeomanry in the Cavalry Division fought against the Vichy French in Syria. The battalions of the Cheshires served in North Africa, in Malta – in the famous siege; in Iraq, Sicily, Italy and eventually the Normandy Landings and the fight across Germany to victory. The 3rd Carabiniers served in Burma as a tank regiment and the 5th Royal Inniskilling Dragoon Guards joined with the Cheshires to fight in France and Germany. The war produced many new units like the Army Commandos, Parachute and Glider Pilot Regiments. </string>
+    <string name="ww2_and_post_war_section_name3">Syria – 1941:</string>
+    <string name="ww2_and_post_war_main_text3">When France fell to Germany, it was partitioned along the Loire. Germany occupied the north and the south set up its own government under Marshal Petain at Vichy. Vichy France was allied to Germany, and Britain was concerned that the French fleet docked in colonies at Oran and Dakar would deflect the Germany and threaten Britain’s Atlantic supply route.\n
+    \nTo remove this threat, Churchill ordered the sinking of the French fleet at Oran and Dakar. At the same time, the Cavalry Division, 7th Australian Division, 4th Indian Brigade and a Free French Division in Palestine were ordered to secure Syria and the Lebanon, which were under Vichy control.\n
+    \nOn the 9th June 1941, the Cheshire Yeomanry crossed the Litani. (Arguable the last Cavalry action of the British Army). The crossing began with an advance patrol coming under fire as it reached the river boundary between Palestine and Lebanon.\n
+    \nSeveral horses were killed but none of the men were injured. Corporal Mellors was awarded the MM in the action. The Cavalry pressed on and engaged with a unit of French Spahis (colonial Cavalry) and the French Foreign Legion on the plain above the river. The orders were unusual - the Cavalry was to try to persuade the French troops to join them rather than engage in combat.\n
+    \nFollowing the Syrian campaign the Regiment was re-organised and lost its horses. It became a Line of Communication Royal Signals Regiment and was in Belgium at the end of the War. The Yeomanry tradition is maintained by C (Cheshire Yeomanry) Squadron of the Royal Mercian and Lancastrian Yeomanry at Fox Barracks, Chester and 80 (Cheshire Yeomanry) Signal Squadron. </string>
+    <string name="ww2_and_post_war_section_name4">Cheshire Men:</string>
+    <string name="ww2_and_post_war_main_text4">A number of specialist forces were formed in the Second World War – as had happened in the Great War.\n
+    \nThe Army Commandos
+    \nBased on the beer units from the South African War, the Commando’ were formed to hit back at the Nazi occupation forces on the Continent and elsewhere. Several officers and men from the Cheshire Regiment and Yeomanry volunteered for Special Service.
+    \nMajor (later Brigadier) Ken Trevor was a very early member of No 1 Commander and went in with it to North Africa and the Burma Campaign where he won a DSO. He commanded the 1st Battalion at Malaya.
+    \nLt Herbert Burkinshaw 2 Cdo killed on the San Nazaire Raid in March 1942.
+    \nJohn Henry Frost 5 Cdo killed in Eritrea and others Alistair Mackenzie 6 Cdo, David Nyass 1 Cdo, Cp1 Tierney who won the MM, but survived the war.\n
+    \nThe Parachute Regiment.
+    \nMany Cheshire volunteers joined the Paras’ including Major (later Lt Gen Sir) Napier Crookenden, who participated in the D Day assault in 1944 to secure the left flank of the invasion beaches.
+    \nRon Holt saw service at Arnhem with 2 PARA.
+    \n2 Lt Victor Wood killed in action Italy with 2 Para Bde.\n
+    \nThe Glider Pilot Regiment.
+    \nMajor Ian Toler DFC TD originally from the 7th Bn TA and Lt (later Brigadier) Mike Dauncey flew their gliders into battle, the latter heavily involved at Arnhem where he Won a DSO.
+    \nMajor Astley Cooper AFC killed in the Sicily landings in 1943. </string>
+    <string name="ww2_and_post_war_section_name5">Siege of Malta – 1940 to 1942:</string>
+    <string name="ww2_and_post_war_main_text5">Malta was a vital submarine and air base to attack German and Italian shipping supplying to North Africa. Consequently it suffered from heavy air bombardment from the enemy and between 1940 and 1942 was under siege. The 1st Battalion Cheshire Regiment were heavily involved and manned machine gun posts around the coast notably on Sliema front and Grand Harbour. B Company was responsible for the defence of the vital dockyard by Fort St Angelo.\n
+    \nOne machine gun at Fort Ricasoli was credited with the sinking of an Italian E-boat. This was during the 26 July 1941 surface attack on the Grand Harbour by high-speed launches armed with torpedoes and explosive bows.\n
+    \n“I pray for both victory and the return, but if Thou O God should give but one, concede Victory” - Gabriel d’Anunzio’s prayer (Lieutenant Italian Navy).\n
+    \nThe Battalion’s main tasks were helping arm RAF aircraft and unloading the few ships making it to Malta with supplies always under heavy air attack. The ‘Pampas’ was sunk in the Grand Harbour and was unloaded and was unloaded by the 1st Bn under direct air attack, men often diving in the blackened, oily holds to find the cargo.\n
+    \nImminent surrender was relieved by the arrival of 5 out of 14 merchant ships not sunk on Operation Pedestal, a convoy from Birkenhead in August 1942. The siege was finally raised in 1942.\n
+    \nMalta was awarded the George Cross for her bravery under attack and officers of the Dockyard were made permanent honorary members of the 1st Bn mess. </string>
+    <string name="ww2_and_post_war_section_name6">The Home Front:</string>
+    <string name="ww2_and_post_war_main_text6">The women and families of the soldiers in Cheshire took and active part in the Home Front.\n
+    \nRationing and shortages meant that providing meals and keeping the house was hard work in itself. Anderson shelters were erected and their use was firmly enforced. The ‘black-out’ was strictly observed – those who ignored it were prosecuted. In spite of personal hardships and anxiety about their loved-ones away at war, everyone was encouraged to help with the war effort in any way that they could.\n
+    \nWomen joined the Land Army or the Women’s Voluntary Service or became auxiliary nurses in the services or in civilian hospitals. In addition, many women were even asked by the Minister of Food to assist with the ‘home produced food and canning effort’.\n
+    \nYounger women joined the Army’s ATS (Auxiliary Territorial Service), the WAAF (Women’s Auxiliary Air Force), or the Senior Service’s WRNS (Women’s Royal Naval Service). </string>
+    <string name="ww2_and_post_war_section_name7">The Home Guard:</string>
+    <string name="ww2_and_post_war_main_text7">In the early days of the Local Defence Volunteers were called form. They were mostly men too old or unfit for military service, in reserved occupations or too young to go to a service unit.\n
+    \nThe first commander of The Cheshire Home Guard was Colonel H E Pickering MC. He was followed by Colonel V T R Ford DSO and Colonel B Y Hayes-Newington OBE.\n
+    \nOn 5th June 1940 Cheshire was divided into sections and within these sections individual battalions of volunteers were raised. A typical Cheshire Home Guard unit was the 6th Cheshire (Chester) Battalion formed 22nd May 1940 by Colonel Paul Hemelryk after meeting at Chester Town Hall.\n
+    \nThe men who took over guard duties at vulnerable points, mounted road blocks and prepared to meet the enemy.  Initially, they brought what equipment they could from home, which gave them their affectionate title of ‘Dad’s Army’ (a famous TV serial to their story).\n
+    \nHowever, they were eventually trained and equipped as any other home defence force. They did an outstanding job, at the same time as carrying out their own normal job to keep the country, industry and commerce turning out the war effort.\n
+    \nThe Home Guard Battalions and their areas are listed below:
+    \n1st Cheshire (Altrincham)
+    \n3rd Cheshire (Bowden)
+    \n4th Cheshire (Birkenhead)
+    \n5th Cheshire (Broxton)
+    \n6th Cheshire (Chester)
+    \n8th Cheshire (Macclesfield)
+    \n9th Cheshire (Macclesfield Forest)
+    \n10th Cheshire (Wilmslow)
+    \n13th Cheshire (Sandiway)
+    \n14th Cheshire (Tarporley)
+    \n15th Cheshire (Runcorn)
+    \n16th Cheshire (Wallasey)
+    \n17th Cheshire (Heswall)
+    \n18th Cheshire (Ellesmere Port)
+    \n19th Cheshire (Shotton)
+    \n20th Cheshire (Little Sutton)
+    \n21st Cheshire (Bebington)
+    \n23rd Cheshire (Sale) </string>
+    <string name="ww2_and_post_war_section_name8">Sicily and Italy:</string>
+    <string name="ww2_and_post_war_main_text8">The Allies move into continental Europe was through Sicily and Italy. On the 10th of July 1943, an assault on Sicily was launched. The 2nd Battalion, as part of 50th Division landed near Floridia with relative ease, but heavy fighting followed a the Primosole Bridge and on towards Catania. The 7th Battalion landed with 5th Division near Syracuse and fought via the River Semento. </string>
+    <string name="ww2_and_post_war_section_name9">Normandy, France and Germany:</string>
+    <string name="ww2_and_post_war_main_text9">The British Liberation Army (BLA) landed in Normandy on 6th June 1944 (D-Day). The 2nd Battalion was amongst the first assault troops to arrive. They fought the slow advance through the Normandy countryside (bocage), the break-out to the south and pursuit to Holland. </string>
+    <string name="ww2_and_post_war_section_name10">Eaton Hall:</string>
+    <string name="ww2_and_post_war_main_text10">The Royal Naval college at Eaton Hall\n
+    After Brittania RNC Dartmouth was bombed in September 1942 the cadets were moved to the Duke of Westminster’s seat at Eaton Hall, Chester in 1943. It continued to produce regular officers for the Royal Navy until Dartmouth was re-established in 1946.\n
+    \nNational Service
+    \nNational Service continued after World War 2 and hundreds of officers were still needed for the Army. By 1946, the Officer Cadet Training Units (OCTU) of the war were closing down. Lieutenant General Sir Brian Horrocks was General Officer Commanding-in-Chief of Western Command based in Chester. He recognised the potential of the now vacant estate, and with the Duke of Westminster\'s agreement 164 OCTU in North Wales was moved here. It became the well-known \‘Eaton Hall\’ of National Service Days.\n
+    \nIts primary task was to train Infantry officers for the Army, but others were also trained, notable the young officers of the Royal Electrical and Mechanical Engineers (REME). It was a 15-week course, which produced a first-class platoon commander. Many of the men trained there went on after their two years of National Service to become the ‘Captains of Industry’ so good was the quality of the selected candidate and their training in leadership. The course was \‘hands on\’, energetic and hard. Drill was intensive to instil discipline and teamwork. Weapon training and platoon exercises with live firing gave the real edge to the newly commissioned Second Lieutenant. The course culminated in a final exercise at Trawsfynydd or Sennybridge Training Areas. The cadets returned elated to the passing out parade.\n
+    \nAfter a very short leave each man would report to his Battalion. Many were in action within weeks of graduating. The upheavals of the post war period needed operational readiness of a higher order. Eaton Hall’s ex-cadets met the challenge and brought a refreshing approach to the regular army.\n
+    \nThe symbol of the officer cadet when off field duty was the ‘officers cane’. The uniform differences were the ‘white tabs’ worn on the upper collar of the battledress and, if selected as cadet under officer the Austrian knot on the sleeve. Some 15,000 young men received their first formal introduction to leadership training between 1946 and 1958 at Eaton Hall. When National Service intakes were later reduced, Infantry and Cavalry/ Artillery cadets were amalgamated at Mons Barracks, Aldershot. Eaton Hall, much changed, was returned to the Duke of Westminster.\n </string>
+    <string name="ww2_and_post_war_section_name11">Korean War – 1950 to 1952:</string>
+    <string name="ww2_and_post_war_main_text11">North Korea invaded South Korea by crossing the 38th Parallel on 25th June 1950. 27 Brigade left almost at once for Korea from Hong Kong. On 3rd October, 29 Independent Brigade Group left the UK for Korea. The Brigade consisted of the Gloucesters, Royal Northumberland Fusiliers and Royal UIster Rifles.\n
+    \nThe latter unit included some 200 Cheshire Regiment reservists called up for the war. They were involved in the Great battle of the Imjin River in April 1951. The Brigade Commander was Brigadier Brodie and his Brigade Major, Major Ken Trevor, both Cheshires. The Skins did their tour between 1951 and 1952 as a tank unit in the Commonwealth Division – formed by mid-1951.\n
+    \nIt was a very hard-fought war, the Chinese sided with the North Koreans and the severe winter weather also proved to be an enemy. </string>
+    <string name="ww2_and_post_war_section_name12">Egypt to Germany – 1950:</string>
+    <string name="ww2_and_post_war_main_text12">Suez:
+    \nDuring the post war period the Canal Zone was vital to Britain’s shipping needs to and from the Far East and the Middle East oil fields, and was garrisoned. Stirrings of nationalism in Egypt resulted in a terror campaign to remove Britain’s presence. 80,000 troops were housed in uncomfortable tented camps strung out along the 100-mile canal. The main tentage was small 180 pounders or larger EPIPs (European Purpose India Pattern).\n
+    \nThe Cheshires served there in 1951. In truth the security duties did not keep the Battalion busy enough but our irrepressible CO the rubicund Colonel (later Major General) John Cubbon (known to all as the Red Ant) had the determination that his 1000 man National Service Battalion should be ‘sensibly tired’ every night, and we were!\n
+    \nMuch military exercising took place on the Sinai Peninsula to keep war skills honed under the unforgiving sun. Though no campaign medal was issued many felt the conditions were of such significance one should have been.\n
+    \nBerlin:
+    \nIn 1956 the 1sr Battalion of the Cheshire Regiment moved to Berlin to be part of the garrison during the Cold War which engulfed the city. The barracks were near Spandau Prison and one of the main tasks was to guard the prison and its one inmate Rudolf Hess. Boarder patrols and exercises were undertaken and it was generally a lively existence, which most people thoroughly enjoyed.\n
+    \nThe British Army of the Rhine (BAOR) was Britain’s main land response to the Soviet threat.  It was originally very large and several divisions remained in occupation of the British Sector of Germany immediately after the war. </string>
+    <string name="ww2_and_post_war_section_name13">Exercising and modern life:</string>
+    <string name="ww2_and_post_war_main_text13">During the Peace which followed the Second World War it should noted that in the first 50 years there was only one year in which British soldiers were not killed in action – peace!\n
+    \nWhen not on operations the modern soldiers spends much time on exercise. These exercises often take place in interesting places: Canada, Belize in Central America, Cyprus, Jordan and now former Eastern Bloc countries all host our training activities. Sport and adventurous training both feature in the programme.\n
+    \nIn 1986-1988 the Cheshires were on Public Duties in London guarding the Palaces, the Tower and Windsor. An exciting time of public scrutiny but much enjoyed by those who took part. In 1989 the Regiment was back in Cheshire to celebrate its 300th Anniversary on the Roodee.\n
+    \nThe Yeomanry celebrated their 200th anniversary in 1997 in Chester having received the Freedom of the City in the previous year.\n
+    \nNorthern Ireland
+    \nThe ongoing ‘troubles’ in Northern Ireland have become a way of life for the British Infantry in particular. Keeping the Peace in home territory is a task not undertaken since the mid-nineteenth century.\n
+    \nThe ubiquitous Press presence produced many changes to the Infantry’s method of operating. The soldiers have responded magnificently to the numerous challenges, which faced them, in most cases maintaining a thoroughly friendly approach despite sever provocation and often bodily injury. It was very much a junior NCO’s operation – and they have proved excellent material worthy of their forebears.\n
+    \nThe Cheshires have served, up to year 2000, three two-year residential tours as a permanent garrison and six emergency (roulement) tours of between 4 and 6 months each. </string>
+    <string name="ww2_and_post_war_section_name14">Bosnia - 1992/93:</string>
+    <string name="ww2_and_post_war_main_text14">The Cheshires were the first British Infantry to go into Bosnia under United Nations auspices to attempt to ensure peace in the area of the former Republic of Yugoslavia (FRY) and to escort UN relief convoys.\n
+    \nIt was a hard mission with men having to face extremely difficult situations without being permitted to use their fire power to “put things right”.\n
+    \nThey moved out from their BAOR (British Army of the Rhine) base at Fallingbostel with their Warrior armoured vehicles as winter set in. It was extremely cold but initially as no winter warfare clothing was available, the men had to buy their own.\n
+    \nThey were based at Vitez but operated in a wide band of country including Gornji Vakuf, Tuzla and in Sarajevo. Possibly the worst task was declaring the bodies following the massacre at Ahmici in April 1993. Interpreters like Dobrilla Kalaba were risking their lives too. Dobrilla was shot dead soon after the Battalion left.\n
+    \nIt was hoverer a most successful tour of duty with their CO Lt Col Bob Stewart becoming a national TV personality. WE believe the operation helped to save the Regiment from the impending amalgamation with the Stafford’s. </string>
 </resources>
