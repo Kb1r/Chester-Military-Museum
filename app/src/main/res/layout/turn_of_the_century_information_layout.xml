@@ -22,13 +22,13 @@
 
     <ImageView
         android:id="@+id/topImage"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="170dp"
-        android:background="@drawable/bottom_border2dp"
-        app:srcCompat="@drawable/ic_image"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/boer_war"
+        android:scaleType="centerCrop" />
 
     <ImageView
         android:id="@+id/leftArrow"
@@ -95,7 +95,8 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        android:rotation="90"
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName1"
@@ -144,7 +145,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName2"
@@ -193,7 +194,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName3"
@@ -242,7 +243,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName4"
@@ -283,55 +284,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:background="@drawable/full_border1dp">
-
-                    <ImageButton
-                        android:id="@+id/collapseButton5"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
-
-                    <TextView
-                        android:id="@+id/sectionName5"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="SectionName5"
-                        android:textSize="24sp" />
-
-                    <ImageButton
-                        android:id="@+id/textToSpeechPlayButton5"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@android:drawable/ic_media_play" />
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/mainTextBody5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:textSize="16sp"
-                    android:visibility="gone" />
-            </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
-            <!-- Section 6 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:background="@drawable/full_border1dp"
                     android:orientation="horizontal">
 
@@ -340,7 +292,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName6"
@@ -373,7 +325,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 7 -->
+            <!-- Section 6 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -390,7 +342,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName7"
@@ -423,7 +375,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 8 -->
+            <!-- Section 7 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -440,7 +392,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName8"
@@ -473,7 +425,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 9 -->
+            <!-- Section 8 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -490,7 +442,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName9"
@@ -523,7 +475,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 10 -->
+            <!-- Section 9 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -540,7 +492,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName10"
@@ -573,7 +525,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 11 -->
+            <!-- Section 10 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -590,7 +542,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName11"
@@ -623,7 +575,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!-- Section 12 -->
+            <!-- Section 11 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -640,7 +592,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName12"

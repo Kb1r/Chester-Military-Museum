@@ -1,9 +1,11 @@
 package com.example.chestermilitarymuseum
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chestermilitarymuseum.databinding.IntroductionInformationLayoutBinding
 import java.util.*
@@ -12,7 +14,7 @@ import androidx.transition.AutoTransition
 import com.example.chestermilitarymuseum.databinding.SeventeenthCenturyInformationLayoutBinding
 
 
-class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class SeventeenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: SeventeenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech
@@ -27,17 +29,14 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
 
         // Text
         binding.title1.text = getString(R.string.seventeenth_century)
-        // Section 1
+
+        // Section 2
         binding.mainTextBody1.text  = getString(R.string.seventeenth_main_text1)
         binding.sectionName1.text   = getString(R.string.seventeenth_section_name1)
 
-        // Section 2
+        // Section 3
         binding.mainTextBody2.text  = getString(R.string.seventeenth_main_text2)
         binding.sectionName2.text   = getString(R.string.seventeenth_section_name2)
-
-        // Section 3
-        binding.mainTextBody3.text  = getString(R.string.seventeenth_main_text3)
-        binding.sectionName3.text   = getString(R.string.seventeenth_section_name3)
 
         // Arrows
         binding.rightArrow.setOnClickListener {
@@ -52,7 +51,6 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
         val collapseButtons = listOf(
             binding.collapseButton1,
             binding.collapseButton2,
-            binding.collapseButton3,
         )
         val mainTextBodies = listOf(
             binding.mainTextBody1,
@@ -70,15 +68,76 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
         //set an on-click listener to each button
         collapseButtons.forEachIndexed { index, button ->
             button.setOnClickListener {
-                //Use the fast transition
+                // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
 
-                val target = mainTextBodies[index]
-                val wasVisible = (target.visibility == View.VISIBLE)
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.raising_the_cheshires)
+                    1 -> binding.topImage.setImageResource(R.drawable.the_cheshire_regiment)
+                }
 
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
                 mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
                 if (!wasVisible) {
                     target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
+                }
+            }
+
+
+            //set on-click listeners for the linear layouts
+            val buttonParent = button.parent as LinearLayout
+            buttonParent.setOnClickListener {
+                // Animate text
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.raising_the_cheshires)
+                    1 -> binding.topImage.setImageResource(R.drawable.raising_the_cavalry)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
+                if (!wasVisible) {
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
                 }
             }
         }
@@ -87,7 +146,6 @@ class SeventeenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitL
         val ttsButtons = listOf(
             binding.textToSpeechPlayButton1,
             binding.textToSpeechPlayButton2,
-            binding.textToSpeechPlayButton3
         )
         ttsButtons.forEachIndexed { idx, btn ->
             btn.setOnClickListener {

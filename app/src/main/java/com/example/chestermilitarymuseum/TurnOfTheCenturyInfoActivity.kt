@@ -1,9 +1,11 @@
 package com.example.chestermilitarymuseum
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
@@ -12,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformatio
 import com.example.chestermilitarymuseum.databinding.TurnOfTheCenturyInformationLayoutBinding
 import java.util.*
 
-class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class TurnOfTheCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: TurnOfTheCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech
@@ -39,9 +41,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
 
         binding.sectionName4.text    = getString(R.string.turn_of_the_century_section_name4)
         binding.mainTextBody4.text   = getString(R.string.turn_of_the_century_main_text4)
-
-        binding.sectionName5.text    = getString(R.string.turn_of_the_century_section_name5)
-        binding.mainTextBody5.text   = getString(R.string.turn_of_the_century_main_text5)
 
         binding.sectionName6.text    = getString(R.string.turn_of_the_century_section_name6)
         binding.mainTextBody6.text   = getString(R.string.turn_of_the_century_main_text6)
@@ -79,7 +78,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             binding.collapseButton2,
             binding.collapseButton3,
             binding.collapseButton4,
-            binding.collapseButton5,
             binding.collapseButton6,
             binding.collapseButton7,
             binding.collapseButton8,
@@ -94,7 +92,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             binding.mainTextBody2,
             binding.mainTextBody3,
             binding.mainTextBody4,
-            binding.mainTextBody5,
             binding.mainTextBody6,
             binding.mainTextBody7,
             binding.mainTextBody8,
@@ -106,18 +103,97 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
 
+        //set an on-click listener to each button
         collapseButtons.forEachIndexed { index, button ->
             button.setOnClickListener {
+                // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
-                val targetBody = mainTextBodies[index]
-                val wasVisible = targetBody.visibility == View.VISIBLE
 
-                // Hide all bodies
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.boer_war)
+                    1 -> binding.topImage.setImageResource(R.drawable.burma_war)
+                    2 -> binding.topImage.setImageResource(R.drawable.sudan_war)
+                    3 -> binding.topImage.setImageResource(R.drawable.america_and_africa)
+                    4 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    5 -> binding.topImage.setImageResource(R.drawable.bayonets_swords_guns)
+                    6 -> binding.topImage.setImageResource(R.drawable.sport_in_the_army)
+                    7 -> binding.topImage.setImageResource(R.drawable.affiliations_friendships)
+                    8 -> binding.topImage.setImageResource(R.drawable.fashions)
+                    9 -> binding.topImage.setImageResource(R.drawable.volunteers)
+                    10 -> binding.topImage.setImageResource(R.drawable.with_love)
+                    11 -> binding.topImage.setImageResource(R.drawable.captain_oates)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
                 mainTextBodies.forEach { it.visibility = View.GONE }
 
-                // Toggle clicked section
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
                 if (!wasVisible) {
-                    targetBody.visibility = View.VISIBLE
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
+                }
+            }
+
+
+            //set on-click listeners for the linear layouts
+            val buttonParent = button.parent as LinearLayout
+            buttonParent.setOnClickListener {
+                // Animate text
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.boer_war)
+                    1 -> binding.topImage.setImageResource(R.drawable.burma_war)
+                    2 -> binding.topImage.setImageResource(R.drawable.sudan_war)
+                    3 -> binding.topImage.setImageResource(R.drawable.america_and_africa)
+                    5 -> binding.topImage.setImageResource(R.drawable.bayonets_swords_guns)
+                    6 -> binding.topImage.setImageResource(R.drawable.sport_in_the_army)
+                    7 -> binding.topImage.setImageResource(R.drawable.affiliations_friendships)
+                    8 -> binding.topImage.setImageResource(R.drawable.fashions)
+                    9 -> binding.topImage.setImageResource(R.drawable.volunteers)
+                    10 -> binding.topImage.setImageResource(R.drawable.with_love)
+                    11 -> binding.topImage.setImageResource(R.drawable.captain_oates)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
+                if (!wasVisible) {
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
                 }
             }
         }
@@ -128,7 +204,6 @@ class TurnOfTheCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLis
             binding.textToSpeechPlayButton2,
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
-            binding.textToSpeechPlayButton5,
             binding.textToSpeechPlayButton6,
             binding.textToSpeechPlayButton7,
             binding.textToSpeechPlayButton8,

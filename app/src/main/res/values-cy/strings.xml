@@ -101,235 +101,421 @@
     <string name="clickable_twitter_logo">Clickable Twitter logo</string>
     <string name="clickable_instagram_logo">Clickable Instagram logo</string>
     <string name="clickable_map_button">Clickable Map Button</string>
-    <string name="introduction">Introduction</string>
-    <string name="are_you_sure1">Are you sure you want to go back to the home page?</string>
-    <string name="confirm">Confirm</string>
-    <string name="seventeenth_century">The 17th Century</string>
-    <string name="eighteenth_century">The 18th Century</string>
-    <string name="nineteenth_century">The 19th Century</string>
-    <string name="turn_of_the_century">Turn of the Century</string>
-    <string name="remembrance_ww1">Remembrance &amp; WW1</string>
-    <string name="WW2_post_war_conflicts">WW2 &amp; Post War Conflicts</string>
+    <string name="introduction">Rhagymadrodd</string>
+    <string name="are_you_sure1">Ydych chi\'n siŵr eich bod am fynd yn ôl i\'r hafan?</string>
+    <string name="confirm">Cadarnhau</string>
+    <string name="seventeenth_century">Yr 17eg Ganrif</string>
+    <string name="eighteenth_century">Y 18fed Ganrif</string>
+    <string name="nineteenth_century">Y 19eg Ganrif</string>
+    <string name="turn_of_the_century">Troad y Ganrif</string>
+    <string name="remembrance_ww1">Coffadwriaeth &amp; WW1</string>
+    <string name="WW2_post_war_conflicts">WW2 &amp; Gwrthdaro ar ôl y Rhyfel</string>
     <string name="introduction_section_name1">Eaton Hall:</string>
-    <string name="introduction_main_text1">Eaton Hall sits in the Cheshire countryside about 5 miles from Chester and is the home of the Duke of Westminster.
-
-    At the beginning of World War II, the second Duke vacated his house to help with the war effort. From 1943 until September 1946, it was home to the Britannia Royal Naval College, which had been forced to leave the exposed position in Dartmouth.
-    In 1946, it passed to the army and was used until 1958 as a training centre for National Service Officer Cadets. The Eaton Hall Officer Cadets were put through a 16-week course. Some 15,000 men were trained there, and many went straight into operational duty in Malaya, Korea and other trouble spots of the post war era." </string>
-    <string name="introduction_section_name2">The Cheshire Regiment</string>
-    <string name="introduction_main_text2">The Cheshire Regiment was raised on the Roodee in 1689. In 1743, it won the distinction of wearing the oak leaf from George II at Dettingen – still part of its badge today.
-
-    In the 18th Century, its most famous achievement was the taking of Louisburg in Nova Scotia, after which the Grenadier Company went on with General Wolfe to Quebec. After the Seven Years War, the Regiment spent time in the West Indies and then took part in the American War of Independence In the 1840s, the 22nd was part of Sir Charles Napier’s force, when he conquered the Scinde. The battle of Meeanee on the 17th February 1843 is celebrated as the Regimental Day.
-
-    In the First World War, 38 Battalions were raised by the Cheshires. The 1st Battalion\'s heroic stand near Mons in 1914 saved the British Expeditionary Force from disaster. They went on to be involved in every major action in France and won 35 battle honours. The Territorial and New Army Battalions fought in 6 arenas of war, The 12th Battalion won the French Croix de Guerre, and in total over 8,000 officers and men gave their lives.
-
-    Throughout the Second World War, the Cheshire’s were armed with the Vickers machine gun and acted as a Support Regiment. The 2nd Battalion were at Dunkirk, and in North Africa and Italy, before returning to be part of the initial landings and Normandy. The 1st fought in North Africa and were in Malta during the siege. The 6th and 7th Battalions after Dunkirk fought in North Africa and Italy with distinction.
-
-    Since the war, the 1st Battalion has served in numerous operational areas including Malaya, Cyprus and Northern Ireland and recently in Bosnia under the United Nations. </string>
-    <string name="introduction_section_name3">The Cheshire Yeomanry</string>
-    <string name="introduction_main_text3">The Cheshire Yeomanry was raised by Sir John Fleming Leicester of Tabley in 1797 when Britain was under threat from Napoleon. Initially there were 6 troops of cavalry made up from local gentry farmers who brought their own horses.
-
-    In 1803 the Regiment was granted the title of The Earl of Chester’s Regiment of Yeomanry and with it the right to wear the Price of Wales’s feathers. The first call out was in August 1819 when there were riots in St Peter’s Field, Manchester (Peterloo). They were congratulated for their “soldier like conduct” which was “gentle and right”.
-
-    During the 19th Century, they were often called out “in aid of the civil power” and first went on active service abroad in 1900 in the Boer War. In 1914 the Regiment was mobilised and fought the Turks in Palestine in 1916 as infantry. Later they were posted to France in 1918 and fought in the final stages of the First World War in their infantry role.
-
-    Between the wars, it re-formed as mounted cavalry and took its horses on an epic journey by train and boat to Palestine, taking part in Syria in the last cavalry action of the British Army. In 1942 it became a Royal Signals Regiment and then in 1947 an armoured regiment. In 1968 it underwent considerable change during reorganisation of the Territorial Army. It became part of The Queen’s own Yeomanry in 1971 and today it is based in Chester as C Squadron of the Royal Mercian and Lancastrian Yeomanry (RMLY). </string>
-    <string name="introduction_section_name4">The 3rd Dragoon Guards</string>
-    <string name="introduction_main_text4">Raised by the Earl of Plymouth in response to Monmouth’s Rebellion in 1685, the 4th Horse were involved in Marlborough’s campaign during the War of the Spanish Succession and later took part in the battles of Blenheim, Oudenaarde and Malplaquet. In 1745 they were part of the force sent to Scotland to quell the rebellion led by the ‘Young Pretender’. In 1747, they were renamed the 3rd Dragoon Guards and in 1765 received the Prince of Wales title and the right to wear his badge.
-
-    They were involved in the French Revolutionary Wars and the Napoleonic Wars before serving at home, after which they were sent in 1858 to reinforce the Army in India. In 1883, they sent men to the Heavy Camel Corps in the Sudan. During the closing stages of the Boer War, they were used to round up Boe Commandos and by 1911 were back in Egypt – where they suffered in a terrible Cholera outbreak.
-
-    They fought in the trenches in the First World War – suffering the highest casualties of any cavalry regiment and were remounted in 1918 in the breakthrough of the Hindenburg line.
-
-    In 1922 they were amalgamated with the 6th Dragoon Guards (Carabiniers) to become the 3rd Carabaniers. Under this title they fought in the Second World War in Burma and took part in a renowned battle in their tanks at Numshigum.
-
-    In 1971, they were again amalgamated with the Royal Scots Greys to become the Royal Scots Dragoon Guards. </string>#
-    <string name="introduction_section_name5">The 5th Dragoon Guards</string>
-    <string name="introduction_main_text5">Raised as Shrewsbury\’s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough’s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet . For most of the 18th century they were in the United Kingdom police and excise duties. In 1746 they were given the right to wear green facings – the forerunner of today’s green trousers worn in No. 2 Dress (parade dress).
-
-    In 1791, they were renamed the 5th Dragoon Guards. In the Napoleonic Wars, they fought at Beaumont and later spent 8 years in Liverpool, where they received the title of Princess Charlotte of Wale’s Own. They reinforced Wellington in the Peninsular Wars and in 1811 were involved at Salamanca.
-
-    In 1854, in the Crimea, the Regiment was part of the successful charge at Balaklava, which saved the army supply depot. They spent the rest of the 19th century at home. As a result of service in the Boer War with the Regiment, Colonel Baden Powell formed the Scout Movement.
-
-    They fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany. In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the ‘Skins’ as they were known fought from Normandy to the Elbe in tanks.
-
-    After the War, they saw action in Korea and spent much of their post war service in British Amry of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards.</string>
-    <string name="seventeenth_section_name1">The Royal Dragoon Guards</string>
-    <string name="seventeenth_main_text1">Raised as Shrewsbury\'s Horse in 1685, with a troop raised by Sir Thomas Grosvenor in Chester, the Regiment joined Marlborough\'s forces as the 6th Horse in 1702 and fought at Blenheim, Oudenaarde and Malplaquet, For most of the 18th century they were in the United Kingdom on police and excise duties. In 1746 they were given the right to wear green facings - the forerunner of today\'s green trousers worn in No.2 Dress (parade dress).
-
-    In 1791, they were renamed the 5th Dragoon Guards. In the Napoleonic Wars, they fought at Beaumont and later spent 8 years in Liverpool, where they received the title of Princess Charlotte of Wales\'s Own. They reinforced Wellington in the Peninsular Wars and in 1811 were involved at Salamanca.
-
-    In 1854, in the Crimea, the Regiment was part of the successful charge at Balaklava, which saved the army supply depot. They spent the rest of the 19th century at home. As a result of service in the Boer War with the Regiment, Colonel Baden Powell formed the Scout Movement.
-
-    They fought in the trenches in the First World War and in 1918 led the advance to the Bridgehead in Germany: In 1922 they were amalgamated with the 6th Inniskilling Dragoons to become the 5th Royal Inniskilling Dragoon Guards. In the Second World War the \'Skins\' as they were known fought from Normandy to the Elbe in tanks.
-
-    After the War, they saw action in Korea and spent much of their post war service in British Army of the Rhine. They were again amalgamated in 1992 with the 4/7th Dragoon Guards to become the Royal Dragoon Guards. </string>
-    <string name="seventeenth_section_name2">Raising the Cheshires in 1689</string>
-    <string name="seventeenth_main_text2">The Cheshires were raised as an infantry regiment by Henry Duke of Norfolk, in March 1689. Extra troops were needed at the time to support William and Mary, when they accepted the crown from Parliament. The soldiers were recruited only a few hundred yards from here on the famous Roodee. Later, they became known as the 22nd (Cheshire) Regiment and they are still in active service today.
-
-    Charles II’s orders of 1663, for the equipment of infantry still stood – “…each pikeman a sword and pike of 16 foot long and not under; and each musketeer a musket, with a collar of bandoliers, the barrels of which musket to be about four foot long and to contain bullet, fourteen of which shall weigh a pound weight”
-
-    Leaving Dawpool on the Wirral they sailed to Ireland and took part in the siege of Carrickfergus under Marshal Schomberg. In 1690 on 1st July, they fought in the Battle of the Boyne where the Marshal (aged 80) was killed in a ‘friendly fire’ incident.
-
-    Regiments were 10 companies, each of 14 Pikemen, 46 Musketeers and 1 Company of Grenadiers.
-
-    Regiments were 10 companies, each of 14 Pikemen, 46 Musketeers and 1 Company of Grenadiers. </string>
-    <string name="seventeenth_section_name3">Raising the Cavalry Regiments – 1685:</string>
-    <string name="seventeenth_main_text3">On 5th May 1663, Charles II issued orders stating how his Army should be equipped. These orders stood for many years afterwards and were current when the cavalry regiments of this museum were formed in 1685.
-
-    \“Each horseman to have for his defence armes, back, breast and pot – for his offensive armes, a sword and a case of pistols, the barrels whereof are no to be under fourteen inches in length\”.
-
-    At the time regiments were known by their colonel’s name – only in the 1740s did they become numbered according to their type.
-
-    In 1685…
-
-    The 3rd Dragoon Guards were raised at the Earl of Plymouth\’s 4th Horse.
-
-    The 5th Dragoon Guards were raised as the Early of Shrewsbury\’s 7th Horse.
-
-    (The Earl of Shrewsbury was also Captain of the Bridgegate in Chester and his regiment was supplemented by a troop raised in Chester by Sur Thomas Grosvenor.)
-
-    The 6th Dragoon Guards (who later became the Carabiniers as an honour) were raised as the 9th Horse.
-
-    The 6th Inniskilling Dragoons were raised as Conyngham\’s Horse.
-
-    1685 – Monmouth’s Rebellion followed by Judge Jefferies \“Bloody Assizes\” in the West Country. Raising of cavalry in Chester.
-
-    1688 – James II heard Mass in the Agricola Tower Chapel. \‘Glorious Revolution\’ brings Protestant William and Mary to the throne.
-
-    1689 – Cheshire Regiment raised.
-
-    1690 – Ban of England incorporated.
-
-    1692 – Glencoe massacre in the Highlands.</string>
+    <string name="introduction_main_text1">Mae Eaton Hall yng nghefn gwlad Sir Gaer tua 5 milltir o Gaer ac mae\'n gartref i Ddug San Steffan.\n
+    \nAr ddechrau\'r Ail Ryfel Byd, gadawodd yr ail Ddug ei dŷ i helpu gyda\'r ymdrech ryfel. Rhwng 1943 a mis Medi 1946, roedd yn gartref i Goleg Llynges Frenhinol Britannia, a oedd wedi cael ei orfodi i adael y safle agored yn Dartmouth.
+    \nYm 1946, fe\'i trosglwyddwyd i\'r fyddin ac fe\'i defnyddiwyd tan 1958 fel canolfan hyfforddi ar gyfer Cadetiaid Swyddogion Gwasanaeth Cenedlaethol. Rhoddwyd Cadetiaid Swyddog Neuadd Eaton trwy gwrs 16 wythnos. Hyfforddwyd tua 15,000 o ddynion yno, ac aeth llawer yn syth i ddyletswydd weithredol ym Malaya, Corea a mannau trafferthus eraill yn y cyfnod ar ôl y rhyfel." </string>
+    <string name="introduction_section_name2">The Cheshire Regiment:</string>
+    <string name="introduction_main_text2">Codwyd y Cheshire Regiment ar y Roodee ym 1689. Ym 1743, enillodd y fraint o wisgo deilen dderw Siôr II yn Dettingen – sy’n dal yn rhan o’i bathodyn heddiw.\n
+    \nYn y 18fed Ganrif, ei gamp enwocaf oedd cymryd Louisburg yn Nova Scotia, ac wedi hynny aeth y Grenadier Company ymlaen gyda\'r Cadfridog Wolfe i Quebec. Ar ôl y Rhyfel Saith Mlynedd, treuliodd y Gatrawd amser yn India\'r Gorllewin ac yna cymryd rhan yn Rhyfel Annibyniaeth America Yn y 1840au, roedd yr 22ain yn rhan o lu Syr Charles Napier, pan orchfygodd y Scinde. Dethlir brwydr Meeanee ar 17 Chwefror 1843 fel Diwrnod y Gatrawd.\n
+    \nYn y Rhyfel Byd Cyntaf, codwyd 38 Bataliwn gan y Swydd Gaer. Llwyddodd stondin arwrol y Bataliwn 1af ger Mons ym 1914 i achub y British Expeditionary Force rhag trychineb. Aethant ymlaen i gymryd rhan ym mhob cam mawr yn Ffrainc ac ennill 35 o anrhydeddau brwydr. Ymladdodd Bataliwn y Tiriogaethol a\'r Fyddin Newydd mewn 6 maes o ryfel, Enillodd y 12fed Bataliwn y Croix de Guerre o Ffrainc, a rhoddodd cyfanswm o 8,000 o swyddogion a dynion eu bywydau.\n
+    \nDrwy gydol yr Ail Ryfel Byd, roedd y Sir Gaer yn arfog â gwn peiriant Vickers ac yn gweithredu fel Catrawd Gefnogol. Roedd yr 2il Fataliwn yn Dunkirk, ac yng Ngogledd Affrica a\'r Eidal, cyn dychwelyd i fod yn rhan o\'r glaniadau cychwynnol a Normandi. Ymladdodd y 1af yng Ngogledd Affrica ac roedd ym Malta yn ystod y gwarchae. Brwydrodd y 6ed a\'r 7fed Bataliwn ar ôl Dunkirk yng Ngogledd Affrica a\'r Eidal gyda rhagoriaeth.\n
+    \nErs y rhyfel, mae\'r Bataliwn 1af wedi gwasanaethu mewn nifer o feysydd gweithredol gan gynnwys Malaya, Cyprus a Gogledd Iwerddon ac yn ddiweddar yn Bosnia o dan y Cenhedloedd Unedig.</string>
+    <string name="introduction_section_name3">The Cheshire Yeomanry:</string>
+    <string name="introduction_main_text3">Sefydlwyd Milisia Swydd Gaer gan Syr John Fleming Leicester o Tabley yn 1797 pan oedd Prydain dan fygythiad gan Napoleon. I ddechrau, roedd 6 thîm o farchoglu a oedd yn cynnwys boneddigion ffermwyr lleol a ddygodd eu ceffylau eu hunain.\n
+    \nYn 1803, rhoddwyd y teitl “Catrawd Milisia Iarll Caer” i’r Gatrawd, ynghyd â’r hawl i wisgo plu Tywysog Cymru. Yr alwad gyntaf i weithredu oedd ym mis Awst 1819 pan oedd terfysgoedd ym Maes Pedr Sant, Manceinion (Peterloo). Cawsant eu canmol am eu “hymddygiad milwrol” a oedd yn “garedig ac yn gywir”.\n
+    \nYn ystod y 19eg ganrif, cânt eu galw’n aml “i gynorthwyo’r awdurdod sifil” a daeth eu gwasanaeth gweithredol cyntaf dramor yn 1900 yn Rhyfel y Boeriaid. Yn 1914, cafodd y Gatrawd ei symud i weithredu a bu’n ymladd yn erbyn y Tyrciaid yn Palesteina yn 1916 fel milwyr traed. Yn ddiweddarach, cawsant eu hanfon i Ffrainc yn 1918 a buont yn ymladd yn camau olaf y Rhyfel Byd Cyntaf fel milwyr traed.\n
+    \nRhwng y ddau ryfel, ailsefydlwyd y Gatrawd fel marchoglu a chymerodd y ceffylau ar daith epig ar drên a llong i Balesteina, gan gymryd rhan yn Syria yn y weithred olaf o farchoglu gan Fyddin Prydain. Yn 1942, daeth yn Gatrawd Signalau Brenhinol ac wedyn yn 1947 yn gatrawd arfog. Yn 1968, cafodd newidiadau sylweddol yn ystod ail-drefnu’r Fyddin Diriogaethol. Yn 1971, daeth yn rhan o Filisia Brenhines Ei Hun ac erbyn heddiw mae wedi’i lleoli yng Nghaer fel Sgwadron C o’r Milisia Brenhinol Merciaidd a Lancestrïaidd (RMLY).</string>
+    <string name="introduction_section_name4">The 3rd Dragoon Guards:</string>
+    <string name="introduction_main_text4">Sefydlwyd gan Iarll Plymouth yn ymateb i Wrthryfel Monmouth yn 1685, bu’r 4ydd Marchog yn rhan o ymgyrch Marlborough yn ystod Rhyfel Oesilyniaeth Sbaen a chymryd rhan yn ddiweddarach yng nghanghennau Blenheim, Oudenaarde a Malplaquet. Yn 1745, roeddynt yn rhan o’r fyddin a anfonwyd i’r Alban i roi’r gorau i’r gwrthryfel a arweiniwyd gan y ‘Ieuenctid Ymatebwr’. Yn 1747, newidiwyd eu henw i’r 3ydd Gwardiaid Dragŵn ac yn 1765 derbynioddynt deitl Tywysog Cymru a’r hawl i wisgo ei bathodyn.\n
+    \nBuont yn rhan o Ryfeloedd Chwyldroadol Ffrainc a Rhyfeloedd Napoleon cyn gwasanaethu gartref, ac yn 1858 anfonwyd hwy i gryfhau’r fyddin yn India. Yn 1883, anfonwyd dynion i’r Corff Camylau Trwm yn Sudan. Yn ystod camau olaf Rhyfel y Boeriaid, defnyddiwyd hwy i chwilio am Gomandwyr Boe ac erbyn 1911 roeddynt yn ôl yn Aifft – lle buont yn dioddef yn ystod achos difrifol o Golera.\n
+    \nYmladdwyd yn y trwynfeydd yn y Rhyfel Byd Cyntaf – gan ddioddef y nifer fwyaf o golledion o unrhyw gatrawd marchoglu ac ail-gynnorthwydynt yn 1918 yn ystod torri llinell Hindenburg.\n
+    \nYn 1922, unoed â’r 6ed Gwardiaid Dragŵn (Carabiniers) i ffurfio’r 3ydd Carabaniers. O dan yr enw hwn, ymladdasant yn ystod yr Ail Ryfel Byd ym Mhrwma a chymryd rhan mewn brwydr enwog mewn tanciau yn Numshigum.\n
+    \nYn 1971, unoed eto â’r Royal Scots Greys i ffurfio’r Royal Scots Dragoon Guards.</string>
+    <string name="introduction_section_name5">The 5th Dragoon Guards:</string>
+    <string name="introduction_main_text5">Sefydlwyd fel Marchog Shrewsbury yn 1685, gyda thîm a sefydlwyd gan Syr Thomas Grosvenor yn Nghaer, ymunodd y Gatrawd â fyddin Marlborough fel y 6ed Marchog yn 1702 a ymladdodd yn Blenheim, Oudenaarde a Malplaquet. Am ran fwyaf o’r 18fed ganrif, buont yn y Deyrnas Unedig yn cyflawni dyletswyddau heddlu a threthi. Yn 1746, rhoddwyd hawl iddynt wisgo wynebau gwyrdd – y rhagflaenydd i’r treiliau gwyrdd sydd yn gwisgo heddiw yn Rhuban Rhif 2 (gwisg barêd).\n
+    \nYn 1791, newidiwyd eu henw i’r 5ed Gwardiaid Dragŵn. Yn Rhyfeloedd Napoleon, ymladdasant yn Beaumont ac yn ddiweddarach treuliodd 8 mlynedd yn Lliverpool, lle cafodd y teitl “Pererin Charlotte o Gymru ei Hun”. Cryfhawyd Wellington ganddynt yn Rhyfeloedd y Peninsiwl ac yn 1811 buont yn rhan o’r frwydr yn Salamanca.\n
+    \nYn 1854, yn Crimea, roedd y Gatrawd yn rhan o’r gwefr llwyddiannus yn Balaklava, a achubodd ganolfan gyflenwi’r fyddin. Treuliodd y gweddill o’r 19eg ganrif gartref. O ganlyniad i’w gwasanaeth yn Rhyfel y Boeriaid, sefydlodd Colonel Baden Powell y Symudiad Sgŵts.\n
+    \nYmladdasant yn y trwynfeydd yn y Rhyfel Byd Cyntaf ac yn 1918 arweinioddant yr ymgais i’r Pontfaen yn yr Almaen. Yn 1922 unoed â’r 6ed Inniskilling Dragoons i ffurfio’r 5ed Royal Inniskilling Dragoon Guards. Yn yr Ail Ryfel Byd, ymladdodd y ‘Skins’ fel y’u gelwid o Normandi i’r Elbe mewn tanciau.\n
+    \nAr ôl y Rhyfel, gwelwyd weithrediadau yn Corea a threuliodd lawer o’u gwasanaeth ar ôl y rhyfel gyda Fyddin Prydain yn yr Rhein. Unoed eto yn 1992 gyda’r 4/7fed Gwardiaid Dragŵn i ffurfio’r Royal Dragoon Guards.</string>
+    <string name="seventeenth_section_name1">Raising the Cheshires in 1689:</string>
+    <string name="seventeenth_main_text1">Sefydlwyd y Cheshires fel catrawd milwyr traed gan Henry, Dug Norfolk, ym Mawrth 1689. Roedd angen mwy o fyddin ar y pryd i gefnogi William a Mary, pan dderbyniodd y goron oddi wrth y Senedd. Cafodd y milwyr eu recriwtio dim ond ychydig cannoedd o fetrau o\'r fan hon ar y Roodee enwog. Yn ddiweddarach, daethant i gael eu hadnabod fel y 22ain (Cheshire) Catrawd ac maent yn dal i fod mewn gwasanaeth actif heddiw.\n
+    \nGorchmynion Charles II o 1663, ar gyfer offer milwyr traed oedd yn dal yn weithredol – “…pob pikeidd un cleddyf a phic o 16 troedfedd o hyd a dim llai; a phob musketydd un musket, gyda choler bandolierau, gyda barilau’r musket yn tua pedair troedfedd o hyd a cheidwad bwled,  a fydd yn pwyso punt o bwysau”\n
+    \nGan adael Dawpool ar Wirral, hwythau a hwylio i Iwerddon a chymryd rhan yn y gorymdaith ar Carrickfergus o dan Marshal Schomberg. Yn 1690 ar 1af Gorffennaf, ymladdasant yn Amlwch y Boyne lle cafodd y Marshal (yn 80 mlwydd oed) ei ladd mewn digwyddiad o “dan dân cyfeillgar”.\n
+    \nRoedd y catawraidd yn cynnwys 10 cwmni, pob un gyda 14 o Biceid, 46 o Fwsgetydd a 1 Cwmni o Grenadiers.</string>
+    <string name="seventeenth_section_name2">Raising the Cavalry Regiments – 1685:</string>
+    <string name="seventeenth_main_text2">Ar 5ed Mai 1663, rhyddhaodd Charles II orchmynion yn nodi sut y dylai ei Fyddin fod wedi’i offerio. Bu’r gorchmynion hyn yn weithredol am flynyddoedd lawer ar ôl hynny ac roeddent yn gyfredol pan sefydlwyd y catawraidd marchogion arddangosfa’r amgueddfa hon yn 1685.\n
+    \n\“Mae’n rhaid i bob marchog gael amddiffynfeydd, cefn, bronn a chasgen – ar gyfer arfau ymosodol, cleddyf a achos o pistylau, lle nad ydynt yn llai na pymtheg modfedd o hyd y barilau\”.\n
+    \nAr y pryd, roedd catawraidd yn cael eu hadnabod gan enw eu colonel – dim ond yn y 1740au y daethant i gael eu rhifo yn ôl eu math.\n
+    \nYn 1685…\n
+    Codwyd y 3ydd Gwardiaid Dragŵn o 4ydd Marchog Earloedd Plymouth.\n
+    Codwyd y 5ed Gwardiaid Dragŵn fel 7fed Marchog Earloedd Shrewsbury.\n
+    (Yn ogystal â hyn, roedd yr Earl of Shrewsbury yn Gapten y Bridgegate yn Chester a chafodd ei gatrawd ei atgyfnerthu gan dîm a godwyd yn Chester gan Syr Thomas Grosvenor.)\n
+    Codwyd y 6ed Gwardiaid Dragŵn (a ddaeth yn ddiweddarach yn y Carabiniers fel anrhydedd) fel y 9fed Marchog.\n
+    Codwyd y 6ed Inniskilling Dragoons fel Marchogion Conyngham.\n
+    1685 – Rewoliad Monmouth a dilynwyd gan “Bloody Assizes” Barnwr Jefferies yng Ngorllewin Lloegr. Codwyd marchogion yn Chester.\n
+    1688 – Mynychodd Iago II Fassiwn yn Eglwys Tŵr Agricola. Daeth y “Chwyldro Bendigedig” â’r Protestannaidd William a Mary i’r orsedd.\n
+    1689 – Sefydlwyd Catrawd Cheshire.\n
+    1690 – Sefydlwyd Ban Lloegr.\n
+    1692 – Lladdfa Glencoe yn y Highlands.</string>
     <string name="eighteenth_section_name1">Regiments Of the 18th Century:</string>
-    <string name="eighteenth_main_text1">The Cheshires spent the early part of the century in the expanding Empire Where they suffered many more Deaths from disease than through Battle. The cavalry fought with the Duke of Marlborough in the Wars of The Spanish Succession.
-
-    The War of the Austrian Succession in 1743 saw the Regiments back in Europe. But in the middle of the Century troops were also an important force for law and Order in Britain - this was before the police were formed. The cavalry spent many years on garrison duty at home.
-
-    The cheshires fought the French in the battle for Canada where their grenadiers became famous. Afterwards they fought for many years more in North America notably in the Cherokee wars.
-
-    The Napoleonic Wars at the end of the century says regiments active in Europe again. The nearby war and revolution prompted formation of Provisional Cavalry Troops in 1797 from ‘the Gentlemen of Yeoman of the County’ – these became the Cheshire Yeomanry, who now join our story.
-
-    1707
-
-    1st Parliament of Great Britain Act of Union Passed by Scots Parliament.
-
-    1720
-
-    Purchase of Commissions began.
-
-    1726
-
-    Sir John Vanbrugh- Architect and dramatist and Chester resident died.
-
-    1740-48
-
-    War of Austrian Succession.
-
-    1742
-
-    Numbering of Regiments In the British Army’s Infantry began.
-
-    1745
-
-    “The Forty-Five” Jacobite rebellion in Scotland under Bonnie Prince Charlie.
-
-    1758
-
-    Lord Amherst’s Expedition to Canada.
-
-    1761
-
-    Cherokee Wars.
-
-    1761
-
-    First Canals built-The Trent and Mersey across Cheshire.
-
-    1775-83
-
-    American Revolution.
-
-    1776
-
-    (July) American Declaration of Independence.
-
-    1780
-
-    Gordon Riots in England.
-
-    1785
-
-    Capt. G French ascended In Lunardi’s balloon from Chester Castle yard.
-
-    1788
-
-    Times’ first published.
-
-    1789
-
-    Mutiny on The Bounty.
-
-    1793
-
-    Louis XVI of France and Maric Antoinette executed.</string>
-
+    <string name="eighteenth_main_text1">Treuliodd y Cheshires ran gyntaf y ganrif yn y Ymerodraeth sy’n tyfu lle buont yn dioddef llawer mwy o farwolaethau oherwydd clefyd nag oherwydd brwydr. Ymladdodd y marchogion gyda Dug Marlborough yn y Rhyfeloedd o Olygyddiaeth Sbaenaidd.\n
+    \nYn 1743, daeth y Rhyfeloedd o Olygyddiaeth Awstria i weld y Catawraidd yn ôl yng Ngwledydd Ewrop. Ond yn ystod canol y ganrif, roedd y fyddin hefyd yn rym pwysig dros y gyfraith a threfn yn Prydain – hyn cyn i’r heddlu gael ei ffurfio. Treuliodd y marchogion flynyddoedd lawer ar ddyletswydd gorsaf gartref.\n
+    \nYmladdodd y Cheshires y Ffrancwyr yn y frwydr dros Ganada lle daeth eu grenadwyr yn enwog. Wedi hynny ymladdasant am flynyddoedd lawer yn America’r Gogledd yn benodol yn ystod y rhyfeloedd Cherokee.\n
+    \nYn ddiwedd y ganrif, roedd y Rhyfeloedd Napoleonaidd yn actif eto yn Ewrop. Y rhyfel a’r chwyldro gerllaw a arweiniodd at ffurfio Tîm Marchogion Dros Dro yn 1797 o ‘Ddoethion Yeoman y Sir’ – a ddaeth i fod yn Cheshire Yeomanry, sy’n dod i ymuno â’n stori ni.\n
+    \n1707 - Pasiodd Senedd yr Alban y Ddeddf Seneddol Cyntaf i Dduon Prydain.\n
+    1720 - Dechreuodd prynu comisiynau.\n
+    1726 - Bu farw Syr John Vanbrugh – pensaer a dramodydd ac yn drigolion Chester.\n
+    1740 - 48 Rhyfel Olygyddiaeth Awstria.\n
+    1742 - Dechrau rhifo’r catawraidd yn fyddin traed Prydain.\n
+    1745 - “The Forty-Five” gwrthryfel Jacobit yn yr Alban dan Bonnie Prince Charlie.\n
+    1758 - Ymgyrch Lord Amherst i Ganada.\n
+    1761 - Rhyfeloedd Cherokee.\n
+    1761 - Adeiladwyd y camlesi cyntaf – y Trent a Mersey ar draws Cheshire.\n
+    1775 - 83 Chwyldro Americanaidd.\n
+    1776 - (Gorffennaf) Datganiad Annibyniaeth America.\n
+    1780 - Rhyfeloedd Gordon yn Lloegr.\n
+    1785 - Capten G French yn codi o Lâs Castell Chester mewn belen Lunardi.\n
+    1788 - Cyhoeddwyd Times am y tro cyntaf.\n
+    1789 - Muthiant ar y Bounty.\n
+    1793 - Cafodd Louis XVI o Ffrainc a Marie Antoinette eu cyflawni.</string>
     <string name="eighteenth_section_name2">North America:</string>
-    <string name="eighteenth_main_text2">Louisbourg – Louisbourg was a French stronghold in 1756, when the Seven Years War began. It was essential to the British in their quest for Canada. The 22nd Regiment sailed to America disembarking at Chester, Pennsylvania on 1st January 1757. In 1758 it formed part of the expedition led by Lord Amherst, which took Louisbourg fortress. The following year Louisbourg was used as a base in the conquest for Quebec.
-
-    The 22nd took part in the Cherokee Wars of the 1760s from their American garrison and were part of the force which took Havanna in the 1761.
-
-    American War of Independence – 1775 to 1783.
-
-    The 22nd was sent to Boston in 1775. It arrived too Late for the Batte of Bunker Hill Colonel Abercrombie (and his soldier servant) arrived ahead of the others and Fought in the battle. The Colonel was killed. A soldier’s Button found on the battlefield is on display. The Regiment had its main garrison in New York and Was engaged in many skirmishes in the Area.
-
-    At the end of the war, when America became a republic, the 22nd returned home leaving all of their early records behind, and many of the men who deserted!</string>
-
+    <string name="eighteenth_main_text2">Louisbourg – Roedd Louisbourg yn gaer Ffrengig yn 1756, pan ddechreuodd Rhyfel y Saith Mlynedd. Roedd yn hanfodol i’r Brydeiniaid yn eu hymgais am Ganada. Aeth y 22ain Rejiment i America gan ddisgyn i draeth Chester, Pennsylvania ar 1af Ionawr 1757. Yn 1758 ffurfiwyd rhan o’r ymgyrch dan arweiniad Lord Amherst, a gipiodd gaer Louisbourg. Yn y flwyddyn ganlynol defnyddiwyd Louisbourg fel sylfaen yn y goresgyniad ar Quebec.\n
+    \nCymerodd y 22ain ran yn Rhyfeloedd Cherokee yn y 1760au o’u gorsaf American ac roedd yn rhan o’r fyddin a gipiodd Havana yn 1761.\n
+    \nRhyfel Annibyniaeth America – 1775 i 1783.\n
+    \nAnfonwyd y 22ain i Boston yn 1775. Cyrhaeddodd yn rhy hwyr ar gyfer Brwydr Bunker Hill. Cyrhaeddodd Colwn Abercrombie (a’i was filwr) cyn y gweddill a brwydrodd yn y frwydr. Cafodd y Colwn ei ladd. Mae botwm filwr a ganwyd ar faes y gad arddangos. Cafodd y Rejiment ei brif orsaf yn Efrog Newydd a chafodd ran mewn llawer o ergydion yn yr ardal.\n
+    \nAr ddiwedd y rhyfel, pan ddaeth America yn weriniaeth, dychwelodd y 22ain adref gan adael yr holl gofnodion cynnar y tu ôl iddynt, a llawer o’r dynion a ddiarddelodd!</string>
     <string name="eighteenth_section_name3">The Death of Wolfe:</string>
-    <string name="eighteenth_main_text3">The Grenadier Company of the Cheshire Regiment took part in the battle for Quebec, which was fought on the Heights of Abraham. Grenadiers were the largest men in a regiment and wore tall mitre caps and caried grenades with which they often led the attack.
-
-    A grenade was a 2\"sphere of hollow iron containing gun powder. A fuse was lit just before it was thrown- using a slow burning match
-
-    Ensign Henry Browne was close to General Wolfe, when he fell mortally wounded. It is said that the Ensign wrapped the General in the Regimental Colour and helped him from the battlefield. The bloodstained colour hung in Chester Cathedral until recently, a fragment is preserved on display here.
-
-    Ensign Browne of the 22nd\'s Grenadier Company: wrote to his father.
-
-    “…our action of 13th September and the taking of the town of Quebec. I must add a little to it by informing you that I was the person who carried Gen Wolfe off the field and that he was wounded as he stood within a foot of me…”
-
-    What was a Volunteer’ in the Regular Army of the 18th Century?
-
-    A Volunteer was a *gentleman’ who did not have the money to Purchase a commission (or there were no suitable vacancies) so They served with the Rank and File awaiting their chance. He However, messed with the officers as a gentleman. James Henderson was a volunteer with the 22nd in Quebec. He Was in the Louisburg Grenadiers’, of which the 22nds’s Grenadier Company as part. Henderson was alongside General Wolfe when he sustained his third and fatal wound. In letter to His uncle, he claimed to have carried the stricken Wolfe to the Rear where he died in his arms.</string>
-
+    <string name="eighteenth_main_text3">Cymerodd Cwmni Grenadierau Rejiment Cheshire ran yn y frwydr am Quebec, a gafodd ei chynnal ar Fynydd Abraham. Roedd y Grenadierau yn ddynion mwyaf y rejiment ac roeddent yn gwisgo hetiau mitr tal a chario grenadau y byddent yn aml yn arwain ymosodiad.\n
+    \nRoedd grenade yn sffêr haearn hollt 2" yn cynnwys powdr gwn. Tânwyd fwsio cyn ei daflu gan ddefnyddio match yn llosgi’n araf.\n
+    Roedd Ensyn Henry Browne yn agos at Gyffredinol Wolfe pan gafodd ei anafu’n farwol. Dywedir i’r Ensyn lapio’r Cyffredinol yn Lliw Rejimental a’i helpu i adael y maes brwydr. Roedd y lliw â gwaed yn hongian yng Nghadeirlan Caer yn ddiweddar, ac mae darn ohono’n cael ei arddangos yma.\n
+    \nYsgrifennodd Ensyn Browne o Gwmni Grenadierau’r 22ain at ei dad.\n
+    \n“…ein hymosodiad ar 13eg Medi a chymeradwyo tref Quebec. Rhaid i mi ychwanegu rhywfaint drwy ddweud wrthych i mi fod yn berson a dynnodd Gyffredinol Wolfe o’r maes ac ei fod wedi’i anafu wrth sefyll o fewn un troedfedd ohonof…”\n
+    \nBeth oedd ‘Dichonolwr’ yn yr Byddin Reolaidd yn y 18fed Ganrif?\n
+    \nRoedd Dichonolwr yn "ddyn o fri" nad oedd ganddo arian i brynu comisiwn (neu nad oedd lleoedd ar gael) felly’r gwasanaeth a roddwyd ganddynt oedd y raddedigion yn aros am eu cyfle. Fodd bynnag, roeddent yn cymdeithasu gyda’r swyddogion fel dynion o fri. Roedd James Henderson yn ddichonolwr gyda’r 22ain yn Quebec. Roedd yn rhan o’r Grenadierau Louisbourg, a oedd yn cynnwys Cwmni Grenadierau’r 22ain. Roedd Henderson ochr yn ochr â’r Cyffredinol Wolfe pan gafodd ei anafu’n drydydd ac yn ddiweddeb. Mewn llythyr at ei ewythr, honniodd ei fod wedi cario Wolfe i’r cefn lle bu farw yn ei freichiau.</string>
     <string name="eighteenth_section_name4">Dettingen And the oak leaves:</string>
-    <string name="eighteenth_main_text4">The Battle of Dettingen was fought on 27th June 1743, in the War of the Austrian Succession, and it was the last time the army was Commanded by a British monarch. It was said That the mix of British steadfastness and the Hanoverian stubbornness in George II won the Day. He was a man who refused to be beaten.
-
-    A detachment of the 22nd is believed to have taken part in the battle and to Have defended the King under an oak tree. He gave them the acorn and oak leaf Badge to wear. The regiment still has the acorn in its badge today and wears oak Leaves on certain regimental days, and always in the presence of royalty. The 3rd Dragoon Guards also took part.</string>
-
+    <string name="eighteenth_main_text4">Cafodd Brwydr Dettingen ei chynnal ar 27ain Mehefin 1743, yn rhyfel dilyniant Awstria, ac fe fu hon yn y tro olaf i’r fyddin gael ei gorchymyn gan frenin Prydain. Dywedwyd bod cymysgedd o sefydlogrwydd Prydeinig a phriddrwydd Hanoveraidd George II wedi ennill y dydd. Roedd yn ddyn a wrthododd ildio.\n
+    \nCredir i dîm o’r 22ain gymryd rhan yn y frwydr ac am amddiffyn y Brenin dan dderwen. Rhoddodd ef i’r fyddin yr arwydd badge cnau derwen a dail derwen i’w wisgo. Mae gan y rejiment y cnau derwen yn y badge hyd heddiw ac maent yn gwisgo dail derwen ar ddiwrnodau penodol o’r rejiment, a bob amser yng nghwmni’r teulu brenhinol. Cymryd rhan hefyd y 3ydd Dragoon Guards.</string>
     <string name="eighteenth_section_name5">In Europe:</string>
-    <string name="eighteenth_main_text5">The War of the Spanish Succession - 1702 to 1713
-
-    England, the Holy Roman Empire and the United Provinces of the Netherlands were engaged against France and Spain in the Wars of the Spanish Succession. This was a dispute over the Spanish throne after the death of Charles II of Spain, but worldwide interests in trade and the colonies were also at stake and the war raged for eleven years. The cavalry regiments won battle honours at Blenheim in 1704; Ramillies in 1706; Oudenarde in 1708 and at Tournai and Malplaquet in 1709. The war was finally resolved by the Treaty of Utrecht when the French Bourbon family secured the throne.
-
-    The War of the Austrian Succession – 1740 to 1748.
-
-    The Cheshires and the 3rd Dragoon Guards fought in this conflict over the succession of the Habsburgs to their hereditary lands after the death of the Emperor Charles VI. War was waged in Bohemia, Upper Austria and Silesia. At the time the Cheshires were stationed in Minorca, from where detachments were sent to reinforce the British Army. Russia’s intervention fully let to peace negotiations and the Habsburgs retained all of their land except Silesia.</string>
-
+    <string name="eighteenth_main_text5">Rhyfel Dilyniant Sbaen – 1702 i 1713\n
+    Lloegr, Y Mimperu Sanctaidd Rufeinig a’r Gwledydd Unedig Iseldiroedd oedd yn ymladd yn erbyn Ffrainc a Sbaen yn Rheolau Dilyniant Sbaen. Roedd hwn yn anghydfod am y orsedd Sbaenaidd ar ôl marwolaeth Charles II o Sbaen, ond roedd buddiannau masnach a’r coloinïau ledled y byd hefyd ar y ci, a bu’r rhyfel yn para am ugain mlynedd. Ennillodd y rejimentau ceffylau anrhydeddau brwydr yn Blenheim yn 1704; Ramillies yn 1706; Oudenarde yn 1708 ac yn Tournai a Malplaquet yn 1709. Daeth y rhyfel i ben drwy Drefn Utrecht pan sicrhaodd teulu Bourbon Ffrainc yr orsedd.\n
+    \nRhyfel Dilyniant Awstria – 1740 i 1748.
+    \nY Cheshires a’r 3ydd Dragoon Guards a ymladdodd yn y gwrthdaro hwn am ddilyniant y Habsburgiaid i’w tir gwreiddiol ar ôl marwolaeth y Ymerawdwr Charles VI. Bu’r rhyfel yn Bohemia, Awstria Uchaf a Silesia. Ar y pryd roedd y Cheshires wedi’u lleoli yn Minorca, lle anfonwyd detasomau i gryfhau’r fyddin Brydeinig. Fe arweiniodd ymyrraeth Rwsia yn llawn at negodiadau heddwch a chadwodd y Habsburgiaid eu tir heblaw Silesia.</string>
     <string name="eighteenth_section_name6">Women of the Regiments:</string>
-    <string name="eighteenth_main_text6">The wives of soldiers have usually followed their husbands. In the early days, women who travelled with the regiment were known as camp followers. Some even masqueraded as men to follow their loved ones and ‘went for a soldier’.
-
-    The Famous Phoebe Hassel.
-
-    Phoebe Hassel served as a soldier in the 5th Foot (the Royal Northumberland Fusiliers), throughout Marlborough’s campaigns. At the beginning of the 18th century. She was taken for a man throughout her service – even when she was wounded and was only found to be a woman on her discharge. The King gave her a pension.
-
-    On the strength
-
-    It was usual for a limited number of wives to be allowed to travel with the regiment – or ‘on its strength’. This was usually 6, but in the case of the Cheshires was 8. The women acted as medical orderlies, served food and cleaned, for others as well as for their Husbands. Life was hard and they suffered all the privations of army Ife. When a husband was killed, the wife could marry another man within the regiment – or return home.
-
-    Finding wives abroad
-
-    Many soldiers made marriages abroad. In the 1740s, while serving in Minorca, three young officers of the 22nd (George Kelly, Roger Schaak and Christopher French) persuaded three young nuns to marry them. All three travelled with the Regiment and the last of them Margarita French (née Alberti) died in Dublin in 1797.
-
-    Travelling with the family
-
-    The habit of accompanying the regiments grew during the Victorian era. By 1860, when the 2nd Battalion 22nd was in Malta, there was a large contingent of family present and a Strong spirit of community, When the Birkby family died of Cholera, the regimental doctor and his wife adopted the surviving son. The boy was entrusted to the band aged 10 and finished his service as the bandmaster.</string>
+    <string name="eighteenth_main_text6">Yn draddodiadol, bu gwragedd milwyr yn dilyn eu gŵr. Yn y dyddiau cynnar, gelwid y merched a deuant gyda’r rejiment yn \'ddilynwyr camp\'. Roedd rhai yn hyd yn oed yn ymddangos fel dynion er mwyn dilyn eu hanwyliaid a ‘mynd am filwr’.\n
+    \nY Phoebe Hassel enwog.\n
+    Gwasanaethodd Phoebe Hassel fel milwraig yn 5ed Troed (y Royal Northumberland Fusiliers), drwy gydol ymgyrchoedd Marlborough. Dechrau’r 18fed ganrif, ystyriwyd hi’n ddyn trwy gydol ei gwasanaeth – hyd yn oed pan gafodd ei hanafu, a dim ond pan gafodd ei rhyddhau y canfuwyd ei bod yn fenyw. Rhoddodd y Brenin iddi bensiwn.\n
+    \nAr y cryfder\n
+    Yn gyffredin, caniateid i nifer gyfyngedig o wraigod deithio gyda’r rejiment – neu ‘ar ei gryfder’. Fel arfer roedd hwn yn 6, ond yn achos y Cheshires roedd yn 8. Roedd y merched yn gweithredu fel nyrsys meddygol, yn gweini bwyd ac yn glanhau, ar gyfer eraill yn ogystal â’u gŵr. Roedd bywyd yn anodd a daethant i wynebu pob caledi bywyd milwrol. Pan fu farw gŵr, gallai’r wraig briodi dyn arall o’r rejiment – neu ddychwelyd adref.\n
+    \nDod o hyd i wraig dramor\n
+    Priododd llawer o filwyr dramor. Yn y 1740au, tra oeddent yn gwasanaethu yn Minorca, perswaded dau swyddog ifanc o’r 22ain (George Kelly, Roger Schaak a Christopher French) dair newydded i briodi iddynt. Teithiodd y tri gyda’r Rejiment a’r olaf ohonynt, Margarita French (née Alberti), fu farw yn Dulyn yn 1797.\n
+    \nTeithio gyda’r teulu\n
+    Datblygodd arfer mynd gyda’r rejimentau yn ystod cyfnod Fictoraidd. Erbyn 1860, pan oedd yr 2il Feddygfa o’r 22ain yn Malta, roedd criw mawr o deuluoedd yno a gwnaed ysbryd cymunedol cryf. Pan fu farw’r teulu Birkby o Cholera, mab y teulu a oedd yn byw a fab y meddyg rejimental a’i wraig a fabwysiadodd ef. Rhoddwyd y bachgen i’r band yn 10 oed a gorffenodd ei wasanaeth fel meistr y band.</string>
+    <string name="nineteenth_section_name1">Regiments of the 19th Century:</string>
+    <string name="nineteenth_main_text1">Yn gynnar yn y 19eg ganrif, roedd y rejimentau yn ymwneud â ymgyrchoedd yn erbyn y Ffrancwyr, ac yn weithgar yn India. Ar ôl i’r rhyfeloedd Ffrengig ddod i ben, daethant yn fwyfwy ynghlwm wrth y rhyfeloedd Zuri yn y tiroedd tramor – yn bennaf i’r 22ain yn India yn y brwydrau yn Meeanee a Hyderabad yn Scinde.\n
+    \nYn 1854, roedd y ceffylau yn rhan o’r Rhyfel Crimea. Roedd Ail Ryfel Burma yn cynnwys dau feddygfa’r Cheshires.\n
+    \nAdref, parhaodd y Ceffylau a’r Yeomanry i fod yn rhan o gynnal cyfraith a threfn, yn arbennig yn rhan gyntaf y ganrif. Yn y cyfnod o anghysondeb a blynyddoedd diweddarach, gwelwyd cynnydd yn y mudiad gwirfoddol – a fu’n lledaenu’r rhengoedd milwrol.</string>
+    <string name="nineteenth_section_name2">Napoleonic Wars – 1800 to 1815:</string>
+    <string name="nineteenth_main_text2">Dilynodd Rhyfeloedd Napoleonaidd ar ôl Rhyfeloedd Chwyldroadol Ffrainc. Cafodd y rhyfeloedd eu brwydro yn erbyn Ffrainc, a oedd yn dymuno cadw dylanwad dros weddill Ewrop a’i chyfoedion oedd yn erbyn y Chwyldro. Cafodd y rhyfeloedd eu tanio hefyd gan uchelgais bersonol Napoleaon. Ar ôl y rhyfel cyntaf yn 1801, bu heddwch anniddig am ddwy flynedd cyn i’r gwrthdaro ddechrau eto a pharhau tan 1815.\n
+    \nArweiniodd y rhyfeloedd gyda Ffrainc at i’r Yeomanry Cheshire newydd ei ffurfio gymryd dyletswyddau gwersyllfa yn Lliverpool yn 1805 er mwyn i’r rejimentau rheolaidd allu mynd dramor.\n
+    \nYn 1810, cymerwyd Mauritius oddi wrth y Ffrancwyr gan y Cheshires, a rhoddwyd bocs snwff arian iddynt wrth adael am fod yn ‘goncwyr mor gyfeillgar.’ Mae hyn bellach yn ddarn mwyaf hen arian y rejiment yn casgliad y 1af Feddygfa.\n
+    \nAr 18fed Chwefror 1814, ffurfiwyd ail feddygfa o Rejiment 22ain (Cheshire) i ddarparu mwy o ddynion. Cafodd ei diddymu ar ôl Brwydr Waterloo yn 1815 pan gafodd y Ffrancwyr eu gorchfygu’n derfynol.\n
+    \nRoedd y 6ed Inniskilling Dragoons yn rhan o’r Uned Undeb, a gyflawnodd godi llwyddiannus a buddugol yn Waterloo.</string>
+    <string name="nineteenth_section_name3">At Home:</string>
+    <string name="nineteenth_main_text3">Arlwy gwrthdrefnus ynghylch diwygio seneddol arweiniodd at gyfres o drais yn 1819. Torwyd cyfarfod enfawr yn St. Peter’s Fields ym Manchester yn orfodol, yn bennaf gan Yeomanry Manchester a Salford, a bu farw 11 o bobl. Daeth y digwyddiadau trist hyn i’w hadnabod fel ‘Masnachu Peterloo’ mewn cyfeiriad sardonaidd at Waterloo.\n
+    \nEr nad oeddynt yn rhan uniongyrchol, yr oedd Yeomanry Cheshire yn bresennol – ac fe’u llongyfarchwyd gan bennaeth y lluoedd diogelwch am eu “ystyriaeth dda, sefydlogrwydd a goddefgarwch o dan herwgipio” … “Roedd yr hyn a wnaethoch yn iawn a thosturiol”</string>
+    <string name="nineteenth_section_name4">Medicine in the Army:</string>
+    <string name="nineteenth_main_text4">\‘Bwyta’r ffrwydron\’:\n
+    Yn wreiddiol, roedd llawfeddygon yn cael eu comisiynu i bob regiment – nid oedd Gwasanaeth Meddygol y Fyddin fel sydd heddiw. Roedd y dulliau llawfeddygol yn frith o drefn ac heb newid llawer ers amserau’r Rhufeiniaid. Yr offer hanfodol oedd cyllell llosg, sawd esgyrn a fwled i’i gnawn. Yr oedd y fwled i atal y claf rhag gweiddi o boen – er y gallai dyn lwcus gael yfed ychydig o alcohol fel anesteisiaid.\n
+    \nDylanwad Florence Nightingale:\n
+    Gwnaeth Florence Nightingale a phionieriaid meddygol eraill yn y Rhyfel Crimea gynnydd mawr o ran gofal cleifion clwyfedig – yn enwedig ym maes hylendid. Cyn dechrau’r Rhyfel Byd Cyntaf, roedd Corff Meddygol y Fyddin Frenhinol ac roedd gan bob uned gludwyr gwelyau hyfforddedig. Weithiau’r bobl hyn oedd \‘wrthwynebwyr consiens\’ a gwasanaethent mewn \‘Ambiwlansau Maes y Ffrindiau\’ – ac fe gollodd llawer ohonynt eu bywydau wrth geisio achub eraill.\n
+    \nCreu triage:\n
+    Sefydlwyd triage yn y Rhyfel Byd Cyntaf er mwyn gallu gwahanu’r clwyfedigion difrifol yn gyflym oddi wrth y rhai a allai gerdded a’r rhai a fu farw – a sicrhau bod y rhai oedd mewn angen mwyaf o driniaeth yn ei derbyn gyntaf. Mae’r system hon yn cael ei defnyddio hyd heddiw mewn adrannau damweiniau ac achosion brys sifil.\n
+    \nMeddyginiaeth Ataliol:\n
+    Wrth i’r driniaeth wella, cydnabuwyd pwysigrwydd meddyginiaeth atal yn eang. Yr oedd glendid yn hanfodol – dechreuwyd defnyddio Unedau Bath Maes ac yr oedd swyddogion yn cael bath canvas. Cynhaliwyd arolygon troed rheolaidd ac annifyr gan swyddogion platŵ. Cyn dechrau’r Ail Ryfel Byd, defnyddiwyd brechu i atal milwyr rhag cael clefydau mewn gwledydd tramor.\n
+    \nEglurha:\n
+    Yn ddiweddar, nid yn unig mae’r meddygaeth wedi gwella (mae boteli plasma bellach yn cael eu cludo ar y maes) ond hefyd mae’r gallu i dynnu’r milwr clwyfedig yn gyflym o’r maes rhyfel. Mae hediadau helmed yn wirioneddol achub bywydau yma. Fel arfer, mae milwyr clwyfedig yng Ngogledd Iwerddon wedi cael eu trin o fewn deg munud o’r digwyddiad.</string>
+    <string name="nineteenth_section_name5">Standards, Guidons, Colours and Drum Banners:</string>
+    <string name="nineteenth_main_text5">Mae’r fyddinoedd wastad wedi defnyddio baneri i adnabod eu hunain a chreu pwyntiau clymu i’r milwyr mewn brwydr.\n
+    \nSafonau:\n
+    Mae regimentau ceffylau a Gwarchodlu Dragŵn yn cario safonau. Baneri bach sgwâr ydynt gyda dyfeisiau regimental a hanesion brwydr wedi eu brodio arnynt.\n
+    \nCanllawiau:\n
+    Mae Dragŵn, Dragŵn Ysgafn, Hwsariaid, Lanswyr a Yeomanry yn cario canllawiau. Baneri gyda chynffonau ydynt.\n
+    \nLliwiau:\n
+    Mae’r milwrol tynn yn cario lliwiau. Baneri mwy ydynt – fel arfer dau, Lliw y Frenhines (neu’r Brenin), a Lliw’r Regiment, sy’n seiliedig ar ei liw wynebu – yn achos y 22ain yw’r lliw buff.\n
+    \nCafodd yr holl fathau o faner hyn eu sancteiddio cyn iddynt gael eu cyflwyno i’r Regimentau. Maent yn cael eu gofalu’n ofalus ac yn cael eu trin gyda pharch mawr er anrhydedd i’r dynion a wasanaethodd o dannynt dros y canrifoedd.\n
+    \nBaneri Drwm y Ceffylau:\n
+    Yn draddodiadol mae’r ceffylau wedi defnyddio baneri drwm ar eu drwmiau kettl gyda’r hanesion brwydr a’r bathodynnau regimental arnynt. Roedd drwm copr clir yn cael ei orchuddio gan y faner, ond os oedd gan y regiment drwm arian, roedd y faner yn hongian oddi tano. Yn wreiddiol, yr oedd y ceffyl yn geffyl milwrol cryf, ond heddiw mae’n fel arfer yn gyffyl siwr.</string>
+    <string name="nineteenth_section_name6">The Crimean War - 1854 to 1856:</string>
+    <string name="nineteenth_main_text6">Cafodd y rhyfel ei ymladd yn Nyffryn Crimea gan Brydain a Ffrainc yn erbyn Rwsia. (y tro cyntaf nad oedd Ffrainc yn elyn). Gwnaeth llwyddiannau Rwsia yn y Môr Du i Brydain a Ffrainc ofni y byddai eu hymestyniad pellach i mewn i Ymerodraeth y Twrciaid yn bygwth y llwybrau tir i India a’r Dwyrain Pell.\n
+    \nCafwyd brwydrau mawr ar Afon Alma, Balaclava ac Inkerman yn 1854. Yn 1855, gwnaeth cwymp cadarnle Rwsia yn Sevastopol orffen eu hanafu a sefydlu heddwch.\n
+    \nEr bod y codiad anffodus ond arwriaethol gan y Light Brigade ar 25 Hydref yn Balaclava yn hynod adnabyddus, y llwyddiant mawr gan y Heavy Brigade dan arweiniad General Scarlett yn gynharach yr un diwrnod oedd achub y frwydr. Roedd Gwarchodlu Dragŵn 5ed a’r 6ed Inniskilling yn rhan o’r Heavy Brigade. Dalodd grŵp bach o tua 300 o ddynion sawl mil o geffylau Rwsia wrth iddynt newid cyfeiriad mewn gweithred drwm glasurol. Bu’r taran i’r Rwsiaid yn eu gwthio i ffo.</string>
+    <string name="nineteenth_section_name7">India and the Scinde campaign:</string>
+    <string name="nineteenth_main_text7">Reolwyd dau draean o is-gyfandir India gan y Gwmni Dwyrain India Anrhydeddus o’u seilfeydd yn Bombay, Madras a Calcutta. Rhwng 1819 a 1849, cafodd sawl ymgyrch eu cyflwyno i sicrhau’r tiroedd hyn mewn ymgais i’w hymestyn i Nepal, Burma ac Afghanistan. Bu’r rhan fwyaf yn llwyddiannus heblaw’r ymgais ar Afghanistan yn 1842, a wrthwynebwyd yn gryf gan arweinwyr lleol, gan arwain at anaf i’r fyddin gymysg Brydeinig-Indiaidd. Cafodd y 44ain Lleng (44th Foot) ei ddinistrio bron yn gyfan gwbl – heblaw am un dyn a oroesodd.\n
+    \nYr un flwyddyn, symudodd y Cheshires i India a ymunodd â fyddin y General Syr Charles Napier i ymosod ar y Scinde. Darparwyd gweddill y fyddin fach gan y Gwmni Dwyrain India Anrhydeddus (yn cael eu hadnabod fel fyddin ‘John Company’).\n
+    \nY prif frwydrau oedd Meeanee a Hyderabad, ymgyrch galed ond lwyddiannus a achubodd y Scinde yn 1843.\n
+    \nMyfyriwr ifanc benywaidd mewn dosbarth Latin ym Manchester a ddarllenodd am y fuddugoliaeth, awgrymodd y byddai neges wybodus i’r cartref gan Syr Charles Napier yn air Latin ‘Peccavi’ sydd yn golygu ‘Rwyf wedi pechu’. Credir i Syr Charles fod wedi dweud hyn ei hun yn ddiweddarach.</string>
+    <string name="turn_of_the_century_section_name1">Boer War – 1899 to 1902:</string>
+    <string name="turn_of_the_century_main_text1">Cafodd dau ryfel eu chwalfa rhwng y Brydeiniaid a’r Boeriaid dros dir yn Affrica Deheuol. Yn y Rhyfel cyntaf, collodd y Brydeiniaid yn Nhlwyn Majuba yn 1881. Roedd gan yr ail ryfel hefyd gyfres o lwyddiannau gan y Boeriaid – yr oeddent yn frenhinoedd guerrilla gwych ac yn saethwyr medrus. Arweinwyd gwrth-ymosodiadau gan Lord Roberts a’r General Kitchener, a chefnogwyd y fyddin reolaidd yn gryf gan ‘Wirfoddolwyr’.\n
+    \nCafodd 3ydd Bataliwn Wirfoddolwyr y Reindaliad Cheshire ei ffurfio o ddynion o fataliynau gwirfoddol o Wirral, Caer, Crewe, Macclesfield a Stockport. Darparodd Y Diogelwyr Yeomanry Cheshire y Cwmnïau 21ain a 22ain o’r Yeomanry Ymerodrol (IY) – a sefydlwyd ar gyfer cyfeirio’r rhyfel. Arweiniodd Lord Arthur Grosvenor, mab ieuengaf yr 1af Dug o Westminster, y Cwmni 22ain.\n
+    \nDaeth y rhyfel i ben yn 1902, ond enillodd y Boeriaid heddwch yn effeithiol gan iddynt gadw rheolaeth ar ‘faterion brodorol’. Roedd buddiannau Brydeinig, fodd bynnag, yn parhau i gael eu hamddiffyn, a chafodd Undeb Affrica Deheuol ei chynnwys yn y Rhyfel Byd Cyntaf ochr Brydain.\n
+    \nPwy gafodd ei wasanaethu yn Affrica?\n
+    \n2il Fataliwn y Reindaliad Cheshire\n
+    \n3ydd (Wirfoddolwyr) Fataliwn y Reindaliad Cheshire\n
+    \nUn Cwmni o’r Cheshires oedd yn y 8fed Milwrol Morwrol ac roedd rhan arall yn y 1af MI.\n
+    \nY Yeomanry Cheshire yn y Cwmnïau 21ain a 22ain o IY.\n
+    \n5ed Diogelwyr Dragoon.</string>
+    <string name="turn_of_the_century_section_name2">Burma War – 1886:</string>
+    <string name="turn_of_the_century_main_text2">Ar ôl sawl blwyddyn o ryfeloedd, daeth Burma yn rhan o India Brydeinig yn 1886. Cymerodd y ddau fataliwn reolaidd o’r Cheshires ran yn y rhyfel. Roedd un swyddog yn ffotograffydd brwd iawn ac fe gymerodd luniau o’r Reindaliad yn ystod y rhyfel ac ar ôl hynny.</string>
+    <string name="turn_of_the_century_section_name3">Sudan War – 1896 to 1898:</string>
+    <string name="turn_of_the_century_main_text3">Pan gyhoeddodd Mohamed Ahmed, arweinydd crefyddol yn Sudan, ei hun yn Mahdi neu’r ‘disgwyliedig’ – daeth mudiad chwyldroadol i’r amlwg a arweiniodd at ostyngiad Khartoum. Cyfunodd y Brydeiniaid a’r Aifftiaid eu pŵer yn erbyn y Dervishes dan arweiniad y General Kitchener a’u hennill yn y diwedd yn Nwydfa Omdurman. Yn y blynyddoedd dilynol, roedd Sudan yn ‘Gondominiwm’ a reolwyd yn gyfun dan Lywodraethwr Prydeinig. Enillodd Sudan ei annibyniaeth yn 1959.</string>
+    <string name="turn_of_the_century_section_name4">America &amp; Africa: </string>
+    <string name="turn_of_the_century_main_text4">Rhyfel Cartref America - 1861 i 1865.
+    \nYn 1861 dechreuodd gwrthdaro rhwng Undeb America (y Gwledydd Gogledd) a’r Confederacy (y Gwledydd De) dros nifer o faterion – yn arbennig caethwasiaeth – oedd dal yn gyfreithlon yn y de.\n
+    \nCymerodd Capten Stephen Winthrop o 2il Faint y Cheshires absenoldeb o’i ddyletswyddau a’i gomisiynwyd yn yr Byddin Confederadiad lle gwasanaethodd gyda’r General Longstreet fel swyddog staff. Gwyddys iddo frwydro gyda’r Corff yn Gettysburg yn 1864 ac yn fuan wedyn dychwelyd adref i Loegr. Gwnaeth ei weithredoedd blaenorol yn Knoxville iddo fod yn arwr Confederadiad y canmoliaeth iddo hyd heddiw.</string>
+    <string name="turn_of_the_century_section_name5">The Zulu War – 1879:</string>
+    <string name="turn_of_the_century_main_text5">Boer farmers settled in Northern Natal in 1836. This created tensions over the border with Zululand and in spite of the appointment of a boundary commission in 1878, Boer farmers continued to cross the border in search of land. A kidnapping incident provoked the outbreak of war in 1879. After initial reverses the British forces under Lord Chelmsford defeated the Zulus at Ulundi. The removal of the Zulu military threat made the Boers more willing to dispute British power in the Transvaal, and in turn led to the first Boer War of 1881.\n
+    \nCaptain William Molyncaux of the Cheshire Regiment was a staff officer to Lord Chelmsford in South Africa. Injured on Lord Chelmsford’s Staff in the Kafir Wars, he was recuperating at home and heard of the disastrous battle of Isandlwana. He returned to Africa immediately - in time for the battle of Ulundi, where he fought with great bravery.\n
+    \nDuring the battle, a premature push was made by the cavalry against the Zulus. The Zulus responded with their traditional ‘horns of the buffalo’ tactic. Chelmsford sent Captain Molyneaux to recall the horsemen – now surrounded, who then had to fight their way back into the safety of the lager (defensive circle). Lampas, Molyneaux’s horse, was shot as he crossed the shelter trench, The horse somersaulted and pitched the Captain into the mud. Recovering himself at once, Captain Molyneaux put his injured horse down removed the tack and saddled up his second horse Poll Evil, returning immediately to the battle.</string>
+    <string name="turn_of_the_century_section_name6">Bayonets, Swords and Guns:</string>
+    <string name="turn_of_the_century_main_text6">Bayonetau:
+    \nDefnyddiwyd y cyntaf yn y 17eg ganrif fel cyllyll y gellid eu chwistrellu i fagwl y musket – i’w droi yn fel pike. Digwyddai hyn pan oedd hi’n rhy wlyb neu pan nad oedd amser i ail-lenwi – ond gwnaeth y pwnc yn amhosibl i’w saethu! Cymerwyd camau i ddatrys y broblem hon yn gyflym drwy roi llug ar fagwl y musket a gosod modrwy ar y bayonet.\n
+    \nYn y Rhyfel Byd Cyntaf, roedd bayonetau wedi dod yn hir a tebyg i ffyrc i roi cyrhaeddiad ychwanegol iddynt a gwneud nhw’n fwy dinistriol pan roeddent yn treiddio’r corff. Yn ystod yr Ail Ryfel Byd, sylweddolwyd y gellid achosi anaf anabl gyda blaidd byrrach, a newidiodd y dyluniad. Gan fod cymaint o unedau’n cael eu gofyn, daeth arian yn ffactor hefyd a dyfeisiwyd y ‘pigsticker’.\n
+    \nMae bayonetau wedi cael nifer o ddefnyddiau eraill bob amser – nad oedd eu dylunwyr wedi eu hystyried fel agor caniau a chwilio am fomiau.\n
+    \nCyllyll:
+    \nDefnyddiwyd cleddyfau miniog a phwyntiedig yn draddodiadol gan y Ffyddlonwyr mewn gweithred gwthio. Roedd cleddyfau’r Marchogion â chymalau miniog ac fe’u defnyddiwyd i dorri – ond gellid eu ‘pwyntio’ neu eu gwthio hefyd. Newidiodd eu siâp a’u pwysau gyda ffasiwn a sut roedd y ddamcaniaeth yn mynnu. Roedd cleddyfau cynnar yn drwm i roi pwysau i’r ‘dorri’ gan y marchog.\n
+    \nRoedd ymarfer gyda’r cleddyf yn cynnwys ‘torri’, ‘gwarcheidwaid’ a ‘phwyntiau’. Dysgwyd y marchog i ddefnyddio ei gleddyf gyda chymorth diagram – galwodd y Sergent y rhif a’r gweithred, a dysgodd y marchog yn naturiol i’w ufuddhau. Carwyd a defnyddiwyd cleddyfau yn y Rhyfel Byd Cyntaf yn y trenchau ac gan ychydig o ‘eccentrigiaid’ yn yr Ail Ryfel Byd ond heddiw defnyddir nhw dim ond at ddibenion seremoniol.\n
+    \nPistols:
+    \nDechreuodd ‘arfau bach’ ddatblygu yng nghanol y 15eg ganrif pan oedd y Ffyddlonwyr Brydeinig yn bennaf yn longbuwys hir.\n
+    \nPan ffurfiwyd y Byddin Reolaidd yn 1660, nid oedd y musket matchlock yn arf prif y ffyddlonwyr mwyach. Roedd angen tân araf – wedi’i gymhwyso i bowdr tan i ysgogi’r codiad a wnaethpwyd i’r fagwl. Yn y tywydd gwlyb, roedd hyn yn amhosibl. Roedd y flintlock, a ddilynodd, yn llawer mwy effeithiol ac nid oedd angen tân, ond roedd angen iddo gael ei baratoi gyda phowdr tan. Roedd muskets yn enwog am fod yn anniwrol ac fe’u saethodd fel arfer mewn saethu lluosog gan bob platoon i gael effaith fwyaf. Roedd tân y platoon Brydeinig yn enwog am ei effeithiau dinistriol.\n
+    \nYn hanner cyntaf y 19eg ganrif, datblygwyd system saethu percussiwn lle’r oedd y triger yn gadael i’r taro y cap i ysgogi’r codiad ac nid oedd y tywydd yn bwysig mwyach. Yn ddiweddarach, gosodwyd y cap percussiwn yn sail y bwled tua’r un pryd â’r disodli powdr du gan brawf tua llai o lwch a daeth y rîfl fodern yn realiti.</string>
+    <string name="turn_of_the_century_section_name7">Sport in the Army:</string>
+    <string name="turn_of_the_century_main_text7">Ers amseroedd diweddar y Fictoriaid, mae chwaraeon wedi cael eu hyrwyddo yn y Byddin. Mae’n datblygu ysbryd tîm a ffitrwydd, sydd i’r ddau yn hanfodol mewn milwr. Roedd y Yeomanry a’r Marchogion yn annog chwaraeon ar gefn ceffyl i ddatblygu chwaraeon moesol – fel marchogaeth i’r clwstwr, polo, hela moch gwyllt yn India a digwyddiadau chwaraeon arbennig fel torri lemwn a phigeni tentydd. Roedd y rhain yn gofyn am sgiliau arbenigol gyda sabre a lans.\n
+    \nTorri Lemwn:
+    \nRoedd rhaid i filwr dorri lemwn a oedd wedi’i hongian ar linyn yn hanner wrth neidio heibio.\n
+    \nPigeni Tentydd:
+    \nRoedd pigen tent wedi’i drwsio yn y ddaear ac roedd milwr yn ei godi o’r ddaear gyda phwynt ei lans wrth gyflymu a’i daflu dros ei gefn.\n
+    \nCymryd rhanodd y milwyr yn ymarfer “pokey drill” gyda’r rîfl i gryfhau’r breichiau a’r gwddf er mwyn cynhyrchu tan fwy cywir. Ond y prif ddiddordebau chwaraeon ers talwm yw pêl-droed a bocsio. Enillodd y 22ain Dwrnameintiau Pêl-droed Holl-India (ymysg tlwsiau eraill) yn y 1920au ac maent yn berchnogion Cwpan Pêl-droed y Ffyddlonwyr am 8 o’r 9 tymor hyd at 2001.\n
+    \nYr Is-gapten (yn ddiweddarach Capten) Harold Walden o’r 22ain oedd yn llwyddiannus yn Olympaidd 1912 ac yn chwaraewr pêl-droed i Arsenal a Lloegr – ond mae’n debygol ei fod yn fwy adnabyddus fel seren gomedi ar y llwyfan a’r radio. Ers y 1930au mae’r Cheshires hefyd wedi cael enw da fel athletwyr. Mae’r Cheshires wedi cael nifer o athletwyr safon Olympaidd. Yr Is-gapten Jack Hart a gyfartalodd y record Prydeinig o 10.6 eiliad yn y cyfarfod Olympaidd Holl-India ar gyfer 100 metr yn India. (Roedd hyn yn gyfartal â recordiau Harold Abrahams/ Jack London yn y DU). Roedd Hart wedi rhedeg ei wres yn 9.8 eiliad.\n
+    \nYr Is-adran (yn ddiweddarach Gen Sir) Charles Harington oedd ymgeisydd ar gyfer rhwystrau Olympaidd 1936, ond oherwydd lleoliad y digwyddiad yn Berlin ni chymryd rhan iddo.\n
+    \nYr Is-adran James Mayo ar ôl colli mewn rhannol o eiliad i gymhwyso i Olympaidd 2000 yn Sydney yn 800 metr.\n
+    \nMae’r fyddin yn cymryd chwaraeon o ddifrif – ond mae hefyd yn hwyl!</string>
+    <string name="turn_of_the_century_section_name8">Affiliation and Friendships:</string>
+    <string name="turn_of_the_century_main_text8">Mae wedi bod yn arfer gan y Fyddin Brydeinig i gadw cyswllt gyda fyddinoedd a unedau eraill.\n
+    \nYn Nhrefnydd y Cheshires ers Brwydr Meeanee ar 17fed Chwefror 1843, mae cysylltiadau wedi cael eu datblygu gyda phedwar uned arall, a fu’n bresennol yn y frwydr, ac mae cyfnewidiadau cyfarchion yn cael eu cynnal yn flynyddol.\n
+    \nGyda’r Fyddin Brydeinig\n
+    Troop Eryr y Ffyddlonwyr Cerdded Reilffordd Frenhinol\n
+    \nGyda’r Fyddin India\n
+    Rifleau Napier o’r Cwmni Anrhydeddus India Dwyrain sydd bellach yn 5ed Rifleau Rajputana (Napier’s)\n
+    Ceirch Scinde\n
+    Sapeurs a Miners Brenhines Victoria o Madras sydd bellach yn uned o Gorff Peirianwyr India\n
+    \nAr ôl yr Ail Ryfel Byd, datblygodd cysylltiad gyda 2il Bataliwn Nova Scotia Highlanders (Cape Breton) sy’n Uned Tiriogaethol Canadanaidd agosaf at Louisbourg – anrhydedd brwydr y Cheshires yn 1758.\n
+    \nHyd yn ddiweddar, roedd trefnydd y Cheshires yn gysylltiedig â’r Frigât HMS Ambuscade, sydd bellach, yn anffodus, wedi cael ei ‘dalu i ffwrdd’. Fodd bynnag, mae ganddi gysylltiad newydd gyda LPD (Lland Platform Dock) HMS Albion, sy’n ymuno â’r fflewyd yn 2003.\n</string>
+    <string name="turn_of_the_century_section_name9">Fashions:</string>
+    <string name="turn_of_the_century_main_text9">Newidiodd ffasiwn milwrol, yn enwedig yn y mudiad Gwirfoddol diweddarach, fel y gwnaeth ffasiynau sifil. Roedd hyn yn wir yn benodol yn y 19eg ganrif, pan oedd ffasiwn unfformal yn dilyn yn agos ar ôl buddugoliaeth filwrol.\n
+    \nYn nghanol y 19eg ganrif, yn ystod y cyfnodau o heddwch cymharol yn Ewrop – ystyriwyd fod y fyddin Ffrengig o ‘naturen uwch’ ac ymddangosodd arddulliau ‘kepi’. Yn yr un modd, daeth unffurfiau Lanciaid o Lanciaid Pôl Napoleon llwyddiannus yn ffasiynol, fel yr oedd y Hwsariaid gyda’u sgidiau clyd a oedd yn galw am y ‘Sabretache’ a’u het Hwsar Busby hardd.\n
+    \nDaeth gorchfygiad Prwsia o Ffrainc yn 1870 â’r arddull ‘pickelhaube’ o helmed a’r unffurfiau ‘llwyd cae’. Gwelwyd hyn yn unffurfiau’r Cheshire Greys Gwirfoddol.\n
+    \nYn aml, cymrydodd ffasiwn menywod arweiniad gan y milwr. Efelychwyd Hwsariaid gan ferched Fictoria, yn ogystal â’r Iarlles o Chester yn ddiweddar wrth fynychu parêd graddio yn Ysgol Fyddin Frenhinol Sandhurst.</string>
+    <string name="turn_of_the_century_section_name10">Volunteers:</string>
+    <string name="turn_of_the_century_main_text10">Daeth y mudiad Gwirfoddol i fodolaeth yn nghanol y cyfnod Fictoraidd. Tua 1859, daeth y fyddin Brydeinig yn hynod brysur gyda’r Ymerodraeth yn ehangu, gan ddyrchafu llawer o filwyr rheolaidd i rannau tramor. Roedd angen fyddin hyfforddedig i wasanaethu yn y cartref.\n
+    \nCynhyrchwyd y cwmnïau cyntaf yn Stockport a galwyd hwy’n Loyal Stockport Rifle Corps.\n
+    \nDywedodd The Stockport Advisor:\n
+    “Mae’n rhywbeth newydd i Saesneg dalw’r riffwl… roedd wedi argymell iddo’i hun fod pob dyn mor ffafriol tuag ato ag y mae ef tuag at ei gymydog… mae’r Saesneg tawel wedi dechrau sylweddoli mai cryfder yw diogelwch”.\n
+    \nYn aml, byddai’r Gwirfoddolwyr yn dewis eu hunffuriau eu hunain a byddai’r llu gerdd yn arfer galw eu hunain yn Rifle Volunteers. Bu’r Yeomanry yn bodoli ers 1797 felly roedd ganddynt eisoes eu hunaniaeth a’u steil unffur. Cadwodd y Militia eu hunaniaeth hwy hefyd ond ar raddfa lai.\n
+    \nBu Cheshire bob amser yn gefnogwr cryf o’r fyddin ers y 13eg ganrif – ac heddiw, er gwaethaf llawer o dorriadau, mae dal dau gwmni llu gerdd Gwirfoddol y Rejiment Cheshire yn y Kings and Cheshire Regiment newydd ei ffurfio sy’n seiliedig yn Warrington, a Sgwadron Yeomanry yn seiliedig yn Chester.\n
+    \nYn Cheshire, roedd llawer o unedau Rifle Volunteer bach a ffurfiwyd Ffrwydron Gweinyddol Rifle Volunteers Cheshire (CRV) yn y 1880au, a’u cyfuno yn 1908 i ffurfio’r Llu Tiriogaethol newydd gyda phedwar Ffrwydron o Rejiment Cheshire.\n
+    \n4ydd  Birkenhead a’r Wirral\n
+    5ed  (Earl o Chester) ardal Chester\n
+    6ed  Stockport a rhannau Cheshire o Manchester\n
+    7fed  Macclesfield a De Cheshire\n
+    \nRoedd Cwmnïau Peirianwyr oedd yn gwmniau Rheilffyrdd (gweler yr erthygl mewn ffrâm a’r unffur arddangos).\n
+    \nCafodd Uned Gwirfoddol Arfwisgoedd Cheshire a Chaernarfon ei ffurfio yn y castell yn Chester – mae rhai bathodynnau a chyfarpar sy’n goroesi yn cael eu harddangos hefyd.\n </string>
+    <string name="turn_of_the_century_section_name11">With Love…:</string>
+    <string name="turn_of_the_century_main_text11">Mae ein harddangosfa ‘gyda chariad’ yn amlygu ochr fwy dynol y fyddin. Efallai eu bod yn ymddangos fel dynion ar wahân i’r gweithredoedd a’r caledi a orfu arnynt – ond, ar ben hynny, roeddent hefyd yn ffrindiau neu berthnasau i rywun.\n
+    \nFel y dywedodd y Cyffredinol Seneddol John Lambert yn 1642:\n
+    “Y gorau o ddynion yw dim ond dynion ar eu gorau”\n
+    \nMae llythyrau, cofroddion, celf trwnc, paentiadau a brodwaith ar arddangosfa. Mae’r brodwaith, sef hobïaeth hirsefydlog i’r milwr, yn aml yn cael ei ddefnyddio fel math o therapi wrth wella o anaf… ond fe’i gwneir bob amser gyda chariad at y rhai adref.\n
+    \n“Ni allem dy garu (annwyl) cymaint, Oni bai mod i’n fwy parchus” - Richard Lovelace, 1618-58.</string>
+    <string name="turn_of_the_century_section_name12">Captain Oats:</string>
+    <string name="turn_of_the_century_main_text12">Roedd Capten Lawrence Edward Grace Oates yn swyddog yn 6ed Dragoons Inniskilling. Daeth yn enwog ar ôl colli ei fywyd yn ystod y daith Antartig arweinydd Capten Scott yn 1911. Ond roedd hefyd yn adnabyddus am ei ddewrder wrth achub trooper a oedd wedi cael ei anafu yn ystod Rhyfel y Boer.\n
+    \nRoedd Oates yn aelod o’r grŵp bach y bu Scott yn ei arwain i’r Pwl Antartig ar droed – ond daeth y grŵp Norwyaidd dan arweiniad Amundsen yno gyntaf. Ar y daith ôl, cauodd y tywydd wrth iddynt ddechrau rhedeg allan o gyflenwadau. Roedd Oates, a oedd â ffrostbite difrifol, yn gwybod ei fod yn rhwystro’r lleill ac fe adaelodd y tent gan ddweud, “Efallai y byddaf yn ychydig funudau.” Aeth allan o’r tent i’i farwolaeth sicr.\n
+    \nWrth ysgrifennu yn ei ddyddiadur, cyn iddo ef a gweddill y grŵp farw hefyd, dywedodd Scott am Oates: “Roedd yn ddisglair iawn o galon”.</string>
+    <string name="ww1_remembrance_section_name1">20th Century and the World Wars:</string>
+    <string name="ww1_remembrance_main_text1">Gwelsai’r 20fed Ganrif ddwy Ryfel Byd yn ei hanner cyntaf – tyniant o’r Ymerodraeth a thwf terfysg yn ei hail hanner.\n
+    Newidiodd y rhyfel yn sylweddol yn ystod y ganrif hon o’i gymharu â’r rhai a’r blaen.\n
+    Roedd Rhyfel Cartref America (1861 i 1865) yn bwynt tro’r trefn newydd, daeth tanau uchel a’r peiriant-bwlyn ofnadwy (‘brwsh y diafol’) – ynghyd â chyflenwadau nwy yn gymysg.\n
+    Collwyd dyddiau’r cadoediant.\n
+    \nDigwyddiadau allweddol dros amser:\n
+    1903 – Awyrblygiad cyntaf dan reolaeth peiriant trymach na’r awyr gan y Brothers Wright\n
+    1912 – Collodd y Titanic.\n
+    1916 – Cyhoeddwyd dirprwyo.\n
+    1917 – Chwyldro Rwsia; Bolsiefigiaid i rym.\n
+    1920 – Gwladwriaeth yn UDA.\n
+    1922 – Castell Dublin yn cael ei drosglwyddo i Lywodraeth dros dro Iwerddon y De.\n
+    1926 – Streic Gyffredinol.\n
+    1928 – Cafodd menywod yr hawl bleidleisio yn Prydain.\n
+    1934 – Daeth Hitler yn ddirprwy.\n
+    1936 – Dechreuodd Rhyfel Cartref Sbaen.\n
+    1945 – Defnyddiwyd bom atomig gyntaf yn erbyn Japan.\n
+    1947 – Annibyniaeth India, tyniant yr Argyfwng.\n
+    1950-1953 – Rhyfel Corea.\n
+    1953 – Coroni Elizabeth II.\n
+    1956 – Argyfwng Suez.\n
+    1963 – Llofruddwyd yr Arlywydd Kennedy.\n
+    1969 – Cerddodd y dynion cyntaf ar y lleuad.\n
+    1979 – Cyhoeddwyd Margaret Thatcher yn Brif Weinidog.</string>
+    <string name="ww1_remembrance_section_name2">World War 1 – 1914 to 1918:</string>
+    <string name="ww1_remembrance_main_text2">Roedd Rhyfel Byd 1 (Y Rhyfel Mawr) yn cael ei frwydro’n bennaf rhwng Yr Almaen a’i gynghreiriaid Awstria a Thwrci yn erbyn Prydain, Ffrainc, Rwsia a Gwlad Belg – a’u coloinïau a’u hemerodraethau. Ymunodd Unol Daleithiau yn 1917. Roedd llawer o’r gweithrediadau ar y Rheng Fynydd Gorllewinol ym Mhrif Ffrainc a Gwlad Belg. Ond digwyddodd gweithrediadau mawr y bu’r Reindllys Cheshire a’r Yeomanry yn cymryd rhan ynddynt hefyd yn Gallipoli, Macedonia, Palestina a Mesopotamia (nawr yn Iraq).</string>
+    <string name="ww1_remembrance_section_name3">Trench Warfare:</string>
+    <string name="ww1_remembrance_main_text3">Defnyddiwyd ffosydd mewn amgylchfydiadau ers y defnydd cyntaf o bwdr tan yn y rhyfeloedd y Gorllewin. Gwnaeth y Rhyfel Mawr y datblygiad mwyaf o ran gwaith pridd milwrol ar y cae. Roedd y system ffosydd yn ymestyn o’r ffin gyda’r Swistir i’r môr ym Mhrif Belg. Adeiladwyd cannoedd o filltiroedd o ffosydd, twllfeydd, bwngeri a ‘dyfndiroedd’.\n
+    \nY ffos sylfaenol oedd ar gyfer brwydro o’i chwmpas a hefyd i ddiogelu rhag tan. Fel arfer, roedd yn wyth troedfedd o ddyfnder a dim ond mor eang â phan fyddai padell yn pasio y tu ôl i\’r rhai yn brwydro ynddi. Roedd y ffosydd yn aml wedi\’u llinellu gyda deunydd ar gael fel coed neu haearn atgyfnerthu (CGI) – gelwir hyn yn \'revetting\'. Defnyddiai ‘revetting’ Saesneg hefyd fagiau tywod wedi’u gosod mewn ‘bond Saesneg’ – llinell o bennaethwyr gyda llinell o estynwyr yn ailadrodd yn amgen.\n
+    \nYmestynnodd y ffosydd ar hyd y rheng wyneb i wynebu’r gelyn ac fe’u rhoddwyd enwau a rhifau er mwyn eu hadnabod. Cwrtffosydd cyfathrebu wedi\’u tyllu rhwng y rhain. O\’r rhain ac yn enwedig oddi wrth ffosydd brwydro, tyllwyd swyddfeydd gorchymyn, swyddfeydd meddygol a ‘dyfndiroedd’ ar gyfer llety ar adegau pan nad oedd gwaith. Fel arfer, byddai’r unedau’n treulio cyfnodau cymharol fyr yn y rheng ac yn cylchdroi i linellau wrth gefn neu hyd yn oed i ardaloedd gorffwys yn rheolaidd.\n
+    \nYn aml, roedd dyfndiroedd yn cael eu tyllu tuag at y gelyn i osgoi darnau o ffrwydradau cannon, sydd yn cael eu taflu ymlaen ar ergyd. Mae bomiau morter yn anfon darnau yn cylch. Rhoddwyd ‘camau tân’ ar ochr y gelyn i\’r ffos i ganiatáu i ddynion weld dros ben y ffos i frwydro. (Roedd angen gwneud y camau tân yn uwch i\'r bataliynau wrth gefn). Yn aml roedd angen llewod i fynd dros y top yn ystod ymosodiad. Roedd lleoliadau arbenigol ar gyfer peiriannau tanio, morterau ffos a baeau taflu grenadau hefyd wedi’u hychwanegu.</string>
+    <string name="ww1_remembrance_section_name4">The Victoria Cross:</string>
+    <string name="ww1_remembrance_main_text4">Ail Leftenit Hugh Colvin VC\n
+    \n9fed Bataliwn Ypres 20fed Medi 1917\n
+    Goroesodd y rhyfel ac mae wedi’i gladdu yn Belfast\n
+    Dyfarniad:\n
+    “Am ddewrder amlwg yn yr ymosodiad. Pan oedd holl swyddogion eraill ei gwmni a phob un ond un o’r cwmnïau arwain wedi dioddef anafiadau, cymerodd reolaeth ar y ddau gwmni a’u harwain gyda llawer o frwdfrydedd a llwyddiant. Yn ystod yr un ymosodiad, ymosododd ar sawl dyfndwr, un ohonynt yn cynnwys peiriant tanio. Cafodd ei ddal ac mewn cyfanrif tua hanner cant o garcharorion un yn unig.”\n
+    \nRhif 11000 Preifat Thomas Alfred Jones VC DCM (a adwaenir fel ‘Todger’)\n
+    \n1af Bataliwn Somme ger Morval 25ain Medi 1916\n
+    Goroesodd y rhyfel ac mae wedi’i gladdu yn Runcorn.\n
+    Dyfarniad:\n
+    “Am ddewrder amlwg iawn. Gyda’i gwmni roedd yn amddiffyn pentref. Gan sylwi ar saethwr gelyn, aeth allan a’i ladd, ac yna mewn i ffos gelyn lle daliodd a chasglodd 102 o’r gelynion yn unigol ac aeth â hwy nôl i’n llinellau.”\n
+    \nMae ei helmed wedi’i daro gan sgôr saethau ar arddangosfa.</string>
+    <string name="ww1_remembrance_section_name5">Recruiting:</string>
+    <string name="ww1_remembrance_main_text5">Pan ddechreuodd y rhyfel, ychwanegwyd milwyr o’r Byddin Drefol a oedd wedi gwirfoddoli i fynd dramor gyda’u bataliynau at y fyddin sefydlog. Yn Swydd Gaer, golygai hyn fod dau uned reolaidd a phedwar uned TA yn mynd i’r rhyfel. Daeth galwad ar unwaith am fwy o wirfoddolwyr a chafodd y bataliynau ‘Gwasanaeth’, neu ‘Byddin Newydd’, eu sefydlu. Roedd 31 ohonynt yng Nghaer.\n
+    Ymweliad y ddau Reinystr Ceffylau aeth yn gyson trwy’r rhyfel, yn ogystal â’r Yeomanry, a newidiodd yn ddiweddarach yn filwyr tan y diwedd.\n
+    Cafodd gwirfoddolwyr eu denu drwy berswâd moesol – gallwch weld hyn o’r posteri ar y wal – ac yn agos i ymddygiad bygythiol wrth i’r rhyfel fynd rhagddo.\n
+    Er mwyn osgoi derbyn plwm gwyn gan y merched, ymunodd y dynion nad oeddent yn gwirfoddoli, neu na allent wneud hynny, â’r ‘Reinystr Gwirfoddolwyr Caer’. Nid oedd hwn yn uned gydnabyddedig, ac roedd y dynion yn hyfforddi ar gyfer amddiffyn cartref yn unig gan aros yn eu swyddi sifil. Rhoddwyd bathodyn ‘Gwasanaeth Ymerodrol’ i ddynion a ddychwelodd wedi cael eu hanafu i osgoi’r cywilydd o beidio â bod yn y blaen.\n
+    Wrth i fwy o ddynion fod angen ac wrth i wirfoddoli arafu, cyflwynwyd consgripsiwn cyffredinol yn 1916.</string>
+    <string name="ww1_remembrance_section_name6">The Band and Drums:</string>
+    <string name="ww1_remembrance_main_text6">“Yn y Bataille blowen blody sounes” - disgrifiad Geoffrey Chaucer o’r band yn y 14eg ganrif.\n
+    \nCafodd Rejiment Cheshire ei fand ei hun o’r 18fed ganrif tan 1994, pan gafodd bandiau’r rejiment eu diddymu. Mae gennym ni dal Gorff o Fifau a Dromau. Roedd rhai o’r caneuon fifau poblogaidd yn cynnwys un a ysgrifenwyd gan Frederick y Mawr o Brwsia a ‘The Slow March 1772’, awyr ysgafn a defnyddiwyd ar achlysuron seremoni yn unig a ysgrifenwyd gan Brif Fand y 22ain adeg hynny.\n
+    \nYn ddiweddar yn y 18fed ganrif yn arbennig, roedd llawer o fandiau â cherddorion Duon. Yn aml roedd cerddorion yn cael eu recriwtio\'n ifanc, ac mae gan Rejiment Cheshire gofnodion o blant 10 oed yn y fand yn y 19eg ganrif. Un ohonynt, William Birkby, a esgynnodd i fod yn Brif Fand dros 45 mlynedd o wasanaeth. Yn ddiweddarach yn y 20fed ganrif, roedd aelodau’r band yn weithgar yn y rôl hon yn ystod Rhyfel y Gulf. Roedd gan y Yeomanry a’r Ceffylwyr fandiau llai wedi’u mowntio, gyda chyfranogiad trwmpedau kettledrum yn y Dragoon Guards.\n
+    \nMae gan y drymwyr etifeddiaeth hyd yn oed yn hwy. Roedd gan y cwmnïau cerbyd cyntaf drymwr i gadw’r amser ar y marchogaeth ac i anfon negeseuon yn y sŵn brwydr. Roeddent hefyd yn brif recriwtwyr, ar adeg pan oedd rejimentau’n cael eu codi ‘drwy daro’r drym’. Heddiw, mae’r drymwyr yn beiriannyddwyr bataliwn yn amseroedd rhyfel.\n
+    \nRhai o Brif Fandwyr y Bataliwn Cyntaf ers Ail Ryfel y Byd yw:\n
+    WOI (yn ddiweddarach Major) Wally Adams\n
+    WOI (nawr Major) Eddie Pickering\n
+    WOI (nawr Capten) John Huggins</string>
+    <string name="ww1_remembrance_section_name7">Cheshire Men:</string>
+    <string name="ww1_remembrance_main_text7">Capten Gamon\n
+    \nYn aelod o’r 5ed Bataliwn Tiriog o Neston, ymunodd â’r Corff Hedfan ac fe’i lladdwyd uwchben Llundain ym mis Mawrth 1918 wrth hedfan yn erbyn y Zeppelin.\n
+    \nCapten Brockbank\n
+    \nAr ôl gwasanaeth cychwynnol yn y 6ed Bataliwn, gan gynnwys y truce Nadolig, aeth ymlaen i’r Corff Newydd o Feddylwyr Peiriannau.\n
+    \nPionieriaid\n
+    \nPan oedd angen Bataliynau Pionier neu Llafur i helpu gyda dyfrio trentis a gwaith caled arall – trosglwyddodd chwech o fataliynau’r Rejiment i ymuno â nhw. Un ohonynt oedd y 5ed Bataliwn TA, lle’r oedd disgwyl iddynt, nid yn unig ddyfrio a gosod wifrau ond hefyd fel lluoedd tir hyfforddedig, lenwi bylchau yn y linell hefyd. (Y rhai eraill oedd y 22ain bataliynau).</string>
+    <string name="ww1_remembrance_section_name8">Other theatres of war:</string>
+    <string name="ww1_remembrance_main_text8">Nid oedd y Rhyfel Mawr yn gyfyngedig i ryfela trentis ym Mharis a Fflandrys – roedd llawer o ymgyrchoedd eraill hefyd oedd yn hanfodol yn eu ffordd eu hunain. Roedd rhai yn llwyddiannus fel y Rhwyfel Eidalaidd (Rhagfyr 1917 – Ebrill 1918) lle gwasanaethodd 1af Bataliwn y Cheshires. Methiant oedd Gallipoli (Chwefror 1915 i Ionawr 1916) lle gwasanaethodd y 4ydd, 7fed a’r 8fed. Roedd y rhestr o ymgyrchoedd yn hir, dyma rhai ohonynt yn unig:\n
+    \nPalesteina\n
+    Y Yeomanry Cheshire (10 KSLI) a’r 4ydd a 7fed Bataliynau o Rejiment Cheshire gymryd rhan yn y rhyfela yn erbyn y Twrciaid Otoman, cipiwyd Jerwsalem yn 1917 ac fe’i mynychwyd gan filwyr Prydain am y tro cyntaf ers y Crwydriadau.\n
+    \nMesopotamia (nawr Iraq)\n
+    Bu cyfnod hir a poeth yn y rhyfel yn erbyn y Twrciaid mewn amodau erchyll ac o dan salwch difrifol. Gwasanaethodd y 8fed Bataliwn yn yr ymgyrch hon a barhaodd o Dachwedd 1914 tan Hydref 1918. Roedd y gaeaf enwog o’r fyddin yn Kut El Amara a ddaeth i ben gyda chyflafan yn bwynt isel ymgyrch lwyddiannus yn y pen draw.\n
+    \nMacedonia / Salonica\n
+    Y 2il a’r 12fed Bataliynau o Rejiment Cheshire frwydrodd ochr yn ochr â’r Groegiaid a’r Serbiaid yn erbyn Bwlgariaid Ymerodraeth Awstria-Hwngari o Hydref 1915 tan Medi 1918.\n
+    \nYr Eidal\n
+    Bu gweithrediadau yn y gogledd, lle roedd Prydain gan gynnwys y 1af Bataliwn yn cynorthwyo’r Eidalaid yn eu hymdrechion yn erbyn y Awstria-Hwngariaid – a gefnogwyd yn ei dro gan yr Almaenwyr. Gwasanaethodd Erwin Rommel o enwogrwydd yr Ail Ryfel Byd fel swyddog ifanc ar y rhwyfel hwn.\n
+    \nAffrica’r Dwyrain\n
+    Ymgyrch fach oedd hon, yn hanfodol rhyfel goloniol.</string>
+    <string name="ww2_and_post_war_section_name1">World War II – 1939 to 1945:</string>
+    <string name="ww2_and_post_war_main_text1">Ym Medi 1939, dechreuodd cwmwl rhyfel gael eu casglu eto dros Ewrop. Gadawodd Ffordd Ymladd Prydain (BEF) am Wlad Belg a Ffrainc i wynebu’r fyddin Almaenig. Roedd chwe Bataliwn o Rejiment Cheshire (dau reolaidd a pedwar TA) wedi trosi i fod yn rejimentau peiriannau tanio yn 1938. Ar ôl rhyfel ffug, gysglydodd ymosodiad Almaenig y BEF yn ôl at draethau Dunkirk, lle’u hachubwyd gan y Llynges Frenhinol a nifer o ddinasyddion mewn cwch bach.</string>
+    <string name="ww2_and_post_war_section_name2">Retreat and Evacuation at Dunkirk – May 1940:</string>
+    <string name="ww2_and_post_war_main_text2">The 2nd, 4th and 7th Battalions were involved in Dunkirk, their carrier-borne transport, medium machine guns and radio communications were used in the attempt to control the retreat to the coast at Dunkirk. Some of the 4th Battalion who were taken prisoner suffered dreadfully in a massacre, at the hands of the SS.
+    The main theatre of land operations became the Middle East where the British needed to protect their oil supplies. The war in Europe was at first fought largely in the air and the Battle of Britain was fought and won in 1940 to 1941 in the skies over England. Perhaps the real success though lay in securing the Atlantic Sea routes. The battle of the Atlantic was fought from a command centre in Liverpool against the German U-boats.
+    The Second World War was more mobile than the first. The Yeomanry in the Cavalry Division fought against the Vichy French in Syria. The battalions of the Cheshires served in North Africa, in Malta – in the famous siege; in Iraq, Sicily, Italy and eventually the Normandy Landings and the fight across Germany to victory. The 3rd Carabiniers served in Burma as a tank regiment and the 5th Royal Inniskilling Dragoon Guards joined with the Cheshires to fight in France and Germany. The war produced many new units like the Army Commandos, Parachute and Glider Pilot Regiments. </string>
+    <string name="ww2_and_post_war_section_name3">Syria – 1941:</string>
+    <string name="ww2_and_post_war_main_text3">Pan syrthiodd Ffrainc i ddwylo’r Almaen, rhannwyd hi ar hyd yr Afon Loire. Cymerodd yr Almaen y gogledd a sefydlodd y de ei llywodraeth ei hun o dan Marshal Petain yn Vichy. Roedd Vichy Ffrainc yn gynghrair i’r Almaen, ac roedd pryder gan Brydain y gallai’r fyddin Ffrengig a oedd wedi’u harhosfan mewn ymerodraethau yn Oran a Dakar ddadgyfeirio’r Almaen a bygwth llwybr cyflenwi’r Atlantig i Brydain.\n
+    \nI gael gwared ar y bygythiad hwn, gorchmynnodd Churchill suddo’r fyddin Ffrengig yn Oran a Dakar. Ar yr un pryd, gorchmynnwyd i Adran y Marchogion, 7fed Adran Awstralia, 4ydd Brygâd Indiaidd a Gorchymyn Rhydd Ffrengig yn Palestine sicrhau Syria a Libanus, a oedd dan reolaeth Vichy.\n
+    \nAr 9fed Mehefin 1941, croesodd Yeomanry Cheshire afon Litani. (Yn debyg mai hwn oedd y gweithred olaf o’r math marchogion yn y Fyddin Brydeinig). Dechreuodd y croesiad gyda phatrôl blaengar yn cael ei danio wrth gyrraedd ffin yr afon rhwng Palestine a Libanus.\n
+    \nLlosgwyd nifer o geffylau ond ni anafwyd unrhyw ddynion. Cafodd Corffora Mellors y Medal Amynedd (MM) am ei weithred. Aeth y Marchogion yn eu blaen a chlymodd â uned o Spahis Ffrengig (marchogion ymerodrol) a’r Legion Tramor Ffrengig ar y cae uwchlaw’r afon. Roedd y gorchmynion yn annhebygol – roedd y Marchogion i geisio perswadio’r lluoedd Ffrengig i ymuno â hwy yn hytrach na chlymu yn y frwydr.\n
+    \nAr ôl y ymgyrch Syria, aildrefnwyd y Rejiment a chollodd ei geffylau. Daeth yn Rejiment Signalau Brenhinol Llinell Cyfathrebu ac roedd yn Belig ar ddiwedd y Rhyfel. Mae traddodiad y Yeomanry yn cael ei gynnal gan Sgwadron C (Yeomanry Cheshire) o’r Yeomanry Brenhinol Mercian a Llancastrian ym Fox Barracks, Caer, a Sgwadron Signalau 80 (Yeomanry Cheshire).</string>
+    <string name="ww2_and_post_war_section_name4">Cheshire Men:</string>
+    <string name="ww2_and_post_war_main_text4">Cafodd nifer o rymoedd arbenigol eu ffurfio yn Ail Ryfel Byd – fel yr oedd wedi digwydd yn y Rhyfel Mawr.\n
+    \nY Comandwyr Ymilwyr
+    \nYn seiliedig ar unedau gwrw o’r Rhyfel De Affrica, ffurfiwyd y ‘Comandwyr’ i ymosod yn ôl ar rymoedd y Natsïaid a feddiannodd Ewrop a mannau eraill. Aelwyd nifer o swyddogion a dynion o Rejiment Cheshire a’r Yeomanry i Wasanaeth Arbennig.\n
+    \nY Maer (yn ddiweddarach Brigâdwr) Ken Trevor oedd aelod cynnar iawn o Rif 1 Comandwyr a chymerodd ran â hwy yn Affrica i’r Gogledd ac yn ymgyrch Burma lle enillodd DSO. Bu’n arwain y 1af Bataliwn yn Malaya.\n
+    \nIs-adran Herbert Burkinshaw 2 Cdo a laddwyd yn y Ymosodiad San Nazaire ym mis Mawrth 1942.\n
+    \nJohn Henry Frost 5 Cdo a laddwyd yn Eritrea a eraill megis Alistair Mackenzie 6 Cdo, David Nyass 1 Cdo, Corffora 1 Tierney a enillodd y MM, ond a oroesodd y rhyfel.\n
+    \nY Rejiment Parasiwt.\n
+    \nYmunodd llawer o wirfoddolwyr Cheshire â’r ‘Paras’, gan gynnwys y Maer (yn ddiweddarach Lt Gen Syr) Napier Crookenden, a gymerodd ran yn ymosodiad D Day yn 1944 i ddiogelu ochr chwith y traethau ymfudiad.\n
+    \nGwasanaethodd Ron Holt yn Arnhem gyda 2 PARA.\n
+    \nIs-adran Victor Wood a laddwyd mewn gweithred yn yr Eidal gyda 2 Para Bde.\n
+    \nY Rejiment Hedlydd Glider.\n
+    \nHedyddodd Maer Ian Toler DFC TD, yn wreiddiol o’r 7fed Bataliwn TA, a’r Is-adran (yn ddiweddarach Brigâdwr) Mike Dauncey eu hedlyddion glider i’r frwydr, gyda’r olaf yn chwarae rhan bwysig yn Arnhem lle enillodd DSO.\n
+    \nMaer Astley Cooper AFC a laddwyd yn y glanio yn Sicily yn 1943.</string>
+    <string name="ww2_and_post_war_section_name5">Siege of Malta – 1940 to 1942:</string>
+    <string name="ww2_and_post_war_main_text5">Roedd Malta yn ganolfan lwyfan tanddwr a lwyfan awyr hanfodol i ymosod ar longau Almaenig a Eidalaidd oedd yn cyflenwi Gogledd Affrica. O ganlyniad, cafodd ei hymosodi’n drwm gan ymosodiadau awyr o’r gelyn ac rhwng 1940 a 1942 roedd dan ormes. Roedd 1af Bataliwn Rejiment Cheshire yn cael rhan bwysig a chymerodd ymgais i reoli safleoedd lloeren peiriannau o amgylch yr arfordir, yn arbennig ar y rheng Sliema a’r Harbwr Mawr. Roedd C Cwmni yn gyfrifol am amddiffynfa’r drysfa bwysig ger Fort St Angelo.\n
+    \nUn peiriant tanio ym Mhort Ricasoli oedd yn cael ei gredydu â suddo cwch E Eidalaidd. Roedd hyn yn digwydd yn ystod ymosodiad arwyneb y 26ed o Orffennaf 1941 ar y Harbwr Mawr gan lanswyr cyflym iawn a oedd wedi eu arfogi gyda thwmpathau a’r bowiau tanllyd.\n
+    \n“Yr wyf yn myfyrio am fuddugoliaeth a dychwelyd, ond os caniatâi Duw i roi un yn unig, caniata\'r fuddugoliaeth” - gweddi Gabriel d’Anunzio (Is-adran Llynges Eidalaidd).\n
+    \nPrif dasgau’r Bataliwn oedd helpu arfogi awyrennau RAF a dadlwytho’r ychydig longau oedd yn cyrraedd Malta gyda chyflenwadau, bob amser dan ymosodiad awyr trwm. Cafodd y ‘Pampas’ ei suddo yn y Harbwr Mawr a’i dadlwytho gan y 1af Bataliwn wrth ymosodiad awyr uniongyrchol, gan neidio’r dynion yn aml i’r dallau olewog tywyll i ddarganfod y nwyddau.\n
+    \nCafodd ildio dybryd ei leddfu gyda dyfodiad 5 o’r 14 o longau masnach oedd heb suddo yn Operation Pedestal, convoy o Birkenhead ym mis Awst 1942. Codwyd y gorchudd yn 1942 yn derfynol.\n
+    \nDyfarnwyd y George Cross i Malta am ei dewrder dan ymosodiad ac fe wnaeth swyddogion y Drysfa gael eu gwneud yn aelodau anrhydeddus parhaol o fens 1af Bataliwn.</string>
+    <string name="ww2_and_post_war_section_name6">The Home Front:</string>
+    <string name="ww2_and_post_war_main_text6">Cymerodd menywod a theuluoedd y milwyr yn Cheshire ran weithredol yn y Cartref.\n
+    \nRoedd rationio a diffygion yn golygu bod darparu prydau bwyd a chadw’r tŷ’n waith caled o’i hun. Codwyd llochesi Anderson a gwnaethpwyd eu defnyddio’n bendant. Roedd y ‘tywyllwch’ yn cael ei gadw’n llym – a chafodd y rhai a’i hanwybyddwyd eu cyhuddo. Er gwaethaf anawsterau personol a phryderon am eu hanwyliaid yn y rhyfel, cafodd pawb eu hannog i helpu gyda’r ymdrech rhyfel mewn unrhyw ffordd y gallent.\n
+    \nYmunodd menywod â’r Llu Gwirfoddol Tiriogaethol neu’r Gwasanaeth Gwirfoddol Menywod neu ddaethant yn nyrsiau cynorthwyol yn y gwasanaethau neu mewn ysbytai sifil. Yn ogystal, gofynnodd y Gweinidog Bwyd i nifer o fenywod helpu gyda’r ‘ymdrech o ran bwyd a gynhyrchwyd gartref a phrosesu caniau’.\n
+    \nYmunodd menywod iau â’r ATS (Gwasanaeth Tiriogaethol Cynorthwyol) yn y fyddin, y WAAF (Gwasanaeth Awyr Cynorthwyol Menywod), neu WRNS (Gwasanaeth Morol Brenhinol Menywod) y gwasanaeth hŷn.</string>
+    <string name="ww2_and_post_war_section_name7">The Home Guard:</string>
+    <string name="ww2_and_post_war_main_text7">Yn y dyddiau cynnar ffurfiwyd y Gwylwyr Amddiffyn Lleol. Roeddynt yn bennaf ddynion rhy hen neu anghyffyrddus i wasanaeth milwrol, mewn galwedigaethau cadw neu rhy ifanc i fynd i uned wasanaeth.\n
+    \nY cyntaf i orchymyn The Cheshire Home Guard oedd Colonel H E Pickering MC. Cafodd ei ddilyn gan Colonel V T R Ford DSO a Colonel B Y Hayes-Newington OBE.\n
+    \nAr 5ed Mehefin 1940 rhannwyd Cheshire yn adrannau ac o fewn y rhain codwyd bataliynau unigol o wirfoddolwyr. Uned nodweddiadol o’r Cheshire Home Guard oedd 6ed Bataliwn Cheshire (Caer) a ffurfiwyd ar 22ain Mai 1940 gan Colonel Paul Hemelryk ar ôl cyfarfod yn Neuadd y Dref Caer.\n
+    \nY dynion a gymerodd drosodd ddyletswyddau gwarchod mewn mannau agored i niwed, gosod rhwystrau ffordd ac a baratowyd i wynebu’r gelyn. Yn gychwynnol, daethant â’r offer oedd ganddynt gartref, a roddodd y teitl cariadus iddynt o ‘Llu Tad’ (cyfres deledu enwog yn adrodd eu hanes).\n
+    \nFodd bynnag, hyfforddwyd ac offerwyd hwy yn ddiweddarach fel unrhyw rym amddiffyn cartref arall. Gwnaethant waith rhagorol, ar yr un pryd â chyflawni eu gwaith arferol i gadw’r wlad, y diwydiant a’r masnach yn cynhyrchu’r ymdrech ryfel.\n
+    \nRhestrir Bataliynau’r Home Guard a’u meysydd isod:\n
+    1af Cheshire (Altrincham)\n
+    3ydd Cheshire (Bowden)\n
+    4ydd Cheshire (Birkenhead)\n
+    5ed Cheshire (Broxton)\n
+    6ed Cheshire (Caer)\n
+    8fed Cheshire (Macclesfield)\n
+    9fed Cheshire (Coed Macclesfield)\n
+    10fed Cheshire (Wilmslow)\n
+    13eg Cheshire (Sandiway)\n
+    14eg Cheshire (Tarporley)\n
+    15fed Cheshire (Runcorn)\n
+    16eg Cheshire (Wallasey)\n
+    17eg Cheshire (Heswall)\n
+    18fed Cheshire (Ellesmere Port)\n
+    19eg Cheshire (Shotton)\n
+    20fed Cheshire (Little Sutton)\n
+    21ain Cheshire (Bebington)\n
+    23ain Cheshire (Sale)</string>
+    <string name="ww2_and_post_war_section_name8">Sicily and Italy:</string>
+    <string name="ww2_and_post_war_main_text8">Symudodd y Cynghreiriaid i Ewrop y Fast drwy Sisili a’r Eidal. Ar 10fed Gorffennaf 1943, lansiwyd ymosodiad ar Sisili. Aterodd y 2il Bataliwn, fel rhan o’r 50fed Rhanbarth, ger Floridia gyda rhwyddineb cymharol, ond dilynwyd frwydro trwm wrth Bont Primosole ac ymlaen tuag at Catania. Aterodd y 7fed Bataliwn gyda’r 5ed Rhanbarth ger Syracuse a brwydrodd trwy Afon Semento.</string>
+    <string name="ww2_and_post_war_section_name9">Normandy, France and Germany:</string>
+    <string name="ww2_and_post_war_main_text9">Aterodd y Fyddin Rhyddhau Brydeinig (FRB) yn Normandi ar 6ed Mehefin 1944 (D-Day). Roedd y 2il Bataliwn ymysg y troedfilwyr ymosodol cyntaf i gyrraedd. Brwydrodd nhw yn erbyn y symudiad araf drwy wlad Normandi (bocage), y rhyddhau i’r de a’r ymgais i ddal i’r Iseldiroedd.</string>
+    <string name="ww2_and_post_war_section_name10">Eaton Hall:</string>
+    <string name="ww2_and_post_war_main_text10">Y Coleg Llynges Brenhinol yn Eaton Hall\n
+    Ar ôl i Brittania RNC Dartmouth gael ei fwrw bomiau ym Medi 1942, symudwyd y cadetiaid i seddi’r Dug o Westminster yn Eaton Hall, Caer yn 1943. Parhaodd i gynhyrchu swyddogion rheolaidd ar gyfer y Llynges Frenhinol tan i Dartmouth ailsefydlu yn 1946.\n
+    \nGwasanaeth Cenedlaethol\n
+    Parhaodd Gwasanaeth Cenedlaethol ar ôl yr Ail Ryfel Byd a’r cannoedd o swyddogion oedd eu hangen i’r Fyddin. Erbyn 1946, roedd Unedau Hyfforddi Cadet Swyddogion (OCTU) y rhyfel yn cau i lawr. Roedd Dirprwy Gyffredinol Syr Brian Horrocks yn Swyddog Cyfarwyddo Cyffredinol-ar-Gyfrif y Gorchymyn Gorllewin gyda’i bencadlys yng Nghaer. Canmolodd ef botensial y stad wag, ac ar gytundeb y Dug o Westminster, symudwyd 164 OCTU yng Ngogledd Cymru i’r fan hon. Daeth yn Eaton Hall adnabyddus o ddyddiau’r Gwasanaeth Cenedlaethol.\n
+    \nEi brif dasg oedd hyfforddi swyddogion y Ffiwsilwyr ar gyfer y Fyddin, ond cafodd eraill eu hyfforddi hefyd, yn enwedig swyddogion ifanc y Peirianwyr Trydanol a Mecanyddol Brenhinol (REME). Roedd yn gyrsiau 15 wythnos, a gynhyrchodd arweinydd platŵn o’r radd flaenaf. Aeth llawer o’r dynion a hyfforddwyd yno ymlaen ar ôl eu dau flwyddyn o Wasanaeth Cenedlaethol i fod yn ‘Gapteiniaid y Diwydiant’ mor dda oedd ansawdd y rhai a ddewiswyd a’u hyfforddiant mewn arweinyddiaeth. Roedd y cwrs yn ‘ymarferol’, egniol a chaled. Roedd ymarferiadau drin yn ddwys i ymgorffori disgyblaeth a gwaith tîm. Roedd hyfforddi arfau a chyfres o ymarferion platŵn gyda thân byw yn rhoi’r ymyl go iawn i’r Dirprwy Lieutenan newydd gomisiynwyd. Daeth y cwrs i ben gyda ymarfer olaf yn Trawsfynydd neu Barc Ymarfer Sennybridge. Roedd y cadetiaid yn dychwelyd yn llawen i baradegm y gorffen.\n
+    \nAr ôl absenoldeb byr iawn, byddai pob dyn yn adrodd i’w Fatailion. Roedd llawer mewn gweithred o fewn wythnosau i raddio. Roedd y newidiadau yn y cyfnod ôl-ryfel yn galw am barodrwydd gweithredol o safon uwch. Cyflawnodd cyn-fyfyrwyr Eaton Hall y her ac aethant â dull ffres at y fyddin reolaidd.\n
+    \nYr arwydd o’r cadet swyddog pan oedd oddi ar ddyletswyddau maes oedd ‘cain swyddogion’. Roedd y gwahaniaethau mewn unffuriau yn cynnwys y ‘tabiau gwyn’ a wisgwyd ar y coler uchaf ar y gwisg ymladd a, os oedd y cadet yn cael ei ddewis fel swyddog o dan gydsyniad, y cnotau Awstriaidd ar y sleisen. Derbyniodd tua 15,000 o ddynion ifanc eu cyflwyniad ffurfiol cyntaf i hyfforddi arweinyddiaeth rhwng 1946 a 1958 yn Eaton Hall. Pan leihawyd y nifer a dderbyniwyd i’r Gwasanaeth Cenedlaethol yn ddiweddarach, cyfuno cadetiaid y Ffiwsilwyr a’r Ceffylau/Arfwrol yn Barics Mons, Aldershot. Dychwelwyd Eaton Hall, sydd wedi newid llawer, i’r Dug o Westminster.\n</string>
+    <string name="ww2_and_post_war_section_name11">Korean War – 1950 to 1952:</string>
+    <string name="ww2_and_post_war_main_text11">Ymosododd Gogledd Korea ar Dde Korea trwy groesi’r Llinell 38 ar 25ain o Fehefin 1950. Gadaelodd 27 Fedal bron ar unwaith i Korea o Hong Kong. Ar 3ydd Hydref, gadawodd Grŵp 29 Fedal Annibynnol y DU am Korea. Roedd y Fedal yn cynnwys y Gloucesters, Fusiliers Brenhinol Northumberland a Rifles Brenhinol Ulster.\n
+    \nYn y fyddin olaf hon roedd tua 200 o wrth Gefnogwyr Rheilffordd Cheshire a alwyd i’r rhyfel. Roeddent yn rhan o’r Frwydr Fawr ar Afon Imjin ym mis Ebrill 1951. Roedd y Gorchymynwr Fedal yn Ffendigaid Brodie a’r Prif Fedalwr, Major Ken Trevor, y ddau ohonynt o Cheshire. Gwnaeth y Skins eu taith rhwng 1951 a 1952 fel uned tank yn y Rhanbarth Cynghrair – a ffurfiwyd erbyn canol 1951.\n
+    \nRoedd yn rhyfel a gafodd ei frwydro’n galetach, cefnogodd y Tsieiniaid y Gogledd Coreaid ac roedd y tywydd gaeaf caled hefyd yn elyn.\n</string>
+    <string name="ww2_and_post_war_section_name12">Egypt to Germany – 1950:</string>
+    <string name="ww2_and_post_war_main_text12">Suez:\n
+    Yn ystod cyfnod ôl-ryfel roedd y Cylchfan y Sianel yn hanfodol i anghenion llongau Prydain i ac o’r Dwyrain Pell a maes olew y Dwyrain Canol, ac roedd wedi’i garsiynu. Roedd symudiadau cenedlaetholdeb yn yr Aifft yn arwain at ymgyrch terfysg i dynnu presenoldeb Prydain. Roedd 80,000 o filwyr wedi’u lletya mewn campau tent frawychus a leolwyd ar hyd y sianel 100 milltir o hyd. Yr adeiladau tent mwyaf oedd y 180 pwnd bach neu’r EPIPau mwy (Patrwm Pwrpas Ewrop India).\n
+    \nGwasanaethodd y Cheshires yno yn 1951. Yn wir, nid oedd y dyletswyddau diogelwch yn cadw’r Fedal yn brysur digon ond roedd ein CO anorchfygol, y Colonel coch (yn ddiweddarach Major General) John Cubbon (a adwaenir gan bawb fel y Menthyg Coch), yn benderfynol bod ei Fedal Gwasanaeth Cenedlaethol o 1000 o ddynion i fod ‘wedi blino’n rhesymol’ bob nos, ac roeddem!\n
+    \nCynhaliwyd llawer o ymarfer milwrol ar Benrhyn Sinai i gadw sgiliau rhyfel yn brysur dan haul dychrynllyd. Er na roddwyd medal ymgyrch, teimlai llawer fod y cyflwr mor bwysig dylai un fod wedi’i rhoi.\n
+    \nBerlin:\n
+    Yn 1956 symudodd 1af Fedal y Reindlais Cheshire i Berlin fel rhan o’r garsiwn yn ystod y Rhyfel Oer a orchfygodd y ddinas. Roedd y caerau yn agos at Garchar Spandau ac un o’r prif dasgau oedd gwarchod y carchar a’r unig garcharor Rudolf Hess. Cynhaliwyd patrolau ar y ffin a ymarferion ac roedd bywyd yn gyffredinol yn egnïol, a mwynhaodd y mwyafrif o bobl hynny yn llwyr.\n
+    \nRoedd Lluoedd Brydeinig y Reindiroedd (BAOR) yn brif ymateb tir Prydain i’r bygythiad Sofietaidd. Yn wreiddiol roedd yn fawr iawn ac roedd sawl rhaniad yn parhau i feddiannu Sector Prydain o’r Almaen yn syth ar ôl y rhyfel.\n</string>
+    <string name="ww2_and_post_war_section_name13">Exercising and modern life:</string>
+    <string name="ww2_and_post_war_main_text13">Yn ystod y Cyfnod Heddwch a ddilynodd yr Ail Ryfel Byd dylid nodi mai dim ond un flwyddyn yn y 50 mlynedd gyntaf y bu milwyr Prydeinig heb gael eu lladd mewn gweithred – heddwch!\n
+    \nPan nad ydynt ar weithrediadau, mae’r milwyr modern yn treulio llawer o amser ar ymarferion. Mae’r ymarferion hyn yn aml yn cael eu cynnal mewn lleoedd diddorol: Canada, Belize yng Nghanolbarth America, Cyprus, Gwlad Iorddonen ac yn awr gwledydd blaenorol Bloc Dwyrain sy’n cynnal ein gweithgareddau hyfforddi. Mae chwaraeon a hyfforddiant anturus yn rhan o’r rhaglen.\n
+    \nYn 1986-1988 roedd y Cheshires ar Ddyletswyddau Cyhoeddus yn Llundain yn gwarchod y Palaesau, y Twr a Windsor. Cyfnod cyffrous o oruchwyliaeth gyhoeddus ond mwynhawyd yn fawr gan y rhai a gymerodd ran. Yn 1989, roedd y Reindlais yn ôl yn Sir y Fflint i ddathlu ei 300ain pen-blwydd ar y Roodee.\n
+    \nDathlodd y Yeomanry eu 200ain pen-blwydd yn 1997 ym Mhrestatyn ar ôl derbyn Rhyddid y Ddinas y flwyddyn flaenorol.\n
+    \nGogledd Iwerddon\n
+    Mae’r ‘troubles’ parhaus yng Ngogledd Iwerddon wedi dod yn ffordd o fyw i’r Fyddin Llu Cerdded Brydeinig yn benodol. Mae cadw’r heddwch ar dir cartref yn dasg na wnaethpwyd ers canol y bedwaredd ganrif ar bymtheg.\n
+    \nMae presenoldeb diderfyn y Wasg wedi arwain at lawer o newidiadau i ddull gweithredu’r Llu Cerdded. Mae’r milwyr wedi ymateb yn wych i’r heriau niferus a wynebwyd ganddynt, mewn llawer o achosion gan gadw agwedd gyfeillgar er gwaethaf ysgogiadau difrifol ac anafiadau corfforol amlwg. Roedd yn weithrediad prif swyddogion israddedig – ac maent wedi profi eu bod yn ddeunydd rhagorol, yn werth eu rhagflaenwyr.\n
+    \nMae’r Cheshires wedi gwasanaethu, hyd at flwyddyn 2000, tair cylchres ddwy flynedd fel garsiwn barhaol a chwe thaith brys (roulement) rhwng 4 a 6 mis y naill.\n</string>
+    <string name="ww2_and_post_war_section_name14">Bosnia - 1992/93:</string>
+    <string name="ww2_and_post_war_main_text14">Y Cheshires oedd y Llu Cerdded Brydeinig cyntaf i fynd i Bosnia o dan nawdd y Cenhedloedd Unedig i geisio sicrhau heddwch yn ardal Cyn-Gweriniaeth Yugoslavia (FRY) ac i warchod cerbydau cymorth y Cenhedloedd Unedig.\n
+    \nRoedd yn genhadaeth anodd gyda’r dynion yn wynebu sefyllfaoedd eithaf anodd heb gael caniatâd i ddefnyddio eu tanwydd er mwyn “i roi pethau’n iawn”.\n
+    \nSymudasant o’u sylfaen BAOR (Fyddin Brydeinig y Rhein) yn Fallingbostel gyda’u cerbydau arfog Warrior wrth i’r gaeaf ddod. Roedd yn oer iawn ond yn wreiddiol, gan nad oedd dillad rhyfel gaeaf ar gael, roedd yn rhaid i’r dynion brynu eu dillad eu hunain.\n
+    \nRoeddent wedi’u lleoli yn Vitez ond gweithredoddant mewn band eang o dir gan gynnwys Gornji Vakuf, Tuzla ac yn Sarajevo. Efallai mai’r dasg waethaf oedd datgan marwolaethau ar ôl y llofruddiaeth yn Ahmici ym mis Ebrill 1993. Roedd cyfieithwyr fel Dobrilla Kalaba hefyd yn risgio eu bywydau. Cafodd Dobrilla ei saethu’n farw yn fuan ar ôl i’r Bataliwn adael.\n
+    \nFodd bynnag, roedd yn daith wasanaeth lwyddiannus iawn gyda’u CO, Lt Col Bob Stewart, yn dod yn bersonoliaeth deledu genedlaethol. Credwn fod y gweithrediad wedi helpu i achub y Reindlais rhag ymgorfforiad disgwyliedig gyda’r Stafford’s.\n</string>
 </resources>

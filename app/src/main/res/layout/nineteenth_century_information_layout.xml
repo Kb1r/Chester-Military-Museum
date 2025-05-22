@@ -22,13 +22,13 @@
 
     <ImageView
         android:id="@+id/topImage"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="170dp"
-        android:background="@drawable/bottom_border2dp"
-        app:srcCompat="@drawable/ic_image"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/regiments_of_the_19th_century"
+        android:scaleType="centerCrop" />
 
     <ImageView
         android:id="@+id/leftArrow"
@@ -95,7 +95,8 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        android:rotation="90"
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName1"
@@ -144,7 +145,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName2"
@@ -193,7 +194,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName3"
@@ -242,7 +243,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName4"
@@ -291,7 +292,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName5"
@@ -340,7 +341,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName6"
@@ -390,7 +391,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_image" />
+                        app:srcCompat="@drawable/ic_image1" />
 
                     <TextView
                         android:id="@+id/sectionName7"

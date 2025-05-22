@@ -1,9 +1,11 @@
 package com.example.chestermilitarymuseum
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
@@ -12,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformatio
 import com.example.chestermilitarymuseum.databinding.Ww2AndPostWarInformatonLayoutBinding
 import java.util.*
 
-class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class WW2AndPostWarInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: Ww2AndPostWarInformatonLayoutBinding
     private lateinit var tts: TextToSpeech
@@ -30,9 +32,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
 
         binding.sectionName1.text   = getString(R.string.ww2_and_post_war_section_name1)
         binding.mainTextBody1.text  = getString(R.string.ww2_and_post_war_main_text1)
-
-        binding.sectionName2.text   = getString(R.string.ww2_and_post_war_section_name2)
-        binding.mainTextBody2.text  = getString(R.string.ww2_and_post_war_main_text2)
 
         binding.sectionName3.text   = getString(R.string.ww2_and_post_war_section_name3)
         binding.mainTextBody3.text  = getString(R.string.ww2_and_post_war_main_text3)
@@ -103,7 +102,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         // Prepare collapse/expand animation
         val collapseButtons = listOf(
             binding.collapseButton1,
-            binding.collapseButton2,
             binding.collapseButton3,
             binding.collapseButton4,
             binding.collapseButton5,
@@ -120,7 +118,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
 
         val mainTextBodies = listOf(
             binding.mainTextBody1,
-            binding.mainTextBody2,
             binding.mainTextBody3,
             binding.mainTextBody4,
             binding.mainTextBody5,
@@ -138,18 +135,102 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
 
+        //set an on-click listener to each button
         collapseButtons.forEachIndexed { index, button ->
             button.setOnClickListener {
+                // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
-                val targetBody = mainTextBodies[index]
-                val wasVisible = targetBody.visibility == View.VISIBLE
 
-                // Hide all bodies
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.world_war2)
+                    1 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    2 -> binding.topImage.setImageResource(R.drawable.syria)
+                    3 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww2)
+                    4 -> binding.topImage.setImageResource(R.drawable.siege_of_malta)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_home_front)
+                    6 -> binding.topImage.setImageResource(R.drawable.the_home_guard)
+                    7 -> binding.topImage.setImageResource(R.drawable.sicily_and_italy)
+                    8 -> binding.topImage.setImageResource(R.drawable.normandy_france_germany)
+                    9 -> binding.topImage.setImageResource(R.drawable.eaton_hall_ww2)
+                    10 -> binding.topImage.setImageResource(R.drawable.korean_war)
+                    11 -> binding.topImage.setImageResource(R.drawable.egypt_to_germany)
+                    12 -> binding.topImage.setImageResource(R.drawable.exercising_and_modern_life)
+                    13 -> binding.topImage.setImageResource(R.drawable.bosnia)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
                 mainTextBodies.forEach { it.visibility = View.GONE }
 
-                // Toggle clicked section
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
                 if (!wasVisible) {
-                    targetBody.visibility = View.VISIBLE
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
+                }
+            }
+
+
+            //set on-click listeners for the linear layouts
+            val buttonParent = button.parent as LinearLayout
+            buttonParent.setOnClickListener {
+                // Animate text
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.world_war2)
+                    1 -> binding.topImage.setImageResource(R.drawable.ic_placeholder)
+                    2 -> binding.topImage.setImageResource(R.drawable.syria)
+                    3 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww2)
+                    4 -> binding.topImage.setImageResource(R.drawable.siege_of_malta)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_home_front)
+                    6 -> binding.topImage.setImageResource(R.drawable.the_home_guard)
+                    7 -> binding.topImage.setImageResource(R.drawable.sicily_and_italy)
+                    8 -> binding.topImage.setImageResource(R.drawable.normandy_france_germany)
+                    9 -> binding.topImage.setImageResource(R.drawable.eaton_hall_ww2)
+                    10 -> binding.topImage.setImageResource(R.drawable.korean_war)
+                    11 -> binding.topImage.setImageResource(R.drawable.egypt_to_germany)
+                    12 -> binding.topImage.setImageResource(R.drawable.exercising_and_modern_life)
+                    13 -> binding.topImage.setImageResource(R.drawable.bosnia)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
+                if (!wasVisible) {
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
                 }
             }
         }
@@ -157,7 +238,6 @@ class WW2AndPostWarInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListen
         // Text-to-speech listeners for each section
         val ttsButtons = listOf(
             binding.textToSpeechPlayButton1,
-            binding.textToSpeechPlayButton2,
             binding.textToSpeechPlayButton3,
             binding.textToSpeechPlayButton4,
             binding.textToSpeechPlayButton5,

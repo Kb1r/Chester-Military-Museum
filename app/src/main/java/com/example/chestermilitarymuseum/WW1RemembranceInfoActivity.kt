@@ -1,9 +1,11 @@
 package com.example.chestermilitarymuseum
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
@@ -12,7 +14,7 @@ import com.example.chestermilitarymuseum.databinding.NineteenthCenturyInformatio
 import com.example.chestermilitarymuseum.databinding.Ww1RemembranceLayoutBinding
 import java.util.*
 
-class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class WW1RemembranceInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: Ww1RemembranceLayoutBinding
     private lateinit var tts: TextToSpeech
@@ -85,18 +87,90 @@ class WW1RemembranceInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListe
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
 
+        //set an on-click listener to each button
         collapseButtons.forEachIndexed { index, button ->
             button.setOnClickListener {
+                // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
-                val targetBody = mainTextBodies[index]
-                val wasVisible = targetBody.visibility == View.VISIBLE
 
-                // Hide all bodies
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.twentieth_century_and_the_world_wars)
+                    1 -> binding.topImage.setImageResource(R.drawable.world_war1)
+                    2 -> binding.topImage.setImageResource(R.drawable.trench_warfare)
+                    3 -> binding.topImage.setImageResource(R.drawable.the_victoria_cross)
+                    4 -> binding.topImage.setImageResource(R.drawable.recruiting)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_band_and_drums)
+                    6 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww1)
+                    7 -> binding.topImage.setImageResource(R.drawable.other_theatres_of_war)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
                 mainTextBodies.forEach { it.visibility = View.GONE }
 
-                // Toggle clicked section
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
                 if (!wasVisible) {
-                    targetBody.visibility = View.VISIBLE
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
+                }
+            }
+
+
+            //set on-click listeners for the linear layouts
+            val buttonParent = button.parent as LinearLayout
+            buttonParent.setOnClickListener {
+                // Animate text
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.twentieth_century_and_the_world_wars)
+                    1 -> binding.topImage.setImageResource(R.drawable.world_war1)
+                    2 -> binding.topImage.setImageResource(R.drawable.trench_warfare)
+                    3 -> binding.topImage.setImageResource(R.drawable.the_victoria_cross)
+                    4 -> binding.topImage.setImageResource(R.drawable.recruiting)
+                    5 -> binding.topImage.setImageResource(R.drawable.the_band_and_drums)
+                    6 -> binding.topImage.setImageResource(R.drawable.cheshire_men_who_also_served_ww1)
+                    7 -> binding.topImage.setImageResource(R.drawable.other_theatres_of_war)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
+                if (!wasVisible) {
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
                 }
             }
         }

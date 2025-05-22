@@ -1,16 +1,18 @@
 package com.example.chestermilitarymuseum
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.example.chestermilitarymuseum.databinding.EighteenthCenturyInformationLayoutBinding
 import java.util.*
 
-class EighteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class EighteenthCenturyInfoActivity : BaseActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: EighteenthCenturyInformationLayoutBinding
     private lateinit var tts: TextToSpeech
@@ -72,18 +74,86 @@ class EighteenthCenturyInfoActivity : AppCompatActivity(), TextToSpeech.OnInitLi
         val fastTransition = AutoTransition().apply { duration = 100L }
         val container = binding.sectionsContainer
 
+        //set an on-click listener to each button
         collapseButtons.forEachIndexed { index, button ->
             button.setOnClickListener {
+                // Animate text
                 TransitionManager.beginDelayedTransition(container, fastTransition)
-                val targetBody = mainTextBodies[index]
-                val wasVisible = targetBody.visibility == View.VISIBLE
 
-                // Hide all bodies
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.regiments_of_the_18th_century)
+                    1 -> binding.topImage.setImageResource(R.drawable.north_america)
+                    2 -> binding.topImage.setImageResource(R.drawable.death_of_wolfe)
+                    3 -> binding.topImage.setImageResource(R.drawable.dettingen)
+                    4 -> binding.topImage.setImageResource(R.drawable.in_europe)
+                    5 -> binding.topImage.setImageResource(R.drawable.women_of_the_regiments)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
                 mainTextBodies.forEach { it.visibility = View.GONE }
 
-                // Toggle clicked section
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
                 if (!wasVisible) {
-                    targetBody.visibility = View.VISIBLE
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
+                }
+            }
+
+
+            //set on-click listeners for the linear layouts
+            val buttonParent = button.parent as LinearLayout
+            buttonParent.setOnClickListener {
+                // Animate text
+                TransitionManager.beginDelayedTransition(container, fastTransition)
+
+                // Assigns images based on which section is open
+                when(index) {
+                    0 -> binding.topImage.setImageResource(R.drawable.regiments_of_the_18th_century)
+                    1 -> binding.topImage.setImageResource(R.drawable.north_america)
+                    2 -> binding.topImage.setImageResource(R.drawable.death_of_wolfe)
+                    3 -> binding.topImage.setImageResource(R.drawable.dettingen)
+                    4 -> binding.topImage.setImageResource(R.drawable.in_europe)
+                    5 -> binding.topImage.setImageResource(R.drawable.women_of_the_regiments)
+                }
+
+                // Hides all text
+                val target = mainTextBodies[index]
+                val wasVisible = target.visibility == View.VISIBLE
+                mainTextBodies.forEach { it.visibility = View.GONE }
+
+                // Resets all buttons to 0 degrees
+                collapseButtons.forEach { cb ->
+                    if (cb.rotation != 0f) {
+                        ObjectAnimator
+                            .ofFloat(cb, View.ROTATION, cb.rotation, 0f)
+                            .setDuration(200)
+                            .start()
+                    }
+                }
+
+                // If the clicked section was hidden, show it and rotate that button
+                if (!wasVisible) {
+                    target.visibility = View.VISIBLE
+                    ObjectAnimator
+                        .ofFloat(button, View.ROTATION, 0f, 90f)
+                        .setDuration(200)
+                        .start()
                 }
             }
         }
