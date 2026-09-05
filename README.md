@@ -30,8 +30,8 @@ We used a modern development approach to keep the code clean and easy to update:
 
 ## The Team
 
-* **Eliot Woodward** – Project Manager & Developer
-* **Aung Zin (Kb1r)** – Lead Developer & UI/UX Designer
+* **Aung Zin (Kb1r)** – Project Manager & Developer
+* **Eliot Woodward** – Lead Developer & UI/UX Designer
 * **Albin** – Developer & UI Designer
 * **Josh** – Developer & UX Researcher
 
